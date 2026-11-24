@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "amusement",
+    "awe",
+    "contentment",
+    "excitement",
+    "anger",
+    "disgust",
+    "fear",
+    "sadness"
+  ],
+  "arabic": {
+    "amusement": "المرح",
+    "awe": "الرهبة",
+    "contentment": "السكينة",
+    "excitement": "الحماس",
+    "anger": "الغضب",
+    "disgust": "الاشمئزاز",
+    "fear": "الخوف",
+    "sadness": "الحزن"
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "model_version": "emoset8-resnet50-keras-v1"
+}
