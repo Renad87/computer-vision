@@ -26,7 +26,7 @@ python ml/emotion/inference.py photo.jpg   # 4) try the integration function
 ```
 
 Faster run if time is short: `prepare_features.py --per_class_train 600 --skip_resnet`, then `train.py` without `--finetune`.
-To survive Colab disconnects, point `--features_dir`, `--cache_dir`, `--artifacts_dir` to Google Drive.
+The notebook keeps outputs inside the Colab session by default (no Google Drive access) and downloads a zip at the end; set `USE_DRIVE = True` only if you want them to survive disconnects.
 
 ## الملفات
 
