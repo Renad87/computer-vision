@@ -132,6 +132,8 @@ tests/              اختبارات pytest
 
 عقد التكامل المقترح (مسودة تحتاج اعتماد الفريق): [`docs/integration_contract.md`](docs/integration_contract.md)
 
+ملخص أجزاء الوحدة السابعة وربط كل جزء بالمشروع: [`docs/unit7_course_summary.md`](docs/unit7_course_summary.md)
+
 ## 11. التقنيات
 
 Python، PyTorch، CLIP ونماذج بصرية مدربة مسبقًا، Arabic/Multilingual Embeddings، FastAPI، React، Vite، JSON أو SQLite، Pytest، GitHub Issues وProjects. **لن يُستخدم Streamlit.**
