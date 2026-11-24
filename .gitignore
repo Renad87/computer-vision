@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+
+# Data and model caches (large, regenerate or download)
+ml/*/features/
+ml/*/cache/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+data/raw/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
