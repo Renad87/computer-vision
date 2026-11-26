@@ -1,0 +1,147 @@
+{
+ "preprocessing": {
+  "steps": [
+   "Resize",
+   "CenterCrop",
+   "MaybeConvertMode",
+   "MaybeToTensor",
+   "Normalize"
+  ],
+  "resize": 224,
+  "interpolation": "InterpolationMode.BICUBIC",
+  "antialias": true,
+  "center_crop": [
+   224,
+   224
+  ],
+  "mean": [
+   0.48145466,
+   0.4578275,
+   0.40821073
+  ],
+  "std": [
+   0.26862954,
+   0.26130258,
+   0.27577711
+  ],
+  "matches_contract": true
+ },
+ "cpu_vs_mps": {
+  "n": 256,
+  "min_cosine": 0.9999997615814209,
+  "mean_cosine": 1.0,
+  "max_abs_diff": 8.07642936706543e-06
+ },
+ "cache_vs_fresh_cpu": {
+  "min_cosine": 0.9999997615814209
+ },
+ "head_equivalence": {
+  "scene_max_abs_diff": 0.0,
+  "tags_max_abs_diff": 0.0,
+  "scene_order": [
+   "scene.desert",
+   "scene.sea_coast",
+   "scene.mountains_valleys",
+   "scene.rivers_lakes",
+   "scene.forest",
+   "scene.garden",
+   "scene.farmland_rural",
+   "scene.sky",
+   "scene.snow_ice",
+   "scene.modern_city",
+   "scene.old_city_market",
+   "scene.historic_monument",
+   "scene.place_of_worship",
+   "scene.home_interior",
+   "scene.camp_tents",
+   "scene.library_books",
+   "scene.other"
+  ],
+  "tag_order_matches_taxonomy": true,
+  "exposed_tags_with_threshold": true,
+  "scene_supported_threshold": 0.3608365058898926,
+  "n": 9200
+ },
+ "scene_agreement_with_emoset_attribute": {
+  "n": 688,
+  "splits": [
+   "train",
+   "val"
+  ],
+  "top1_agreement": 0.8212209302325582,
+  "supported_rate": 0.7703488372093024,
+  "per_class": {
+   "scene.modern_city": {
+    "agree": 138,
+    "n": 163,
+    "rate": 0.8466
+   },
+   "scene.other": {
+    "agree": 110,
+    "n": 143,
+    "rate": 0.7692
+   },
+   "scene.sea_coast": {
+    "agree": 115,
+    "n": 123,
+    "rate": 0.935
+   },
+   "scene.sky": {
+    "agree": 52,
+    "n": 77,
+    "rate": 0.6753
+   },
+   "scene.mountains_valleys": {
+    "agree": 44,
+    "n": 65,
+    "rate": 0.6769
+   },
+   "scene.snow_ice": {
+    "agree": 36,
+    "n": 41,
+    "rate": 0.878
+   },
+   "scene.rivers_lakes": {
+    "agree": 22,
+    "n": 23,
+    "rate": 0.9565
+   },
+   "scene.historic_monument": {
+    "agree": 17,
+    "n": 19,
+    "rate": 0.8947
+   },
+   "scene.forest": {
+    "agree": 15,
+    "n": 17,
+    "rate": 0.8824
+   },
+   "scene.farmland_rural": {
+    "agree": 6,
+    "n": 7,
+    "rate": 0.8571
+   },
+   "scene.home_interior": {
+    "agree": 4,
+    "n": 4,
+    "rate": 1.0
+   },
+   "scene.camp_tents": {
+    "agree": 3,
+    "n": 3,
+    "rate": 1.0
+   },
+   "scene.old_city_market": {
+    "agree": 2,
+    "n": 2,
+    "rate": 1.0
+   },
+   "scene.garden": {
+    "agree": 1,
+    "n": 1,
+    "rate": 1.0
+   }
+  },
+  "caveat": "EmoSet scene = Places365-model top-1 prediction, not audited; agreement, not accuracy"
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "records": 1053,
+ "text_verification": {
+  "apcd_row_exact": 1053
+ },
+ "attribution": {
+  "apcd_only": 1037,
+  "source_verified": 16
+ },
+ "source_verified": [
+  {
+   "verse_id": "pv:verse:000005",
+   "poet": "المعتمد بن عباد",
+   "poem_id": "hist:poem:mutamid_aghmat",
+   "evidence_ids": [
+    "ev:mutamid_eid_headnote",
+    "ev:mutamid_daughters_spin"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000009",
+   "poet": "ابن زيدون",
+   "poem_id": "hist:poem:ibnzaydun_nuniyya",
+   "evidence_ids": [
+    "ev:nuniyya_to_wallada",
+    "ev:nuniyya_dhakhira"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000012",
+   "poet": "أبو فِراس الحَمَداني",
+   "poem_id": "hist:poem:abufiras_hamama",
+   "evidence_ids": [
+    "ev:abufiras_dove_headnote"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000014",
+   "poet": "مالك بن الريب",
+   "poem_id": "hist:poem:malik_self_elegy",
+   "evidence_ids": [
+    "ev:malik_meaning",
+    "ev:malik_13_verses"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000018",
+   "poet": "المُتَنَبّي",
+   "poem_id": "hist:poem:mutanabbi_hadath",
+   "evidence_ids": [
+    "ev:hadath_headnote",
+    "ev:hadath_barquqi"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000024",
+   "poet": "ابن زيدون",
+   "poem_id": "hist:poem:ibnzaydun_zahra",
+   "evidence_ids": [
+    "ev:zahra_qalaid",
+    "ev:zahra_dhakhira"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000032",
+   "poet": "أبو فِراس الحَمَداني",
+   "poem_id": "hist:poem:abufiras_araka",
+   "evidence_ids": [
+    "ev:abufiras_araka_placement"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000038",
+   "poet": "كَعبِ بنِ زُهَير",
+   "poem_id": "hist:poem:kab_banat_suad",
+   "evidence_ids": [
+    "ev:kab_recited",
+    "ev:kab_hand"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000039",
+   "poet": "كَعبِ بنِ زُهَير",
+   "poem_id": "hist:poem:kab_banat_suad",
+   "evidence_ids": [
+    "ev:kab_recited",
+    "ev:kab_hand"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000061",
+   "poet": "امرؤ القَيس",
+   "poem_id": "hist:poem:imru_muallaqa",
+   "evidence_ids": [
+    "ev:imru_juljul"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000082",
+   "poet": "ابن زيدون",
+   "poem_id": "hist:poem:ibnzaydun_zahra",
+   "evidence_ids": [
+    "ev:zahra_qalaid",
+    "ev:zahra_dhakhira"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000103",
+   "poet": "مالك بن الريب",
+   "poem_id": "hist:poem:malik_self_elegy",
+   "evidence_ids": [
+    "ev:malik_meaning",
+    "ev:malik_13_verses"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000131",
+   "poet": "أبو البقاء الرندي",
+   "poem_id": "hist:poem:rundi_nuniyya",
+   "evidence_ids": [
+    "ev:rundi_identity"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000160",
+   "poet": "امرؤ القَيس",
+   "poem_id": "hist:poem:imru_muallaqa",
+   "evidence_ids": [
+    "ev:imru_juljul"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000356",
+   "poet": "أبو البقاء الرندي",
+   "poem_id": "hist:poem:rundi_nuniyya",
+   "evidence_ids": [
+    "ev:rundi_identity"
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000735",
+   "poet": "أبو البقاء الرندي",
+   "poem_id": "hist:poem:rundi_nuniyya",
+   "evidence_ids": [
+    "ev:rundi_identity"
+   ]
+  }
+ ],
+ "copyright_status": {
+  "public_domain_classical": 914,
+  "public_domain_all": 128,
+  "us_risk": 7,
+  "unverified": 4
+ },
+ "copyright_flagged_for_owner": [
+  "pv:verse:000015",
+  "pv:verse:000041",
+  "pv:verse:000043",
+  "pv:verse:000044",
+  "pv:verse:000052",
+  "pv:verse:000054",
+  "pv:verse:000056",
+  "pv:verse:000057",
+  "pv:verse:000064",
+  "pv:verse:000069",
+  "pv:verse:000075"
+ ],
+ "eras": {
+  "المغرب والأندلس": 165,
+  "العباسي": 150,
+  "الحديث": 139,
+  "المملوكي": 127,
+  "العثماني": 108,
+  "الأيوبي": 96,
+  "الفاطمي": 88,
+  "الأموي": 72,
+  "المخضرمين": 55,
+  "قبل الإسلام": 44,
+  "بين الدولتين": 7,
+  "الإسلامي": 2
+ },
+ "poets": 372,
+ "top_poets": [
+  [
+   "أحمد شوقي",
+   26
+  ],
+  [
+   "جميل صدقي الزهاوي",
+   20
+  ],
+  [
+   "البُحتُرِيّ",
+   17
+  ],
+  [
+   "محمود سامي البارودي",
+   17
+  ],
+  [
+   "أبو القاسم الشابي",
+   14
+  ],
+  [
+   "حافظ ابراهيم",
+   13
+  ],
+  [
+   "محمد عبد المطلب",
+   13
+  ],
+  [
+   "أَبو العَلاء المَعَرِي",
+   12
+  ],
+  [
+   "المُتَنَبّي",
+   11
+  ],
+  [
+   "ابن حمديس",
+   11
+  ],
+  [
+   "ابن خفاجة",
+   10
+  ],
+  [
+   "ظافر الحداد",
+   10
+  ],
+  [
+   "ابن قلاقس",
+   10
+  ],
+  [
+   "ابن عنين",
+   10
+  ],
+  [
+   "ابن المُعتَز",
+   9
+  ]
+ ],
+ "annotation_models": {
+  "claude-opus-5-5": 1053
+ },
+ "per_batch": {
+  "p0": {
+   "apcd_only": 31,
+   "source_verified": 9
+  },
+  "p1_b01": {
+   "apcd_only": 57,
+   "source_verified": 2
+  },
+  "p1_b02": {
+   "apcd_only": 48,
+   "source_verified": 2
+  },
+  "p1_b03": {
+   "apcd_only": 40,
+   "source_verified": 1
+  },
+  "p2_b01": {
+   "apcd_only": 34
+  },
+  "p2_b02": {
+   "apcd_only": 49
+  },
+  "p2_b03": {
+   "apcd_only": 47
+  },
+  "p2_b04": {
+   "apcd_only": 38,
+   "source_verified": 1
+  },
+  "p2_b05": {
+   "apcd_only": 54
+  },
+  "p2_b06": {
+   "apcd_only": 34
+  },
+  "p2_b07": {
+   "apcd_only": 46
+  },
+  "p2_b08": {
+   "apcd_only": 52
+  },
+  "p2_b09": {
+   "apcd_only": 49
+  },
+  "p2_b10": {
+   "apcd_only": 45
+  },
+  "p2_b11": {
+   "apcd_only": 46
+  },
+  "p2_b12": {
+   "apcd_only": 52,
+   "source_verified": 1
+  },
+  "p2_b13": {
+   "apcd_only": 57
+  },
+  "p2_b14": {
+   "apcd_only": 53
+  },
+  "p2_b15": {
+   "apcd_only": 52
+  },
+  "p2_b16": {
+   "apcd_only": 46
+  },
+  "p2_b17": {
+   "apcd_only": 51
+  },
+  "p2_b18": {
+   "apcd_only": 56
+  }
+ }
+}

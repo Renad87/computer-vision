@@ -1,27 +1,30 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
-venv/
-.env
-.ipynb_checkpoints/
 .pytest_cache/
 
-# Node / frontend
-node_modules/
+# Node / build
+frontend/node_modules/
 frontend/dist/
+frontend/.vite/
 
-# Data and model caches (large, regenerate or download)
-ml/*/features/
-ml/*/cache/
-*.pt
-*.pth
-*.ckpt
-*.safetensors
-*.onnx
-data/raw/
+# Local data and caches (obtain from the original sources; see README)
+external/
+artifacts/features/
+datasets/images/
+*.npz
+!artifacts/heads/*.npz
+!artifacts/heads/reused/*.npz
 
-# OS / editors
+# Reviewer-returned workbooks (personal decisions are imported, not committed)
+poetry_corpus/review/*/
+
+# OS / editor / local tooling
 .DS_Store
-.vscode/
-.idea/
+~$*
+*.log
+.env
+.env.*
+.claude/
+CLAUDE.md

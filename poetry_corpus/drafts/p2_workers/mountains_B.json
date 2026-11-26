@@ -1,0 +1,1280 @@
+{
+ "worker": "mountains_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 1536094,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى أن يرى بهجة السفح ويشفى قلبه بنسيمه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "بهجة",
+     "justification": "يذكر بهجة السفح ونسيمه العليل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "سفحها",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر متشوقًا: هل تعود عيناه فتريان بهجة ذلك السفح، ويشفى قلبه بنسيمه اللطيف؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 17565,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يمجد ثبات الممدوح وإقدامه في المعركة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "جبال شرورى تكاد تزول من هول الكتائب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "جبال شرورى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جيوش الأعداء الهائلة حتى كأن جبال شرورى زالت من الخوف منها، ومع ذلك ثبت الممدوح مقدامًا لم تتراجع قدمه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 74831,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بغزوات قومه وملاحقتهم العدو بالخيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "والجبل",
+     "justification": null
+    },
+    {
+     "target": "tag.horse",
+     "relation": "relation.literal",
+     "evidence": "بالخيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يفتخر الشاعر بيوم ودّان حين طارد قومه أهله بالخيل فأجلوهم مسرعين، ولم يوقف المطاردة إلا وعورة الأرض والجبل.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 189771,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفاخر بكره وثباته في وادي حنين تحت الأسنة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بوادي حنين",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر هل بلغ زوجته خبر إقدامه ووقوفه في وادي حنين والرماح مشرعة، معتزًا بشجاعته في المعركة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 475062,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "منفردا",
+    "justification": "يبيت وحيدًا على قمة عالية كالصقر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "رأس شاهقة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر في منفاه أنه يبيت وحيدًا على رأس جبل شاهق، كالصقر الواقف على مرقبه العالي، بلا صديق يؤنسه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 812040,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يتراقص طربًا لذكرى البرق على السفح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "ذكرت",
+     "justification": "تهيجه الذكرى إلى سفح قبا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بسفح قبا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "البرق",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر الشاعر البرق اللامع على سفح قباء، فيتراقص قلبه طربًا لتلك الذكرى.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1002919,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان من",
+    "justification": "تسبيح الخالق أمام الأنهار والسحب فوق القمم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "ذرى القمم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "السحب",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الخالق الذي فجّر الأنهار عند أسفل الجبال، وأنشأ السحب من فوقها عند أعالي القمم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 45181,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نشوة الصيد حين يظهر الثعلب ويهيج الكلب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "سفح الجبل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر رحلة صيد: لما ظهر الثعلب على سفح الجبل صاح بكلبه فانطلق نحوه بجرأة كالبطل.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 61217,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء ميت قبره بعيد على قمة جبل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "القبر بعيد عن كل من يبكيه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بشاهقة البذين",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر ميتًا دُفن على قمة جبل البذّين الشاهقة، فقبره بعيد عن الباكين لا يزوره أحد في مآتمهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 114075,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مشهد الفلك يرسو على قمة جبل بعد الطوفان"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "رأس شاهق",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "الفلك",
+     "justification": null
+    }
+   ],
+   "meaning": "يحكي الشاعر قصة الطوفان: قيل لنوح اهبط، فقد انتهت السفينة إلى قمة جبل شاهق رست عليها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 154078,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بجبل منيع لقومه يحمي من استجار بهم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "جبل عزيز الطور منيع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "لنا جبل",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن لهم عند النيرب الأعلى جبلًا عزيز المنال، يسكنه من أجاروه فيأمن فيه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 193177,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "من فرح",
+    "justification": "فرح غامر يكاد يدفعه إلى مساورة الجبل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الطود",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الخبر سرّه حتى كاد من شدة فرحه يثب على الجبل العالي أو يرمي بنفسه وثبًا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 198325,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "السجود للجبال تعظيم لجلال الخالق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الجبال",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن من قصدوا الجبال ساجدين لها إنما كانوا يقصدون في الحقيقة الجلالة العالية للخالق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 219642,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "مسلك عجب",
+    "justification": "إعجاب بمسالكهم العجيبة في البحار وأعالي الجبال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "ذرا كل طود",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "خضم",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قومًا مهاجرين لهم في كل بحر طريق واضح، وفي أعالي كل جبل مسلك يثير العجب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 315800,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "جلاله",
+    "justification": "جلال الخالق يدك الجبال ويصعق موسى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الجبال الراسيات",
+     "justification": null
+    }
+   ],
+   "meaning": "يستحضر الشاعر قصة موسى: جلال الله دكّ الجبال الراسخة وصعق موسى، فخفي العرش في الكرسي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 344622,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "ويصبو",
+    "justification": "يحن إلى الوادي وروضه ونسيمه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "روض باسم ونسيم لطيف"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "واديه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    }
+   ],
+   "meaning": "في الركب من يحن إلى وادي العذيب، حيث الروض باسم والنسيم اللطيف يداعبه كلما هبّ.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 355505,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العزلة وحيدًا في رأس جبل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "رأس شاهق",
+     "justification": null
+    }
+   ],
+   "meaning": "لما رأى الشاعر عيشه يدبر تمنى أن يسكن في كهف خفي بأعلى مهب الريح على رأس جبل شاهق، منعزلًا عن الناس.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 688958,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "من فرح",
+    "justification": "الجبل يهتز فرحًا بالنبي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الجبال تسبح وترجع التسبيح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "ثبير",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر من معجزات النبي أن جبل ثبير اهتز تحته فرحًا، وأن من الجبال ما يسبح ويرجّع التسبيح.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 803435,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ورود الجبال تنام في مهد هادئ"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الجبال الشم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أوراد",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "أوراد",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر ما يلقي رداءه المضيء على قمم الجبال، لتنام ورود الجبال العالية في مهد عجيب هادئ.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 909251,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يسلم على وادٍ عهده قديمًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي الأراك",
+     "justification": null
+    }
+   ],
+   "meaning": "يلقي الشاعر سلامه على وادي الأراك، لأنه كان له فيه عهد قديم وذكريات يحفظها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1442673,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر نزهة قديمة عند الجبل والقصر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الطود",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "النخل",
+     "justification": null
+    }
+   ],
+   "meaning": "لا ينسى الشاعر مسيرهم إلى القصر ذي النخل، حيث ينفرج الجبل عن سهل لين.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1460466,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "واحة هادئة بنخيل وعيون وثمار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الجبال الشاهقة تحيط بالواحة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "والجبال الشاهقه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "النخيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والعيون الدافقه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر في رحلة بلدة العلا: ذات نخيل وعيون ماء متدفقة وثمار، تحيط بها جبال شاهقة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1535249,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سفر شاق بين أوحال وجبال لا مسلك فيها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وجبال شمخ",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر مشقة سفره بين الثلوج، يخوض أوحالًا وجبالًا شامخة عالية لا طريق يلتف حولها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1536417,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم يخفق في وادٍ سعيد مبهج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الوادي السعيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر نسيم الديار يخفق في الوادي السعيد، يهب عليلًا وهو صحيح، في جو يعمّه الفرح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 227627,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "جبل شاهق تحت السحاب صعب المرتقى"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حتى المعتصم بالجبل لا ينجو من المنون"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الشاهق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "السحاب",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى الشاعر الجبل الشاهق الذي تعتز به الوعول، قريبًا من السحاب وعر المرتقى، وفي القصيدة أنه لا يمنع من الموت.",
+   "text_note": "كلمة «الأروى» مقسومة بين الشطرين في النص.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 350052,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الموت يدرك الوعل في أعلى الجبل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "أعصم شاهق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن ريب المنون يذل كل وعل يعتصم بقمة الجبل الشاهق، وكل حية تختبئ في الوادي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 386645,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ريح الصبا تعطر الربى والثلوج تزينها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "صلع الربى",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر بالسلام ما دامت ريح الصبا تعطر قمم التلال الجرداء أو تزينها الثلوج.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 742566,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر ليالي الأنس على السفح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "ويوم أنس",
+     "justification": "يستعيد أيام الأنس بين الربى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "سفح ذاك اللوى",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر الشاعر بحنين ليالي كثيرة قضاها على سفح ذلك اللوى، وأيام أنس بين تلك التلال.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 779146,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر رحيل الأحبة نحو التلال العالية"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "شواهقه",
+     "justification": null
+    }
+   ],
+   "meaning": "لا ينسى الشاعر لحظة إعلان الرحيل حين توجهت هوادج الأحبة نحو تلال طويلة عالية.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 955902,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "بالسرور",
+    "justification": "يدعو إلى السرور حين تتزين الربى بالنبات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بواد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "النبات",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى المبادرة بالسرور حين تتحلى روابي الوادي بالنبات كأنه أساور.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1401943,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مقام الإله على قمة الأولمب يجلله المجد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بأعلى الألمب",
+     "justification": null
+    }
+   ],
+   "meaning": "في سياق أسطورة زفس: بلغتا مقام زفس بأعلى جبل الأولمب على ذروته، يجلله المجد في عزلته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1431082,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "إقامة مبهجة في وادي التل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بوادي التل",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر إقامتهم في وادي التل يطلبون الانبساط، حيث اقترب منهم السرور ولم يبتعد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1460511,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان من",
+    "justification": "تسبيح من أجرى المياه في الوادي"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي الصفرا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "المياه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر وصول الركب إلى وادي الصفراء الرحب، مسبحًا الخالق الذي أجرى فيه المياه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1469728,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "العجيب الأعجبا",
+    "justification": "ماء الوادي يبدي العجب للناظر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "جمال الوادي والماء يبهج الناظر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي النيرين",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وماؤه",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل الشاعر: أرأيت وادي النيرين وماءه الذي يبدي للناظر أعجب العجائب؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1671102,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "للأنس",
+    "justification": "وادٍ يمد زائره بالأنس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي بردا",
+     "justification": null
+    }
+   ],
+   "meaning": "يعدد الشاعر أودية دمشق، وأولها وادي بردى، وادٍ ترى فيه مددًا من الأنس والبهجة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1671114,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وادٍ نضر تشدو طيوره على الأغصان"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نضارة الوادي وغناء الطير"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي منين",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "أطياره",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "العيدان",
+     "justification": null
+    }
+   ],
+   "meaning": "وادي منين أنضر الأودية، تغرد طيوره على أغصان الشجر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1812044,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مر بالوادي فقيل له مات أنيسه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "فأوحشني",
+     "justification": "الوادي صار موحشًا بعد موت صاحبه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "والوادي فأوحشني",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر ميتًا: مرّ بالدار والوادي فوجدهما موحشين، وقيل له إن أنيس الدار والوادي قد مات.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1767,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "جبل شامخ منفرد عالي القمة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "زاروه للصيد والتنزه والتمرد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "من الجبال",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جبلًا شامخًا طويلًا منفردًا، تشبه قمته أعلى رأس البعير المتكبر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 28333,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "خلود الجبال الراسيات أمام فناء كل شيء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "لا شيء يبقى على الحوادث"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الجبال الرواسيا",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه لا يرى شيئًا يبقى على نوائب الدهر ولا خالدًا، إلا الجبال الراسية الثابتة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 31827,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سيل المطر يحط النبات من قمم الجبال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "قلل الجبال",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر مطرًا يراه من بعيد، غزيرًا ينزل فيحط نبات الشث من قمم الجبال.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 297426,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "جبال الحبيبة مربعه ومرتعه وظلالها مأواه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر ديارًا يحن إليها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وجباله",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ورماله",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن جبال تلك الأرض منزله في الربيع، ورمالها مرعاه، وظلالها مأواه الذي يستريح فيه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 327320,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرسل السلام مع النسيم إلى جوشن وهضابه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وهضابه",
+     "justification": null
+    }
+   ],
+   "meaning": "يطلب الشاعر من النسيم إن حمل تحية أن يهديها إلى جبل جوشن وهضابه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 335433,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الطير تأوي إلى الجبال الآمنة بقدرة الخالق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "أوكار آمنة في الجبال"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "آمنات الجبال",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الطير",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الخالق الذي إليه تلجأ الطير، فتأوي إلى أوكار في الجبال الآمنة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 515655,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "لموحد",
+    "justification": "على قمة جرداء لا ملجأ للوحيد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يشكو حاله بعيدًا عن أحبته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "شاهق عالي الذرا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر مكانه على رأس جبل أجرد شاهق عالي القمة، لا ملجأ بعده للوحيد المنقطع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 598842,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بتجاوز الجبال الشاهقة بلا تعب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "رواسي شاهقات",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بقومه الذين جاوزوا الجبال الراسية الشاهقة بلا تعب ولا تكلف.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 743445,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعوة إلى ترقيص شجر البان على الهضاب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يرسل السلام إلى معاهد الأحبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الهضاب",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "بان",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الريح: اجعلي شجر البان على الهضاب يتمايل كأنه يرقص، ورُوحي إلى تلك المعاهد معطرة بالسلام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1198550,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفاخر بمواقفه في القتال على السفح"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "بالسفح",
+     "justification": null
+    }
+   ],
+   "meaning": "يقسم الشاعر لامرأته أنها لو شهدت مواقفه على السفح يوم صرع الأبطال لرضيت أن تكون خادمته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1458367,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الوعل في الشاهق من مخلوقات الله المرزوقة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "في شاهق",
+     "justification": null
+    }
+   ],
+   "meaning": "في تعداد مخلوقات الله المرزوقة يذكر الشاعر الوعل الأعصم في قمة الجبل الشاهق، وحمار الوحش الساكن في الأرض الوعرة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

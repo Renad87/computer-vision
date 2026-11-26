@@ -1,0 +1,345 @@
+{
+ "auditor": "qa3",
+ "model_id": "claude-opus-5-5",
+ "records": [
+  {
+   "verse_id": "pv:verse:000193",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000211",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000269",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000255",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "The coward's heart flies from fear, not the poet's; he boasts of a night journey through terrifying deserts (fakhr topos). Fear is the backdrop, pride dominates.",
+     "suggestion": "primary lit_emotion.pride (evoked: يسري ليلًا في مهامه يفزع منها الجبان); move lit_emotion.fear (expressed, الفزع) to secondary"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000263",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000319",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000322",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "رواسي شاهقات is figurative: the preceding verse 'بلغنا النجم مكرمة... وفتنا أيدي المتطاولينا' and 'ولا متطاولينا' show surpassing lofty mountains in glory without stretching up, not crossing real mountains.",
+     "suggestion": "scene_group.mountains -> relation.symbolic; no literal/scene_association relation remains, so reject"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000291",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000362",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000348",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000398",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000367",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000366",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000440",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000451",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000429",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "Praise of the patron's people (context: ملوك، صناديد، أبا عليهم); pride in others' heroism is excluded from lit_emotion.pride and plain patron praise is a reject criterion.",
+     "suggestion": "reject (patron praise dominant)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000476",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000491",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "The sea is not named in the verse; 'به' refers to the خضم of the previous verse and 'الملاح' is not the sea itself.",
+     "suggestion": "scene_group.sea -> relation.scene_association, justification: 'ملاح وسفينة تضطرب في بحر هائج يدل عليه السياق'; keep tag.boat_ship literal"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000507",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "Comparison is completed only by the next verse ('فهل يعدان ملكا مثل مالكها') and serves praise of the caliph's palace; the verse is part of patron praise.",
+     "suggestion": "reject (enjambment + patron praise)"
+    },
+    {
+     "field": "meaning",
+     "problem": "'والإيوان طاليها' is unclear; 'وتقدمها إيوان كسرى' is a guess not supported by the text. Hemistich split 'ال / أهرام' also needs a text_note.",
+     "suggestion": "if kept: state that طاليها is unclear and add text_note on the split article"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000535",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "'ذو الفخر' is an epithet of Amr, not an emotion word expressed by the poet; pride comes from listing ancestral palaces (context آباؤنا، والدنا).",
+     "suggestion": "primary lit_emotion.pride with basis evoked, justification: 'يعدد قصور اليمن التي شادها أسلافه'; drop evidence ذو الفخر"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000510",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "meaning",
+     "problem": "'في وصف قصر الحمراء' names a specific palace that neither the verse nor the context shows (invented fact).",
+     "suggestion": "يتعجب الشاعر ممن رأى القصر بعينه وحوله منازل عامرة بالنصر العزيز."
+    },
+    {
+     "field": "other",
+     "problem": "The second hemistich 'منازل بالنصر العزيز أواهل' is identical to the second hemistich of context row 1004967; possible APCD duplication.",
+     "suggestion": "verify the APCD row and add a text_note on the repeated hemistich"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000593",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000567",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "The fear belongs to the fleeing enemy (Thaqif); the poet's dominant feeling is triumph in the Muslims' victory (context: كتائب، فتى باسل، أولى لكم).",
+     "suggestion": "primary lit_emotion.pride (evoked: يصور فرار الأعداء وتحصنهم خائفين); secondary lit_emotion.fear (expressed, مشفق)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000560",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000621",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000611",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000687",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "meaning",
+     "problem": "Grammar reversed: 'طويلُ جبالها' is nominative, so the land's tall mountains are what loom/overlook, not the viewer looking over them from a height; 'ترف' is not explained.",
+     "suggestion": "يصف بلادًا متى أشرفت جبالها الطويلة على ترف (موضع أو مرتفع غير واضح) هاجت في النفس الشوق."
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000701",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000668",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000713",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "'وتطمير' is not a clear word here (possibly a typo, e.g. for تكبير) and the meaning silently skips it.",
+     "suggestion": "add a text_note on تطمير and say in the meaning that the word is unclear"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000744",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "secondary",
+     "problem": "Pride covers self or tribal pride; the verse praises the amir's mosque, which is praise of another.",
+     "suggestion": "remove secondary lit_emotion.pride (secondary: none)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000739",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "APCD text has merged 'واروعن' (probably 'وارْوَ من' / 'وارْوِ عن'); the meaning assumes drinking without noting it, though 'اروِ عن' may pun on narrating hadith (context: مجلس الحديث).",
+     "suggestion": "add text_note: 'واروعن' كلمتان ملتصقتان في APCD؛ والمعنى: ارتوِ من زمزم (وقد يحتمل التورية بالرواية)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000766",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000809",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000846",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "'أهيل المصلى' uses المصلى as the toponym of the beloved's people in a Sufi love nasib; no worship scene is put before the reader.",
+     "suggestion": "scene_group.worship literal not supported; no other scene relation, so reject"
+    },
+    {
+     "field": "primary",
+     "problem": "Context is love (رسيس الغرام، سأفنى بكم); love dominates.",
+     "suggestion": "reject (love dominant)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000831",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000822",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000898",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000906",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000888",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000927",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000966",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000994",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000999",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:001002",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "The garden is the setting of a lovers' tryst; context is explicit desire ('ألقاني الهوى فاستضفتها فكانت ثناياها بلا حشمة نزلي'), so love dominates, not serenity.",
+     "suggestion": "reject (love/desire dominant)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:001033",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:001078",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:001029",
+   "verdict": "ok",
+   "issues": []
+  }
+ ]
+}

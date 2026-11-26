@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "319ac5c0-8198-45aa-a2ed-73b2b626c4ee",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "scene_group.sky_night",
+      "user_selection": "focus",
+      "suggested_by_model": true
+    },
+    {
+      "id": "scene_group.heritage",
+      "user_selection": "primary",
+      "suggested_by_model": true
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.longing",
+  "secondary_lit_emotion": "lit_emotion.serenity",
+  "concept_id": "concept.memory",
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

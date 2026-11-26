@@ -1,0 +1,37 @@
+{
+  "records": 40,
+  "contract_issues": 0,
+  "xlsx": {
+    "rows": 40,
+    "text_matches_apcd": 40,
+    "reviewer_cells_filled": 0
+  },
+  "csv": {
+    "rows": 40,
+    "text_matches_apcd": 40,
+    "reviewer_cells_filled": 0
+  },
+  "csv_header_matches_contract": true,
+  "primary_counts": {
+    "lit_emotion.sadness": 5,
+    "lit_emotion.longing": 5,
+    "lit_emotion.loneliness": 5,
+    "lit_emotion.awe": 5,
+    "lit_emotion.serenity": 5,
+    "lit_emotion.joy": 5,
+    "lit_emotion.pride": 5,
+    "lit_emotion.fear": 5
+  },
+  "attribution": {
+    "apcd_only": 31,
+    "source_verified": 9
+  },
+  "poets": 21,
+  "text_notes": 2,
+  "zip_members": [
+    "Renad_Poetry_Review_40.xlsx",
+    "renad_review_sheet_p0.csv",
+    "README_AR.md",
+    "annotation_guide_ar.md"
+  ]
+}

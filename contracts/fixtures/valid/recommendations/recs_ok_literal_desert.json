@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "query_id": "dbf5ef4d-3a7b-4aea-959e-7e42130a1525",
+  "profile_id": "ac50519d-f388-4ca5-97b0-bc14fbeb5777",
+  "engine_version": "0.0.0-fixture",
+  "corpus_version": "fixtures_v1",
+  "corpus_mode": "fixture",
+  "k": 3,
+  "weights": {
+    "emotion": 0.45,
+    "visual": 0.35,
+    "text": 0.2,
+    "semantic": 0.0
+  },
+  "status": "ok",
+  "items": [
+    {
+      "rank": 1,
+      "verse_id": "pv:verse:900005",
+      "apcd_row": 1874,
+      "text_original": "أَمّا الأَحِبَّةُ فَالبَيداءُ دونَهُمُ    فَلَيتَ دونَكَ بيداً دونَها بيدُ",
+      "poet_name_apcd": "المُتَنَبّي",
+      "era_apcd": "العباسي",
+      "attribution_status": "source_verified",
+      "tier": 1,
+      "scores": {
+        "emotion": 1.0,
+        "visual": 1.0,
+        "text": null,
+        "semantic": null,
+        "final": 1.0
+      },
+      "matched": {
+        "lit_emotion": "lit_emotion.longing",
+        "emotion_role": "primary",
+        "visual_targets": [
+          "scene_group.desert"
+        ],
+        "relations": [
+          "relation.literal"
+        ]
+      },
+      "explanation": {
+        "template_ids": [
+          "T_SCENE_LITERAL",
+          "T_EMOTION_PRIMARY",
+          "T_ATTRIBUTION"
+        ],
+        "sentences_ar": [
+          "تُظهر الصورة الصحراء والبادية (أكّدتَها)، والبيت يذكر «فَالبَيداءُ» وصفًا حرفيًا.",
+          "اخترتَ الحنين والشوق، وهو الإحساس الأساسي المسجل لهذا البيت.",
+          "النسبة موثقة بأدلة من قاعدة المعرفة التاريخية."
+        ],
+        "evidence_spans": [
+          {
+            "start": 18,
+            "end": 29,
+            "text": "فَالبَيداءُ"
+          }
+        ]
+      },
+      "review_status": "synthetic_fixture"
+    },
+    {
+      "rank": 2,
+      "verse_id": "pv:verse:900007",
+      "apcd_row": 26789,
+      "text_original": "قِفا نَبكِ مِن ذِكرى حَبيبٍ وَمَنزِلِ    بِسِقطِ اللِوى بَينَ الدَخولِ فَحَومَلِ",
+      "poet_name_apcd": "امرؤ القَيس",
+      "era_apcd": "قبل الإسلام",
+      "attribution_status": "source_verified",
+      "tier": 1,
+      "scores": {
+        "emotion": 1.0,
+        "visual": 0.7,
+        "text": null,
+        "semantic": null,
+        "final": 0.8687499999999999
+      },
+      "matched": {
+        "lit_emotion": "lit_emotion.longing",
+        "emotion_role": "primary",
+        "visual_targets": [
+          "scene_group.desert"
+        ],
+        "relations": [
+          "relation.scene_association"
+        ]
+      },
+      "explanation": {
+        "template_ids": [
+          "T_SCENE_ASSOC",
+          "T_EMOTION_PRIMARY",
+          "T_ATTRIBUTION"
+        ],
+        "sentences_ar": [
+          "البيت لا يسمي الصحراء والبادية، لكن موقفه يقع فيها: الوقوف على منزل الحبيب في مواضع البادية.",
+          "اخترتَ الحنين والشوق، وهو الإحساس الأساسي المسجل لهذا البيت. ودليله «ذِكرى».",
+          "النسبة موثقة بأدلة من قاعدة المعرفة التاريخية."
+        ],
+        "evidence_spans": [
+          {
+            "start": 15,
+            "end": 20,
+            "text": "ذِكرى"
+          }
+        ]
+      },
+      "review_status": "synthetic_fixture"
+    },
+    {
+      "rank": 3,
+      "verse_id": "pv:verse:900017",
+      "apcd_row": 112270,
+      "text_original": "أَمُرُّ عَلى الدِيارِ دِيارِ لَيلى    أُقَبِّلَ ذا الجِدارَ وَذا الجِدارا",
+      "poet_name_apcd": "مَجنون لَيلى",
+      "era_apcd": "الأموي",
+      "attribution_status": "apcd_only",
+      "tier": 1,
+      "scores": {
+        "emotion": 1.0,
+        "visual": 0.7,
+        "text": null,
+        "semantic": null,
+        "final": 0.8687499999999999
+      },
+      "matched": {
+        "lit_emotion": "lit_emotion.longing",
+        "emotion_role": "primary",
+        "visual_targets": [
+          "scene_group.desert"
+        ],
+        "relations": [
+          "relation.scene_association"
+        ]
+      },
+      "explanation": {
+        "template_ids": [
+          "T_SCENE_ASSOC",
+          "T_EMOTION_PRIMARY",
+          "T_ATTRIBUTION"
+        ],
+        "sentences_ar": [
+          "البيت لا يسمي الصحراء والبادية، لكن موقفه يقع فيها: ديار المحبوبة في البادية.",
+          "اخترتَ الحنين والشوق، وهو الإحساس الأساسي المسجل لهذا البيت.",
+          "النسبة من APCD وحده، ولم يُتحقق منها بمصدر مستقل."
+        ],
+        "evidence_spans": []
+      },
+      "review_status": "synthetic_fixture"
+    }
+  ],
+  "abstention": null,
+  "timings_ms": null
+}

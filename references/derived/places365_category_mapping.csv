@@ -1,0 +1,113 @@
+places365_category,folder_name,scene_label,scene_label_status,list,old_label,expected_images,expected_train,expected_val,expected_test,expected_ood_test,scene_name_ar
+desert/sand,desert-sand,scene.desert,labeled,scene list,desert,100,60,20,20,0,صحراء
+desert/vegetation,desert-vegetation,scene.desert,labeled,scene list,desert,100,60,20,20,0,صحراء
+desert_road,desert_road,scene.desert,labeled,scene list,desert,100,60,20,20,0,صحراء
+beach,beach,scene.sea_coast,labeled,scene list,sea_coast,75,45,15,15,0,بحر وشاطئ
+coast,coast,scene.sea_coast,labeled,scene list,sea_coast,75,45,15,15,0,بحر وشاطئ
+ocean,ocean,scene.sea_coast,labeled,scene list,sea_coast,75,45,15,15,0,بحر وشاطئ
+wave,wave,scene.sea_coast,labeled,scene list,sea_coast,75,45,15,15,0,بحر وشاطئ
+mountain,mountain,scene.mountains_valleys,labeled,scene list,mountains_valleys,60,36,12,12,0,جبال ووديان
+mountain_path,mountain_path,scene.mountains_valleys,labeled,scene list,mountains_valleys,60,36,12,12,0,جبال ووديان
+valley,valley,scene.mountains_valleys,labeled,scene list,mountains_valleys,60,36,12,12,0,جبال ووديان
+canyon,canyon,scene.mountains_valleys,labeled,scene list,mountains_valleys,60,36,12,12,0,جبال ووديان
+cliff,cliff,scene.mountains_valleys,labeled,scene list,mountains_valleys,60,36,12,12,0,جبال ووديان
+river,river,scene.rivers_lakes,labeled,scene list,rivers_lakes,75,45,15,15,0,أنهار وبحيرات وشلالات
+lake/natural,lake-natural,scene.rivers_lakes,labeled,scene list,rivers_lakes,75,45,15,15,0,أنهار وبحيرات وشلالات
+waterfall,waterfall,scene.rivers_lakes,labeled,scene list,rivers_lakes,75,45,15,15,0,أنهار وبحيرات وشلالات
+creek,creek,scene.rivers_lakes,labeled,scene list,rivers_lakes,75,45,15,15,0,أنهار وبحيرات وشلالات
+forest/broadleaf,forest-broadleaf,scene.forest,labeled,scene list,forest,75,45,15,15,0,غابة
+forest_path,forest_path,scene.forest,labeled,scene list,forest,75,45,15,15,0,غابة
+rainforest,rainforest,scene.forest,labeled,scene list,forest,75,45,15,15,0,غابة
+bamboo_forest,bamboo_forest,scene.forest,labeled,scene list,forest,75,45,15,15,0,غابة
+formal_garden,formal_garden,scene.garden,labeled,scene list,garden,75,45,15,15,0,حديقة وبستان
+botanical_garden,botanical_garden,scene.garden,labeled,scene list,garden,75,45,15,15,0,حديقة وبستان
+topiary_garden,topiary_garden,scene.garden,labeled,scene list,garden,75,45,15,15,0,حديقة وبستان
+japanese_garden,japanese_garden,scene.garden,labeled,scene list,garden,75,45,15,15,0,حديقة وبستان
+field/cultivated,field-cultivated,scene.farmland_rural,labeled,scene list,farmland_rural,60,36,12,12,0,حقول وريف
+wheat_field,wheat_field,scene.farmland_rural,labeled,scene list,farmland_rural,60,36,12,12,0,حقول وريف
+orchard,orchard,scene.farmland_rural,labeled,scene list,farmland_rural,60,36,12,12,0,حقول وريف
+pasture,pasture,scene.farmland_rural,labeled,scene list,farmland_rural,60,36,12,12,0,حقول وريف
+farm,farm,scene.farmland_rural,labeled,scene list,farmland_rural,60,36,12,12,0,حقول وريف
+sky,sky,scene.sky,labeled,scene list,sky,100,60,20,20,0,سماء
+mountain_snowy,mountain_snowy,scene.snow_ice,labeled,scene list,snow_ice,100,60,20,20,0,ثلج وجليد
+snowfield,snowfield,scene.snow_ice,labeled,scene list,snow_ice,100,60,20,20,0,ثلج وجليد
+glacier,glacier,scene.snow_ice,labeled,scene list,snow_ice,100,60,20,20,0,ثلج وجليد
+street,street,scene.modern_city,labeled,scene list,modern_city,75,45,15,15,0,مدينة حديثة
+downtown,downtown,scene.modern_city,labeled,scene list,modern_city,75,45,15,15,0,مدينة حديثة
+skyscraper,skyscraper,scene.modern_city,labeled,scene list,modern_city,75,45,15,15,0,مدينة حديثة
+plaza,plaza,scene.modern_city,labeled,scene list,modern_city,75,45,15,15,0,مدينة حديثة
+medina,medina,scene.old_city_market,labeled,scene list,old_city_market,75,45,15,15,0,مدينة قديمة وسوق
+bazaar/outdoor,bazaar-outdoor,scene.old_city_market,labeled,scene list,old_city_market,75,45,15,15,0,مدينة قديمة وسوق
+market/outdoor,market-outdoor,scene.old_city_market,labeled,scene list,old_city_market,75,45,15,15,0,مدينة قديمة وسوق
+alley,alley,scene.old_city_market,labeled,scene list,old_city_market,75,45,15,15,0,مدينة قديمة وسوق
+ruin,ruin,scene.historic_monument,labeled,scene list,historic_monument,60,36,12,12,0,قلاع وقصور وآثار
+castle,castle,scene.historic_monument,labeled,scene list,historic_monument,60,36,12,12,0,قلاع وقصور وآثار
+palace,palace,scene.historic_monument,labeled,scene list,historic_monument,60,36,12,12,0,قلاع وقصور وآثار
+kasbah,kasbah,scene.historic_monument,labeled,scene list,historic_monument,60,36,12,12,0,قلاع وقصور وآثار
+archaelogical_excavation,archaelogical_excavation,scene.historic_monument,labeled,scene list,historic_monument,60,36,12,12,0,قلاع وقصور وآثار
+mosque/outdoor,mosque-outdoor,scene.place_of_worship,labeled,scene list,place_of_worship,100,60,20,20,0,دور عبادة
+church/outdoor,church-outdoor,scene.place_of_worship,labeled,scene list,place_of_worship,100,60,20,20,0,دور عبادة
+synagogue/outdoor,synagogue-outdoor,scene.place_of_worship,labeled,scene list,place_of_worship,100,60,20,20,0,دور عبادة
+living_room,living_room,scene.home_interior,labeled,scene list,home_interior,75,45,15,15,0,داخل المنزل
+bedroom,bedroom,scene.home_interior,labeled,scene list,home_interior,75,45,15,15,0,داخل المنزل
+dining_room,dining_room,scene.home_interior,labeled,scene list,home_interior,75,45,15,15,0,داخل المنزل
+kitchen,kitchen,scene.home_interior,labeled,scene list,home_interior,75,45,15,15,0,داخل المنزل
+campsite,campsite,scene.camp_tents,labeled,scene list,camp_tents,100,60,20,20,0,مخيم وخيام
+library/indoor,library-indoor,scene.library_books,labeled,scene list,library_books,100,60,20,20,0,مكتبة وكتب
+bookstore,bookstore,scene.library_books,labeled,scene list,library_books,100,60,20,20,0,مكتبة وكتب
+conference_room,conference_room,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+bar,bar,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+fastfood_restaurant,fastfood_restaurant,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+sushi_bar,sushi_bar,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+cockpit,cockpit,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+garage/indoor,garage-indoor,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+boxing_ring,boxing_ring,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+ice_skating_rink/indoor,ice_skating_rink-indoor,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+baseball_field,baseball_field,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+golf_course,golf_course,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+racecourse,racecourse,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+runway,runway,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+railroad_track,railroad_track,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+industrial_area,industrial_area,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+landfill,landfill,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+junkyard,junkyard,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+engine_room,engine_room,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+television_studio,television_studio,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+music_studio,music_studio,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+elevator_lobby,elevator_lobby,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+escalator/indoor,escalator-indoor,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+waiting_room,waiting_room,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+art_gallery,art_gallery,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+aquarium,aquarium,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+amusement_park,amusement_park,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+beauty_salon,beauty_salon,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+fire_station,fire_station,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+loading_dock,loading_dock,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+veterinarians_office,veterinarians_office,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+physics_laboratory,physics_laboratory,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+discotheque,discotheque,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+locker_room,locker_room,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+heliport,heliport,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+oilrig,oilrig,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+arcade,arcade,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+amusement_arcade,amusement_arcade,scene.other,labeled,background,__other__,30,18,6,6,0,مشهد آخر (خلفية)
+airport_terminal,airport_terminal,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+bowling_alley,bowling_alley,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+server_room,server_room,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+operating_room,operating_room,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+gas_station,gas_station,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+parking_lot,parking_lot,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+supermarket,supermarket,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+gymnasium/indoor,gymnasium-indoor,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+swimming_pool/indoor,swimming_pool-indoor,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+subway_station/platform,subway_station-platform,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+laundromat,laundromat,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+auto_factory,auto_factory,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+office_cubicles,office_cubicles,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+stadium/soccer,stadium-soccer,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+classroom,classroom,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+hospital_room,hospital_room,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+car_interior,car_interior,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+airplane_cabin,airplane_cabin,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+construction_site,construction_site,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,
+playground,playground,,excluded_ood,OOD (split ood_test),__ood__,30,0,0,0,30,

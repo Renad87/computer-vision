@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "query_id": "9469fbfb-b6a9-4acc-8b44-94fe4a22f900",
+  "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+  "engine_version": "0.0.0-example",
+  "corpus_version": "p0_ai_drafts_v1",
+  "corpus_mode": "development",
+  "k": 3,
+  "weights": {
+    "emotion": 0.45,
+    "visual": 0.35,
+    "text": 0.2,
+    "semantic": 0.0
+  },
+  "status": "partial",
+  "items": [
+    {
+      "rank": 1,
+      "verse_id": "pv:verse:000010",
+      "apcd_row": 4070,
+      "text_original": "لَكِ يا مَنازِلُ في القُلوبِ مَنازِلُ    أَقفَرتِ أَنتِ وَهُنَّ مِنكِ أَواهِلُ",
+      "poet_name_apcd": "المُتَنَبّي",
+      "era_apcd": "العباسي",
+      "attribution_status": "apcd_only",
+      "tier": 1,
+      "scores": {
+        "emotion": 1.0,
+        "visual": 0.7,
+        "text": null,
+        "semantic": null,
+        "final": 0.8687499999999999
+      },
+      "matched": {
+        "lit_emotion": "lit_emotion.longing",
+        "emotion_role": "primary",
+        "visual_targets": [
+          "scene_group.desert"
+        ],
+        "relations": [
+          "relation.scene_association"
+        ]
+      },
+      "explanation": {
+        "template_ids": [
+          "T_SCENE_ASSOC",
+          "T_EMOTION_PRIMARY",
+          "T_ATTRIBUTION",
+          "T_DRAFT_DISCLOSURE"
+        ],
+        "sentences_ar": [
+          "البيت لا يسمّي الصحراء والبادية، لكن موقفه يقع فيها: مخاطبة المنازل المقفرة على سنة الوقوف بالأطلال.",
+          "اخترتَ الحنين والشوق، وهو الإحساس الأساسي المقترح لهذا البيت، ودليله «لَكِ يا مَنازِلُ في القُلوبِ مَنازِلُ».",
+          "النسبة كما في APCD، ولم يُتحقق منها بمصدر مستقل.",
+          "تنبيه: تسميات هذا البيت مسودة آلية لم يراجعها إنسان بعد (وضع التطوير)."
+        ],
+        "evidence_spans": [
+          {
+            "start": 0,
+            "end": 37,
+            "text": "لَكِ يا مَنازِلُ في القُلوبِ مَنازِلُ"
+          }
+        ]
+      },
+      "review_status": "not_reviewed"
+    }
+  ],
+  "abstention": null,
+  "timings_ms": null
+}

@@ -1,0 +1,604 @@
+{
+  "package": "priority_v1",
+  "corpus": "poetry_corpus/exports/corpus_all_v2.jsonl",
+  "corpus_sha256": "2623c640dec46ca38617d0c3be00fc6e66ee66f8720f738545c10339cd382ef7",
+  "files": {
+    "xlsx": "Poetry_Review_Priority_v1_56.xlsx",
+    "csv": "review_sheet_priority_v1.csv",
+    "return": "review_priority_v1_v1.xlsx"
+  },
+  "levels_included": [
+    "V",
+    "A",
+    "B",
+    "C"
+  ],
+  "level_counts": {
+    "V": 12,
+    "A": 14,
+    "B": 15,
+    "C": 15
+  },
+  "verse_ids": [
+    "pv:verse:000001",
+    "pv:verse:000010",
+    "pv:verse:000016",
+    "pv:verse:000017",
+    "pv:verse:000019",
+    "pv:verse:000021",
+    "pv:verse:000022",
+    "pv:verse:000023",
+    "pv:verse:000025",
+    "pv:verse:000026",
+    "pv:verse:000027",
+    "pv:verse:000029",
+    "pv:verse:000043",
+    "pv:verse:000048",
+    "pv:verse:000051",
+    "pv:verse:000052",
+    "pv:verse:000056",
+    "pv:verse:000058",
+    "pv:verse:000064",
+    "pv:verse:000070",
+    "pv:verse:000073",
+    "pv:verse:000082",
+    "pv:verse:000124",
+    "pv:verse:000223",
+    "pv:verse:000345",
+    "pv:verse:000398",
+    "pv:verse:000053",
+    "pv:verse:000055",
+    "pv:verse:000065",
+    "pv:verse:000067",
+    "pv:verse:000080",
+    "pv:verse:000089",
+    "pv:verse:000096",
+    "pv:verse:000108",
+    "pv:verse:000330",
+    "pv:verse:000394",
+    "pv:verse:000416",
+    "pv:verse:000443",
+    "pv:verse:000465",
+    "pv:verse:000597",
+    "pv:verse:000639",
+    "pv:verse:000054",
+    "pv:verse:000057",
+    "pv:verse:000059",
+    "pv:verse:000068",
+    "pv:verse:000090",
+    "pv:verse:000109",
+    "pv:verse:000120",
+    "pv:verse:000134",
+    "pv:verse:000142",
+    "pv:verse:000335",
+    "pv:verse:000362",
+    "pv:verse:000456",
+    "pv:verse:000470",
+    "pv:verse:000500",
+    "pv:verse:000948"
+  ],
+  "rows": [
+    {
+      "verse_id": "pv:verse:000001",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000010",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000016",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000017",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000019",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000021",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.serenity",
+        "scene_group.sky_night|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000022",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000023",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000025",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000026",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000027",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000029",
+      "priority": "V",
+      "scope": "visual_only",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000043",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.sadness",
+        "scene_group.heritage|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000048",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.longing",
+        "scene_group.greenery|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000051",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000052",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.serenity",
+        "scene_group.sky_night|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000056",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000058",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000064",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.awe",
+        "scene_group.sky_night|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000070",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000073",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000082",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.longing",
+        "scene_group.sky_night|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000124",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000223",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000345",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.joy",
+        "scene_group.sky_night|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000398",
+      "priority": "A",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.serenity",
+        "scene_group.greenery|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000053",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000055",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.joy",
+        "scene_group.sky_night|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000065",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000067",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000080",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000089",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000096",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000108",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.joy",
+        "scene_group.greenery|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000330",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000394",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.longing",
+        "scene_group.greenery|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000416",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.awe",
+        "scene_group.sky_night|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000443",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.longing",
+        "scene_group.heritage|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000465",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.sadness",
+        "scene_group.sea|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000597",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.sadness",
+        "scene_group.sky_night|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000639",
+      "priority": "B",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000054",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.serenity",
+        "scene_group.sky_night|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000057",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.joy",
+        "scene_group.sky_night|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000059",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000068",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000090",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.heritage|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000109",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.joy"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000120",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.sadness",
+        "scene_group.heritage|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000134",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.longing",
+        "scene_group.heritage|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000142",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sky_night|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000335",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.serenity",
+        "scene_group.heritage|lit_emotion.serenity"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000362",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000456",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.desert|lit_emotion.longing",
+        "scene_group.sea|lit_emotion.longing"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000470",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.sadness",
+        "scene_group.sky_night|lit_emotion.sadness"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000500",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.sea|lit_emotion.awe",
+        "scene_group.heritage|lit_emotion.awe"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000948",
+      "priority": "C",
+      "scope": "emotion_and_visual",
+      "pilot_cells": [
+        "scene_group.greenery|lit_emotion.awe",
+        "scene_group.sky_night|lit_emotion.awe"
+      ]
+    }
+  ],
+  "excluded_pending_clarification": [
+    "pv:verse:000005",
+    "pv:verse:000007",
+    "pv:verse:000018",
+    "pv:verse:000024",
+    "pv:verse:000031"
+  ],
+  "pilot_distinct_poems_if_all_accepted": {
+    "scene_group.desert|lit_emotion.sadness": 3,
+    "scene_group.desert|lit_emotion.longing": 3,
+    "scene_group.desert|lit_emotion.awe": 3,
+    "scene_group.desert|lit_emotion.serenity": 3,
+    "scene_group.desert|lit_emotion.joy": 3,
+    "scene_group.sea|lit_emotion.sadness": 3,
+    "scene_group.sea|lit_emotion.longing": 3,
+    "scene_group.sea|lit_emotion.awe": 3,
+    "scene_group.sea|lit_emotion.serenity": 3,
+    "scene_group.sea|lit_emotion.joy": 3,
+    "scene_group.greenery|lit_emotion.sadness": 3,
+    "scene_group.greenery|lit_emotion.longing": 3,
+    "scene_group.greenery|lit_emotion.awe": 3,
+    "scene_group.greenery|lit_emotion.serenity": 3,
+    "scene_group.greenery|lit_emotion.joy": 3,
+    "scene_group.heritage|lit_emotion.sadness": 3,
+    "scene_group.heritage|lit_emotion.longing": 3,
+    "scene_group.heritage|lit_emotion.awe": 3,
+    "scene_group.heritage|lit_emotion.serenity": 3,
+    "scene_group.heritage|lit_emotion.joy": 3,
+    "scene_group.sky_night|lit_emotion.sadness": 3,
+    "scene_group.sky_night|lit_emotion.longing": 3,
+    "scene_group.sky_night|lit_emotion.awe": 3,
+    "scene_group.sky_night|lit_emotion.serenity": 3,
+    "scene_group.sky_night|lit_emotion.joy": 3
+  },
+  "verification": {
+    "xlsx": {
+      "rows": 56,
+      "text_matches_records": 56,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "csv": {
+      "rows": 56,
+      "text_matches_records": 56,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "text_matches_apcd": true
+  },
+  "import_command": "python3 -m poetry_corpus.review.import_review review_priority_v1_v1.xlsx --reviewer human:omar --base poetry_corpus/exports/corpus_all_v2.jsonl --out-version v3 --sent poetry_corpus/review_packages/priority_v1/Poetry_Review_Priority_v1_56.xlsx"
+}

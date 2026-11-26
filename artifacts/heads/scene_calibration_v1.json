@@ -1,0 +1,8 @@
+{
+ "run_id": "scene-s1-20261125T220832Z-f1bbea",
+ "temperature": 0.889981155923609,
+ "scene_supported": 0.3846588730812073,
+ "tpr_target": 0.95,
+ "fitted_on": "Places365 sample val, in-taxonomy images (n=860), after temperature",
+ "manifest_sha256": "efdf33b153a900ecf3524569907b316b349e4860bab249d10b6efd630310b501"
+}

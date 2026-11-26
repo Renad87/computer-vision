@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "scene_group.sky_night",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.fear",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": true,
+  "emotion_only_allowed": false
+}

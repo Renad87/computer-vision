@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "tag.bird",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.serenity",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

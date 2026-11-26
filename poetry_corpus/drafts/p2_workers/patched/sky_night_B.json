@@ -1,0 +1,1356 @@
+{
+ "worker": "sky_night_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 472159,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بإغارتهم على الأبطال صباحًا وإيوائهم إلى الأدغال ليلًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والصبح باسم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأدغال",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر فرسان قومه يغيرون على الأبطال حين يبتسم الصبح، ثم يأوون إلى الغابات الكثيفة إذا مال الليل.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 625301,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل طلب المجد همًّا يسهر له الليل الطويل كله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل التمام",
+     "justification": null
+    }
+   ],
+   "meaning": "من كان اكتساب المجد أكبر همّه طوى الليل الطويل ساهرًا لا ينام، وهو وصف لعزيمة الممدوح وهمّته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 866481,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بليلة قتال أضاءت فيها السيوف ظلامها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "دجاها",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر ليلة ظفر مزّقت فيها السيوف ستر الظلام، حتى كأن ظلمتها نهار من كثرة بريق السيوف.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 907,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يخاطب عزمه الذي طال الليل أمامه حتى كأن الصبح يهابه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصوّر الليل الطويل والصبح المتأخر صورة مهيبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر عزيمته وقد طال الليل، ويسألها متعجبًا: أترى الصبح يخاف منك فيتأخر عن العودة؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 225002,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بإجابة الساري التائه ليلًا في برد الشتاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجم الشتاء",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجم الشتاء",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأنه يدعو الساري التائه الذي ينبح ليلًا طلبًا للمأوى بعد هدوء الناس، وقد مال نجم الشتاء إلى المغيب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 229575,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر خروجه للصيد مبكرًا مع انصراف الليل فخرًا بشبابه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقولها بعد ذكر المشيب فيحنّ إلى شبابه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بياض الصباح",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر بعد أن شاب أنه كان يخرج في أول بياض الصباح، وقد ولّت أواخر الليل، على فرس يصطاد به.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1629444,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطع ليل حالك لا صبح له في سياق السفر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقطع الصحراء ليلًا دون صاحب سوى همته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يذكر قطعه البيداء في ذلك الليل"
+    }
+   ],
+   "meaning": "لا ينسى الشاعر ليلًا حالكًا لم يطلع صبحه ولم يظهر في أعلاه خيط من ضوء، وقد قطع فيه الصحراء وحده.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 474630,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبيت وحده في منفاه يرعى النجوم على قمة عالية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يسهر يرعى النجوم مهمومًا في منفاه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "قنة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر في غربته إنه يبيت متكئًا يرقب نجوم الليل على قمة جبل يصعب على المتسلق بلوغها، بلا أنيس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1630525,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "الأنس",
+    "justification": "يفقد الأنس وهو يرافق الليل والصحاري"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "والأمن",
+     "justification": "يفقد الأمن في سراه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "والبيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو الشاعر زمنًا يرافق فيه الليل والصحارى والسير ليلًا، ويفقد فيه الأنس والأمان وطلوع الفجر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 710101,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غريب",
+    "justification": "يصف نفسه غريبًا في الليل والصبح جميعًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "كئيب",
+     "justification": "كئيب حتى حين يبتسم الصبح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    }
+   ],
+   "meaning": "هو غريب حين يسودّ وجه الليل، فإذا ابتسم الصبح وأشرق بقي كئيبًا لا يفرح به.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 362355,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبيت الوعل في الليل منفردًا كالغريب المحارب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف وعلًا يعيش في الجبال الوعرة"
+    }
+   ],
+   "meaning": "يصف الشاعر وعلًا في الجبال إذا أقبل الليل بات في مكمنه منفردًا، كما يبيت الغريب المحارب ملتفًا بكسائه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 86648,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرد الماء في منتصف ليل ساكن والكواكب توشك أن تميل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يفخر ضمنًا بقطع الفلاة وورود الماء ليلًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "كواكبه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يرد ماء منفردًا في فلاة يخشى فيها الهلاك"
+    }
+   ],
+   "meaning": "يذكر الشاعر أنه ورد ذلك الماء في جوف الليل، والليل ساكن كأنه متحير، وقد كادت نجومه تميل إلى الغروب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1004297,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتأمل الثريا في الليل الهادئ تقيس مسيره بأصابعها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يعجب بصورة النجوم في السماء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "الثريا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصوّر الشاعر نجوم الثريا الخمسة كأنها كفّ مبسوطة تقيس مسير الليل بالأشبار، في وصف تأملي لسماء الليل.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 805315,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "السكون",
+    "justification": "يذكر المساء والشفق الساجي وسحر السكون"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "الأسى",
+     "justification": "يذكر سحر الأسى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "للشفق",
+     "justification": null
+    }
+   ],
+   "meaning": "تقول الطبيعة إنها كانت تغني للمساء المطل وللشفق الهادئ، ولسحر الحزن وسحر السكون.",
+   "text_note": "كلمة «الساجي» مقسومة بين الشطرين في نص APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 21901,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تحط الإبل للراحة على البئر مع ظهور الصبح"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والصبح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "رحلة ليلية في الفلاة تنتهي عند بئر"
+    }
+   ],
+   "meaning": "بعد أن سارت الإبل الليل كله بركت مستريحة في ظل آخر الليل عند بئر مطوية بالحجارة، وقد ظهر الصبح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 517975,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف ليلة صافية في الحدائق والثريا بجانب البدر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "المشهد في سياق وصف حدائق بهيجة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "البدر",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "البدر",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والثريا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الثريا وهي بجانب البدر كأنها كفّ أومأت لتلطم خدًّا، في ليلة مضيئة فوق الحدائق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 804717,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرى الجمال في الشفق البديع والنجوم الباسمة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "البديع",
+     "justification": "يصف الشفق بالبديع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الشفق",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجوم الباسمه",
+     "justification": null
+    }
+   ],
+   "meaning": "يعدد الشاعر مواضع جمال الحياة، ومنها فتنة الشفق البديع والنجوم التي تبدو باسمة في السماء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 741476,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف رقة الظلام وتبختر الصبح بنوره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انتقال هادئ من الليل إلى الصباح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الظلام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الظلام قد رقّ ثوبه وخفّ، وإن الصبح حين ظهر أخذ يتبختر بنوره.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 363557,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يصوّر الليل منهزمًا أمام الصبح كراهب شق ثوبه طربًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة لافتة لانشقاق الليل عن الفجر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر الليل حين هجم عليه الصباح كأنه راهب شقّ جيب ثوبه من الطرب، أي انشق الظلام عن الضوء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1235211,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يصور الليل نشوان يشق ثياب الظلام طربًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الليل وقد تعرّى من ثيابه كأنه نشوان شقّ أثواب الظلام طربًا، حين أضاءت النار ظلمته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 819155,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يدعو إلى الطرب لرقة الظلام ونسيم الصباح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رقة أنفاس الصباح وهدوء المشهد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصباح",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى الطرب والفرح، فقد رقّ الظلام وانحسر، ورقّت أنفاس الصباح ونسيمه.",
+   "text_note": "كلمة «الظلام» مقسومة بين الشطرين في نص APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1163561,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "سرور",
+    "justification": "يجعل سرور الأرض نتيجة بكاء السحاب بالمطر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سحابها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف رياضًا تزهر بعد المطر"
+    }
+   ],
+   "meaning": "كأن فرح الأرض وازدهارها هو حزن سحابها، فإذا بكى السحاب بالمطر ظهرت الأرض لنا متزينة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 183480,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القمر يضحك في وجوه الليالي المظلمة بعد انشقاق الظلام"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة بديعة لطلوع القمر من الظلام"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الظلام",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "قمر",
+     "justification": null
+    }
+   ],
+   "meaning": "انشق ثوب الظلام عن قمر طالع يبدو كأنه يضحك في وجوه الليالي الحالكة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1906,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "سرور",
+    "justification": "يذكر أنهم في سرور بصباح العيد في أرض فارس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصباح",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنهم في أرض فارس في سرور وبهجة، وهذا الصباح الذي يرونه هو يوم مولد العيد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 804534,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "الخشوع",
+    "justification": "يصف الخشوع الذي عانق الكون في سكون الليل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "expressed",
+     "evidence": "سكون",
+     "justification": "يذكر سكون الليل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر لحظة سكون الليل حين غمر الخشوع الكون كله وخفتت الأصوات.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 113872,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو إلى تأمل صنع الله في اختلاف النجوم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "النجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى أن يتأمل الإنسان بعينه صنع ربه دون شك، وكيف تختلف النجوم في مطالعها ومسيرها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1002908,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "يسبّح الله الذي تسبّح له الشمس والبدر والشهب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "والبدر",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والشهب",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبّح الشاعر الله الذي تسبّح له شمس النهار، والبدر في ظلمة الليل، والشهب في الظلمات.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 174724,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجبا",
+    "justification": "يعجب من تعاقب الصبح والليل والنجوم والقمر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ودجى",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "ونجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "وقمر",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب الشاعر من الدهر وتقلبه: صبح يعقبه ليل، ونجوم وهلال وقمر يتعاقب ظهورها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 177011,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجبا",
+    "justification": "يتعجب من نشر الشمس وطي الليل ونمو البدر وهزاله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "والبدر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر من الشمس تنتشر في الضحى، ومن الليل يُطوى، ومن البدر يكبر ثم يصغر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 38412,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "يسبّح الله فالق الإصباح ويتأمل تعاقب المساء والصباح"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الإصباح",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبّح الشاعر ربه الذي يشق ظلام الليل عن الصبح، ويعجب من المساء كيف يلاحق الصباح دائمًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 724087,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "فسبحان",
+    "justification": "يسبّح الله عند تبسم الفجر الذي أقسم به في القرآن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصوّر الفجر ضاحكًا متبسمًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ثغر الفجر",
+     "justification": null
+    }
+   ],
+   "meaning": "ظهر ضوء الفجر كأنه ثغر يبتسم، فسبحان الله الذي أقسم بالفجر في القرآن.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1097259,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو إلى تأمل صنع النجوم ومسيرها كما يعرفها الملاح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يفخر بعلمه بالنجوم في سياق أرجوزته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سهيلا",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "سهيلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر الملاح إلى أن يتأمل بمنظومته صنع نجوم الفروغ وبنات نعش، وأن يتأمل نجم سهيل ومسيره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1062465,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "مهيب",
+    "justification": "يصف مشهد البر بعد الغروب بأنه شجي مهيب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق مشهد ريفي هادئ لعودة القطعان"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "غروب",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى النظر إلى البرية بعد غروب الشمس، فمشهدها حينئذ مؤثر في النفس مهيب.",
+   "text_note": "كلمة «بعد» مقسومة بين الشطرين في نص APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 925686,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصوّر نجم سهيل راميًا شد قوسه فوق مرتفع عال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سهيلا",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "سهيلا",
+     "justification": null
+    }
+   ],
+   "meaning": "في وصف نجوم الليل، يصوّر الشاعر نجم سهيل كأنه رامٍ شدّ وتر قوسه وانتصب على مرتفع عالٍ مطلّ على صنعاء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 124297,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور الفجر يشق الليل كعنق جواد أغر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "رحلة ليلية في الفلاة حتى طلوع الفجر"
+    }
+   ],
+   "meaning": "يسير الركب في الفلاة حتى يشق الليلَ فجرٌ مائل إلى الحمرة، كأنه من وراء الظلام عنق جواد أغرّ.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1379629,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يأمر النجوم والشمس بالاستتار من عزة الإله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "هول",
+     "justification": "يذكر هول العزة الإلهية"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "في قصيدة دينية مسيحية يقول الشاعر: ظهر الإله، فيا نجوم استتري من هول عزته، ويا شمس اختفي.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1463439,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجيب",
+    "justification": "يصف سر الغيب العجيب في ظلمة الليل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "دجى الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر في موشح صوفي إن في ظلمة الليل سرًّا من الغيب عجيبًا يدركه أصحاب القلوب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1510607,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور البرق سيوفًا تلمع في الظلام وتغمد في الغمام"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    }
+   ],
+   "meaning": "لمع البرق في كف الظلام كأنه سيوف مسلولة، لا غمد لها إلا السحاب الذي تختفي فيه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 201958,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الأسى",
+    "justification": "يتساءل لم يثير الغروب الحزن والشروق كان عيدًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "للغروب",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر: ما بال الغروب يثير الحزن في النفس، وقد كان الشروق لنا عيدًا، في تأمل لبداية العمر ونهايته.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 328297,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "همومه",
+    "justification": "هموم سوداء أطالت ليله بعد فراق صاحبه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقولها شاكيًا وحشته لبعد صديقه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "أطالت الهموم السوداء ليله، حتى كأنه ترك السرور مع الشمس حين غربت، يشكو ذلك بعد فراق صديقه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 594749,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شمعة تبكي وتحترق طوال الليل والليل يضحك منها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر شمعة تكابد الليل، تفنيه ويفنيها، والليل كأنه يضحك منها وهي تبكي وتحترق، وقد شبّه نفسه بها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 801524,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعجب ممن لا يؤرقه نوح النائحات عند السحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "في سياق التذكير بالموت والرحيل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصبح والسحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب الشاعر ممن لا يسهره نوح النساء على الموتى بين السحر وطلوع الصبح، في قصيدة تذكّر بالموت.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 24994,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "طرب الفؤاد",
+    "justification": "تحرك قلبه لذكر الظعائن الراحلات ليلًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بالليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "اهتز قلب الشاعر شوقًا حين تذكر النساء الراحلات في هوادجهن، وقد مضت أجنحة النجوم في الليل ومالت إلى المغيب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 525793,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى أن يبيت ليلة ينعشه فيها نسيم الغوطتين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.hypothetical",
+     "evidence": "ليلة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الغوطتان بساتين دمشق ونسيمها"
+    }
+   ],
+   "meaning": "يتمنى الشاعر أن يقضي ليلة أخرى في دمشق، يرطّب نفسه فيها نسيم الغوطتين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 348431,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبكي حين يلمع البرق آخر الليل في رحلته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يبكي الشاعر بعين تستدر دموعها ومضةُ برق تلمع في آخر الليل، فتهيج شوقه في غربته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1442503,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صحراء مجهولة لو سار فيها النجم لضل طريقه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يعظّم اتساع الفلاة وغموضها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.hypothetical",
+     "evidence": "النجم",
+     "justification": "لو سار النجم فيها لتحير"
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف مهامه كالبحر بلا أثر"
+    }
+   ],
+   "meaning": "يصف الشاعر فلاة واسعة لا أثر فيها، لو سار فيها النجم الذي يهتدى به لبقي فيها حائرًا لا يعرف شامًا من يمن.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 100802,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خيفة",
+    "justification": "يصف ثورًا وحشيًا يرقب الأفق خائفًا من الناس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الأفق المريب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ثورًا وحشيًا قضى ليلة ممطرة، ثم أصبح يرمق الأفق المريب بعينه، وفي قلبه رعب من الإنسان.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 196308,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "رهبة",
+    "justification": "تتطلع الحمر العطشى إلى الشمس خائفة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الشمس",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "حمر وحشية عطاش في القفار تنتظر ورود الماء"
+    }
+   ],
+   "meaning": "ظلّت الحمر الوحشية العطشى تنظر بعيون ضيقة إلى الشمس، تخشى أن يحجبها الغيم فلا تعرف وقت غروبها لترد الماء.",
+   "text_note": null,
+   "uncertainty": "high"
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+  "package": "p1_b02",
+  "batches": [
+    "p1_b02"
+  ],
+  "files": {
+    "full_xlsx": "Poetry_Review_P1-B02_50.xlsx",
+    "full_csv": "review_sheet_p1_b02_full.csv",
+    "priority_xlsx": "Poetry_Review_P1-B02_Priority_4.xlsx",
+    "priority_csv": "review_sheet_p1_b02_priority.csv",
+    "full_return": "review_p1_b02_full_v1.xlsx",
+    "priority_return": "review_p1_b02_priority_v1.xlsx"
+  },
+  "full_verse_ids": [
+    "pv:verse:000100",
+    "pv:verse:000101",
+    "pv:verse:000102",
+    "pv:verse:000103",
+    "pv:verse:000104",
+    "pv:verse:000105",
+    "pv:verse:000106",
+    "pv:verse:000107",
+    "pv:verse:000108",
+    "pv:verse:000109",
+    "pv:verse:000110",
+    "pv:verse:000111",
+    "pv:verse:000112",
+    "pv:verse:000113",
+    "pv:verse:000114",
+    "pv:verse:000115",
+    "pv:verse:000116",
+    "pv:verse:000117",
+    "pv:verse:000118",
+    "pv:verse:000119",
+    "pv:verse:000120",
+    "pv:verse:000121",
+    "pv:verse:000122",
+    "pv:verse:000123",
+    "pv:verse:000124",
+    "pv:verse:000125",
+    "pv:verse:000126",
+    "pv:verse:000127",
+    "pv:verse:000128",
+    "pv:verse:000129",
+    "pv:verse:000130",
+    "pv:verse:000131",
+    "pv:verse:000132",
+    "pv:verse:000133",
+    "pv:verse:000134",
+    "pv:verse:000135",
+    "pv:verse:000136",
+    "pv:verse:000137",
+    "pv:verse:000138",
+    "pv:verse:000139",
+    "pv:verse:000140",
+    "pv:verse:000141",
+    "pv:verse:000142",
+    "pv:verse:000143",
+    "pv:verse:000144",
+    "pv:verse:000145",
+    "pv:verse:000146",
+    "pv:verse:000147",
+    "pv:verse:000148",
+    "pv:verse:000149"
+  ],
+  "priority_verse_ids": [
+    "pv:verse:000108",
+    "pv:verse:000126",
+    "pv:verse:000127",
+    "pv:verse:000135"
+  ],
+  "priority_levels": {
+    "pv:verse:000108": "B",
+    "pv:verse:000126": "C",
+    "pv:verse:000127": "C",
+    "pv:verse:000135": "C"
+  },
+  "level_counts": {
+    "A": 0,
+    "B": 1,
+    "C": 3
+  },
+  "pilot_poems_if_all_levels_accepted": {
+    "scene_group.desert|lit_emotion.sadness": 3,
+    "scene_group.desert|lit_emotion.longing": 3,
+    "scene_group.desert|lit_emotion.awe": 3,
+    "scene_group.desert|lit_emotion.serenity": 3,
+    "scene_group.desert|lit_emotion.joy": 3,
+    "scene_group.sea|lit_emotion.sadness": 3,
+    "scene_group.sea|lit_emotion.longing": 3,
+    "scene_group.sea|lit_emotion.awe": 3,
+    "scene_group.sea|lit_emotion.serenity": 3,
+    "scene_group.sea|lit_emotion.joy": 3,
+    "scene_group.greenery|lit_emotion.sadness": 3,
+    "scene_group.greenery|lit_emotion.longing": 3,
+    "scene_group.greenery|lit_emotion.awe": 3,
+    "scene_group.greenery|lit_emotion.serenity": 3,
+    "scene_group.greenery|lit_emotion.joy": 3,
+    "scene_group.heritage|lit_emotion.sadness": 3,
+    "scene_group.heritage|lit_emotion.longing": 3,
+    "scene_group.heritage|lit_emotion.awe": 3,
+    "scene_group.heritage|lit_emotion.serenity": 2,
+    "scene_group.heritage|lit_emotion.joy": 3,
+    "scene_group.sky_night|lit_emotion.sadness": 3,
+    "scene_group.sky_night|lit_emotion.longing": 3,
+    "scene_group.sky_night|lit_emotion.awe": 3,
+    "scene_group.sky_night|lit_emotion.serenity": 3,
+    "scene_group.sky_night|lit_emotion.joy": 3
+  },
+  "prior_packages": [
+    "p1_b01"
+  ],
+  "compact_levels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "cells": "pilot",
+  "review_columns": "emotion (P0 method) + visual_decision",
+  "verification": {
+    "full_xlsx": {
+      "rows": 50,
+      "text_matches_records": 50,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "full_csv": {
+      "rows": 50,
+      "text_matches_records": 50,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "priority_xlsx": {
+      "rows": 4,
+      "text_matches_records": 4,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "priority_csv": {
+      "rows": 4,
+      "text_matches_records": 4,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "text_matches_apcd": true
+  }
+}

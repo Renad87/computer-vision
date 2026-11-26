@@ -1,0 +1,260 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "image_sha256": "788e7c21c12bae4af5250e786b64d586a75d7dc53482aaeaa69e06db98d78c61",
+  "model_id": "poetry-vision-net",
+  "model_version": "1.0.0-draft",
+  "status": "ok",
+  "error": null,
+  "scene": {
+    "predictions": [
+      {
+        "id": "scene.desert",
+        "score": 0.58
+      },
+      {
+        "id": "scene.sea_coast",
+        "score": 0.06
+      },
+      {
+        "id": "scene.mountains_valleys",
+        "score": 0.05
+      },
+      {
+        "id": "scene.rivers_lakes",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.forest",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.garden",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.farmland_rural",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.sky",
+        "score": 0.04
+      },
+      {
+        "id": "scene.snow_ice",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.modern_city",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.old_city_market",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.historic_monument",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.place_of_worship",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.home_interior",
+        "score": 0.009090909090909092
+      },
+      {
+        "id": "scene.camp_tents",
+        "score": 0.14
+      },
+      {
+        "id": "scene.library_books",
+        "score": 0.0590909090909091
+      },
+      {
+        "id": "scene.other",
+        "score": 0.03
+      }
+    ],
+    "calibrated": false,
+    "supported_threshold": 0.3608365058898926,
+    "supported": true,
+    "status": "confident",
+    "top1_score": 0.58,
+    "margin": 0.43999999999999995
+  },
+  "scene_groups": [
+    {
+      "id": "scene_group.desert",
+      "score": 0.72
+    },
+    {
+      "id": "scene_group.sea",
+      "score": 0.06
+    },
+    {
+      "id": "scene_group.mountains",
+      "score": 0.0590909090909091
+    },
+    {
+      "id": "scene_group.water",
+      "score": 0.009090909090909092
+    },
+    {
+      "id": "scene_group.greenery",
+      "score": 0.027272727272727275
+    },
+    {
+      "id": "scene_group.sky_night",
+      "score": 0.04
+    },
+    {
+      "id": "scene_group.heritage",
+      "score": 0.018181818181818184
+    },
+    {
+      "id": "scene_group.city",
+      "score": 0.009090909090909092
+    },
+    {
+      "id": "scene_group.worship",
+      "score": 0.009090909090909092
+    }
+  ],
+  "emotion": {
+    "predictions": [
+      {
+        "id": "img_emotion.amusement",
+        "score": 0.04
+      },
+      {
+        "id": "img_emotion.awe",
+        "score": 0.55
+      },
+      {
+        "id": "img_emotion.contentment",
+        "score": 0.2
+      },
+      {
+        "id": "img_emotion.excitement",
+        "score": 0.05
+      },
+      {
+        "id": "img_emotion.anger",
+        "score": 0.02
+      },
+      {
+        "id": "img_emotion.disgust",
+        "score": 0.01
+      },
+      {
+        "id": "img_emotion.fear",
+        "score": 0.03
+      },
+      {
+        "id": "img_emotion.sadness",
+        "score": 0.1
+      }
+    ],
+    "calibrated": false,
+    "status": "clear",
+    "margin": 0.35000000000000003,
+    "ambiguity_margin": 0.15,
+    "entropy": 1.3889869877622867
+  },
+  "tags": [
+    {
+      "id": "tag.horse",
+      "decision_score": 1.0105,
+      "threshold": 1.51047052444744,
+      "present": false
+    },
+    {
+      "id": "tag.falcon",
+      "decision_score": 1.0207,
+      "threshold": 1.5206849383505094,
+      "present": false
+    },
+    {
+      "id": "tag.bird",
+      "decision_score": 0.9203,
+      "threshold": 1.4203141002498274,
+      "present": false
+    },
+    {
+      "id": "tag.flower",
+      "decision_score": 0.5862,
+      "threshold": 1.0862302936644355,
+      "present": false
+    },
+    {
+      "id": "tag.moon",
+      "decision_score": 1.3534,
+      "threshold": 1.8534074180811562,
+      "present": false
+    },
+    {
+      "id": "tag.stars",
+      "decision_score": 1.8806,
+      "threshold": 2.380646028415839,
+      "present": false
+    },
+    {
+      "id": "tag.teapot",
+      "decision_score": 2.1065,
+      "threshold": 2.606533079181097,
+      "present": false
+    },
+    {
+      "id": "tag.boat_ship",
+      "decision_score": 0.6705,
+      "threshold": 1.170485005720785,
+      "present": false
+    },
+    {
+      "id": "tag.sea",
+      "decision_score": 0.6717,
+      "threshold": 1.1716760595646893,
+      "present": false
+    },
+    {
+      "id": "tag.fog",
+      "decision_score": -0.239,
+      "threshold": 0.26096299290657043,
+      "present": false
+    },
+    {
+      "id": "tag.mosque",
+      "decision_score": 1.2637,
+      "threshold": 1.763699620826598,
+      "present": false
+    },
+    {
+      "id": "tag.road",
+      "decision_score": 1.9,
+      "threshold": 1.0645546564871906,
+      "present": true
+    },
+    {
+      "id": "tag.child",
+      "decision_score": 0.7714,
+      "threshold": 1.2713725202738448,
+      "present": false
+    }
+  ],
+  "suggested_lit_emotions": [
+    {
+      "id": "lit_emotion.awe",
+      "from_img_emotion": "img_emotion.awe",
+      "basis": "mapping_v1"
+    },
+    {
+      "id": "lit_emotion.serenity",
+      "from_img_emotion": "img_emotion.contentment",
+      "basis": "mapping_v1"
+    }
+  ],
+  "timings_ms": null
+}

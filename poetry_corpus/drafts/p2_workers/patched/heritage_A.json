@@ -1,0 +1,1278 @@
+{
+ "worker": "heritage_A",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 445146,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خائف",
+    "justification": "القصر المزيّن يسكنه الخوف فلا حسن فيه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "البيت من مرثية تقارن القصر بالقبر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل الشاعر: أي حسن لقصر يعيش كل من فيه خائفًا، إذا قيس بقبر إلى جانب بيت الله الحرام، في رثاء رجل ترك القصور إلى قبره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 379255,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "رعبا",
+    "justification": "إيوان كسرى يتصدع ويتهاوى رعبًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حدث خارق يهز أعظم بناء في فارس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "إيوان كسرى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر في مدح المولد النبوي انشقاق إيوان كسرى وتساقط شرفاته، كأن الرعب قاده إلى الانهدام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 819115,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رهبة الموت الذي يقتحم القصور الشامخة والأبواب المغلقة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خلو القصور من أهلها بعد الموت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر شامخ",
+     "justification": null
+    }
+   ],
+   "meaning": "الموت يخلي كل قصر عالٍ من ساكنيه، ويفتح كل باب مغلق مهما أحكم أصحابه إغلاقه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 354012,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خوف",
+    "justification": "الحصن يبدو منهارًا على أهله من شدة خوفهم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الحصن",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حصار حصن للأعداء، فكأن الحصن من شدة خوفهم قد انطبق عليهم، وهو قائم البناء كأنه منهدم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 518220,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الحصون والقصور تصير سجونًا وقبورًا لأهلها المحاصرين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يتوعد الشاعر الأعداء المتحصنين: ليسوا في حصون بل في سجون، وليسوا في قصور بل في قبور، لأن الهلاك محيط بهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 37479,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الحصون لا تحمي من الموت فلا مهرب منه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقين الفناء الذي يعمّ الجميع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حل الحصون",
+     "justification": null
+    }
+   ],
+   "meaning": "الحصون لا تدفع الموت عمن نزل فيها واحتمى بها، فالمنية تدرك الناس أينما كانوا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 341158,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تحذير من الموت الذي ينقل الإنسان من القصر إلى القبر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "زوال لذة العيش بالموت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر",
+     "justification": null
+    }
+   ],
+   "meaning": "لا لذة في عيش نهايته موت ينقلك من القصر إلى حجارة القبر، في سياق تحذير من الاغترار بالدنيا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 642171,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "رعبك",
+    "justification": "الرعب يميت الأعداء داخل حصونهم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في حصونها",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر للسلطان إن رعبه أمات الفرنج في حصونهم، حتى صارت الحصون كأنها قبور لهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 775276,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الردى يختطف المتحصنين فوق الحصون وخلف الأسوار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تأمل في كثرة من أخذهم الموت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "فوق حصن",
+     "justification": null
+    }
+   ],
+   "meaning": "كم أخذ الموت أناسًا وهم فوق الحصون، وكم انتزع آخرين من خلف الأسوار، فلا يحمي منه بناء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 777088,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الحصون تتحول إلى شباك للموت وأقفاص لأهلها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصونهم",
+     "justification": null
+    }
+   ],
+   "meaning": "لما لجأ الأعداء إلى معاقلهم وحصونهم صارت المعاقل شباكًا للهلاك والحصون أقفاصًا تحبسهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1060770,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تذكير بالقبر آخر منزل بعد القصور العالية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "زوال الثراء والقصور بالموت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصورك",
+     "justification": null
+    }
+   ],
+   "meaning": "لك في قصورك على المرتفعات منازل كثيرة، لكن اعلم أن القبر هو آخر منزل ستنزله.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1537127,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حصن ظفار يغرق في بحر الجيش كالطوفان المهلك"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصن ظفار",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جيشًا هائلًا أحاط بحصن ظفار، فكأن الحصن تحت أمواجه ابن نوح الغارق، والجيش هو الطوفان.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 72858,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور فرار الأعداء وتحصنهم خائفين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خوف الأعداء الفارين"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصن القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر فرار القوم إلى حصنهم وإغلاق أبوابه، وكم ترى منهم من خائف لا يجد ملجأ ينجيه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 99959,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القلعة التي يتحصن بها العدو تصير قبره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقلعته",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قائدًا لا يرفع يده عن عدو متحصن إلا وقد صارت قلعته قبرًا له.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 438922,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القلاع والحصون ترتجف كأن الموت هاجمها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القلاع والحصون",
+     "justification": null
+    }
+   ],
+   "meaning": "ارتجفت القلاع والحصون كأن المنية وثبت عليها، فأقبل رجالها وفودًا يطلبون الأمان من الخليفة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 981428,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة",
+    "justification": "الوحشة تغشى القصور بعد رحيل صاحبها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "أنين",
+     "justification": "الأنين يعم الجميع بعد فقده"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "كل قصر",
+     "justification": null
+    }
+   ],
+   "meaning": "لما خلا المكان من الراحل غشيت كل قصر وحشة، ولما بعد أصاب كل أحد أنين من الحزن عليه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1400124,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "بغربة",
+    "justification": "أسيرة تشيخ في قصر غريب منكسرة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مصير الذل والانكسار في الأسر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "صرحي",
+     "justification": null
+    }
+   ],
+   "meaning": "يتوعد الملك بأن الفتاة الأسيرة ستبلغ الشيخوخة وهي تنسج القطن في قصره، غريبة منكسرة بعيدة عن أهلها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 68636,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "المكان صار خرابًا خاليًا من الأنيس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تذكر الديار بعد رحيل أهلها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر ذي العشيرة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الأرض الممتدة إلى قصر ذي العشيرة والطائف وقد أمست خرابًا خالية من الناس بعد أن كانت عامرة.",
+   "text_note": "كلمة «الطائف» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1348139,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ضيق الغريب بصنعاء وقصورها الشاهقة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نفور من الحضر يوحي بالحنين إلى دياره"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصرا فوق قصر",
+     "justification": null
+    }
+   ],
+   "meaning": "ملّ الشاعر في صنعاء الأحاديث والأماني، وكره القصور المبنية بعضها فوق بعض، شاعرًا بالغربة في المدينة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1811463,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ساحات القصر خالية من الأنيس والسادة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رحيل أهل القصر وخلوه منهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "عراص القصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ساعة رأى ساحات القصر خالية من الأنيس، ولم يبق في الدار أحد من سادتها الذين كانوا يعمرونها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1445539,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حمامة غريبة نقلت من موطنها تنوح في الأسواق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نوحها حنين إلى الأراك وأفراخها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في الأسواق",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حمامة مطوقة رمتها الفرقة إلى العراق، فبعد أن كانت تغرد على شجر الأراك صارت تنوح غريبة في الأسواق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 37584,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حسرة",
+    "justification": "زوال الآثار وخلو القصور يورث الحسرة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصور شيدت",
+     "justification": null
+    }
+   ],
+   "meaning": "ستندرس الآثار وتعقبها الحسرة، وستخلو القصور المشيدة والحصون من أهلها، فكل شيء إلى زوال.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 537351,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "وترح",
+    "justification": "القصور حزينة على ربع خلا من صاحبته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء امرأة عظيمة: القبور فرحت بمجد أقام فيها، والقصور حزنت على ديار خلت منها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 218249,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أشجان",
+    "justification": "إيوان كسرى والحمراء يهيجان الأشجان"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "البكاء على ربوع الأندلس الذاهبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "إيوان كسرى",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر لشوقي إن إيوان كسرى أشجى البحتري وهيجه، كما هيجت الحمراء في الأندلس أحزان قلبه الموجع.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 804530,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزن",
+    "justification": "أنات الحزن تتردد بين القصور"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى الشاعر الحزن شاملًا: بين القصور أنات حزن، وفي الأكواخ أجساد هزيلة أنهكها البؤس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1518253,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ساكن البرج المشيد ينتقل إلى قبره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "برج قصر",
+     "justification": null
+    }
+   ],
+   "meaning": "كم من رجل كان ينزل في برج قصر مشيد انتقل من ساحة صرحه الأملس إلى قبره، في سياق رثاء وتعزية.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1812243,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "لهفي",
+    "justification": "تحسر على حجرات القصر بعد خلوها من الوافدين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انفراد الخليفة بعد أن كانت حجراته مزدحمة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حجرات قصرك",
+     "justification": null
+    }
+   ],
+   "meaning": "يتحسر الشاعر على حجرات قصر الخليفة حين خلت من زحام الوافدين بعد أن كانت عامرة بهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 148988,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الإيوان ينعى ساكنيه ويندبهم بعد رحيلهم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الإيوان متروك خاليًا من أهله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الإيوان",
+     "justification": null
+    }
+   ],
+   "meaning": "رحل القوم وتركوا الإيوان بعد فراقهم كأنه ينعى سكانه ويندب النازلين فيه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 367421,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصور الأهل صارت قبورهم بعد الزلزال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصورهم",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر أهله الذين أفناهم الزلزال: هذه قصورهم صارت قبورًا لهم، كما كانوا من قبل سكانها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 492177,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "يبكي",
+    "justification": "القصر المنيف يبكي على أهله الراحلين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصر المنيف",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأشجار",
+     "justification": null
+    }
+   ],
+   "meaning": "يبكي على الراحلين القصر العالي الذي تتلألأ شرفاته بين خضرة الأشجار.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 683797,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء فتاة غابت في القبر عن القصور"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "كل منهما يبحث عن الآخر فلا يجده"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فتاة ماتت: هي تنظر في القبور فلا تراه، وهو ينظر في القصور فلا يراها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 843623,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصر خرب صار عبرة لمن يتأمل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "عظمة القصر الذاهب تثير التأمل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصر عبدويه",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء بغداد يجعل الشاعر قصر عبدويه عبرة وهداية لكل نفس صافية، ثم يسأل أين حراسه وسكانه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 908112,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بالبكاء",
+    "justification": "دعوة العين إلى البكاء على فقيدة القصر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خلو القصر بعد موتها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصرها",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر عينيه إلى البكاء على امرأة مصونة كانت محجبة في قصرها، فلما ماتت خلا القصر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 109140,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "فناء إرم وعاد بمرور الليل والنهار"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "إرما",
+     "justification": null
+    }
+   ],
+   "meaning": "ألم تروا إرم وقوم عاد كيف أهلكها تعاقب الليل والنهار، فلا يبقى شيء على الدهر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 328279,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إيوان كسرى صار مرعى للغنم بعد عزه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "إيوان كسرى",
+     "justification": null
+    }
+   ],
+   "meaning": "صار إيوان كسرى بعد ما كان فيه من ملك مرتعًا لجماعة، وصارت دياره منزلًا لغير أهلها (معنى «عرائس» غير مؤكد).",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 472661,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "المدائن الخربة شاهدة على تقلب الحوادث"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "المدائن منجم عبرة لمن يتأمل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "المدائن",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى سؤال المدائن، فهي منبع للعبرة، عما شهدته من أهل الحضر والبادية قبل أن تخربها الحوادث.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1442682,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "المدامع",
+    "justification": "وقفات باكية عند أطلال الزهراء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تردد المحزون على الزهراء تذكرًا لعهدها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالزهراء",
+     "justification": null
+    }
+   ],
+   "meaning": "كم لك عند مدينة الزهراء من زائر يتردد عليها، ومن واقف تسيل دموعه حزنًا على ما صارت إليه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1801684,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "وناح",
+    "justification": "طائر الخراب ينوح على الأسواق المهدمة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الأسواق",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "طير",
+     "justification": null
+    }
+   ],
+   "meaning": "ناح طائر الخراب على الأسواق، وصار فأس الهدم يعمل فيها شاهدًا على الغدر الذي أصاب المدينة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 873876,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سؤال عن الملوك الأولين الذين زالوا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الخورنق والسديرا",
+     "justification": null
+    }
+   ],
+   "meaning": "أين الأولون من الناس، وأين من ملك قصري الخورنق والسدير؟ لقد ذهبوا جميعًا، فالدنيا غرور.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 38868,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "لهفي",
+    "justification": "تحسر وشوق إلى زمن قصير مضى بين القصرين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مضي أيام السرور"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الخورنق",
+     "justification": null
+    }
+   ],
+   "meaning": "يتلهف الشاعر على زمن قصير من السرور قضاه بين قصري الخورنق والسدير مع فتية كرام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1442769,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سلام الشاعر على مدينة يحن إليها بكل ما فيها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصورها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "صحرائها",
+     "justification": null
+    }
+   ],
+   "meaning": "يسلم الشاعر على صحراء المدينة وقصورها، وعلى أوطانها وقبور أهلها، سلام المحب المفارق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 491704,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوق",
+    "justification": "شوق دائم إلى قصر الشراجيب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر الشراجيب",
+     "justification": null
+    }
+   ],
+   "meaning": "يطلب الشاعر أن يُبلغ السلام قصر الشراجيب عن فتى لا يزال يشتاق إليه أبدًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 610082,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "غياب الممدوح أوحش القصور وأفزعها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "ذعرا",
+     "justification": "القصور كأنها امتلأت فزعًا بعد غيابه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر: ما لهذه القصور كأنها امتلأت فزعًا منذ غاب صاحبها عن أرضها، فهي موحشة بعده.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 680141,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوقا",
+    "justification": "شوق إلى بعلبك وأطلالها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "أطلال بعلبك",
+     "justification": null
+    }
+   ],
+   "meaning": "هام الشاعر شوقًا إلى بعلبك، ومضى زمانه يسائل أطلالها عن ماضيها.",
+   "text_note": "كلمة «ساءلت» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 123255,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تعلق دائم بقصر جعفر وذكرياته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "وأشجان",
+     "justification": "في القصر أحزان تهيجها الذكرى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر جعفر",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر قصر جعفر: لا أستطيع الكف عنك، فلي فيك ألفة وأحزان وحاجات لا تنقضي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 83585,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العودة إلى الزهراء بعد طول البعد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "دموع النازح تنفد في البعد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الزهراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر: هل من عودة إلى مدينة الزهراء لغريب نازح أفنى بعدها دموعه؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1053558,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "طيف الحبيبة يزوره بعيدًا عن دياره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يسهر وحده وصحبه نائمون في إيوان غريب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بإيوان سيرين",
+     "justification": null
+    }
+   ],
+   "meaning": "زارت طيف الحبيبة رحل الشاعر ليلًا وأصحابه نيام، وهو نازل بإيوان سيرين المزخرف في أرض الفتوح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 630584,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الطائر في القصور يبكي على أوكاره البعيدة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "غربة الطائر عن موطنه رغم ترف القصور"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في القصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يشبه الشاعر نفسه بطائر يقرَّب في القصور لحسن صوته، لكنه يبكي على أعشاشه في الفلوات، فالشوق إلى الوطن طبع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 533238,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوقي",
+    "justification": "شوق وأسف عند مفارقة قصر الممدوح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "حزني",
+     "justification": "يتلهف ويأسف لفراق المكان"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصرك",
+     "justification": null
+    }
+   ],
+   "meaning": "فارق الشاعر بلاد ممدوحه ومر بقصره متلهفًا آسفًا، ينادي شوقه وحزنه على الفراق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1390421,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الهرمان يثيران التأمل والاعتبار لعظمتهما"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالهرمين",
+     "justification": null
+    }
+   ],
+   "meaning": "إن مررت بالهرمين فقل: كم فيهما من عبرة للعاقل المتأمل في عظمة البناء ومرور الزمن.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

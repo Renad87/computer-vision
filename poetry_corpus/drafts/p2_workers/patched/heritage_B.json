@@ -1,0 +1,1344 @@
+{
+ "worker": "heritage_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 627781,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "العجيب",
+    "justification": "يدعو إلى تأمل الهرمين وأبي الهول ويصفه بالعجيب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الهرمين",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر صاحبه إلى أن يتأمل هيئة الهرمين وينظر إلى أبي الهول العجيب القائم بينهما.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 218341,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "من الجلال",
+    "justification": "يرى على الأهرام حللًا من الجلال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "أهرامها",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه رأى على أهرام مصر ثيابًا من الجلال والهيبة يراها أرفع من جلال جبال لبنان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 473312,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "والبهر",
+    "justification": "يعترف الإيوان بالعجز والانبهار أمام البناءين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الضمير في عنهما للهرمين الموصوفين في الأبيات السابقة"
+    }
+   ],
+   "meaning": "في قصيدة عن الهرمين: يقول إن صرح بابل يقصر عن حسنهما، وإن إيوان كسرى يعترف أمامهما بالعجز والانبهار.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1773972,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل كسرى يرى الجلوس في سفح الهرمين أجلّ من إيوانه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الضمير في سفحها للأهرام المذكورة قبله في القصيدة"
+    }
+   ],
+   "meaning": "في وصف الأهرام الشامخة كالجبال: لو جلس كسرى في سفحها لرأى مجلسه هناك أجلّ من مجلسه على إيوانه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 56141,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجب الصن",
+    "justification": "يصف الإيوان بأنه من عجب الصنعة كأنه شق في جبل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "القصيدة وقوف حزين على أطلال إيوان كسرى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الإيوان",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف البحتري إيوان كسرى فيقول إنه من عجيب الصنعة كأنه فجوة منحوتة في جنب جبل شامخ صلب.",
+   "text_note": "كلمة «الصنعة» مقسومة بين الشطرين في APCD",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 763666,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "بديعان",
+    "justification": "يصف غمدان وصرح تدمر بأنهما بديعان بلا نظير"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق عن فناء الملوك وبنائهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وغمدان",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر قصر غمدان باليمن وصرح تدمر، ويقول إنهما بناءان بديعان لا ثالث لهما، في قصيدة عن زوال الملوك.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 351554,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصر سام على البحر كأنه مصوّر من جوهر الحسن"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصرا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف قصرًا بناه الممدوح عاليًا على شاطئ البحر، حتى ليحسبه الناظر مصوّرًا من جوهر الحسن نفسه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1004965,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "ولله عينا",
+    "justification": "تعجب من حسن القصر وما حوله من منازل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر ممن رأى القصر بعينه وحوله منازل عامرة بالنصر العزيز.",
+   "text_note": "عجز البيت مطابق لعجز بيت مجاور في APCD (الصف 1004967)؛ النص منقول كما هو.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1502167,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "برج مشرف في الجو يزيد الحمراء شرفًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "اعتزاز بالبناء ومنشئه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الحمراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن برجًا عاليًا في الجو قد زاد قصر الحمراء شرفًا، وقد دبّر بناءه الإمام الأشرف.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1510889,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصر يفوق إيوان كسرى ويزري بهرمي مصر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر مشيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر من قصر مشيد يقصّر عنه إيوان كسرى ويستصغر بجانبه هرمي مصر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 135857,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم وانٍ وماء طامٍ وقصور مشرقة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق تحسر على أيام الشباب في دجلة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصورها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وماؤها الطام",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف دجلة في يوم غائم: نسيمها فاتر لطيف وماؤها فائض، وقصورها والتلال من حولها مشرقة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 547918,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "الأمان",
+    "justification": "يجد الأمان في القصر من يقصده"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالقصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول للممدوح إنه أقام بالقصر الذي يجد فيه الأمان كل قاصد من أهل النجود أو التهائم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 603943,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا تخشى تونس الأكدار بعد أن تحصنت"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إكبار لتحصين البلد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصونا",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر: كيف تخاف تونس من المكاره بعدما كساها الأمير حصونًا منيعة؟ إن ذلك لأمر جليل.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 698317,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم الروض يحمل عطره إلى القصور"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "نسيم الروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف نسيم الروضة يسري بين أرجائها فيحمل عبيرها الطيب إلى القصور.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 830458,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "وقلعة الأمن",
+    "justification": "مبيت آمن في القلعة مع غناء الحمام"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نزهة في بستان مع غناء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقلعة الأمن",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر نزهة في بستان يسمى البرج: غنى فيه الحمام، وباتوا ليلتهم آمنين في برج القلعة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 873472,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "سلامة محروسة",
+    "justification": "دعاء بالسلامة والنعيم في حصن بهلا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصن بهلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر لصاحبه أن يبقى سالمًا محروسًا مقيمًا في النعيم في حصن بهلا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 980308,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصر يطل على حديقة خضراء باسمة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد حديقة غناء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر يطل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "حديقة سندس",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف قصرًا يطل على حديقة خضراء كالسندس، كثيفة الأشجار، كأنها تبتسم في رفق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1006101,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصر سلام محفوظ بحفظ الله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر السلام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول للسلطان إن قصره الميمون هو قصر السلام، قد كتب الله له الحفظ وهو السميع المجيب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1444908,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ضوء الأصيل يكسو شرفات القصور ذهبًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر روحاته في دمشق مع أصحابه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "لقصورها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الأصيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر عشايا دمشق، وكأن ضوء الأصيل صاغ لشرفات قصورها حلية من ذهب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1676992,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تفرقت عنه الهموم حين نزل القصر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "مسرتي",
+     "justification": "يسمي القصر قصر مسرته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حللت القصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه حين نزل القصر الذي هو موضع سروره تفرقت عنه الحوادث والهموم يائسة منه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 681006,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "أرجاء ورياض وقصور مضيئة ندية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصفها بجنة الدنيا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصورها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "ورياضها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف مدينة بأن أرجاءها مضيئة ورياضها ندية وقصورها رفيعة، في سياق يجعلها جنة الدنيا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 693879,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بدوام النعيم ما بقي الهرمان"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الهرمان",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو لسادات زمانه أن يبقوا في نعيم دائم ما بقي الهرمان قائمين.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 390423,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "ليوم عرس",
+    "justification": "القصور كالعذارى في ثياب العرس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصور الصالحية",
+     "justification": null
+    }
+   ],
+   "meaning": "يشبه قصور الصالحية بالعذارى اللواتي لبسن أجمل ثيابهن ليوم عرس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 390810,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تحية لقصر نثرت عليه الأيام جمالها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "قصر تعلو سقوفه المزن"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر عليه",
+     "justification": null
+    }
+   ],
+   "meaning": "يحيي الشاعر قصرًا ويسلم عليه، ويقول إن الأيام نثرت عليه جمالها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 510385,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "السرور مقيم في القصر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بريقه يغشى العيون"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر غدا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف قصرًا صار السرور مقيمًا فيه، يغشى بريق لألائه عيون الناظرين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1006078,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القصر يختال في ثوب الشباب الجديد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "يزال القصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو أن يبقى قصر السلطان قصر سلام يتبختر في ثوب الشباب الجديد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1259735,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "ليال مشرقة بالسرور والأنس في القصر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر ليالي مضت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالقصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر ليالي بيضاء قضاها في القصر، فائضة بالسرور والأنس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1798571,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "السرور نزل بقصور المنصورية"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصور منصورية",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر قصور المنصورية في صقلية، ويقول إن السرور ألقى رحاله فيها وأقام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 932573,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القصر يختال في وشي الزهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ذاك القصر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "زهره",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهره",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو المطر أن يكسو الأرض خضرة ليتبختر ذلك القصر في ثوب أزهاره، كما تبختر المأمون على فرش بوران.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1227409,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "سعادات",
+    "justification": "نزول قصر شبداز بالسعد واليمن"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر شبداز",
+     "justification": null
+    }
+   ],
+   "meaning": "تهنئ الشاعرة الممدوح بأنه حل قصر شبداز بالسعد واليمن في سعادة وعز.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 854904,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تعداد محاسن دمشق في سياق ثناء عليها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مرج ونهر وقصور في نسق هادئ"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "فالقصر المنيف",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "فالمرج",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "فالنهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يعدد محاسن دمشق: المرج ثم النهر ثم القصر العالي على القصور، ثم الشرف الأعلى ومن بناه.",
+   "text_note": "كلمة «القصور» مقسومة بين الشطرين في APCD",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 641789,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "بشرى",
+    "justification": "بشرى فتح قلعة منبج"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "اعتزاز بالنصر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قلعة منبج",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن فتح قلعة منبج بشرى للممالك كلها، فليهنأ بهذا النصر كل ملك متوج.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 361917,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعدد قصور اليمن التي شادها أسلافه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصر بينون",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن جده عمرًا ذا الفخر رفع قصر بينون وشيده، وسوّى بناء قصر غمدان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1458341,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بأن قصر غمدان لقومه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "كل قصر دونه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر غمدان",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بأن لقومه قصر غمدان العالي البناء، الذي ترى كل قصر دونه قصيرًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 196070,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بإحاطة قومه بقصور الحيرة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالقصور",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بيوم أحاط فيه قومه بقصور الحيرة، فتتابعت على أهلها المصائب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 326586,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بثباته في القتال عند إيوان كسرى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بإيوان كسرى",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: اسألوا ابن رؤيم عن قتالي ووقوفي عند إيوان كسرى، فلم أولّ الأعداء ظهري.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 326486,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بإغارته صباحًا على حصن منيع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وحصن منيع",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بأنه أغار صباحًا على حصن منيع وعلى أهل نعيم يضرب لاعبهم الطبل.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 438961,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "منازلة الحصن العظيم بالجيش"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الحصن العظيم",
+     "justification": null
+    }
+   ],
+   "meaning": "في أرجوزة تاريخية: نازل القائد الحصن العظيم الشأن بالمشاة والرماة والفرسان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 368407,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذلت الصعاب لقومه في الحصون"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصن باسوطا",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بأن الصعاب ذلت لقومه في حصن باسوطا وقورص، وأن النصر يتقدمه الصبر.",
+   "text_note": "كلمة «الصعاب» مقسومة بين الشطرين في APCD",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 617731,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمجيد البطولة في رمي الحصون الشامخة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة بحر من الدم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الحصون الشامخات",
+     "justification": null
+    }
+   ],
+   "meaning": "يمدح بطلًا رمى الحصون الشامخة بخيل كالحصون تسبح في بحر من الدم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 200239,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمجيد الجنود الذين أخذوا الحصن الممتنع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الآخذين الحصن",
+     "justification": null
+    }
+   ],
+   "meaning": "يمجد الجنود الذين أخذوا الحصن العسير الطريق، البعيد المنال كنجم السها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1510286,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمجيد فتح إشبيلية وحصونها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وحصونها",
+     "justification": null
+    }
+   ],
+   "meaning": "يمدح السلطان بأنه رمى بجيشه إشبيلية وحصونها، فهُدمت عروش الأعداء وأُنزل الصرح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 591308,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خوفا",
+    "justification": "الحصون تسلم أهلها خوفًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "في مدح قوة الممدوح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الحصون الشم",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف هيبة الممدوح حتى إن الحصون العالية تسلم ساكنيها خوفًا، وتسلم المعاقل من فيها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1796020,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حصن هائل المنظر متهدم كالرمل المنهال"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خراب قلعة شيزر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حصنا هائل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول للممدوح: لو رأيت قلعة شيزر لرأيت حصنًا مهولًا تصدّع وانهار كما ينهال كثيب الرمل.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 55407,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذعر وحش القصر عند رحيل أهله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "لم أنس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وحش القصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر يوم رحيل أهل القصر، حين ذُعر سرب وحشه وفزعت صغاره وجآذره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 179172,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قصور الحيرة خالية والمدائن لم تثبت"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصورها",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى قصور الحيرة البيضاء قد صارت خالية حائرة، ويرى مدائن كسرى لم تثبت أمام الزمن.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 475550,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "المدائن خلت من أهلها بعد النعيم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الأهرام الباقية"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الأهرام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: هذه المدن قد خلت من أهلها بعد ما كانوا فيه من نعيم، وهذه الأهرام شاهدة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 724679,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "القصور الشامخة صارت مساكن للبوم والحمام"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصور الشامخات",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "وحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن الراحلين تركوا قصورهم الشامخة منازل للبوم والفواخت والحمام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1753942,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سؤال عن أصحاب الحصون والقصور الذين بادوا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصر المنيف",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل في رثاء: أين صاحب الحصن الحصين بسوراء، وأين صاحب القصر العالي المشيد؟",
+   "text_note": "كلمة «سوراء» مقسومة بين الشطرين في APCD",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1445199,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العودة إلى العقيق وقصر أوس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر أوس",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل متشوقًا: هل من عودة إلى ظل العقيق وأهله، وإلى قصر أوس فالحزيز؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 933827,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرسل سلامه مع البرق إلى قصر الرشيد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق شكوى أسير في قيوده"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر الرشيد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "لبرق الغمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يطلب الشاعر الأسير من برق السحاب أن يحمل بريده وسلامه قاصدًا قصر الرشيد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 332669,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا يرضى بصنعاء وقلبه مرتهن بالشام"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "غربة في اليمن"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "من غمدان",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه لم يرض بصنعاء منزلًا ولو ملك قصر غمدان ملك ابن ذي يزن، لأن قلبه متعلق بالشام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

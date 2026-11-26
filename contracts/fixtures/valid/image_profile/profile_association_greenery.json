@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "596b422a-4554-4052-a7c4-e403af64786a",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "scene_group.greenery",
+      "user_selection": "primary",
+      "suggested_by_model": true
+    },
+    {
+      "id": "tag.bird",
+      "user_selection": "secondary",
+      "suggested_by_model": true
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.sadness",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

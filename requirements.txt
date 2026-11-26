@@ -1,0 +1,22 @@
+# Poetry Vision ML/backend environment (Python 3.12).
+# Install: python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt
+# contracts/ and retrieval/ use the Python standard library only and do not need this file.
+
+# Vision model (CLIP ViT-B/32, OpenAI weights, frozen backbone + heads)
+torch==2.15.0
+torchvision==0.29.2
+open_clip_torch==4.2.2
+numpy==2.5.5
+scikit-learn==1.9.1
+scipy==1.18.1
+pillow==12.3.0
+safetensors==0.8.0
+huggingface_hub==2.4.0
+fsspec==2026.9.0
+pyarrow==26.0.1
+
+# Backend
+fastapi==0.165.0
+uvicorn==0.54.0
+python-multipart==0.0.34
+

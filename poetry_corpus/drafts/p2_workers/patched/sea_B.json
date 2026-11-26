@@ -1,0 +1,1042 @@
+{
+ "worker": "sea_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 220779,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "خشوعا",
+    "justification": "يصور الموج ساجدًا خاشعًا أمام السفن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يمجد قومًا ملكوا البر ثم البحر بسفنهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "سجد الموج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "أمواجه",
+     "justification": null
+    }
+   ],
+   "meaning": "كلما علت السفن على أمواج البحر بدا الموج كأنه يسجد لها خشوعًا واحتشامًا، في سياق يصف سفنًا حربية لقوم ملكوا البر والبحر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 687496,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "فسبحانه",
+    "justification": "تنزيه الله الذي سخر البحر وجعله يسبحه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "في موجه المتلاطم",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "ينزه الشاعر الله الذي سخّر البحر دائمًا، فالبحر يسبّحه بموجه المتلاطم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 685620,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "البحر العظيم والنجوم كلها تسبح الله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر العظيم",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والنجوم الفراقد",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والنجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبّح الله البحرُ العظيم ومن فيه، وكل الكواكب اللامعة والنجوم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 687077,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحه البحر",
+    "justification": "البحر والساحل يسبحان الله خاضعين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "مع الساحل",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "سبحان الله الذي يخضع له كل شيء، وقد سبّحه البحر والساحل معًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 171006,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "تنزيه الخالق القادر على تجميد الماء وإجراء اللجة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لجة زاخر",
+     "justification": null
+    }
+   ],
+   "meaning": "ينزه الشاعر الله الذي يجمّد الماء الراكد ويثبّته، ويمدّ اللجة الزاخرة بالماء ثم يذيب ما جمد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1259953,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "هيبة",
+    "justification": "البحر يخضع هيبة لسابحة عظيمة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "مروعا",
+     "justification": "سحاب الجو يبدو مرتاعًا منها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "يعنو لها البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سحاب الجو",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف سابحة عظيمة تشق البحر، سفينة فيما يظهر من السياق، يخضع لها البحر هيبة ويمسي سحاب الجو مرتاعًا منها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1095985,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجيب",
+    "justification": "يصف الملاح فضاء البحر هناك بالهائل العجيب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وصف المكان بالهائل في سياق تحذير الملاحين"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "أرجوزة ملاحية تصف جزيرة ومسالك الإبحار حولها"
+    }
+   ],
+   "meaning": "يحدد الشاعر الملاح الجانب الجنوبي من الجزيرة، ويصف المكان هناك بأنه فضاء واسع هائل عجيب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1798765,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "للرحمن أكبر آيات",
+    "justification": "اجتماع النار والماء فوق البحر آية من آيات الله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "على البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "رأيت حين اجتمع الضدان على سطح البحر آية كبرى من آيات الله، والسياق يذكر نار النفط تشتعل فوق الماء.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 725454,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "استحضار قدرة الله في فلق البحر وصنع السفينة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فلق البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "السفن",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر تعظيمًا لله: من الذي فلق البحر لموسى الكليم، ومن الذي ألهم نوحًا صنع السفن؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 217232,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "خشع البحر",
+    "justification": "البحر يخشع كخشوع القلوب يوم الحساب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "خشع البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الإمام فيقول إن البحر خشع حين ركب سفنه خشوع القلوب يوم الحساب.",
+   "text_note": "كلمة «جواريه» مقسومة بين الشطرين في نص APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 198296,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "عز",
+    "justification": "السفن في البحر تظهر عز الملك وسطوته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "البحر مصدر سطوة وثراء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والجواري في البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "والجواري",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر صولة",
+     "justification": null
+    }
+   ],
+   "meaning": "السفن الجارية في البحر تُظهر عزّ الملك وقوته، والبحر نفسه سطوة وثروة، في سياق حديث عن ملك البطالمة.",
+   "text_note": "كلمة «الملك» مقسومة بين الشطرين في نص APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 204047,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بآباء كرام سبقوا المخاطب إلى البحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يخاطب من ثوى في البحر مواسيًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لست في البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر من ثوى في البحر بأنه ليس وحيدًا فيه، فآباؤه الكرام نزلوه قبله، فليستضفهم وينزل بين الدرر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 299492,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف أسطول ظافر يخوض البحر الزاخر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "خاضت اليم زاخرا",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "اليم",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "وسفن",
+     "justification": null
+    }
+   ],
+   "meaning": "وسفن سوداء إذا خاضت البحر الزاخر انكشفت عن نصر أبيض ناصع.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 511150,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بخوض البحار نصرة لدين الله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحارا موجها",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحارا",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه خاض في تلك الجزيرة، نصرةً لدين الله، بحارًا عالية الموج طامية الماء.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 634864,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إحكام بناء لإنشاء أساطيل الغزو في البحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "وأبدع مبناه",
+     "justification": "إعجاب بإبداع البناء المشيد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "في البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "أحكم صنع هذا المبنى المعدّ لإنشاء الأساطيل لغزو الأعداء في البحر، وأبدع بناءه المشيد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 802729,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يثني على شجاعة وفد لم يخف البحر الهائج"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وصف البحر الطامي بموجه الهائل المتلاطم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر إذ طما",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "لم يخف أولئك الوفد وعورة البر ولا البحر حين طغى وهاج بموج هائل متلاطم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1457743,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطع الفلوات والبحار العاتية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بحر شامخ الموج داكن"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "وبحر شامخ الموج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "وبحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "مهمة",
+     "justification": null
+    }
+   ],
+   "meaning": "كم قطعتُ من فلاة لا يجد الركب فيها موردًا للماء، وكم قطعت من بحر شامخ الموج داكن اللون.",
+   "text_note": "في APCD «مهمة»، والمقصود فيما يظهر «مهمه» بمعنى الفلاة.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 87214,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بأن البحر والبر لقومه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لنا البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن لقومه البحر والبر المتجاورين ومن يسكنهما، ولا يثقلهم ذلك.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 185582,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "فخر قبلي بقهر قبائل معد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "جوانب بحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بأن سيوف قومه أنزلت قبائل معدّ كلها على جوانب بحر أخضر عالي الأمواج.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1004237,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رايات حمر تخفق فوق سفن الأسطول"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فوق السفن",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "السفن",
+     "justification": null
+    }
+   ],
+   "meaning": "رايات الممدوح الحمر تخفق فوق السفن، وريح سعده تجريها بقدر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 539622,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بمكابدة أهوال البر والبحر في أسفاره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "وهول البحر",
+     "justification": "يذكر هول البحر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "وهول البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه ترك أهوال البر فاقدة أنسها به، وأهوال البحر فاقدة إلفها، كأنها ألفته طويلًا في أسفاره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 545414,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "بشرى بها",
+    "justification": "سفن تحمل بشرى فوق لجة البحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "البشرى بنصر على الأعداء كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فوق لج البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "الأجفان",
+     "justification": null
+    }
+   ],
+   "meaning": "وقبل ذلك وصلت السفن تحمل بشرى سبحت بها فوق لجة البحر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 878884,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "تهلل منا",
+    "justification": "البر والبحر يتهللان فرحًا بالفتية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصف رفاقه فتية كالشهب والشمس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر ذو الموج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    }
+   ],
+   "meaning": "أرأيتنا فتيةً كالشهب والشمس، تهلّل لنا البر والبحر ذو الموج فرحًا؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1128951,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "فجددت الأفراح",
+    "justification": "رسو السفينة بشاطئ جدة جدد الفرح"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بشاطئ جدة",
+     "justification": null
+    }
+   ],
+   "meaning": "رست سفينتي على المرسى بشاطئ جدة، فجدّد ظهور البر أفراحي.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1407909,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "مرحنا",
+    "justification": "نزهة مرحة تنتهي إلى ساحل البحر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ساحل البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر متنزهات وملاعب سار إليها فرحين، حتى بلغوا ساحل البحر.",
+   "text_note": "يبدو أن «سر دوس» و«وير» أسماء مواضع غير واضحة الرسم في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 943231,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "في سرور",
+    "justification": "عبور القائد إلى الجزيرة مسرورًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تجديد غزوة تبدي العجائب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "البيت السابق يذكر الأسطول والعبور في البحر إلى الجزيرة"
+    }
+   ],
+   "meaning": "عبر القائد بأسطوله إلى الجزيرة مسرورًا، ليجدّد غزوة تُظهر العجائب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 803201,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "جذلانا",
+    "justification": "عاد فرحًا بعد عبور البحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "expressed",
+     "evidence": "منتصرا",
+     "justification": "عبر البحر منتصرًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "عبرت إليك البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه عبر البحر إلى صاحبه منتصرًا، ثم عاد فرحًا بما أولاه من فضل.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 695503,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سفينة تستكن في بحر ساكن الأمواج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "في ساكن الأمواج",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف سفينة رُفع لها صارٍ فاستظلت به، وهي في بحر ساكن الأمواج قريب الريح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 871029,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "في أمان",
+    "justification": "سفينة تجري آمنة بريح الرحمة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "في البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "في تعبير الرؤيا: من رأى أنه ركب سفينة تجري به في البحر آمنة بريح رحمة الله، فذلك يسر بعد عسر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 629232,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرسل سلامه إلى مواضع بعيدة يحن إليها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "المطل على البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القصرين",
+     "justification": null
+    }
+   ],
+   "meaning": "يرسل الشاعر سلامه إلى القصرين من مهب الصبا حتى ساحل الثغر المطل على البحر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1655864,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر أهله البعيدين في أقصى المغرب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "مهيب",
+     "justification": "يفصله عنهم بحر مهيب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر أثج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر",
+     "justification": null
+    }
+   ],
+   "meaning": "أهلي في أقصى المغرب حيث تغرب الشمس، ويفصلني عنهم بحر غزير الماء مهيب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1379852,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الغرق قد يأتي عند الساحل حيث يظن الأمان"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لج البحور",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "الفلك",
+     "justification": null
+    }
+   ],
+   "meaning": "قد تنجو السفينة في لجج البحار العميقة، ثم يصيبها الغرق عند الساحل حيث يُظن الأمان.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1811082,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تحذير من غدر البحر الساكن إذا هاج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "للبحر عند سكونه",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "للبحر",
+     "justification": null
+    }
+   ],
+   "meaning": "لا تطمئن إلى البحر حين يسكن، وبادر بالحذر، فإن البحر إذا هاج أهلك؛ في سياق نصيحة بالحذر من الملوك.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 596818,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "أمر بركوب بحر أمواجه هائلة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "أمواج عظيمة تعلو وتنخفض"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فاركب البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "قم فاركب البحر وأمواجه الهائلة ترتفع وتنخفض، في سياق قصة يؤمر فيها صاحبها بالإبحار إلى جزيرة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "tag.moon",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.pride",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": true,
+  "emotion_only_allowed": false
+}

@@ -1,0 +1,2502 @@
+{
+ "protocol": "Diagnosis of the emotion head (why it predicts img_emotion.awe so often on real photos).\n\nReads only cached embeddings and existing artifacts; never modifies emotion_head_v1 or the runtime code path.\n\n    # 1. (needs CLIP, small) runtime-vs-cache parity on 20 EmoSet images + embeddings of local test photos\n    .venv/bin/python -B -m vision_model.diagnose_emotion embed --photos <dir with the e2e photos>\n    # 2. (NumPy / scikit-learn) all diagnostics and candidate comparison, validation only for selection\n    .venv/bin/python -B -m vision_model.diagnose_emotion run\n\nWrites evaluation/vision/emotion_diagnosis/results.json (+ parity.json, photos_embeddings.npz).\nSelection protocol: every choice (C, temperature, abstention thresholds) is made on EmoSet val.\nTest is read only for a candidate that is saved, once, after it is frozen. Places365 has no\nemotion labels: it is reported as a behaviour diagnostic (prediction and confidence distribution).",
+ "class_ids": [
+  "img_emotion.amusement",
+  "img_emotion.awe",
+  "img_emotion.contentment",
+  "img_emotion.excitement",
+  "img_emotion.anger",
+  "img_emotion.disgust",
+  "img_emotion.fear",
+  "img_emotion.sadness"
+ ],
+ "class_order": {
+  "head_output_ids": [
+   "img_emotion.amusement",
+   "img_emotion.awe",
+   "img_emotion.contentment",
+   "img_emotion.excitement",
+   "img_emotion.anger",
+   "img_emotion.disgust",
+   "img_emotion.fear",
+   "img_emotion.sadness"
+  ],
+  "taxonomy_order": [
+   "img_emotion.amusement",
+   "img_emotion.awe",
+   "img_emotion.contentment",
+   "img_emotion.excitement",
+   "img_emotion.anger",
+   "img_emotion.disgust",
+   "img_emotion.fear",
+   "img_emotion.sadness"
+  ],
+  "run_report_class_ids": [
+   "img_emotion.amusement",
+   "img_emotion.awe",
+   "img_emotion.contentment",
+   "img_emotion.excitement",
+   "img_emotion.anger",
+   "img_emotion.disgust",
+   "img_emotion.fear",
+   "img_emotion.sadness"
+  ],
+  "model_card_output_ids": [
+   "img_emotion.amusement",
+   "img_emotion.awe",
+   "img_emotion.contentment",
+   "img_emotion.excitement",
+   "img_emotion.anger",
+   "img_emotion.disgust",
+   "img_emotion.fear",
+   "img_emotion.sadness"
+  ],
+  "all_equal": true,
+  "training_label_index": "y = class_ids.index(emotion_label) with class_ids = taxonomy order (train_emotion.assemble); sklearn classes_ = 0..7 in that order",
+  "manifest_label_equals_zip_folder_share": {
+   "train": 1.0,
+   "val": 1.0,
+   "test": 1.0
+  },
+  "temperature": 0.7756
+ },
+ "runtime_parity": {
+  "device": "cpu",
+  "n": 20,
+  "sha256_match": 20,
+  "min_cosine": 1.0,
+  "mean_cosine": 1.0,
+  "max_abs_diff": 0.0,
+  "emotion_prob_max_abs_diff": 0.0,
+  "argmax_agree": 20,
+  "zip_paths": [
+   "emoset/test/amusement/amusement_00011.jpg",
+   "emoset/test/anger/anger_02671.jpg",
+   "emoset/test/awe/awe_06627.jpg",
+   "emoset/test/contentment/contentment_10009.jpg",
+   "emoset/test/disgust/disgust_09525.jpg",
+   "emoset/test/fear/fear_00537.jpg",
+   "emoset/test/sadness/sadness_04484.jpg",
+   "emoset/train/amusement/amusement_05236.jpg",
+   "emoset/train/anger/anger_01351.jpg",
+   "emoset/train/anger/anger_10944.jpg",
+   "emoset/train/awe/awe_11732.jpg",
+   "emoset/train/contentment/contentment_09477.jpg",
+   "emoset/train/disgust/disgust_03729.jpg",
+   "emoset/train/excitement/excitement_03490.jpg",
+   "emoset/train/excitement/excitement_18999.jpg",
+   "emoset/train/fear/fear_11745.jpg",
+   "emoset/train/sadness/sadness_07193.jpg",
+   "emoset/val/anger/anger_06898.jpg",
+   "emoset/val/disgust/disgust_08578.jpg",
+   "emoset/val/sadness/sadness_12959.jpg"
+  ]
+ },
+ "compat_report_preprocessing_matches_contract": true,
+ "v1_reproduced": {
+  "val": 0.7887,
+  "test": 0.7841
+ },
+ "v1_reported": {
+  "val": 0.7887,
+  "test": 0.7841
+ },
+ "label_distribution": {
+  "train": {
+   "img_emotion.amusement": 600,
+   "img_emotion.awe": 600,
+   "img_emotion.contentment": 600,
+   "img_emotion.excitement": 600,
+   "img_emotion.anger": 600,
+   "img_emotion.disgust": 600,
+   "img_emotion.fear": 600,
+   "img_emotion.sadness": 600
+  },
+  "val": {
+   "img_emotion.amusement": 150,
+   "img_emotion.awe": 150,
+   "img_emotion.contentment": 150,
+   "img_emotion.excitement": 150,
+   "img_emotion.anger": 150,
+   "img_emotion.disgust": 150,
+   "img_emotion.fear": 150,
+   "img_emotion.sadness": 150
+  },
+  "test": {
+   "img_emotion.amusement": 400,
+   "img_emotion.awe": 400,
+   "img_emotion.contentment": 400,
+   "img_emotion.excitement": 400,
+   "img_emotion.anger": 400,
+   "img_emotion.disgust": 400,
+   "img_emotion.fear": 400,
+   "img_emotion.sadness": 400
+  }
+ },
+ "prediction_distribution": {
+  "emoset_val": {
+   "argmax_raw": {
+    "img_emotion.amusement": 0.105,
+    "img_emotion.awe": 0.125,
+    "img_emotion.contentment": 0.1575,
+    "img_emotion.excitement": 0.1242,
+    "img_emotion.anger": 0.1175,
+    "img_emotion.disgust": 0.1258,
+    "img_emotion.fear": 0.12,
+    "img_emotion.sadness": 0.125
+   },
+   "argmax_after_T": {
+    "img_emotion.amusement": 0.105,
+    "img_emotion.awe": 0.125,
+    "img_emotion.contentment": 0.1575,
+    "img_emotion.excitement": 0.1242,
+    "img_emotion.anger": 0.1175,
+    "img_emotion.disgust": 0.1258,
+    "img_emotion.fear": 0.12,
+    "img_emotion.sadness": 0.125
+   },
+   "argmax_identical": true
+  },
+  "emoset_test": {
+   "argmax_raw": {
+    "img_emotion.amusement": 0.1222,
+    "img_emotion.awe": 0.1184,
+    "img_emotion.contentment": 0.1416,
+    "img_emotion.excitement": 0.1259,
+    "img_emotion.anger": 0.1203,
+    "img_emotion.disgust": 0.1309,
+    "img_emotion.fear": 0.1203,
+    "img_emotion.sadness": 0.1203
+   },
+   "argmax_after_T": {
+    "img_emotion.amusement": 0.1222,
+    "img_emotion.awe": 0.1184,
+    "img_emotion.contentment": 0.1416,
+    "img_emotion.excitement": 0.1259,
+    "img_emotion.anger": 0.1203,
+    "img_emotion.disgust": 0.1309,
+    "img_emotion.fear": 0.1203,
+    "img_emotion.sadness": 0.1203
+   },
+   "argmax_identical": true
+  },
+  "places_all": {
+   "argmax_raw": {
+    "img_emotion.amusement": 0.1224,
+    "img_emotion.awe": 0.4462,
+    "img_emotion.contentment": 0.1177,
+    "img_emotion.excitement": 0.0732,
+    "img_emotion.anger": 0.0201,
+    "img_emotion.disgust": 0.0403,
+    "img_emotion.fear": 0.0756,
+    "img_emotion.sadness": 0.1045
+   },
+   "argmax_after_T": {
+    "img_emotion.amusement": 0.1224,
+    "img_emotion.awe": 0.4462,
+    "img_emotion.contentment": 0.1177,
+    "img_emotion.excitement": 0.0732,
+    "img_emotion.anger": 0.0201,
+    "img_emotion.disgust": 0.0403,
+    "img_emotion.fear": 0.0756,
+    "img_emotion.sadness": 0.1045
+   },
+   "argmax_identical": true
+  }
+ },
+ "maxprob_distribution": {
+  "emoset_val": {
+   "raw_T1": {
+    "n": 1200,
+    "mean": 0.7211,
+    "median": 0.7574,
+    "p10": 0.4083,
+    "p90": 0.9676,
+    "share_ge_0.9": 0.2992,
+    "share_ge_0.985_shown_99_or_100": 0.03,
+    "share_ge_0.995_shown_100": 0.0017
+   },
+   "after_T": {
+    "n": 1200,
+    "mean": 0.7854,
+    "median": 0.8609,
+    "p10": 0.4596,
+    "p90": 0.9914,
+    "share_ge_0.9": 0.4517,
+    "share_ge_0.985_shown_99_or_100": 0.1617,
+    "share_ge_0.995_shown_100": 0.0583
+   }
+  },
+  "emoset_test": {
+   "raw_T1": {
+    "n": 3200,
+    "mean": 0.7296,
+    "median": 0.7701,
+    "p10": 0.432,
+    "p90": 0.9647,
+    "share_ge_0.9": 0.2959,
+    "share_ge_0.985_shown_99_or_100": 0.025,
+    "share_ge_0.995_shown_100": 0.0013
+   },
+   "after_T": {
+    "n": 3200,
+    "mean": 0.7962,
+    "median": 0.8683,
+    "p10": 0.4922,
+    "p90": 0.9903,
+    "share_ge_0.9": 0.4506,
+    "share_ge_0.985_shown_99_or_100": 0.1603,
+    "share_ge_0.995_shown_100": 0.0472
+   }
+  },
+  "places_all": {
+   "raw_T1": {
+    "n": 5980,
+    "mean": 0.5902,
+    "median": 0.5584,
+    "p10": 0.3157,
+    "p90": 0.9183,
+    "share_ge_0.9": 0.1224,
+    "share_ge_0.985_shown_99_or_100": 0.0087,
+    "share_ge_0.995_shown_100": 0.0002
+   },
+   "after_T": {
+    "n": 5980,
+    "mean": 0.6671,
+    "median": 0.6614,
+    "p10": 0.3654,
+    "p90": 0.9716,
+    "share_ge_0.9": 0.2258,
+    "share_ge_0.985_shown_99_or_100": 0.0607,
+    "share_ge_0.995_shown_100": 0.0201
+   }
+  }
+ },
+ "places_awe": {
+  "overall": 0.4462,
+  "by_split": {
+   "ood_test": 0.09,
+   "test": 0.4888,
+   "train": 0.4827,
+   "val": 0.4926
+  },
+  "maxprob_when_awe": {
+   "n": 2668,
+   "mean": 0.7822,
+   "median": 0.8552,
+   "p10": 0.4615,
+   "p90": 0.9881,
+   "share_ge_0.9": 0.4202,
+   "share_ge_0.985_shown_99_or_100": 0.1263,
+   "share_ge_0.995_shown_100": 0.0431
+  },
+  "maxprob_when_not_awe": {
+   "n": 3312,
+   "mean": 0.5744,
+   "median": 0.5466,
+   "p10": 0.3342,
+   "p90": 0.8617,
+   "share_ge_0.9": 0.0691,
+   "share_ge_0.985_shown_99_or_100": 0.0079,
+   "share_ge_0.995_shown_100": 0.0015
+  },
+  "per_scene_label": {
+   "ood(excluded)": {
+    "n": 600,
+    "awe_rate": 0.09,
+    "top_emotions": [
+     [
+      "img_emotion.amusement",
+      0.27
+     ],
+     [
+      "img_emotion.sadness",
+      0.185
+     ],
+     [
+      "img_emotion.contentment",
+      0.145
+     ]
+    ],
+    "median_maxprob": 0.5029
+   },
+   "scene.camp_tents": {
+    "n": 100,
+    "awe_rate": 0.25,
+    "top_emotions": [
+     [
+      "img_emotion.amusement",
+      0.28
+     ],
+     [
+      "img_emotion.awe",
+      0.25
+     ],
+     [
+      "img_emotion.contentment",
+      0.21
+     ]
+    ],
+    "median_maxprob": 0.5143
+   },
+   "scene.desert": {
+    "n": 300,
+    "awe_rate": 0.8033,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.8033
+     ],
+     [
+      "img_emotion.excitement",
+      0.0533
+     ],
+     [
+      "img_emotion.sadness",
+      0.0467
+     ]
+    ],
+    "median_maxprob": 0.8749
+   },
+   "scene.farmland_rural": {
+    "n": 300,
+    "awe_rate": 0.6,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.6
+     ],
+     [
+      "img_emotion.contentment",
+      0.2133
+     ],
+     [
+      "img_emotion.sadness",
+      0.09
+     ]
+    ],
+    "median_maxprob": 0.7021
+   },
+   "scene.forest": {
+    "n": 300,
+    "awe_rate": 0.6167,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.6167
+     ],
+     [
+      "img_emotion.contentment",
+      0.14
+     ],
+     [
+      "img_emotion.fear",
+      0.0733
+     ]
+    ],
+    "median_maxprob": 0.638
+   },
+   "scene.garden": {
+    "n": 300,
+    "awe_rate": 0.4567,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.4567
+     ],
+     [
+      "img_emotion.contentment",
+      0.3267
+     ],
+     [
+      "img_emotion.amusement",
+      0.12
+     ]
+    ],
+    "median_maxprob": 0.5934
+   },
+   "scene.historic_monument": {
+    "n": 300,
+    "awe_rate": 0.6433,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.6433
+     ],
+     [
+      "img_emotion.sadness",
+      0.12
+     ],
+     [
+      "img_emotion.fear",
+      0.1033
+     ]
+    ],
+    "median_maxprob": 0.7768
+   },
+   "scene.home_interior": {
+    "n": 300,
+    "awe_rate": 0.02,
+    "top_emotions": [
+     [
+      "img_emotion.contentment",
+      0.6167
+     ],
+     [
+      "img_emotion.amusement",
+      0.19
+     ],
+     [
+      "img_emotion.fear",
+      0.0633
+     ]
+    ],
+    "median_maxprob": 0.5853
+   },
+   "scene.library_books": {
+    "n": 200,
+    "awe_rate": 0.09,
+    "top_emotions": [
+     [
+      "img_emotion.fear",
+      0.26
+     ],
+     [
+      "img_emotion.sadness",
+      0.21
+     ],
+     [
+      "img_emotion.amusement",
+      0.19
+     ]
+    ],
+    "median_maxprob": 0.4571
+   },
+   "scene.modern_city": {
+    "n": 300,
+    "awe_rate": 0.5267,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.5267
+     ],
+     [
+      "img_emotion.sadness",
+      0.15
+     ],
+     [
+      "img_emotion.excitement",
+      0.12
+     ]
+    ],
+    "median_maxprob": 0.6298
+   },
+   "scene.mountains_valleys": {
+    "n": 300,
+    "awe_rate": 0.8867,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.8867
+     ],
+     [
+      "img_emotion.excitement",
+      0.06
+     ],
+     [
+      "img_emotion.sadness",
+      0.0267
+     ]
+    ],
+    "median_maxprob": 0.9514
+   },
+   "scene.old_city_market": {
+    "n": 300,
+    "awe_rate": 0.2033,
+    "top_emotions": [
+     [
+      "img_emotion.amusement",
+      0.2567
+     ],
+     [
+      "img_emotion.awe",
+      0.2033
+     ],
+     [
+      "img_emotion.sadness",
+      0.1733
+     ]
+    ],
+    "median_maxprob": 0.5858
+   },
+   "scene.other": {
+    "n": 1080,
+    "awe_rate": 0.1333,
+    "top_emotions": [
+     [
+      "img_emotion.amusement",
+      0.2315
+     ],
+     [
+      "img_emotion.sadness",
+      0.1593
+     ],
+     [
+      "img_emotion.excitement",
+      0.1398
+     ]
+    ],
+    "median_maxprob": 0.567
+   },
+   "scene.place_of_worship": {
+    "n": 300,
+    "awe_rate": 0.72,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.72
+     ],
+     [
+      "img_emotion.sadness",
+      0.1467
+     ],
+     [
+      "img_emotion.amusement",
+      0.0633
+     ]
+    ],
+    "median_maxprob": 0.7728
+   },
+   "scene.rivers_lakes": {
+    "n": 300,
+    "awe_rate": 0.7567,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.7567
+     ],
+     [
+      "img_emotion.contentment",
+      0.1133
+     ],
+     [
+      "img_emotion.excitement",
+      0.0367
+     ]
+    ],
+    "median_maxprob": 0.8416
+   },
+   "scene.sea_coast": {
+    "n": 300,
+    "awe_rate": 0.7,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.7
+     ],
+     [
+      "img_emotion.excitement",
+      0.18
+     ],
+     [
+      "img_emotion.contentment",
+      0.0467
+     ]
+    ],
+    "median_maxprob": 0.8493
+   },
+   "scene.sky": {
+    "n": 100,
+    "awe_rate": 0.79,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.79
+     ],
+     [
+      "img_emotion.sadness",
+      0.07
+     ],
+     [
+      "img_emotion.fear",
+      0.06
+     ]
+    ],
+    "median_maxprob": 0.8352
+   },
+   "scene.snow_ice": {
+    "n": 300,
+    "awe_rate": 0.8933,
+    "top_emotions": [
+     [
+      "img_emotion.awe",
+      0.8933
+     ],
+     [
+      "img_emotion.excitement",
+      0.0567
+     ],
+     [
+      "img_emotion.fear",
+      0.02
+     ]
+    ],
+    "median_maxprob": 0.9642
+   }
+  },
+  "emoset_val_true_awe_pred_awe_maxprob": {
+   "n": 121,
+   "mean": 0.8737,
+   "median": 0.9695,
+   "p10": 0.5133,
+   "p90": 0.9962,
+   "share_ge_0.9": 0.7273,
+   "share_ge_0.985_shown_99_or_100": 0.3471,
+   "share_ge_0.995_shown_100": 0.1322
+  },
+  "awe_logit_margin": {
+   "emoset_val_pred_awe": 2.6937,
+   "places_pred_awe": 1.8992
+  }
+ },
+ "val_report": {
+  "confusion": [
+   [
+    90,
+    6,
+    32,
+    17,
+    2,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    121,
+    18,
+    0,
+    3,
+    0,
+    2,
+    5
+   ],
+   [
+    14,
+    15,
+    110,
+    4,
+    0,
+    1,
+    1,
+    5
+   ],
+   [
+    12,
+    4,
+    10,
+    119,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    5,
+    5,
+    122,
+    3,
+    2,
+    10
+   ],
+   [
+    0,
+    1,
+    4,
+    0,
+    1,
+    137,
+    7,
+    0
+   ],
+   [
+    3,
+    1,
+    0,
+    2,
+    4,
+    5,
+    126,
+    9
+   ],
+   [
+    3,
+    2,
+    10,
+    2,
+    4,
+    4,
+    5,
+    120
+   ]
+  ],
+  "per_class": {
+   "img_emotion.amusement": {
+    "precision": 0.7143,
+    "recall": 0.6,
+    "f1": 0.6522,
+    "support": 150
+   },
+   "img_emotion.awe": {
+    "precision": 0.8067,
+    "recall": 0.8067,
+    "f1": 0.8067,
+    "support": 150
+   },
+   "img_emotion.contentment": {
+    "precision": 0.582,
+    "recall": 0.7333,
+    "f1": 0.649,
+    "support": 150
+   },
+   "img_emotion.excitement": {
+    "precision": 0.7987,
+    "recall": 0.7933,
+    "f1": 0.796,
+    "support": 150
+   },
+   "img_emotion.anger": {
+    "precision": 0.8652,
+    "recall": 0.8133,
+    "f1": 0.8385,
+    "support": 150
+   },
+   "img_emotion.disgust": {
+    "precision": 0.9073,
+    "recall": 0.9133,
+    "f1": 0.9103,
+    "support": 150
+   },
+   "img_emotion.fear": {
+    "precision": 0.875,
+    "recall": 0.84,
+    "f1": 0.8571,
+    "support": 150
+   },
+   "img_emotion.sadness": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1": 0.8,
+    "support": 150
+   }
+  },
+  "macro_f1": 0.7887,
+  "accuracy": 0.7875,
+  "source": "evaluation/vision/emotion-s1-20261125T220720Z-efd7de.json",
+  "predicted_awe_total": 150,
+  "awe_false_positives_from": {
+   "img_emotion.amusement": 6,
+   "img_emotion.contentment": 15,
+   "img_emotion.excitement": 4,
+   "img_emotion.anger": 0,
+   "img_emotion.disgust": 1,
+   "img_emotion.fear": 1,
+   "img_emotion.sadness": 2
+  }
+ },
+ "test_report_reported_only": {
+  "confusion": [
+   [
+    275,
+    10,
+    63,
+    33,
+    3,
+    5,
+    9,
+    2
+   ],
+   [
+    14,
+    317,
+    34,
+    14,
+    5,
+    2,
+    3,
+    11
+   ],
+   [
+    42,
+    28,
+    295,
+    10,
+    3,
+    2,
+    2,
+    18
+   ],
+   [
+    42,
+    9,
+    19,
+    322,
+    7,
+    0,
+    0,
+    1
+   ],
+   [
+    2,
+    3,
+    8,
+    15,
+    342,
+    1,
+    16,
+    13
+   ],
+   [
+    5,
+    0,
+    1,
+    0,
+    5,
+    348,
+    34,
+    7
+   ],
+   [
+    7,
+    4,
+    4,
+    6,
+    9,
+    45,
+    300,
+    25
+   ],
+   [
+    4,
+    8,
+    29,
+    3,
+    11,
+    16,
+    21,
+    308
+   ]
+  ],
+  "per_class": {
+   "img_emotion.amusement": {
+    "precision": 0.7033,
+    "recall": 0.6875,
+    "f1": 0.6953,
+    "support": 400
+   },
+   "img_emotion.awe": {
+    "precision": 0.8364,
+    "recall": 0.7925,
+    "f1": 0.8139,
+    "support": 400
+   },
+   "img_emotion.contentment": {
+    "precision": 0.6512,
+    "recall": 0.7375,
+    "f1": 0.6917,
+    "support": 400
+   },
+   "img_emotion.excitement": {
+    "precision": 0.799,
+    "recall": 0.805,
+    "f1": 0.802,
+    "support": 400
+   },
+   "img_emotion.anger": {
+    "precision": 0.8883,
+    "recall": 0.855,
+    "f1": 0.8713,
+    "support": 400
+   },
+   "img_emotion.disgust": {
+    "precision": 0.8305,
+    "recall": 0.87,
+    "f1": 0.8498,
+    "support": 400
+   },
+   "img_emotion.fear": {
+    "precision": 0.7792,
+    "recall": 0.75,
+    "f1": 0.7643,
+    "support": 400
+   },
+   "img_emotion.sadness": {
+    "precision": 0.8,
+    "recall": 0.77,
+    "f1": 0.7847,
+    "support": 400
+   }
+  },
+  "macro_f1": 0.7841
+ },
+ "val_reliability": {
+  "raw_T1": [
+   {
+    "bin": [
+     0.2,
+     0.3
+    ],
+    "n": 21,
+    "mean_conf": 0.2658,
+    "accuracy": 0.2857
+   },
+   {
+    "bin": [
+     0.3,
+     0.4
+    ],
+    "n": 92,
+    "mean_conf": 0.3611,
+    "accuracy": 0.4239
+   },
+   {
+    "bin": [
+     0.4,
+     0.5
+    ],
+    "n": 140,
+    "mean_conf": 0.449,
+    "accuracy": 0.5
+   },
+   {
+    "bin": [
+     0.5,
+     0.6
+    ],
+    "n": 135,
+    "mean_conf": 0.5488,
+    "accuracy": 0.7259
+   },
+   {
+    "bin": [
+     0.6,
+     0.7
+    ],
+    "n": 124,
+    "mean_conf": 0.648,
+    "accuracy": 0.7419
+   },
+   {
+    "bin": [
+     0.7,
+     0.8
+    ],
+    "n": 131,
+    "mean_conf": 0.7434,
+    "accuracy": 0.8321
+   },
+   {
+    "bin": [
+     0.8,
+     0.9
+    ],
+    "n": 198,
+    "mean_conf": 0.8584,
+    "accuracy": 0.9091
+   },
+   {
+    "bin": [
+     0.9,
+     1.0
+    ],
+    "n": 359,
+    "mean_conf": 0.9522,
+    "accuracy": 0.9777
+   }
+  ],
+  "after_T": [
+   {
+    "bin": [
+     0.2,
+     0.3
+    ],
+    "n": 10,
+    "mean_conf": 0.2727,
+    "accuracy": 0.1
+   },
+   {
+    "bin": [
+     0.3,
+     0.4
+    ],
+    "n": 44,
+    "mean_conf": 0.3568,
+    "accuracy": 0.4318
+   },
+   {
+    "bin": [
+     0.4,
+     0.5
+    ],
+    "n": 109,
+    "mean_conf": 0.4505,
+    "accuracy": 0.422
+   },
+   {
+    "bin": [
+     0.5,
+     0.6
+    ],
+    "n": 126,
+    "mean_conf": 0.5448,
+    "accuracy": 0.6032
+   },
+   {
+    "bin": [
+     0.6,
+     0.7
+    ],
+    "n": 102,
+    "mean_conf": 0.6495,
+    "accuracy": 0.6765
+   },
+   {
+    "bin": [
+     0.7,
+     0.8
+    ],
+    "n": 120,
+    "mean_conf": 0.7494,
+    "accuracy": 0.775
+   },
+   {
+    "bin": [
+     0.8,
+     0.9
+    ],
+    "n": 147,
+    "mean_conf": 0.8505,
+    "accuracy": 0.8435
+   },
+   {
+    "bin": [
+     0.9,
+     1.0
+    ],
+    "n": 542,
+    "mean_conf": 0.9687,
+    "accuracy": 0.9539
+   }
+  ],
+  "ece_15": {
+   "raw_T1": 0.0684,
+   "after_T": 0.0218
+  },
+  "nll": {
+   "raw_T1": 0.6263,
+   "after_T": 0.6025
+  },
+  "val_conf_ge_0.985": {
+   "n": 194,
+   "accuracy": 0.9948
+  }
+ },
+ "emoset_scene_shift": {
+  "sample_train": {
+   "landscape": {
+    "n": 398,
+    "emotion_share": {
+     "awe": 0.6558,
+     "contentment": 0.1357,
+     "excitement": 0.1206,
+     "anger": 0.0302,
+     "amusement": 0.0251,
+     "fear": 0.0201,
+     "sadness": 0.0101,
+     "disgust": 0.0025
+    }
+   },
+   "other_scene": {
+    "n": 729,
+    "emotion_share": {
+     "excitement": 0.3059,
+     "sadness": 0.2181,
+     "amusement": 0.1454,
+     "disgust": 0.085,
+     "awe": 0.0782,
+     "anger": 0.07,
+     "contentment": 0.0631,
+     "fear": 0.0343
+    }
+   },
+   "no_scene": {
+    "n": 3673,
+    "emotion_share": {
+     "fear": 0.1544,
+     "disgust": 0.1462,
+     "anger": 0.1462,
+     "contentment": 0.1361,
+     "amusement": 0.1318,
+     "sadness": 0.119,
+     "excitement": 0.0896,
+     "awe": 0.0768
+    }
+   }
+  },
+  "full_118k": {
+   "landscape": {
+    "n": 9886,
+    "emotion_share": {
+     "awe": 0.5778,
+     "excitement": 0.1767,
+     "contentment": 0.1388,
+     "amusement": 0.0425,
+     "anger": 0.0231,
+     "sadness": 0.0201,
+     "fear": 0.0182,
+     "disgust": 0.0028
+    }
+   },
+   "other_scene": {
+    "n": 18297,
+    "emotion_share": {
+     "excitement": 0.3351,
+     "amusement": 0.2036,
+     "sadness": 0.1822,
+     "awe": 0.0812,
+     "contentment": 0.0661,
+     "disgust": 0.0554,
+     "anger": 0.0458,
+     "fear": 0.0306
+    }
+   },
+   "no_scene": {
+    "n": 89919,
+    "emotion_share": {
+     "amusement": 0.1701,
+     "contentment": 0.153,
+     "fear": 0.1414,
+     "excitement": 0.1329,
+     "disgust": 0.107,
+     "anger": 0.1067,
+     "sadness": 0.1017,
+     "awe": 0.0872
+    }
+   }
+  },
+  "landscape_scene_list": [
+   "badlands",
+   "bamboo_forest",
+   "beach",
+   "butte",
+   "canyon",
+   "cliff",
+   "coast",
+   "corn_field",
+   "creek",
+   "crevasse",
+   "desert",
+   "desert_road",
+   "field",
+   "field_road",
+   "forest",
+   "forest_path",
+   "forest_road",
+   "glacier",
+   "grotto",
+   "hayfield",
+   "hot_spring",
+   "ice_floe",
+   "ice_shelf",
+   "iceberg",
+   "islet",
+   "lagoon",
+   "lake",
+   "mountain",
+   "mountain_path",
+   "mountain_snowy",
+   "ocean",
+   "orchard",
+   "pasture",
+   "pond",
+   "rainforest",
+   "rice_paddy",
+   "river",
+   "rock_arch",
+   "sky",
+   "snowfield",
+   "swamp",
+   "tundra",
+   "valley",
+   "vineyard",
+   "volcano",
+   "waterfall",
+   "watering_hole",
+   "wave",
+   "wheat_field"
+  ],
+  "note": "EmoSet scene attribute is unaudited (Places365-style predictions); 76% missing",
+  "sample_train_awe_top_scenes": [
+   [
+    "sky",
+    53
+   ],
+   [
+    "ocean",
+    25
+   ],
+   [
+    "mountain_snowy",
+    24
+   ],
+   [
+    "lake",
+    19
+   ],
+   [
+    "beach",
+    18
+   ],
+   [
+    "mountain",
+    14
+   ],
+   [
+    "waterfall",
+    14
+   ],
+   [
+    "valley",
+    14
+   ],
+   [
+    "field",
+    12
+   ],
+   [
+    "mountain_path",
+    8
+   ],
+   [
+    "castle",
+    7
+   ],
+   [
+    "canyon",
+    7
+   ],
+   [
+    "coast",
+    7
+   ],
+   [
+    "tundra",
+    6
+   ],
+   [
+    "islet",
+    5
+   ]
+  ]
+ },
+ "knn_check": {
+  "k": 10,
+  "val_knn_accuracy": 0.7375,
+  "places_knn_majority_awe": 0.4115,
+  "places_mean_awe_vote": 0.3534,
+  "linear_vs_knn_agree_places": 0.6838
+ },
+ "scene_emotion_correlation": {
+  "cramers_v_pred_scene_vs_pred_emotion": 0.3071,
+  "cramers_v_true_scene_vs_pred_emotion": 0.3002,
+  "awe_rate_pred_natural_scene": 0.738,
+  "awe_rate_pred_other_scene": 0.2656,
+  "share_pred_natural": 0.3823,
+  "awe_rate_by_pred_scene": {
+   "scene.desert": {
+    "n": 295,
+    "awe_rate": 0.7763
+   },
+   "scene.sea_coast": {
+    "n": 324,
+    "awe_rate": 0.716
+   },
+   "scene.mountains_valleys": {
+    "n": 274,
+    "awe_rate": 0.9015
+   },
+   "scene.rivers_lakes": {
+    "n": 328,
+    "awe_rate": 0.7287
+   },
+   "scene.forest": {
+    "n": 298,
+    "awe_rate": 0.604
+   },
+   "scene.garden": {
+    "n": 305,
+    "awe_rate": 0.459
+   },
+   "scene.farmland_rural": {
+    "n": 321,
+    "awe_rate": 0.5545
+   },
+   "scene.sky": {
+    "n": 124,
+    "awe_rate": 0.7581
+   },
+   "scene.snow_ice": {
+    "n": 322,
+    "awe_rate": 0.8944
+   },
+   "scene.modern_city": {
+    "n": 374,
+    "awe_rate": 0.5107
+   },
+   "scene.old_city_market": {
+    "n": 346,
+    "awe_rate": 0.1763
+   },
+   "scene.historic_monument": {
+    "n": 302,
+    "awe_rate": 0.6258
+   },
+   "scene.place_of_worship": {
+    "n": 305,
+    "awe_rate": 0.7246
+   },
+   "scene.home_interior": {
+    "n": 364,
+    "awe_rate": 0.0165
+   },
+   "scene.camp_tents": {
+    "n": 99,
+    "awe_rate": 0.2525
+   },
+   "scene.library_books": {
+    "n": 213,
+    "awe_rate": 0.108
+   },
+   "scene.other": {
+    "n": 1386,
+    "awe_rate": 0.0902
+   }
+  },
+  "natural_scene_set": [
+   "scene.desert",
+   "scene.farmland_rural",
+   "scene.forest",
+   "scene.mountains_valleys",
+   "scene.rivers_lakes",
+   "scene.sea_coast",
+   "scene.sky",
+   "scene.snow_ice"
+  ]
+ },
+ "wide_c_grid": {
+  "grid": [
+   {
+    "C": 0.001,
+    "T": 0.05,
+    "val_macro_f1": 0.6626,
+    "val_nll_after_T": 1.5982,
+    "val_ece_after_T": 0.4423,
+    "places_awe_rate": 0.5915,
+    "places_median_maxprob": 0.2003
+   },
+   {
+    "C": 0.003,
+    "T": 0.05,
+    "val_macro_f1": 0.6697,
+    "val_nll_after_T": 1.0674,
+    "val_ece_after_T": 0.1969,
+    "places_awe_rate": 0.5828,
+    "places_median_maxprob": 0.387
+   },
+   {
+    "C": 0.01,
+    "T": 0.0806,
+    "val_macro_f1": 0.6773,
+    "val_nll_after_T": 0.8838,
+    "val_ece_after_T": 0.0394,
+    "places_awe_rate": 0.5627,
+    "places_median_maxprob": 0.6289
+   },
+   {
+    "C": 0.03,
+    "T": 0.1879,
+    "val_macro_f1": 0.7039,
+    "val_nll_after_T": 0.8335,
+    "val_ece_after_T": 0.0305,
+    "places_awe_rate": 0.5259,
+    "places_median_maxprob": 0.6144
+   },
+   {
+    "C": 0.1,
+    "T": 0.3578,
+    "val_macro_f1": 0.7367,
+    "val_nll_after_T": 0.7617,
+    "val_ece_after_T": 0.0248,
+    "places_awe_rate": 0.4848,
+    "places_median_maxprob": 0.6118
+   },
+   {
+    "C": 0.3,
+    "T": 0.5054,
+    "val_macro_f1": 0.7583,
+    "val_nll_after_T": 0.6921,
+    "val_ece_after_T": 0.0183,
+    "places_awe_rate": 0.4676,
+    "places_median_maxprob": 0.6295
+   },
+   {
+    "C": 1.0,
+    "T": 0.6431,
+    "val_macro_f1": 0.7813,
+    "val_nll_after_T": 0.6293,
+    "val_ece_after_T": 0.0264,
+    "places_awe_rate": 0.4554,
+    "places_median_maxprob": 0.6514
+   },
+   {
+    "C": 3.0,
+    "T": 0.7756,
+    "val_macro_f1": 0.7887,
+    "val_nll_after_T": 0.6025,
+    "val_ece_after_T": 0.0218,
+    "places_awe_rate": 0.4462,
+    "places_median_maxprob": 0.6614
+   },
+   {
+    "C": 10.0,
+    "T": 0.9749,
+    "val_macro_f1": 0.7873,
+    "val_nll_after_T": 0.6097,
+    "val_ece_after_T": 0.0264,
+    "places_awe_rate": 0.4381,
+    "places_median_maxprob": 0.6636
+   },
+   {
+    "C": 30.0,
+    "T": 1.2432,
+    "val_macro_f1": 0.7762,
+    "val_nll_after_T": 0.6486,
+    "val_ece_after_T": 0.0287,
+    "places_awe_rate": 0.4288,
+    "places_median_maxprob": 0.6596
+   },
+   {
+    "C": 100.0,
+    "T": 1.7648,
+    "val_macro_f1": 0.7469,
+    "val_nll_after_T": 0.71,
+    "val_ece_after_T": 0.0323,
+    "places_awe_rate": 0.4189,
+    "places_median_maxprob": 0.653
+   },
+   {
+    "C": 300.0,
+    "T": 2.5035,
+    "val_macro_f1": 0.7286,
+    "val_nll_after_T": 0.7625,
+    "val_ece_after_T": 0.0437,
+    "places_awe_rate": 0.4156,
+    "places_median_maxprob": 0.6401
+   }
+  ],
+  "best_by_val_macro_f1": 3.0,
+  "best_by_val_nll": 3.0
+ },
+ "class_weight_balanced": {
+  "skipped": true,
+  "reason": "train is exactly balanced (600 per class); class_weight='balanced' gives identical weights (1.0) and therefore the same model"
+ },
+ "candidates": {
+  "a_v1": {
+   "C": 3.0,
+   "T": 0.7756,
+   "val": {
+    "accuracy": 0.7875,
+    "macro_f1": 0.7887,
+    "nll": 0.6025,
+    "ece_15": 0.0218,
+    "brier": 0.3033,
+    "top2_accuracy": 0.9167,
+    "top3_accuracy": 0.9692,
+    "macro_f1_ci95": [
+     0.7661,
+     0.8114
+    ],
+    "accuracy_ci95": [
+     0.7642,
+     0.8117
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "places_awe_rate": 0.4462,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.6671,
+    "median": 0.6614,
+    "p10": 0.3654,
+    "p90": 0.9716,
+    "share_ge_0.9": 0.2258,
+    "share_ge_0.985_shown_99_or_100": 0.0607,
+    "share_ge_0.995_shown_100": 0.0201
+   }
+  },
+  "b_v1_T1": {
+   "C": 3.0,
+   "T": 1.0,
+   "val": {
+    "accuracy": 0.7875,
+    "macro_f1": 0.7887,
+    "nll": 0.6263,
+    "ece_15": 0.0684,
+    "brier": 0.3101,
+    "top2_accuracy": 0.9167,
+    "top3_accuracy": 0.9692,
+    "macro_f1_ci95": [
+     0.7661,
+     0.8114
+    ],
+    "accuracy_ci95": [
+     0.7642,
+     0.8117
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "places_awe_rate": 0.4462,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.5902,
+    "median": 0.5584,
+    "p10": 0.3157,
+    "p90": 0.9183,
+    "share_ge_0.9": 0.1224,
+    "share_ge_0.985_shown_99_or_100": 0.0087,
+    "share_ge_0.995_shown_100": 0.0002
+   },
+   "note": "T>=1 constraint: val-NLL optimum is 0.776 < 1, so the constrained optimum is T=1"
+  },
+  "c_C0.01": {
+   "C": 0.01,
+   "T": 0.0806,
+   "val": {
+    "accuracy": 0.6825,
+    "macro_f1": 0.6773,
+    "nll": 0.8838,
+    "ece_15": 0.0394,
+    "brier": 0.4258,
+    "top2_accuracy": 0.8567,
+    "top3_accuracy": 0.9275,
+    "macro_f1_ci95": [
+     0.6498,
+     0.7037
+    ],
+    "accuracy_ci95": [
+     0.6558,
+     0.7092
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": -0.1115,
+    "ci95": [
+     -0.1349,
+     -0.0889
+    ]
+   },
+   "places_awe_rate": 0.5627,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.6465,
+    "median": 0.6289,
+    "p10": 0.3151,
+    "p90": 0.9858,
+    "share_ge_0.9": 0.2569,
+    "share_ge_0.985_shown_99_or_100": 0.104,
+    "share_ge_0.995_shown_100": 0.036
+   }
+  },
+  "c_C0.1": {
+   "C": 0.1,
+   "T": 0.3578,
+   "val": {
+    "accuracy": 0.7358,
+    "macro_f1": 0.7367,
+    "nll": 0.7617,
+    "ece_15": 0.0248,
+    "brier": 0.3732,
+    "top2_accuracy": 0.8842,
+    "top3_accuracy": 0.9433,
+    "macro_f1_ci95": [
+     0.7107,
+     0.7623
+    ],
+    "accuracy_ci95": [
+     0.71,
+     0.7625
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": -0.052,
+    "ci95": [
+     -0.0708,
+     -0.0321
+    ]
+   },
+   "places_awe_rate": 0.4848,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.6368,
+    "median": 0.6118,
+    "p10": 0.3324,
+    "p90": 0.9747,
+    "share_ge_0.9": 0.2134,
+    "share_ge_0.985_shown_99_or_100": 0.0644,
+    "share_ge_0.995_shown_100": 0.0145
+   }
+  },
+  "c_C0.3": {
+   "C": 0.3,
+   "T": 0.5054,
+   "val": {
+    "accuracy": 0.7567,
+    "macro_f1": 0.7583,
+    "nll": 0.6921,
+    "ece_15": 0.0183,
+    "brier": 0.3444,
+    "top2_accuracy": 0.9008,
+    "top3_accuracy": 0.9533,
+    "macro_f1_ci95": [
+     0.7331,
+     0.7831
+    ],
+    "accuracy_ci95": [
+     0.73,
+     0.7825
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": -0.0304,
+    "ci95": [
+     -0.0474,
+     -0.0145
+    ]
+   },
+   "places_awe_rate": 0.4676,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.6462,
+    "median": 0.6295,
+    "p10": 0.3485,
+    "p90": 0.9714,
+    "share_ge_0.9": 0.2087,
+    "share_ge_0.985_shown_99_or_100": 0.0574,
+    "share_ge_0.995_shown_100": 0.013
+   }
+  },
+  "c_C1.0": {
+   "C": 1.0,
+   "T": 0.6431,
+   "val": {
+    "accuracy": 0.78,
+    "macro_f1": 0.7813,
+    "nll": 0.6293,
+    "ece_15": 0.0264,
+    "brier": 0.3159,
+    "top2_accuracy": 0.9183,
+    "top3_accuracy": 0.9633,
+    "macro_f1_ci95": [
+     0.7573,
+     0.8054
+    ],
+    "accuracy_ci95": [
+     0.7558,
+     0.8058
+    ]
+   },
+   "val_delta_macro_f1_vs_v1": {
+    "delta": -0.0075,
+    "ci95": [
+     -0.02,
+     0.0061
+    ]
+   },
+   "places_awe_rate": 0.4554,
+   "places_maxprob": {
+    "n": 5980,
+    "mean": 0.6611,
+    "median": 0.6514,
+    "p10": 0.3552,
+    "p90": 0.9727,
+    "share_ge_0.9": 0.2237,
+    "share_ge_0.985_shown_99_or_100": 0.0604,
+    "share_ge_0.995_shown_100": 0.0177
+   }
+  }
+ },
+ "abstention": {
+  "keep_target_on_val": 0.95,
+  "rules": {
+   "maxprob": {
+    "threshold": 0.4058,
+    "flag_if": "maxprob < threshold",
+    "emoset_val_flagged": 0.05,
+    "emoset_val_selective_accuracy_kept": 0.8096,
+    "emoset_val_accuracy_flagged": 0.3667,
+    "auroc_correct_vs_wrong_val": 0.8216,
+    "places_flagged_all": 0.1512,
+    "places_flagged_among_pred_awe": 0.0626,
+    "auroc_emoset_val_vs_places": 0.6573,
+    "places_val_flagged": 0.1264,
+    "photos_flagged": 0.1154
+   },
+   "margin": {
+    "threshold": 0.0574,
+    "flag_if": "margin < threshold",
+    "emoset_val_flagged": 0.05,
+    "emoset_val_selective_accuracy_kept": 0.8105,
+    "emoset_val_accuracy_flagged": 0.35,
+    "auroc_correct_vs_wrong_val": 0.8179,
+    "places_flagged_all": 0.0855,
+    "places_flagged_among_pred_awe": 0.036,
+    "auroc_emoset_val_vs_places": 0.637,
+    "places_val_flagged": 0.0725,
+    "photos_flagged": 0.0
+   },
+   "neg_entropy": {
+    "threshold": -1.4335,
+    "flag_if": "neg_entropy < threshold",
+    "emoset_val_flagged": 0.05,
+    "emoset_val_selective_accuracy_kept": 0.8079,
+    "emoset_val_accuracy_flagged": 0.4,
+    "auroc_correct_vs_wrong_val": 0.8127,
+    "places_flagged_all": 0.2057,
+    "places_flagged_among_pred_awe": 0.0926,
+    "auroc_emoset_val_vs_places": 0.6853,
+    "places_val_flagged": 0.1849,
+    "photos_flagged": 0.1154
+   },
+   "max_centroid_cos": {
+    "threshold": 0.6223,
+    "flag_if": "max_centroid_cos < threshold",
+    "emoset_val_flagged": 0.05,
+    "emoset_val_selective_accuracy_kept": 0.7921,
+    "emoset_val_accuracy_flagged": 0.7,
+    "auroc_correct_vs_wrong_val": 0.592,
+    "places_flagged_all": 0.1244,
+    "places_flagged_among_pred_awe": 0.0765,
+    "auroc_emoset_val_vs_places": 0.6944,
+    "places_val_flagged": 0.1087,
+    "photos_flagged": 0.0
+   },
+   "knn10_mean_cos": {
+    "threshold": 0.6702,
+    "flag_if": "knn10_mean_cos < threshold",
+    "emoset_val_flagged": 0.05,
+    "emoset_val_selective_accuracy_kept": 0.7974,
+    "emoset_val_accuracy_flagged": 0.6,
+    "auroc_correct_vs_wrong_val": 0.5983,
+    "places_flagged_all": 0.2353,
+    "places_flagged_among_pred_awe": 0.1312,
+    "auroc_emoset_val_vs_places": 0.7578,
+    "places_val_flagged": 0.1896,
+    "photos_flagged": 0.0385
+   }
+  },
+  "maxprob_risk_coverage": [
+   {
+    "maxprob_threshold": 0.4,
+    "val_coverage": 0.955,
+    "val_accuracy_kept": 0.8072,
+    "places_coverage": 0.8559
+   },
+   {
+    "maxprob_threshold": 0.5,
+    "val_coverage": 0.8642,
+    "val_accuracy_kept": 0.8476,
+    "places_coverage": 0.7159
+   },
+   {
+    "maxprob_threshold": 0.6,
+    "val_coverage": 0.7592,
+    "val_accuracy_kept": 0.8814,
+    "places_coverage": 0.5707
+   },
+   {
+    "maxprob_threshold": 0.7,
+    "val_coverage": 0.6742,
+    "val_accuracy_kept": 0.9073,
+    "places_coverage": 0.4575
+   },
+   {
+    "maxprob_threshold": 0.8,
+    "val_coverage": 0.5742,
+    "val_accuracy_kept": 0.9303,
+    "places_coverage": 0.3458
+   },
+   {
+    "maxprob_threshold": 0.9,
+    "val_coverage": 0.4517,
+    "val_accuracy_kept": 0.9539,
+    "places_coverage": 0.2258
+   }
+  ],
+  "knn_places_val_median_threshold": {
+   "threshold": 0.7246,
+   "emoset_val_below": 0.1808,
+   "places_test_below": 0.5112
+  }
+ },
+ "photos": {
+  "n": 26,
+  "awe_rate": 0.9231,
+  "rows": [
+   {
+    "image": "img_core_desert.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.924
+     ],
+     [
+      "img_emotion.contentment",
+      0.017
+     ],
+     [
+      "img_emotion.sadness",
+      0.017
+     ]
+    ],
+    "maxprob": 0.9243,
+    "knn10_mean_cos": 0.75,
+    "knn_awe_vote": 0.8,
+    "pred_scene": "scene.desert"
+   },
+   {
+    "image": "img_core_nature.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.821
+     ],
+     [
+      "img_emotion.contentment",
+      0.093
+     ],
+     [
+      "img_emotion.fear",
+      0.025
+     ]
+    ],
+    "maxprob": 0.8214,
+    "knn10_mean_cos": 0.7699,
+    "knn_awe_vote": 0.5,
+    "pred_scene": "scene.forest"
+   },
+   {
+    "image": "img_core_road.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.991
+     ],
+     [
+      "img_emotion.sadness",
+      0.005
+     ],
+     [
+      "img_emotion.contentment",
+      0.002
+     ]
+    ],
+    "maxprob": 0.9909,
+    "knn10_mean_cos": 0.8062,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.mountains_valleys"
+   },
+   {
+    "image": "img_core_sea.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.984
+     ],
+     [
+      "img_emotion.contentment",
+      0.008
+     ],
+     [
+      "img_emotion.sadness",
+      0.002
+     ]
+    ],
+    "maxprob": 0.984,
+    "knn10_mean_cos": 0.7892,
+    "knn_awe_vote": 0.7,
+    "pred_scene": "scene.mountains_valleys"
+   },
+   {
+    "image": "img_core_urban.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.741
+     ],
+     [
+      "img_emotion.amusement",
+      0.188
+     ],
+     [
+      "img_emotion.contentment",
+      0.045
+     ]
+    ],
+    "maxprob": 0.7411,
+    "knn10_mean_cos": 0.7039,
+    "knn_awe_vote": 0.9,
+    "pred_scene": "scene.modern_city"
+   },
+   {
+    "image": "img_eval_abstract.jpg",
+    "top3": [
+     [
+      "img_emotion.fear",
+      0.342
+     ],
+     [
+      "img_emotion.sadness",
+      0.166
+     ],
+     [
+      "img_emotion.awe",
+      0.115
+     ]
+    ],
+    "maxprob": 0.3421,
+    "knn10_mean_cos": 0.7404,
+    "knn_awe_vote": 0.0,
+    "pred_scene": "scene.sky"
+   },
+   {
+    "image": "img_eval_aurora.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.979
+     ],
+     [
+      "img_emotion.fear",
+      0.013
+     ],
+     [
+      "img_emotion.amusement",
+      0.002
+     ]
+    ],
+    "maxprob": 0.9794,
+    "knn10_mean_cos": 0.7751,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.sky"
+   },
+   {
+    "image": "img_eval_beach_people.jpg",
+    "top3": [
+     [
+      "img_emotion.disgust",
+      0.374
+     ],
+     [
+      "img_emotion.contentment",
+      0.18
+     ],
+     [
+      "img_emotion.awe",
+      0.174
+     ]
+    ],
+    "maxprob": 0.3744,
+    "knn10_mean_cos": 0.7705,
+    "knn_awe_vote": 0.5,
+    "pred_scene": "scene.sea_coast"
+   },
+   {
+    "image": "img_eval_canyon.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.968
+     ],
+     [
+      "img_emotion.contentment",
+      0.013
+     ],
+     [
+      "img_emotion.amusement",
+      0.007
+     ]
+    ],
+    "maxprob": 0.968,
+    "knn10_mean_cos": 0.8149,
+    "knn_awe_vote": 0.8,
+    "pred_scene": "scene.mountains_valleys"
+   },
+   {
+    "image": "img_eval_city_dense.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.564
+     ],
+     [
+      "img_emotion.sadness",
+      0.207
+     ],
+     [
+      "img_emotion.fear",
+      0.048
+     ]
+    ],
+    "maxprob": 0.5637,
+    "knn10_mean_cos": 0.748,
+    "knn_awe_vote": 0.5,
+    "pred_scene": "scene.modern_city"
+   },
+   {
+    "image": "img_eval_city_skyline.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.962
+     ],
+     [
+      "img_emotion.amusement",
+      0.021
+     ],
+     [
+      "img_emotion.contentment",
+      0.01
+     ]
+    ],
+    "maxprob": 0.9618,
+    "knn10_mean_cos": 0.6893,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.modern_city"
+   },
+   {
+    "image": "img_eval_clouds_sun.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.979
+     ],
+     [
+      "img_emotion.sadness",
+      0.008
+     ],
+     [
+      "img_emotion.contentment",
+      0.006
+     ]
+    ],
+    "maxprob": 0.9789,
+    "knn10_mean_cos": 0.8358,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.sky"
+   },
+   {
+    "image": "img_eval_coast_light.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.983
+     ],
+     [
+      "img_emotion.amusement",
+      0.005
+     ],
+     [
+      "img_emotion.contentment",
+      0.005
+     ]
+    ],
+    "maxprob": 0.9828,
+    "knn10_mean_cos": 0.7884,
+    "knn_awe_vote": 0.9,
+    "pred_scene": "scene.mountains_valleys"
+   },
+   {
+    "image": "img_eval_desert2.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.916
+     ],
+     [
+      "img_emotion.fear",
+      0.025
+     ],
+     [
+      "img_emotion.sadness",
+      0.021
+     ]
+    ],
+    "maxprob": 0.9156,
+    "knn10_mean_cos": 0.7728,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.desert"
+   },
+   {
+    "image": "img_eval_dolphins.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.478
+     ],
+     [
+      "img_emotion.contentment",
+      0.385
+     ],
+     [
+      "img_emotion.anger",
+      0.066
+     ]
+    ],
+    "maxprob": 0.4777,
+    "knn10_mean_cos": 0.752,
+    "knn_awe_vote": 0.6,
+    "pred_scene": "scene.other"
+   },
+   {
+    "image": "img_eval_fields.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.895
+     ],
+     [
+      "img_emotion.contentment",
+      0.056
+     ],
+     [
+      "img_emotion.fear",
+      0.018
+     ]
+    ],
+    "maxprob": 0.8949,
+    "knn10_mean_cos": 0.7266,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.farmland_rural"
+   },
+   {
+    "image": "img_eval_fog_forest.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.619
+     ],
+     [
+      "img_emotion.anger",
+      0.151
+     ],
+     [
+      "img_emotion.sadness",
+      0.078
+     ]
+    ],
+    "maxprob": 0.6185,
+    "knn10_mean_cos": 0.814,
+    "knn_awe_vote": 0.5,
+    "pred_scene": "scene.forest"
+   },
+   {
+    "image": "img_eval_great_wall.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.941
+     ],
+     [
+      "img_emotion.contentment",
+      0.03
+     ],
+     [
+      "img_emotion.amusement",
+      0.008
+     ]
+    ],
+    "maxprob": 0.941,
+    "knn10_mean_cos": 0.7294,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.historic_monument"
+   },
+   {
+    "image": "img_eval_highway.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.686
+     ],
+     [
+      "img_emotion.sadness",
+      0.107
+     ],
+     [
+      "img_emotion.contentment",
+      0.077
+     ]
+    ],
+    "maxprob": 0.6859,
+    "knn10_mean_cos": 0.6395,
+    "knn_awe_vote": 0.5,
+    "pred_scene": "scene.modern_city"
+   },
+   {
+    "image": "img_eval_lake.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.987
+     ],
+     [
+      "img_emotion.contentment",
+      0.011
+     ],
+     [
+      "img_emotion.excitement",
+      0.001
+     ]
+    ],
+    "maxprob": 0.9868,
+    "knn10_mean_cos": 0.7901,
+    "knn_awe_vote": 0.9,
+    "pred_scene": "scene.snow_ice"
+   },
+   {
+    "image": "img_eval_mountains.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.998
+     ],
+     [
+      "img_emotion.sadness",
+      0.001
+     ],
+     [
+      "img_emotion.contentment",
+      0.0
+     ]
+    ],
+    "maxprob": 0.998,
+    "knn10_mean_cos": 0.8235,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.snow_ice"
+   },
+   {
+    "image": "img_eval_river.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.976
+     ],
+     [
+      "img_emotion.excitement",
+      0.007
+     ],
+     [
+      "img_emotion.contentment",
+      0.006
+     ]
+    ],
+    "maxprob": 0.9756,
+    "knn10_mean_cos": 0.7904,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.rivers_lakes"
+   },
+   {
+    "image": "img_eval_snow.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.992
+     ],
+     [
+      "img_emotion.sadness",
+      0.002
+     ],
+     [
+      "img_emotion.contentment",
+      0.002
+     ]
+    ],
+    "maxprob": 0.9925,
+    "knn10_mean_cos": 0.8733,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.snow_ice"
+   },
+   {
+    "image": "img_eval_sunset_cat.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.994
+     ],
+     [
+      "img_emotion.sadness",
+      0.003
+     ],
+     [
+      "img_emotion.excitement",
+      0.001
+     ]
+    ],
+    "maxprob": 0.994,
+    "knn10_mean_cos": 0.8098,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.mountains_valleys"
+   },
+   {
+    "image": "img_eval_sunset_sea.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.989
+     ],
+     [
+      "img_emotion.contentment",
+      0.009
+     ],
+     [
+      "img_emotion.amusement",
+      0.001
+     ]
+    ],
+    "maxprob": 0.9886,
+    "knn10_mean_cos": 0.8404,
+    "knn_awe_vote": 1.0,
+    "pred_scene": "scene.sea_coast"
+   },
+   {
+    "image": "img_eval_waves.jpg",
+    "top3": [
+     [
+      "img_emotion.awe",
+      0.382
+     ],
+     [
+      "img_emotion.contentment",
+      0.173
+     ],
+     [
+      "img_emotion.anger",
+      0.172
+     ]
+    ],
+    "maxprob": 0.3816,
+    "knn10_mean_cos": 0.8126,
+    "knn_awe_vote": 0.7,
+    "pred_scene": "scene.sky"
+   }
+  ],
+  "maxprob": {
+   "n": 26,
+   "mean": 0.8255,
+   "median": 0.9514,
+   "p10": 0.4297,
+   "p90": 0.9917,
+   "share_ge_0.9": 0.6154,
+   "share_ge_0.985_shown_99_or_100": 0.2308,
+   "share_ge_0.995_shown_100": 0.0385
+  }
+ },
+ "emoset_val_score_quantiles": {
+  "maxprob": [
+   0.4058,
+   0.6117,
+   0.8609,
+   0.9722,
+   0.9956
+  ],
+  "margin": [
+   0.0574,
+   0.3646,
+   0.7812,
+   0.9558,
+   0.9935
+  ],
+  "neg_entropy": [
+   -1.4335,
+   -0.9771,
+   -0.5492,
+   -0.1578,
+   -0.0345
+  ],
+  "max_centroid_cos": [
+   0.6223,
+   0.7132,
+   0.7577,
+   0.7944,
+   0.8373
+  ],
+  "knn10_mean_cos": [
+   0.6702,
+   0.7412,
+   0.7861,
+   0.8304,
+   0.8817
+  ]
+ },
+ "places_score_quantiles": {
+  "maxprob": [
+   0.317,
+   0.4761,
+   0.6614,
+   0.8797,
+   0.9875
+  ],
+  "margin": [
+   0.0317,
+   0.1993,
+   0.4754,
+   0.8184,
+   0.9817
+  ],
+  "neg_entropy": [
+   -1.7176,
+   -1.3601,
+   -0.9908,
+   -0.5079,
+   -0.083
+  ],
+  "max_centroid_cos": [
+   0.5835,
+   0.6553,
+   0.7052,
+   0.7535,
+   0.8115
+  ],
+  "knn10_mean_cos": [
+   0.6082,
+   0.6731,
+   0.7172,
+   0.7656,
+   0.8215
+  ]
+ }
+}

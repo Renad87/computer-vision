@@ -1,0 +1,4163 @@
+{
+ "date": "2026-11-26",
+ "kind": "system_check_not_accuracy",
+ "base_url": "http://127.0.0.1:8010",
+ "model": {
+  "model_id": "poetry-vision-net",
+  "model_version": "1.0.0",
+  "device": "mps",
+  "fingerprints": {
+   "clip_weights_sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31",
+   "emotion_head_sha256": "328ec7416afc3bf11045db4291b2cc6680e5c4549a4de062575862f66e9a1c95",
+   "scene_head_sha256": "f39e083cfa639616563a0cd53f62fa9139558c991b9a0f44b6f0cef1c45cd376",
+   "tag_head_sha256": "a94f7d145af7f4789383c9ba5583d382842ec53142fdbf457573118a9be5384a",
+   "scene_calibration_sha256": "e875a3596ec1e59cc2729936504d421547bc055dec5182892c487b020e33df89",
+   "model_card_sha256": "8d4f8622be4548e6707b9baf3fa4a4167583df2216ae2f52bc6fe446b256552d"
+  }
+ },
+ "corpus": {
+  "version": "corpus_all_v1",
+  "sha256": "c78b05a4be4b6a7df31f24b708ec59e50129e770635d0fd4bf00ca1ebb309e4c",
+  "count": 1053,
+  "displayable": {
+   "production": 0,
+   "development": 1053
+  }
+ },
+ "images": 28,
+ "http_latency_ms": {
+  "analyze": {
+   "n": 27,
+   "median": 14.15,
+   "p95": 26.75
+  },
+  "recommend": {
+   "n": 134,
+   "median": 1.01,
+   "p95": 1.94
+  }
+ },
+ "model_forward_ms": {
+  "n": 27,
+  "median": 11.15,
+  "p95": 24.3
+ },
+ "contract_issues_total": 0,
+ "abstention_case": {
+  "profile": "tag.falcon (focus) x lit_emotion.pride, development",
+  "status": "abstained",
+  "reason_code": "no_visual_match_emotion_only_off"
+ },
+ "cases": [
+  {
+   "image": "img_core_desert.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 57.3,
+   "model_timings_ms": {
+    "preprocess": 1.357,
+    "forward": 54.251,
+    "total": 55.808
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.desert",
+     0.974
+    ],
+    [
+     "scene.snow_ice",
+     0.007
+    ],
+    [
+     "scene.mountains_valleys",
+     0.004
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.924
+    ],
+    [
+     "img_emotion.contentment",
+     0.017
+    ],
+    [
+     "img_emotion.sadness",
+     0.017
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.desert",
+      "name_ar": "الصحراء والبادية",
+      "score": 0.9739259104753728,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.84,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.051,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 2.06,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000372",
+      "pv:verse:000391",
+      "pv:verse:000367"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.289,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.037,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.7,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000260",
+      "pv:verse:000258",
+      "pv:verse:000101"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.979,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_core_nature.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.3,
+   "model_timings_ms": {
+    "preprocess": 0.92,
+    "forward": 9.219,
+    "total": 10.231
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.forest",
+     0.897
+    ],
+    [
+     "scene.garden",
+     0.023
+    ],
+    [
+     "scene.camp_tents",
+     0.023
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.821
+    ],
+    [
+     "img_emotion.contentment",
+     0.093
+    ],
+    [
+     "img_emotion.fear",
+     0.025
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.greenery",
+      "name_ar": "الخضرة والحدائق",
+      "score": 0.9265403812751174,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.69,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.044,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 2.11,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000957",
+      "pv:verse:000077",
+      "pv:verse:000958"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.221,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.56,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.036,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.86,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000605",
+      "pv:verse:000575",
+      "pv:verse:000595"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.09,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_core_road.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 19.5,
+   "model_timings_ms": {
+    "preprocess": 9.201,
+    "forward": 9.094,
+    "total": 18.377
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.mountains_valleys",
+     0.769
+    ],
+    [
+     "scene.desert",
+     0.157
+    ],
+    [
+     "scene.rivers_lakes",
+     0.015
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.991
+    ],
+    [
+     "img_emotion.sadness",
+     0.005
+    ],
+    [
+     "img_emotion.contentment",
+     0.002
+    ]
+   ],
+   "tags_present": [
+    "tag.fog",
+    "tag.road"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.7755069173872471,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.fog",
+      "name_ar": "ضباب",
+      "score": null,
+      "source": "tag"
+     },
+     {
+      "id": "tag.road",
+      "name_ar": "طريق",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.68,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.045,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.93,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000320",
+      "pv:verse:000298",
+      "pv:verse:000283"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.18,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.04,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.7,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000640",
+      "pv:verse:000299",
+      "pv:verse:000647"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.031,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.56,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.038,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.18,
+     "status": "abstained",
+     "abstention": "cell_not_covered",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.679,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_core_sea.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.4,
+   "model_timings_ms": {
+    "preprocess": 1.35,
+    "forward": 8.998,
+    "total": 10.431
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.mountains_valleys",
+     0.852
+    ],
+    [
+     "scene.sea_coast",
+     0.133
+    ],
+    [
+     "scene.rivers_lakes",
+     0.004
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.984
+    ],
+    [
+     "img_emotion.contentment",
+     0.008
+    ],
+    [
+     "img_emotion.sadness",
+     0.002
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.8537809181725606,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.04,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.99,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000320",
+      "pv:verse:000298",
+      "pv:verse:000116"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.174,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.61,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.038,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.71,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000640",
+      "pv:verse:000299",
+      "pv:verse:000044"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.004,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.53,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.034,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.44,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000414",
+      "pv:verse:000116",
+      "pv:verse:000118"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.788,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_core_urban.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 10.8,
+   "model_timings_ms": {
+    "preprocess": 0.757,
+    "forward": 9.037,
+    "total": 9.876
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.modern_city",
+     0.893
+    ],
+    [
+     "scene.sea_coast",
+     0.039
+    ],
+    [
+     "scene.rivers_lakes",
+     0.028
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.741
+    ],
+    [
+     "img_emotion.amusement",
+     0.188
+    ],
+    [
+     "img_emotion.contentment",
+     0.045
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.city",
+      "name_ar": "المدينة الحديثة",
+      "score": 0.8929880857467651,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     },
+     {
+      "id": "lit_emotion.joy",
+      "name_ar": "البهجة والسرور",
+      "from_img_emotion": "img_emotion.amusement"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.67,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.03,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.43,
+     "status": "abstained",
+     "abstention": "no_visual_match_emotion_only_off",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.895,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.58,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.024,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.48,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000192",
+      "pv:verse:000200",
+      "pv:verse:000358"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.763,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_abstract.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.5,
+   "model_timings_ms": {
+    "preprocess": 1.223,
+    "forward": 9.212,
+    "total": 10.524
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sky",
+     0.399
+    ],
+    [
+     "scene.other",
+     0.331
+    ],
+    [
+     "scene.rivers_lakes",
+     0.08
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.fear",
+     0.342
+    ],
+    [
+     "img_emotion.sadness",
+     0.166
+    ],
+    [
+     "img_emotion.awe",
+     0.115
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sky_night",
+      "name_ar": "السماء والليل",
+      "score": 0.3994668126106262,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.fear",
+      "name_ar": "الخوف والرهبة",
+      "from_img_emotion": "img_emotion.fear"
+     },
+     {
+      "id": "lit_emotion.sadness",
+      "name_ar": "الحزن والأسى",
+      "from_img_emotion": "img_emotion.sadness"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.fear",
+     "http": 200,
+     "ms": 0.61,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.037,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.fear",
+     "http": 200,
+     "ms": 1.77,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000945",
+      "pv:verse:001004",
+      "pv:verse:000663"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.04,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.54,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.029,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.62,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000044",
+      "pv:verse:001029",
+      "pv:verse:001031"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.947,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_aurora.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 16.7,
+   "model_timings_ms": {
+    "preprocess": 5.424,
+    "forward": 10.15,
+    "total": 15.661
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sky",
+     0.88
+    ],
+    [
+     "scene.mountains_valleys",
+     0.052
+    ],
+    [
+     "scene.snow_ice",
+     0.03
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.979
+    ],
+    [
+     "img_emotion.fear",
+     0.013
+    ],
+    [
+     "img_emotion.amusement",
+     0.002
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sky_night",
+      "name_ar": "السماء والليل",
+      "score": 0.8804822564125061,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.7,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.043,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.91,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000926",
+      "pv:verse:000930",
+      "pv:verse:000928"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.154,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.52,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.029,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.6,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000044",
+      "pv:verse:001029",
+      "pv:verse:001031"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.948,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_beach_people.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.3,
+   "model_timings_ms": {
+    "preprocess": 0.819,
+    "forward": 9.525,
+    "total": 10.426
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sea_coast",
+     0.662
+    ],
+    [
+     "scene.desert",
+     0.095
+    ],
+    [
+     "scene.other",
+     0.094
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.disgust",
+     0.374
+    ],
+    [
+     "img_emotion.contentment",
+     0.18
+    ],
+    [
+     "img_emotion.awe",
+     0.174
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sea",
+      "name_ar": "البحر والساحل",
+      "score": 0.6615620851516724,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.serenity",
+      "name_ar": "السكينة والطمأنينة",
+      "from_img_emotion": "img_emotion.contentment"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.serenity",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.04,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.serenity",
+     "http": 200,
+     "ms": 1.71,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000053",
+      "pv:verse:000442",
+      "pv:verse:000152"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.972,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.036,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.57,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000042",
+      "pv:verse:000151",
+      "pv:verse:000468"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.902,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.serenity",
+     "http": 200,
+     "ms": 0.53,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.033,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.serenity",
+     "http": 200,
+     "ms": 1.38,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000053",
+      "pv:verse:000152",
+      "pv:verse:000442"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.717,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_canyon.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.3,
+   "model_timings_ms": {
+    "preprocess": 0.771,
+    "forward": 9.544,
+    "total": 10.393
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.mountains_valleys",
+     0.794
+    ],
+    [
+     "scene.desert",
+     0.129
+    ],
+    [
+     "scene.snow_ice",
+     0.047
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.968
+    ],
+    [
+     "img_emotion.contentment",
+     0.013
+    ],
+    [
+     "img_emotion.amusement",
+     0.007
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.8417113572359085,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.034,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.71,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000320",
+      "pv:verse:000298",
+      "pv:verse:000283"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.974,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.54,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.028,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.68,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000640",
+      "pv:verse:000299",
+      "pv:verse:000647"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.921,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_city_dense.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 12.5,
+   "model_timings_ms": {
+    "preprocess": 0.803,
+    "forward": 10.731,
+    "total": 11.611
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.modern_city",
+     0.912
+    ],
+    [
+     "scene.forest",
+     0.016
+    ],
+    [
+     "scene.mountains_valleys",
+     0.013
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.564
+    ],
+    [
+     "img_emotion.sadness",
+     0.207
+    ],
+    [
+     "img_emotion.fear",
+     0.048
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.city",
+      "name_ar": "المدينة الحديثة",
+      "score": 0.9120320081710815,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     },
+     {
+      "id": "lit_emotion.sadness",
+      "name_ar": "الحزن والأسى",
+      "from_img_emotion": "img_emotion.sadness"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.027,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.39,
+     "status": "abstained",
+     "abstention": "no_visual_match_emotion_only_off",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.875,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.49,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.02,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.46,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000192",
+      "pv:verse:000200",
+      "pv:verse:000358"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.795,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_city_skyline.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 12.4,
+   "model_timings_ms": {
+    "preprocess": 0.75,
+    "forward": 10.586,
+    "total": 11.418
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.modern_city",
+     0.7
+    ],
+    [
+     "scene.mountains_valleys",
+     0.068
+    ],
+    [
+     "scene.rivers_lakes",
+     0.053
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.962
+    ],
+    [
+     "img_emotion.amusement",
+     0.021
+    ],
+    [
+     "img_emotion.contentment",
+     0.01
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.city",
+      "name_ar": "المدينة الحديثة",
+      "score": 0.6997851729393005,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.63,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.028,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.45,
+     "status": "abstained",
+     "abstention": "no_visual_match_emotion_only_off",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.89,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.54,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.022,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.39,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000192",
+      "pv:verse:000200",
+      "pv:verse:000358"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.744,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_clouds_sun.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 11.6,
+   "model_timings_ms": {
+    "preprocess": 0.735,
+    "forward": 9.95,
+    "total": 10.754
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sky",
+     0.828
+    ],
+    [
+     "scene.mountains_valleys",
+     0.07
+    ],
+    [
+     "scene.snow_ice",
+     0.034
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.979
+    ],
+    [
+     "img_emotion.sadness",
+     0.008
+    ],
+    [
+     "img_emotion.contentment",
+     0.006
+    ]
+   ],
+   "tags_present": [
+    "tag.fog"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sky_night",
+      "name_ar": "السماء والليل",
+      "score": 0.828199565410614,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.fog",
+      "name_ar": "ضباب",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.039,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.83,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000926",
+      "pv:verse:000930",
+      "pv:verse:000928"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.056,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.58,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.034,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.9,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000044",
+      "pv:verse:001029",
+      "pv:verse:001031"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.112,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.55,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.033,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.23,
+     "status": "abstained",
+     "abstention": "cell_not_covered",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.677,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_coast_light.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 12.8,
+   "model_timings_ms": {
+    "preprocess": 0.737,
+    "forward": 11.153,
+    "total": 11.962
+   },
+   "scene_status": "uncertain",
+   "scene_top": [
+    [
+     "scene.mountains_valleys",
+     0.445
+    ],
+    [
+     "scene.sea_coast",
+     0.387
+    ],
+    [
+     "scene.historic_monument",
+     0.102
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.983
+    ],
+    [
+     "img_emotion.amusement",
+     0.005
+    ],
+    [
+     "img_emotion.contentment",
+     0.005
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.44992722710594535,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.sea",
+      "name_ar": "البحر والساحل",
+      "score": 0.38705047965049744,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.64,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.056,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.9,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000116",
+      "pv:verse:000492",
+      "pv:verse:000414"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.173,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.05,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.77,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000042",
+      "pv:verse:000044",
+      "pv:verse:000468"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.092,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.54,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.048,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.47,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000414",
+      "pv:verse:000116",
+      "pv:verse:000118"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.814,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_desert2.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 12.4,
+   "model_timings_ms": {
+    "preprocess": 0.716,
+    "forward": 10.672,
+    "total": 11.462
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.desert",
+     0.968
+    ],
+    [
+     "scene.mountains_valleys",
+     0.008
+    ],
+    [
+     "scene.sky",
+     0.008
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.916
+    ],
+    [
+     "img_emotion.fear",
+     0.025
+    ],
+    [
+     "img_emotion.sadness",
+     0.021
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.desert",
+      "name_ar": "الصحراء والبادية",
+      "score": 0.9681362151459325,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.63,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.041,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.78,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000372",
+      "pv:verse:000391",
+      "pv:verse:000367"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.049,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.53,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.036,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.52,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000260",
+      "pv:verse:000258",
+      "pv:verse:000101"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.873,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_dolphins.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 12.8,
+   "model_timings_ms": {
+    "preprocess": 0.717,
+    "forward": 11.123,
+    "total": 11.929
+   },
+   "scene_status": "unsupported",
+   "scene_top": [
+    [
+     "scene.other",
+     0.399
+    ],
+    [
+     "scene.sea_coast",
+     0.269
+    ],
+    [
+     "scene.sky",
+     0.181
+    ]
+   ],
+   "emotion_status": "ambiguous",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.478
+    ],
+    [
+     "img_emotion.contentment",
+     0.385
+    ],
+    [
+     "img_emotion.anger",
+     0.066
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     },
+     {
+      "id": "lit_emotion.serenity",
+      "name_ar": "السكينة والطمأنينة",
+      "from_img_emotion": "img_emotion.contentment"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.024,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.6,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000414",
+      "pv:verse:000118",
+      "pv:verse:000116"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.946,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.47,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.017,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.4,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000042",
+      "pv:verse:000151",
+      "pv:verse:000466"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.78,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_fields.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 13.3,
+   "model_timings_ms": {
+    "preprocess": 0.763,
+    "forward": 11.481,
+    "total": 12.32
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.farmland_rural",
+     0.43
+    ],
+    [
+     "scene.desert",
+     0.292
+    ],
+    [
+     "scene.snow_ice",
+     0.099
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.895
+    ],
+    [
+     "img_emotion.contentment",
+     0.056
+    ],
+    [
+     "img_emotion.fear",
+     0.018
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.greenery",
+      "name_ar": "الخضرة والحدائق",
+      "score": 0.4483866570517421,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.desert",
+      "name_ar": "الصحراء والبادية",
+      "score": 0.2941894948016852,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.67,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.07,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.92,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000372",
+      "pv:verse:000957",
+      "pv:verse:000077"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.224,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.062,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.94,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000605",
+      "pv:verse:000260",
+      "pv:verse:000575"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.247,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.66,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.064,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.6,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000372",
+      "pv:verse:000391",
+      "pv:verse:000367"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.87,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_fog_forest.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 14.1,
+   "model_timings_ms": {
+    "preprocess": 0.742,
+    "forward": 12.365,
+    "total": 13.19
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.forest",
+     0.639
+    ],
+    [
+     "scene.rivers_lakes",
+     0.104
+    ],
+    [
+     "scene.mountains_valleys",
+     0.095
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.619
+    ],
+    [
+     "img_emotion.anger",
+     0.151
+    ],
+    [
+     "img_emotion.sadness",
+     0.078
+    ]
+   ],
+   "tags_present": [
+    "tag.fog"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.greenery",
+      "name_ar": "الخضرة والحدائق",
+      "score": 0.660135808866471,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.fog",
+      "name_ar": "ضباب",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.68,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.048,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.93,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000957",
+      "pv:verse:000077",
+      "pv:verse:000958"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.155,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.66,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.043,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.82,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000605",
+      "pv:verse:000575",
+      "pv:verse:000595"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.076,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.05,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.3,
+     "status": "abstained",
+     "abstention": "cell_not_covered",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.759,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_great_wall.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 16.8,
+   "model_timings_ms": {
+    "preprocess": 0.821,
+    "forward": 14.884,
+    "total": 15.777
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.historic_monument",
+     0.93
+    ],
+    [
+     "scene.mountains_valleys",
+     0.046
+    ],
+    [
+     "scene.place_of_worship",
+     0.011
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.941
+    ],
+    [
+     "img_emotion.contentment",
+     0.03
+    ],
+    [
+     "img_emotion.amusement",
+     0.008
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.heritage",
+      "name_ar": "الآثار والمدن القديمة",
+      "score": 0.9312651277286932,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.037,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.77,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000501",
+      "pv:verse:000135",
+      "pv:verse:000498"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.082,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.031,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.66,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000567",
+      "pv:verse:000131",
+      "pv:verse:000080"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.998,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_highway.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 16.0,
+   "model_timings_ms": {
+    "preprocess": 0.772,
+    "forward": 14.188,
+    "total": 15.048
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.modern_city",
+     0.713
+    ],
+    [
+     "scene.other",
+     0.224
+    ],
+    [
+     "scene.desert",
+     0.026
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.686
+    ],
+    [
+     "img_emotion.sadness",
+     0.107
+    ],
+    [
+     "img_emotion.contentment",
+     0.077
+    ]
+   ],
+   "tags_present": [
+    "tag.road"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.city",
+      "name_ar": "المدينة الحديثة",
+      "score": 0.7129225730895996,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.road",
+      "name_ar": "طريق",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.61,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.036,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.44,
+     "status": "abstained",
+     "abstention": "no_visual_match_emotion_only_off",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.954,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.5,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.027,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.49,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000192",
+      "pv:verse:000200",
+      "pv:verse:000358"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.826,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.033,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.25,
+     "status": "abstained",
+     "abstention": "cell_not_covered",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.702,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_lake.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 23.5,
+   "model_timings_ms": {
+    "preprocess": 5.21,
+    "forward": 17.087,
+    "total": 22.379
+   },
+   "scene_status": "uncertain",
+   "scene_top": [
+    [
+     "scene.snow_ice",
+     0.412
+    ],
+    [
+     "scene.sea_coast",
+     0.325
+    ],
+    [
+     "scene.rivers_lakes",
+     0.113
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.987
+    ],
+    [
+     "img_emotion.contentment",
+     0.011
+    ],
+    [
+     "img_emotion.excitement",
+     0.001
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.5043181031942368,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.sea",
+      "name_ar": "البحر والساحل",
+      "score": 0.3251858055591583,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.74,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.061,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 2.04,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000116",
+      "pv:verse:000492",
+      "pv:verse:000414"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.272,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.61,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.051,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.82,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000042",
+      "pv:verse:000044",
+      "pv:verse:000468"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.119,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.55,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.049,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.49,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000414",
+      "pv:verse:000116",
+      "pv:verse:000118"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.832,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_mountains.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 26.7,
+   "model_timings_ms": {
+    "preprocess": 5.472,
+    "forward": 20.072,
+    "total": 25.63
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.snow_ice",
+     0.843
+    ],
+    [
+     "scene.mountains_valleys",
+     0.147
+    ],
+    [
+     "scene.sky",
+     0.004
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.998
+    ],
+    [
+     "img_emotion.sadness",
+     0.001
+    ],
+    [
+     "img_emotion.contentment",
+     0.0
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.9900011569261551,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.68,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.036,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.71,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000320",
+      "pv:verse:000298",
+      "pv:verse:000283"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.019,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.54,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.028,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.56,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000640",
+      "pv:verse:000299",
+      "pv:verse:000647"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.871,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_river.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 26.2,
+   "model_timings_ms": {
+    "preprocess": 0.801,
+    "forward": 24.296,
+    "total": 25.189
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.rivers_lakes",
+     0.588
+    ],
+    [
+     "scene.mountains_valleys",
+     0.359
+    ],
+    [
+     "scene.historic_monument",
+     0.024
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.976
+    ],
+    [
+     "img_emotion.excitement",
+     0.007
+    ],
+    [
+     "img_emotion.contentment",
+     0.006
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.water",
+      "name_ar": "الأنهار والبحيرات",
+      "score": 0.5884393453598022,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.36256699496880174,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.72,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.053,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.97,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000280",
+      "pv:verse:000751",
+      "pv:verse:000306"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.213,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.047,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.84,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000865",
+      "pv:verse:000792",
+      "pv:verse:000849"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.118,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.58,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.042,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.51,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000280",
+      "pv:verse:000306",
+      "pv:verse:000307"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.815,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_snow.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 31.1,
+   "model_timings_ms": {
+    "preprocess": 0.83,
+    "forward": 29.252,
+    "total": 30.168
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.snow_ice",
+     0.951
+    ],
+    [
+     "scene.mountains_valleys",
+     0.033
+    ],
+    [
+     "scene.sky",
+     0.008
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.992
+    ],
+    [
+     "img_emotion.sadness",
+     0.002
+    ],
+    [
+     "img_emotion.contentment",
+     0.002
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.9843164794147015,
+      "source": "scene_group"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.63,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.034,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.7,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000320",
+      "pv:verse:000298",
+      "pv:verse:000283"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.005,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.032,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.63,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000640",
+      "pv:verse:000299",
+      "pv:verse:000647"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.932,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_sunset_cat.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 26.3,
+   "model_timings_ms": {
+    "preprocess": 1.134,
+    "forward": 24.061,
+    "total": 25.281
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.mountains_valleys",
+     0.454
+    ],
+    [
+     "scene.sea_coast",
+     0.3
+    ],
+    [
+     "scene.sky",
+     0.163
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.994
+    ],
+    [
+     "img_emotion.sadness",
+     0.003
+    ],
+    [
+     "img_emotion.excitement",
+     0.001
+    ]
+   ],
+   "tags_present": [
+    "tag.sea",
+    "tag.fog"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.mountains",
+      "name_ar": "الجبال والثلوج",
+      "score": 0.4681451451033354,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.sea",
+      "name_ar": "البحر والساحل",
+      "score": 0.29975804686546326,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     },
+     {
+      "id": "tag.fog",
+      "name_ar": "ضباب",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.75,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.062,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 2.51,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000116",
+      "pv:verse:000492",
+      "pv:verse:000414"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.722,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.63,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.054,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.94,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000042",
+      "pv:verse:000044",
+      "pv:verse:000468"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.212,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.57,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.052,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.21,
+     "status": "abstained",
+     "abstention": "cell_not_covered",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.708,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_sunset_sea.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 24.5,
+   "model_timings_ms": {
+    "preprocess": 0.811,
+    "forward": 22.644,
+    "total": 23.538
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sea_coast",
+     0.556
+    ],
+    [
+     "scene.sky",
+     0.337
+    ],
+    [
+     "scene.mountains_valleys",
+     0.046
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.989
+    ],
+    [
+     "img_emotion.contentment",
+     0.009
+    ],
+    [
+     "img_emotion.amusement",
+     0.001
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sea",
+      "name_ar": "البحر والساحل",
+      "score": 0.5556029081344604,
+      "source": "scene_group"
+     },
+     {
+      "id": "scene_group.sky_night",
+      "name_ar": "السماء والليل",
+      "score": 0.3369435966014862,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.72,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.061,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 2.12,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000419",
+      "pv:verse:000416",
+      "pv:verse:000155"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.345,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.61,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.054,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.94,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000044",
+      "pv:verse:000470",
+      "pv:verse:000042"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.235,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.56,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.051,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.54,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000416",
+      "pv:verse:000419",
+      "pv:verse:000155"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.851,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "img_eval_waves.jpg",
+   "analyze_http": 200,
+   "analyze_ms": 24.0,
+   "model_timings_ms": {
+    "preprocess": 0.802,
+    "forward": 22.117,
+    "total": 23.007
+   },
+   "scene_status": "confident",
+   "scene_top": [
+    [
+     "scene.sky",
+     0.715
+    ],
+    [
+     "scene.sea_coast",
+     0.162
+    ],
+    [
+     "scene.other",
+     0.034
+    ]
+   ],
+   "emotion_status": "clear",
+   "emotion_top": [
+    [
+     "img_emotion.awe",
+     0.382
+    ],
+    [
+     "img_emotion.contentment",
+     0.173
+    ],
+    [
+     "img_emotion.anger",
+     0.172
+    ]
+   ],
+   "tags_present": [
+    "tag.sea"
+   ],
+   "suggestion": {
+    "visual_items": [
+     {
+      "id": "scene_group.sky_night",
+      "name_ar": "السماء والليل",
+      "score": 0.7150439620018005,
+      "source": "scene_group"
+     },
+     {
+      "id": "tag.sea",
+      "name_ar": "بحر",
+      "score": null,
+      "source": "tag"
+     }
+    ],
+    "lit_emotions": [
+     {
+      "id": "lit_emotion.awe",
+      "name_ar": "الجلال والدهشة",
+      "from_img_emotion": "img_emotion.awe"
+     },
+     {
+      "id": "lit_emotion.serenity",
+      "name_ar": "السكينة والطمأنينة",
+      "from_img_emotion": "img_emotion.contentment"
+     }
+    ]
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.041,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.86,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000416",
+      "pv:verse:000155",
+      "pv:verse:000419"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.191,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.64,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.043,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.86,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000044",
+      "pv:verse:000470",
+      "pv:verse:000469"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 1.103,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 0.52,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.035,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "focus_last_item",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.awe",
+     "http": 200,
+     "ms": 1.48,
+     "status": "ok",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000416",
+      "pv:verse:000419",
+      "pv:verse:000155"
+     ],
+     "tiers": [
+      1,
+      1,
+      1
+     ],
+     "engine_ms": 0.849,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  },
+  {
+   "image": "synthetic_corrupt.jpg",
+   "analyze_http": 400,
+   "analyze_ms": 0.6,
+   "error": "invalid_image"
+  },
+  {
+   "image": "synthetic_flat_gray.png",
+   "analyze_http": 200,
+   "analyze_ms": 23.9,
+   "model_timings_ms": {
+    "preprocess": 1.117,
+    "forward": 21.744,
+    "total": 22.958
+   },
+   "scene_status": "unsupported",
+   "scene_top": [
+    [
+     "scene.other",
+     0.537
+    ],
+    [
+     "scene.sky",
+     0.171
+    ],
+    [
+     "scene.farmland_rural",
+     0.05
+    ]
+   ],
+   "emotion_status": "ambiguous",
+   "emotion_top": [
+    [
+     "img_emotion.disgust",
+     0.265
+    ],
+    [
+     "img_emotion.anger",
+     0.223
+    ],
+    [
+     "img_emotion.fear",
+     0.191
+    ]
+   ],
+   "tags_present": [],
+   "suggestion": {
+    "visual_items": [],
+    "lit_emotions": []
+   },
+   "runs": [
+    {
+     "variant": "suggested",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.longing",
+     "http": 200,
+     "ms": 0.62,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.012,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "suggested",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.longing",
+     "http": 200,
+     "ms": 1.77,
+     "status": "partial",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000006"
+     ],
+     "tiers": [
+      3
+     ],
+     "engine_ms": 1.174,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "production",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 0.59,
+     "status": "abstained",
+     "abstention": "empty_corpus",
+     "verses": [],
+     "tiers": [],
+     "engine_ms": 0.011,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    },
+    {
+     "variant": "emotion_changed",
+     "mode": "development",
+     "lit_emotion": "lit_emotion.sadness",
+     "http": 200,
+     "ms": 1.62,
+     "status": "partial",
+     "abstention": null,
+     "verses": [
+      "pv:verse:000001"
+     ],
+     "tiers": [
+      3
+     ],
+     "engine_ms": 1.05,
+     "contract_issues": 0,
+     "draft_disclosed": true
+    }
+   ]
+  }
+ ]
+}

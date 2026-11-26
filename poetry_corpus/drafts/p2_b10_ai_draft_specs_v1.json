@@ -1,0 +1,1366 @@
+{
+ "batch": "p2_b10",
+ "description": "P2 parallel worker greenery_A (): AI draft annotations by claude-opus-5-5 on a disjoint candidate pool from poetry_corpus/tools/build_candidate_index.py, pre-checked with check_worker_spec and merged by poetry_corpus/tools/merge_worker.py. Verse text is not stored here; build_batch copies it from APCD. Labels are drafts pending human review.",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "worker": "greenery_A",
+ "work_log": {
+  "started": "2026-11-26T00:20:26",
+  "finished": "2026-11-26T00:27:23",
+  "minutes": 7,
+  "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+  "candidates_listed": null,
+  "read_in_context": null
+ },
+ "verses": [
+  {
+   "apcd_row": 30013,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تتذكر أخاها صخرا الميت حين تسمع حمامة تسجع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "تذكرت صخرا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمامة",
+     "justification": null
+    }
+   ],
+   "meaning": "تقول الخنساء إنها تذكرت أخاها صخرًا حين غنت حمامة على غصن من شجر الأيك، فهاج غناؤها حزنها عليه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 595
+  },
+  {
+   "apcd_row": 147145,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرثي فقيدا فلا يفرح بحديقة تجاور قبره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "حديقة",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فقيدًا فيقول: لا فرح لي إن نبتت حديقة بجوار قبرك، فقبرك نفسه مملوء بأبهى الحدائق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 596
+  },
+  {
+   "apcd_row": 158032,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بالسقيا لضريح الفقيد في قصيدة رثاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "المزن",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر في رثائه أن يسقي مطر السحاب الغزير قبر الفقيد حتى تكسو الأزهار أطراف ترابه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 597
+  },
+  {
+   "apcd_row": 332554,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى في رثائه أن يصير قبر الفقيد روضة خضراء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روضة",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "النوار",
+     "justification": null
+    }
+   ],
+   "meaning": "يكمل الشاعر دعاءه بالمطر لقبر المرثي، حتى تصير جوانب القبر روضة خضراء تحيط بها الأزهار.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 598
+  },
+  {
+   "apcd_row": 929522,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو للفقيدة بريحان يظلل ضريحها ويرى قبرها أثمن روضة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "ريحان",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر أن يظل الريحان يظلل قبر الفقيدة، فلا روضة تضم مثل ما يضمه ذلك القبر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 599
+  },
+  {
+   "apcd_row": 120558,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أسى",
+    "justification": "ينوح كما تنوح الحمامة على الغصن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يرى نفسه غائبا عن داره فبكاؤه أشد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "غصن",
+     "justification": null
+    }
+   ],
+   "meaning": "تنوح الحمامة على غصن فينوح الشاعر لمثل ما تنوح له، ويرى أن بكاء الغائب عن داره أشد أسى من بكاء الحاضر فيها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 600
+  },
+  {
+   "apcd_row": 329465,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "تضمر حزنا",
+    "justification": "يرى هديل الحمائم في الأيك حزنا كحزنه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الورق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر: لا تظن الحمائم الورق في الأيك تغني فرحًا، إنما تخفي في هديلها حزنًا مثل حزنه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 601
+  },
+  {
+   "apcd_row": 397985,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بكيت",
+    "justification": "بكى غزيرا حين مر بشجر الأراك"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "المكان يذكره بأحبة وشباب فقدهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "شجر الأراك",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه بكى حين مرّ بشجر الأراك حتى سابق السحاب في غزارة دمعه، إذ ذكّره المكان بأحبة وشباب فقدهم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 602
+  },
+  {
+   "apcd_row": 438795,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزين بكى",
+    "justification": "يصور حمام الأيك يتجاوب كحزين يبكي لحزين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حمام الأيك يتجاوب بالهديل، كأن كل حمامة حزين يبكي رحمة لحزين آخر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 603
+  },
+  {
+   "apcd_row": 507271,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "لوعة الحزين",
+    "justification": "غناء القمري على الأغصان أثار لوعة المحزون"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق شوق إلى أحباب نازحين"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأغصان",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "قمري",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن قمريًّا غنى البارحة على الأغصان فأثار لوعة المحزون، في قصيدة يشتاق فيها إلى أحباب بعيدين.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 604
+  },
+  {
+   "apcd_row": 1212928,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أنوح",
+    "justification": "ينوح بين النخيل كالحمائم في رثاء أمه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "في نخل",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمائم",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه ينوح بين النخيل كما تنوح الحمائم على أغصان الأيك أو على رؤوس النخل، في رثاء أمه.",
+   "text_note": "كلمة «فن» في أول الشطر الثاني قد تكون «فنن» بمعنى الغصن؛ النص منقول كما في APCD.",
+   "uncertainty": "medium",
+   "n": 605
+  },
+  {
+   "apcd_row": 1490260,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزين",
+    "justification": "نوح الحمامة على الغصون أبكى كل محزون"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمامة",
+     "justification": null
+    }
+   ],
+   "meaning": "ناحت حمامة على الغصون في الصباح فانحدرت دموع كل محزون يسمعها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 606
+  },
+  {
+   "apcd_row": 203471,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أبكي وأشتكي",
+    "justification": "يبكي ويشكو بينما يغرد الطائر في الغصون"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق غربة يقول فيها للطائر: كلانا غريب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر طائرًا يغرد على الأغصان متعجبًا: كيف أبكي وأشكو وأنت تغني وتسجع، وكلانا بعيد عن داره.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 607
+  },
+  {
+   "apcd_row": 1063069,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "لهفي",
+    "justification": "يتحسر على زهر الربيع الذي يفوح ثم يسقط"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "زهر الربيع",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتحسر الشاعر على زهر الربيع الذي يفوح عطره حينًا ثم يسقط ويضيع، تعبيرًا عن سرعة زوال الجمال.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 608
+  },
+  {
+   "apcd_row": 1065419,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يشكو تغير وطنه فلا جو صاف ولا زهر باسم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "زهر الربى",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو الشاعر أن جو العراق لم يعد صافيًا كما عهده، ولا عادت أزهار الربى باسمة، فقد تغير الوطن في عينه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 609
+  },
+  {
+   "apcd_row": 1072648,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "للاحزان",
+    "justification": "الروض صار مشهدا للأحزان بعد أن كان للأفراح"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الروض الذي كان من قبل موضعًا للأفراح صار مشهدًا للأحزان، بعد موت الطائر المغرد فيه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 610
+  },
+  {
+   "apcd_row": 410303,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتأمل زوال الملوك كأنهم لم يسكنوا البساتين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "البساتين",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر عن الملوك الذين بادوا: صاروا من سكان القبور المغبرة، حتى كأنهم لم يسكنوا بيننا في البساتين يومًا.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 611
+  },
+  {
+   "apcd_row": 488830,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حسراتي",
+    "justification": "كلما تنفس في الرياض ظهرت حسراته الكامنة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق تمني العودة إلى القيروان"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه كلما تنفس في الرياض وقت الضحى ظهرت حسراته الكامنة، فجمال الرياض يذكره بما فقد من وطنه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 612
+  },
+  {
+   "apcd_row": 350612,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الأحزان",
+    "justification": "نساء ينحن على الفقيد نوح الحمائم بين الأشجار"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأشجار",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمائم",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الباكيات على الفقيد ينحن بين الأشجار نوح الحمائم، والأحزان تهز أغصانها الناعمة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 613
+  },
+  {
+   "apcd_row": 679135,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء: ذبل الروض بعد الفقيد وناح طائره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروض",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "طائره",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فقيدًا فيقول إن الروض المزهر صار بعده ذابلًا، وناح عليه طائره فوق أشجاره الكبيرة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 614
+  },
+  {
+   "apcd_row": 897342,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أسى",
+    "justification": "ذبلت أغصان البان حزنا على الراحلين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حزن على أحبة رحلوا عن الحمى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن شجر البان ذبلت أغصانه أسى على الأحبة الراحلين، واعتلت نسائم اللوى بعدهم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 615
+  },
+  {
+   "apcd_row": 624006,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حمامة فقدت إلفها في قصيدة رثاء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "الحنين",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أيكها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حمامة فقدت إلفها فانطلقت في أيكها تردد الحنين بأعذب الألحان، فهيجت لوعته.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 616
+  },
+  {
+   "apcd_row": 1234643,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الأسى",
+    "justification": "هديل الحمام على الغصون أثار أساه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يحن بعده إلى البرق اليماني"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر صاحبيه من قحطان بأن حمامًا يهدل على أفنان الغصون قد أثار في نفسه الأسى.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 617
+  },
+  {
+   "apcd_row": 104971,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "شجا",
+    "justification": "يسأل طير الدوح عمن أشجاه أنينه مثله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "وحنينه",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الدوح",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "طير",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه سأل طير الشجر الكبير: كم محزونًا مثلي أشجاه أنينك وحنينك المتردد؟",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 618
+  },
+  {
+   "apcd_row": 104662,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "حنينه",
+    "justification": "نوح الحمام على الأغصان هيج حنينه إلى عبلة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "والنحيب",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن حمامًا ناح على الأغصان فأثار حنينه ونحيبه شجنه، وهو بعيد عن عبلة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 619
+  },
+  {
+   "apcd_row": 422615,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "للمشتاق",
+    "justification": "غناء الحمام صباحا يهيج أحزان المشتاق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "أحزانا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأغصان",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "إذا غنى الحمام على الأغصان في الصباح أثار في المشتاق أحزانه، إذ يذكره بزمن طرب مضى.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 620
+  },
+  {
+   "apcd_row": 232274,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "الشوق القديم",
+    "justification": "حمامة تنوح على الأيك هيجت شوقه القديم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "تفجع",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمامة",
+     "justification": null
+    }
+   ],
+   "meaning": "أثار في الشاعر شوقه القديم حمامة تنوح متفجعة على شجر الأيك بين القريتين.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 621
+  },
+  {
+   "apcd_row": 365408,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "الشوق القديم",
+    "justification": "حمامة تترنم على غصن هيجت شوقه القديم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقرن بكاءه ببكاء الرثاء في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "غيضة",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمامة",
+     "justification": null
+    }
+   ],
+   "meaning": "أثار في الشاعر شوقه القديم حمامة تترنم على غصن في أجمة ملتفة الشجر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 622
+  },
+  {
+   "apcd_row": 476638,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يحن إلى لهو شبابه حين تهدل الورقاء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يشكو ضعفه بعد أن أقعدته السنون"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أغصان",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "ورقاء",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه لم يعد يذكر لهو شبابه إلا حين تذكّره حمامة ورقاء تهدل بين الأغصان، بعد أن أضعفته السنون.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 623
+  },
+  {
+   "apcd_row": 885522,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو بالسقيا لجيران أحبة رحلوا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياض",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر بالمطر لجيران أحبة رحلوا حين أخذ نبت رياض الحزن يهيج ويصفر في آخر الموسم.",
+   "text_note": "تكرر لفظ «سقى» في أول البيت كما في APCD.",
+   "uncertainty": "medium",
+   "n": 624
+  },
+  {
+   "apcd_row": 191743,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "تذكرتها",
+    "justification": "يتذكر محبوبته ليلا وقد حالت بينهما أرض بعيدة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والشجر",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "رعان",
+     "justification": null
+    }
+   ],
+   "meaning": "تذكر الشاعر محبوبته في جوف الليل، وقد حالت بينه وبينها مرتفعات وأراض منبسطة ينبت فيها الزهر والشجر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 625
+  },
+  {
+   "apcd_row": 749255,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "حنينا",
+    "justification": "يتمنى عودة أيامه في النخيل حنينا إلى أهله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أفياء نخله",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى الشاعر عودة أيامه الطيبة في النخيل، حنينًا إلى من يقيم في ظلال نخله.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 626
+  },
+  {
+   "apcd_row": 1261103,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يذكر منزلا عهده عامرا ويدعو لرياضه بالسقيا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "وخمائلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر منزلًا لهم باللوى عرفوه عامرًا بأهله، ويدعو الله أن يسقي رياضه وخمائله.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 627
+  },
+  {
+   "apcd_row": 1261922,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفضل عيشه القديم بين الخزامى على رياض النيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياض النيل",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "بالخزامى",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن عيشه في رياض النيل ليس ناعمًا كعيشه الذي عهده بين نبات الخزامى في نجد، فقلبه مشتاق إلى تلك الربى.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 628
+  },
+  {
+   "apcd_row": 1309994,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى عودة أيام مضت ورؤية الرياض"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وأمياها",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر متشوقًا: هل تعود أيامنا فنرى تلك الرياض ونرد مياهها مع الأحبة؟",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 629
+  },
+  {
+   "apcd_row": 344572,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعد ناقته المشتاقة بالعودة إلى مراعي رياضها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "غربة النوى",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روضها",
+     "justification": null
+    }
+   ],
+   "meaning": "يطمئن الشاعر ناقته المشتاقة بأنها سترعى، وإن طالت غربتهما، ربى تنبت في أطراف رياضها نبتة النفل الكثيفة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 630
+  },
+  {
+   "apcd_row": 1523073,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سياق غزل يهيج فيه ترنم القمري شوقه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "أشجاني",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "قمري",
+     "justification": null
+    }
+   ],
+   "meaning": "إذا غنى القمري على غصن من شجر الأيك أحزنه غناؤه وهيج شوقه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 631
+  },
+  {
+   "apcd_row": 1470129,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "أحن",
+    "justification": "يحن إلى الأزهار كلما هبت الصبا وناح الحمام"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الأزهار",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه يحن إلى الأزهار كلما هبت ريح الصبا، وكلما ناح الحمام المطوق في الأيك.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 632
+  },
+  {
+   "apcd_row": 385876,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "الشيق",
+    "justification": "يرى شوقه أعظم مما يجده حمام الأيك"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "الحزين",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الأيك قائلًا: لا يدّعِ حمامك أنه يجد ما يجده المشتاق الحزين من ألم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 633
+  },
+  {
+   "apcd_row": 1269868,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الحمراء تتجرع الأسى على مجد غرناطة الزائل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الحمراء وحيدة بعد أهلها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروضة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حمراؤك",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر غرناطة: لله قصر حمرائك يتجرع الأسى وحيدًا في روضة خالية، بعد أن زال مجدك.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 634
+  },
+  {
+   "apcd_row": 1010435,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "فقد أنيسه فلا تروقه الرياض بعده"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "شوق إلى صاحب رحل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياض",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر صاحبًا رحل: أبعدك، وقد كان قربك وحده هو الأنس، تعجبني رياض أو يرقّ لي نسيم الشمال؟",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 635
+  },
+  {
+   "apcd_row": 1485895,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا رفيق له في سهره إلا النجم والطير"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "شجوي",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الدوح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والنجم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والنجم",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "والطير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر سهره حزينًا لا يشاركه فيه إلا نجم ساهر على شجنه، وطيور تعينه في السحر بغنائها على الأشجار.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 636
+  },
+  {
+   "apcd_row": 1064043,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "صريع الخوف",
+    "justification": "كائن صرعه الخوف من الأسد بجانب شجرة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "دوحة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر كائنًا صرعه الخوف من الأسد فلبث بجانب شجرة عظيمة يتلوّى قلقًا مما أصابه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 637
+  },
+  {
+   "apcd_row": 1402871,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يخشى الهلاك بعيدا عن الوطن، تكملة لقوله: وخشيتي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الموت في منأى عن الوطن"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "مرج",
+     "justification": null
+    }
+   ],
+   "meaning": "يخشى المتكلم أن يهلك هو وقومه بعيدًا عن وطنهم الذي غذّى خيولهم في مرج أخضر، وهو تكملة لقوله قبله: وخشيتي.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 638
+  },
+  {
+   "apcd_row": 113567,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تسبيح الكون كله لله رعدا وشجرا ووحشا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "خوف ربي",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأشجار",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الرعد يسبح الله فوقنا خوفًا منه، وتسبحه الأشجار والوحوش النافرة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 639
+  }
+ ]
+}

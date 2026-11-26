@@ -1,0 +1,96 @@
+{
+  "command": "python -m data_preparation.build v1 --places-dir external/shaden_visual --emoset-zip external/renad/emoset.zip --near-dup-decisions datasets/review/near_duplicate_decisions.csv",
+  "counts_per_source_split_status": {
+    "emoset118k|test": {
+      "emotion:labeled": 3200,
+      "rows": 3200,
+      "scene:unavailable": 3200
+    },
+    "emoset118k|train": {
+      "emotion:labeled": 4800,
+      "rows": 4800,
+      "scene:unavailable": 4800
+    },
+    "emoset118k|val": {
+      "emotion:labeled": 1200,
+      "rows": 1200,
+      "scene:unavailable": 1200
+    },
+    "places365_sample|ood_test": {
+      "emotion:unavailable": 600,
+      "rows": 600,
+      "scene:excluded_ood": 600
+    },
+    "places365_sample|test": {
+      "emotion:unavailable": 1076,
+      "rows": 1076,
+      "scene:labeled": 1076
+    },
+    "places365_sample|train": {
+      "emotion:unavailable": 3228,
+      "rows": 3228,
+      "scene:labeled": 3228
+    },
+    "places365_sample|val": {
+      "emotion:unavailable": 1076,
+      "rows": 1076,
+      "scene:labeled": 1076
+    }
+  },
+  "exact_duplicate_groups": 0,
+  "excluded_images": 0,
+  "inputs": [
+    {
+      "bytes": 542806,
+      "path": "external/shaden_visual/data/places_manifest.csv",
+      "role": "S1 places_manifest.csv",
+      "sha256": "dfd29aea3310ffe7f14a2ad596bc94bc8f863c0d43acc0080b6195fd51de1f92"
+    },
+    {
+      "bytes": 6214,
+      "path": "external/shaden_visual/data/raw/places365/IO_places365.txt",
+      "role": "S6 IO_places365.txt",
+      "sha256": "49f8c7fbeeb70deb055c040a1807a95b234bbac92902e1b6edfffbdd8411e1f1"
+    },
+    {
+      "bytes": 11440329,
+      "path": "external/shaden_visual/data/features/places_clip.npz",
+      "role": "S3 places_clip.npz (near-duplicate search only)",
+      "sha256": "363b684b1a34cca8b67fd162c849fe5ec1e0818262081055cc69edf6fe323fcf"
+    },
+    {
+      "bytes": 160925142,
+      "path": "external/renad/emoset.zip",
+      "role": "R1 emoset.zip (Renad)",
+      "sha256": "df604d10fd825dd0d9761e8ccda26c3e7859a2c517f64eae06900f359eb13693"
+    },
+    {
+      "bytes": 35764586,
+      "path": "datasets/cache/clip_embeddings.npz",
+      "role": "CLIP embeddings (near-duplicate search only)",
+      "sha256": "7fd2f960ee4abd9b1e201042350d8d6352af164993a365344b688adf27d5a100"
+    }
+  ],
+  "manifest": "datasets/manifests/manifest_v1.jsonl",
+  "manifest_sha256": "efdf33b153a900ecf3524569907b316b349e4860bab249d10b6efd630310b501",
+  "near_duplicate_search": {
+    "candidates": 159,
+    "confirmed_same_image": 0,
+    "groups": 0,
+    "quarantined": 0,
+    "rejected_different": 159,
+    "thresholds": {
+      "clip_cosine_min": 0.95,
+      "phash_hamming_max": 6
+    }
+  },
+  "quarantined_images": 0,
+  "records": 15180,
+  "scene_approach": "B: EmoSet scene unavailable, scene_source_raw absent (approval N1 not given)",
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "validator": {
+    "issues": 0,
+    "mode": "production"
+  }
+}

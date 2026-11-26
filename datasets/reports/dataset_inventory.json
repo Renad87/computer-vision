@@ -1,0 +1,187 @@
+{
+  "excluded": 0,
+  "flagged_for_visual_check": 83,
+  "input_archives": [
+    {
+      "bytes": 542806,
+      "path": "external/shaden_visual/data/places_manifest.csv",
+      "role": "S1 places_manifest.csv",
+      "sha256": "dfd29aea3310ffe7f14a2ad596bc94bc8f863c0d43acc0080b6195fd51de1f92"
+    },
+    {
+      "bytes": 6214,
+      "path": "external/shaden_visual/data/raw/places365/IO_places365.txt",
+      "role": "S6 IO_places365.txt",
+      "sha256": "49f8c7fbeeb70deb055c040a1807a95b234bbac92902e1b6edfffbdd8411e1f1"
+    },
+    {
+      "bytes": 11440329,
+      "path": "external/shaden_visual/data/features/places_clip.npz",
+      "role": "S3 places_clip.npz (near-duplicate search only)",
+      "sha256": "363b684b1a34cca8b67fd162c849fe5ec1e0818262081055cc69edf6fe323fcf"
+    },
+    {
+      "bytes": 160925142,
+      "path": "external/renad/emoset.zip",
+      "role": "R1 emoset.zip (Renad)",
+      "sha256": "df604d10fd825dd0d9761e8ccda26c3e7859a2c517f64eae06900f359eb13693"
+    },
+    {
+      "bytes": 35764586,
+      "path": "datasets/cache/clip_embeddings.npz",
+      "role": "CLIP embeddings (near-duplicate search only)",
+      "sha256": "7fd2f960ee4abd9b1e201042350d8d6352af164993a365344b688adf27d5a100"
+    }
+  ],
+  "sources": {
+    "emoset118k": {
+      "bytes": {
+        "max": 45110,
+        "median": 17183.0,
+        "min": 4370
+      },
+      "decoded": 9200,
+      "extension_format_mismatch": 0,
+      "files": 9200,
+      "formats": {
+        "JPEG": 9200
+      },
+      "height": {
+        "max": 256,
+        "median": 192.0,
+        "min": 65
+      },
+      "modes": {
+        "RGB": 9200
+      },
+      "per_split": {
+        "test": 3200,
+        "train": 4800,
+        "val": 1200
+      },
+      "per_split_and_class": {
+        "test|img_emotion.amusement": 400,
+        "test|img_emotion.anger": 400,
+        "test|img_emotion.awe": 400,
+        "test|img_emotion.contentment": 400,
+        "test|img_emotion.disgust": 400,
+        "test|img_emotion.excitement": 400,
+        "test|img_emotion.fear": 400,
+        "test|img_emotion.sadness": 400,
+        "train|img_emotion.amusement": 600,
+        "train|img_emotion.anger": 600,
+        "train|img_emotion.awe": 600,
+        "train|img_emotion.contentment": 600,
+        "train|img_emotion.disgust": 600,
+        "train|img_emotion.excitement": 600,
+        "train|img_emotion.fear": 600,
+        "train|img_emotion.sadness": 600,
+        "val|img_emotion.amusement": 150,
+        "val|img_emotion.anger": 150,
+        "val|img_emotion.awe": 150,
+        "val|img_emotion.contentment": 150,
+        "val|img_emotion.disgust": 150,
+        "val|img_emotion.excitement": 150,
+        "val|img_emotion.fear": 150,
+        "val|img_emotion.sadness": 150
+      },
+      "smaller_than_64px": 0,
+      "undecodable": 0,
+      "width": {
+        "max": 256,
+        "median": 256.0,
+        "min": 90
+      }
+    },
+    "places365_sample": {
+      "bytes": {
+        "max": 28733,
+        "median": 13408.0,
+        "min": 2799
+      },
+      "decoded": 5980,
+      "extension_format_mismatch": 0,
+      "files": 5980,
+      "formats": {
+        "JPEG": 5980
+      },
+      "height": {
+        "max": 256,
+        "median": 256.0,
+        "min": 256
+      },
+      "modes": {
+        "L": 14,
+        "RGB": 5966
+      },
+      "per_split": {
+        "ood_test": 600,
+        "test": 1076,
+        "train": 3228,
+        "val": 1076
+      },
+      "per_split_and_class": {
+        "ood_test|excluded_ood": 600,
+        "test|scene.camp_tents": 20,
+        "test|scene.desert": 60,
+        "test|scene.farmland_rural": 60,
+        "test|scene.forest": 60,
+        "test|scene.garden": 60,
+        "test|scene.historic_monument": 60,
+        "test|scene.home_interior": 60,
+        "test|scene.library_books": 40,
+        "test|scene.modern_city": 60,
+        "test|scene.mountains_valleys": 60,
+        "test|scene.old_city_market": 60,
+        "test|scene.other": 216,
+        "test|scene.place_of_worship": 60,
+        "test|scene.rivers_lakes": 60,
+        "test|scene.sea_coast": 60,
+        "test|scene.sky": 20,
+        "test|scene.snow_ice": 60,
+        "train|scene.camp_tents": 60,
+        "train|scene.desert": 180,
+        "train|scene.farmland_rural": 180,
+        "train|scene.forest": 180,
+        "train|scene.garden": 180,
+        "train|scene.historic_monument": 180,
+        "train|scene.home_interior": 180,
+        "train|scene.library_books": 120,
+        "train|scene.modern_city": 180,
+        "train|scene.mountains_valleys": 180,
+        "train|scene.old_city_market": 180,
+        "train|scene.other": 648,
+        "train|scene.place_of_worship": 180,
+        "train|scene.rivers_lakes": 180,
+        "train|scene.sea_coast": 180,
+        "train|scene.sky": 60,
+        "train|scene.snow_ice": 180,
+        "val|scene.camp_tents": 20,
+        "val|scene.desert": 60,
+        "val|scene.farmland_rural": 60,
+        "val|scene.forest": 60,
+        "val|scene.garden": 60,
+        "val|scene.historic_monument": 60,
+        "val|scene.home_interior": 60,
+        "val|scene.library_books": 40,
+        "val|scene.modern_city": 60,
+        "val|scene.mountains_valleys": 60,
+        "val|scene.old_city_market": 60,
+        "val|scene.other": 216,
+        "val|scene.place_of_worship": 60,
+        "val|scene.rivers_lakes": 60,
+        "val|scene.sea_coast": 60,
+        "val|scene.sky": 20,
+        "val|scene.snow_ice": 60
+      },
+      "smaller_than_64px": 0,
+      "undecodable": 0,
+      "width": {
+        "max": 256,
+        "median": 256.0,
+        "min": 256
+      }
+    }
+  },
+  "version": "v1"
+}

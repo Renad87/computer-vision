@@ -1,0 +1,426 @@
+{
+ "run_id": "emotion-s1-20261125T220720Z-efd7de",
+ "protocol": "(fixed before seeing any result):\n  - multinomial logistic regression (scikit-learn, lbfgs, max_iter 5000), seed 42;\n  - C chosen from C_GRID by validation macro-F1 (ties: the smaller C);\n  - temperature fitted on validation logits;\n  - the test split is scored once, after C and T are frozen.",
+ "class_ids": [
+  "img_emotion.amusement",
+  "img_emotion.awe",
+  "img_emotion.contentment",
+  "img_emotion.excitement",
+  "img_emotion.anger",
+  "img_emotion.disgust",
+  "img_emotion.fear",
+  "img_emotion.sadness"
+ ],
+ "manifest_sha256": "7df0416fbeb6e9810cc2b3fff4b6cad09600552661bd8beb7a7b5bd4428c0892",
+ "selected_C": 3.0,
+ "iterations": 90,
+ "c_grid": [
+  {
+   "C": 0.01,
+   "val_macro_f1": 0.6772535731918952,
+   "val_accuracy": 0.6825,
+   "iterations": 10
+  },
+  {
+   "C": 0.03,
+   "val_macro_f1": 0.7039094524075155,
+   "val_accuracy": 0.7058333333333333,
+   "iterations": 14
+  },
+  {
+   "C": 0.1,
+   "val_macro_f1": 0.7367433500793835,
+   "val_accuracy": 0.7358333333333333,
+   "iterations": 22
+  },
+  {
+   "C": 0.3,
+   "val_macro_f1": 0.7582775982136644,
+   "val_accuracy": 0.7566666666666667,
+   "iterations": 41
+  },
+  {
+   "C": 1.0,
+   "val_macro_f1": 0.7812538814595313,
+   "val_accuracy": 0.78,
+   "iterations": 60
+  },
+  {
+   "C": 3.0,
+   "val_macro_f1": 0.7887155732974813,
+   "val_accuracy": 0.7875,
+   "iterations": 90
+  },
+  {
+   "C": 10.0,
+   "val_macro_f1": 0.7873078779831921,
+   "val_accuracy": 0.7866666666666666,
+   "iterations": 150
+  },
+  {
+   "C": 30.0,
+   "val_macro_f1": 0.7761741947771617,
+   "val_accuracy": 0.7758333333333334,
+   "iterations": 163
+  },
+  {
+   "C": 100.0,
+   "val_macro_f1": 0.7469374977610375,
+   "val_accuracy": 0.7466666666666667,
+   "iterations": 266
+  }
+ ],
+ "temperature_fit": {
+  "temperature": 0.7756230700570512,
+  "val_nll_before": 0.6262893610291682,
+  "val_nll_after": 0.6024866330332141,
+  "at_search_bound": false,
+  "bounds": [
+   0.05000000000000001,
+   19.999999999999996
+  ]
+ },
+ "sizes": {
+  "train": 4800,
+  "val": 1200,
+  "test": 3200
+ },
+ "val": {
+  "n": 1200,
+  "accuracy": 0.7875,
+  "accuracy_ci95": [
+   0.7641666666666667,
+   0.8116666666666666
+  ],
+  "macro_f1": 0.7887155732974813,
+  "macro_f1_ci95": [
+   0.7660565735590386,
+   0.811387790570847
+  ],
+  "top2_accuracy": 0.9166666666666666,
+  "nll": 0.6024866104125977,
+  "ece_15": 0.02183092734465999,
+  "brier": 0.3033010959625244,
+  "per_class": {
+   "img_emotion.amusement": {
+    "precision": 0.7142857142857143,
+    "recall": 0.6,
+    "f1": 0.6521739130434783,
+    "support": 150
+   },
+   "img_emotion.awe": {
+    "precision": 0.8066666666666666,
+    "recall": 0.8066666666666666,
+    "f1": 0.8066666666666665,
+    "support": 150
+   },
+   "img_emotion.contentment": {
+    "precision": 0.582010582010582,
+    "recall": 0.7333333333333333,
+    "f1": 0.6489675516224188,
+    "support": 150
+   },
+   "img_emotion.excitement": {
+    "precision": 0.7986577181208053,
+    "recall": 0.7933333333333333,
+    "f1": 0.7959866220735786,
+    "support": 150
+   },
+   "img_emotion.anger": {
+    "precision": 0.8652482269503546,
+    "recall": 0.8133333333333334,
+    "f1": 0.8384879725085911,
+    "support": 150
+   },
+   "img_emotion.disgust": {
+    "precision": 0.9072847682119205,
+    "recall": 0.9133333333333333,
+    "f1": 0.9102990033222591,
+    "support": 150
+   },
+   "img_emotion.fear": {
+    "precision": 0.875,
+    "recall": 0.84,
+    "f1": 0.8571428571428572,
+    "support": 150
+   },
+   "img_emotion.sadness": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1": 0.8000000000000002,
+    "support": 150
+   }
+  },
+  "confusion": [
+   [
+    90,
+    6,
+    32,
+    17,
+    2,
+    1,
+    1,
+    1
+   ],
+   [
+    1,
+    121,
+    18,
+    0,
+    3,
+    0,
+    2,
+    5
+   ],
+   [
+    14,
+    15,
+    110,
+    4,
+    0,
+    1,
+    1,
+    5
+   ],
+   [
+    12,
+    4,
+    10,
+    119,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    5,
+    5,
+    122,
+    3,
+    2,
+    10
+   ],
+   [
+    0,
+    1,
+    4,
+    0,
+    1,
+    137,
+    7,
+    0
+   ],
+   [
+    3,
+    1,
+    0,
+    2,
+    4,
+    5,
+    126,
+    9
+   ],
+   [
+    3,
+    2,
+    10,
+    2,
+    4,
+    4,
+    5,
+    120
+   ]
+  ],
+  "bootstrap": {
+   "resamples": 1000,
+   "seed": 42,
+   "unit": "image"
+  }
+ },
+ "val_calibration": {
+  "before": {
+   "nll": 0.6262893676757812,
+   "ece_15": 0.06839076134065787,
+   "brier": 0.310070276260376,
+   "accuracy": 0.7875
+  },
+  "after": {
+   "nll": 0.6024866104125977,
+   "ece_15": 0.02183092734465999,
+   "brier": 0.3033010959625244,
+   "accuracy": 0.7875
+  }
+ },
+ "test": {
+  "n": 3200,
+  "accuracy": 0.7834375,
+  "accuracy_ci95": [
+   0.7696875,
+   0.798125
+  ],
+  "macro_f1": 0.7841317855501246,
+  "macro_f1_ci95": [
+   0.7701117297097475,
+   0.798308782669675
+  ],
+  "top2_accuracy": 0.92125,
+  "nll": 0.5993742942810059,
+  "ece_15": 0.022316154614090918,
+  "brier": 0.3052838444709778,
+  "per_class": {
+   "img_emotion.amusement": {
+    "precision": 0.7033248081841432,
+    "recall": 0.6875,
+    "f1": 0.695322376738306,
+    "support": 400
+   },
+   "img_emotion.awe": {
+    "precision": 0.8364116094986808,
+    "recall": 0.7925,
+    "f1": 0.8138639281129653,
+    "support": 400
+   },
+   "img_emotion.contentment": {
+    "precision": 0.6512141280353201,
+    "recall": 0.7375,
+    "f1": 0.6916764361078547,
+    "support": 400
+   },
+   "img_emotion.excitement": {
+    "precision": 0.7990074441687345,
+    "recall": 0.805,
+    "f1": 0.8019925280199254,
+    "support": 400
+   },
+   "img_emotion.anger": {
+    "precision": 0.8883116883116883,
+    "recall": 0.855,
+    "f1": 0.8713375796178343,
+    "support": 400
+   },
+   "img_emotion.disgust": {
+    "precision": 0.8305489260143198,
+    "recall": 0.87,
+    "f1": 0.8498168498168498,
+    "support": 400
+   },
+   "img_emotion.fear": {
+    "precision": 0.7792207792207793,
+    "recall": 0.75,
+    "f1": 0.7643312101910829,
+    "support": 400
+   },
+   "img_emotion.sadness": {
+    "precision": 0.8,
+    "recall": 0.77,
+    "f1": 0.7847133757961784,
+    "support": 400
+   }
+  },
+  "confusion": [
+   [
+    275,
+    10,
+    63,
+    33,
+    3,
+    5,
+    9,
+    2
+   ],
+   [
+    14,
+    317,
+    34,
+    14,
+    5,
+    2,
+    3,
+    11
+   ],
+   [
+    42,
+    28,
+    295,
+    10,
+    3,
+    2,
+    2,
+    18
+   ],
+   [
+    42,
+    9,
+    19,
+    322,
+    7,
+    0,
+    0,
+    1
+   ],
+   [
+    2,
+    3,
+    8,
+    15,
+    342,
+    1,
+    16,
+    13
+   ],
+   [
+    5,
+    0,
+    1,
+    0,
+    5,
+    348,
+    34,
+    7
+   ],
+   [
+    7,
+    4,
+    4,
+    6,
+    9,
+    45,
+    300,
+    25
+   ],
+   [
+    4,
+    8,
+    29,
+    3,
+    11,
+    16,
+    21,
+    308
+   ]
+  ],
+  "bootstrap": {
+   "resamples": 1000,
+   "seed": 42,
+   "unit": "image"
+  }
+ },
+ "test_calibration": {
+  "before": {
+   "nll": 0.6211299896240234,
+   "ece_15": 0.05522975380998106,
+   "brier": 0.3096855580806732,
+   "accuracy": 0.7834375
+  },
+  "after": {
+   "nll": 0.5993742942810059,
+   "ece_15": 0.022316154614090918,
+   "brier": 0.3052838444709778,
+   "accuracy": 0.7834375
+  }
+ },
+ "head_file": "artifacts/heads/emotion_head_v1.npz",
+ "manifest": "datasets/manifests/manifest_v0.9_emotion.jsonl"
+}

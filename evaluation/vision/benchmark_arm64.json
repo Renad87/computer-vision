@@ -1,0 +1,40 @@
+{
+ "machine": {
+  "cpu": "Apple M5",
+  "memory_gb": 16.0,
+  "macos": "27.0.1",
+  "python": "3.12.15",
+  "torch": "2.15.0",
+  "torch_threads": 4,
+  "mps_available": true
+ },
+ "images": "first 200 images of external/renad/emoset.zip (sorted by path)",
+ "devices": [
+  {
+   "device": "cpu",
+   "load_seconds": 3.323,
+   "decode_preprocess_ms_per_image": 0.807,
+   "forward_batch1_ms_median": 17.667,
+   "forward_batch1_ms_p95": 18.219,
+   "forward_batch64_images_per_second": 136.5,
+   "runs": 50,
+   "warmup": 10
+  },
+  {
+   "device": "mps",
+   "load_seconds": 0.998,
+   "decode_preprocess_ms_per_image": 0.709,
+   "forward_batch1_ms_median": 9.1,
+   "forward_batch1_ms_p95": 9.999,
+   "forward_batch64_images_per_second": 227.4,
+   "runs": 50,
+   "warmup": 10,
+   "mps_driver_allocated_mb": 1538.7
+  }
+ ],
+ "heads": {
+  "heads_ms_per_image": 0.0072,
+  "note": "scene softmax + 34 tag scores + one 8-way linear layer (random weights, timing only)"
+ },
+ "peak_rss_mb": 1672.4
+}

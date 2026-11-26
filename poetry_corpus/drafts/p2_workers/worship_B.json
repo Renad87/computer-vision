@@ -1,0 +1,1573 @@
+{
+ "worker": "worship_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 1501390,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "في سكينة",
+    "justification": "يأتي المصلى خاشعًا في سكينة ليقيم الصلاة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "جئت المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الممدوح وقد جاء إلى المصلى في سكينة الخاشع ليؤدي ركوع الصلاة وسجودها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1700205,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "تفاخر",
+    "justification": "دمشق تفاخر غيرها بجامعها البديع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وصف الجامع بالزاهي البديع المشيد يبعث الإكبار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بجامعها الزاهي",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "بجامعها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "تفتخر دمشق على غيرها من المدن بجامعها المشرق البديع المحكم البناء.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 813245,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربت",
+    "justification": "عرفات والصفا والبيت تطرب وتهتز فرحًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ذكر البيت وأركانه في مقام تعظيم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "والبيت مع أركانه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر عرفات تطرب والصفا يهتز والبيت الحرام بأركانه والحجون فرحًا بالمذكور حين أعلن اسمه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1003007,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرون روضة طيبة النسيم بين المنبر والقبر فيبتهجون"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "روضة مسكية النسيم تبعث الطمأنينة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بين منبره",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الله الذي أرى الحجاج بين منبر النبي وقبره روضة يفوح نسيمها كالمسك.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1002990,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "تسبيح وتعظيم لمسير الحجاج إلى الكعبة والحرم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "لكعبته",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الله الذي سار بالحجاج إلى كعبته وبيته الطاهر الذي يحيط به الحرم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1002993,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ارتواء الحجاج من ماء زمزم البارد يبعث الراحة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "سبحان",
+     "justification": "تسبيح لله على نعمة زمزم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "زمزما",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الله الذي أرى الحجاج زمزم قريبة منهم وشاء أن يرويهم من مائها البارد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1431914,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "يكتمل سروره بزيارة قبر النبي"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "زيارة قبر النبي في مسجده بالمدينة"
+    }
+   ],
+   "meaning": "يقول الشاعر إنه إذا زار قبر النبي خير الخلق جميعًا، عليه الصلاة، اكتمل سروره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1431807,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يخاطب عينيه منبهرًا بالمقام الأكبر والروضة والمنبر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "فرحة الزائر برؤية الروضة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "فيها المنبر",
+     "justification": null
+    }
+   ],
+   "meaning": "ينادي الشاعر عينيه لتتأملا هذا المقام الأعظم والروضة الزاهرة التي فيها المنبر النبوي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 188885,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "فخرنا",
+    "justification": "يفخر بقومه وبأن لهم المساجد والمنبر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "ولنا المساجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن فخر قومه هو فخر الملوك في يثرب، وأن لهم المساجد كلها والمنبر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 202238,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "من جلال",
+    "justification": "منبر يكسوه الجلال منذ القدم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صار المنبر تحت قس بعد خطيبه المسلم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "منبر تحت",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر منبرًا يكسوه الجلال، كان يعلوه خطيب مسلم ثم صار تحت قس.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 349437,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "جلال معظم",
+    "justification": "يصل إلى المصلى في جلال ووقار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سمت المنيب ووقار الخاشع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "ورد المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الممدوح يوم العيد وقد ورد المصلى في جلال عظيم ووقار خاشع وهيئة تائب منيب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 453827,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "له طرب",
+    "justification": "الحاج يستقبل الكعبة فيطرب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تمجيد عند الكعبة وأستارها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "الكعبة العظمى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حاجًا يستقبل الكعبة العظمى فيطرب حيث أستارها وتمجيد الله فيها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 487013,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حمل نعش الفقيد إلى المصلى في رثاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "نحو المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فقيدًا: لما حملوا نعشه إلى المصلى للصلاة عليه قصر باع المجد بعد أن كان طويلًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 632397,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "تسبيح لمعجزة الإسراء إلى المسجد الأقصى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "لمسجد إيليا",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "لمسجد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الله الذي أسرى بنبيه ليلًا من مكة إلى مسجد إيلياء في السحر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 633248,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يؤم جماعة كرامًا في مسجد للصلوات الخمس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "في مسجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "مسجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أنه يؤم الناس هناك في مسجد مع جماعة كرام يقيمون الصلوات الخمس المفروضة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 797258,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "وافتخر",
+    "justification": "يدعو صفاقس إلى الافتخار بمسجدها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مسجد لا مثيل له"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بمسجدك",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "بمسجدك",
+     "justification": null
+    },
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "صفاقس",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر مدينة صفاقس أن تتيه وتفتخر طول الدهر بمسجدها الذي لا مثيل له.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 797259,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "جلاله",
+    "justification": "محراب كامل الحسن يزداد جلالًا عند التأمل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بمحراب",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "بمحراب",
+     "justification": null
+    }
+   ],
+   "meaning": "يخص الشاعر محراب المسجد بالذكر، فقد اكتمل حسنه ويزداد جلاله في عين المتأمل الفطن.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 901271,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "بهجة",
+    "justification": "جامع يسر الناظرين ببهجته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "جامع معمور بذكر الله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "لجامعها المعمور",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "لجامعها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جامع المدينة العامر بذكر الله، له بهجة ومنظر يسر الناظرين ورونق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 901281,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "نور الجلالة",
+    "justification": "مآذن شاهقة يحيط بها نور الجلال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "مآذن",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "مآذن",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.symbolic",
+     "evidence": null,
+     "justification": "مجاوزة الجوزاء مبالغة في علو المآذن"
+    }
+   ],
+   "meaning": "يصف الشاعر مآذن الجامع وقد علت حتى جاوزت برج الجوزاء، ونور الجلال يحيط بجوانبها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1044959,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "واطرب",
+    "justification": "يدعو إلى الشرب من زمزم والطواف والطرب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "من زمزم اشرب",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى الشرب من زمزم والطواف بالكعبة والطرب بها، فقد غنى السعد لمن وصل إلى الحرم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1209318,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "تسبيح لمعجزة الإسراء إلى المسجد الأقصى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "أقصى المساجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يسبح الشاعر الله الذي أسرى بنبيه ليلًا إلى المسجد الأقصى وهو يرتقي في درجات الرفعة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1250184,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إفاضة الحاج من عرفات ونيله رضوان الله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "فرحة القبول بعد الوقوف"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "من عرفات",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حاجًا أفاض من عرفات بعد وقوفه بها، فأفاض الله عليه رضوانًا أكبر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1309639,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "شراب الأنس",
+    "justification": "ماء زمزم يؤنس الحجاج ويكشف همومهم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انكشاف الغموم بعد الطواف"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "زمزم للشراب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الحجاج وقد مالوا إلى زمزم يشربون منها شراب الأنس فانكشفت عنهم الهموم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1460552,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "مأوى السرور",
+    "justification": "عرفات موضع السرور والبركات للحجاج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "أرض عرفات",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أن الحجاج يأتون بعد ذلك أرض عرفات، وهي موضع السرور ومحل البركات.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1593179,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "من طرب",
+    "justification": "المصلى يكاد يسعى طربًا للقاء القادم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "نحو المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الممدوح يوم العيد: أقبلت نحو المصلى فكاد المصلى من طربه يسرع إلى لقائك.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1598048,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "بهيبة",
+    "justification": "يخرج إلى المصلى في هيبة ووقار"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "إلى المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر خروج الممدوح إلى المصلى يوم العيد خروجًا يرضي الله، في هيبة واستقامة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1629164,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "وجامع أنس",
+    "justification": "جامع يؤنس بنوره ويجلو ظلام الليل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "وجامع أنس",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "وجامع",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "دجا دمسه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جامعًا يبعث الأنس بإشراقه، يكاد نوره يجلو ظلمة الليل الحالكة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 74569,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء النبي وذكر داره ومنبره بعد رحيله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تذكر معهد النبي الذي كان يصعد منبره"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "منبر الهادي",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء النبي يقول الشاعر إن آيات الدار المقدسة بالمدينة لا تمحى، ففيها منبر الهادي الذي كان يصعده.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1797079,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "لست أنسى",
+    "justification": "يتذكر وقفته بالدير بعد رحيل أهله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الدير معطل بعد فناء ساكنيه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "يا دير",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "دير مهجور خلا من ساكنيه"
+    }
+   ],
+   "meaning": "يخاطب الشاعر الدير بأنه لن ينسى وقفتهم فيه وإن أورثه ذلك النسيان، بعد أن خلا من أهله.",
+   "text_note": "كلمة «فيك» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 228281,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "تباركت",
+    "justification": "يعظم الله كلما صلى في بيعة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "دعاء خاشع في الصلاة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "في كل بيعة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه كلما صلى في بيعة من البيع قال: تباركت يا رب، فقد اكتفيت بدعاء اسمك.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 521637,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "المنبر يميل ويتمايل لكلمات النبي"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "المنبر الأعلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يسلم الشاعر على النبي الذي حركت كلماته المنبر العالي فمال وتمايل تأثرًا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 379565,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى ورود زمزم والسعي بمكة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يرجو السعادة بالوصول"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بزمزم",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر متشوقًا: هل يرد ماء النعيم في زمزم، وهل يتاح له أن يرتوي ويسعى ويسعد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 379720,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "بسعادة",
+    "justification": "الحجاج في عرفات تعمهم السعادة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "وفي عرفات",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أن الحجاج عرفوا في عرفات سعادة شملتهم، ورأوا اجتماع الشمل يعمهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 685950,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "وهنيت",
+    "justification": "تهنئة بالعيد المبارك وصلاته في المصلى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "غداة المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه هُنئ بالعيد المبارك وجزائه صباح العيد حين يأتي الناس المصلى ساجدين.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 720218,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قيام الليل خاشعًا في المساجد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نور ساطع في المساجد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "في المساجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر رجلًا صالحًا كأنه نور ساطع في المساجد إذا قام الليل خاشعًا يتهجد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 738699,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "راضين",
+    "justification": "القلوب النافرة تسكن ويجمعها مسجد واحد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "مسجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "مسجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أن الممدوح سكن القلوب النافرة فأصبح الناس راضين يجمعهم كلهم مسجد واحد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 873939,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعوة إلى الصمت والتفكر وترتيل الذكر في المساجد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "في المساجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    }
+   ],
+   "meaning": "ينصح الشاعر صاحبه أن يكون في المساجد صامتًا متفكرًا، يرتل الذكر والآيات والسور.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 935982,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وقوف على بقايا مسجد دارس يذكر أهله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حجران قديمان طال عليهما الدهر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "شرفات مسجدها",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "مسجدها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "بقايا بناء قديم طال عليه الدهر"
+    }
+   ],
+   "meaning": "يذكر الشاعر أنه عرف من شرفات مسجد الديار حجرين قديمين طال عليهما الزمن.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 987035,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "آمنا مطمئنا",
+    "justification": "دخول البيت الحرام آمنًا مطمئنًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "وادخل البيت",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الحاج: ادخل البيت الحرام آمنًا مطمئنًا، وارتو من ماء زمزم العذب البارد.",
+   "text_note": "كلمة «واروعن» في APCD تبدو تصحيفًا لفعل الارتواء.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 987471,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "سعيدة",
+    "justification": "ساعات سعيدة بين المنبر والقبر الشريف"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "بين منبره",
+     "justification": null
+    }
+   ],
+   "meaning": "ينصح الشاعر الزائر أن يغتنم ساعات سعيدة هناك في المسجد النبوي بين منبر النبي ومضجعه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1279184,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "يا حبذا",
+    "justification": "إعجاب بالدير العالي وطيب فضائه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "دير عال مطل على المكان"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "وديرها",
+     "justification": null
+    }
+   ],
+   "meaning": "يمدح الشاعر المكان المرتفع المطل ودير المدينة العالي وطيب فضائه وهيكله.",
+   "text_note": "كلمة «العالي» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1413030,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "راضين طوعا",
+    "justification": "رهبان راضون بالفقر اختيارًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "رهبان الدير في زهدهم وعبادتهم"
+    }
+   ],
+   "meaning": "يصف الشاعر رهبانًا راضين طائعين بذل الفقر، والفقر عندهم اختيار لا اضطرار.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1378070,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بالرعاية لدير يسكنه من يحن إليه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ظلال النعم الممتدة على الدير"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "ديرا",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر الله أن يرعى الدير الذي يقيم فيه المخاطب وأن تمتد عليه ظلال النعم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1505787,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "جلت عجائبه",
+    "justification": "مسجد عظيم العجائب لا يضاهيه إلا السماء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بناء الأمير مسجدًا للمسلمين"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "مسجدا",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "مسجدا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.symbolic",
+     "evidence": null,
+     "justification": "مقارنة البناء بالسماء مبالغة في العظمة"
+    }
+   ],
+   "meaning": "يذكر الشاعر أن الأمير بنى للمسلمين مسجدًا عظيمة عجائبه، لا يضاهيه بناء إلا السماء.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1535104,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء أن تظل المساجد في ظلال الأمن"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "ومسجد القدس",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "ومسجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر أن يبقى المسجد الأقصى والمسجد الحرام في ظلال من غمام الأمن على الدوام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1761427,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "الله أكبر",
+    "justification": "تكبير الأذان من منارة الجامع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "expressed",
+     "evidence": "خاشع",
+     "justification": "مؤذن خاشع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "منار الجامع",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "الجامع",
+     "justification": null
+    },
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "سبتة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر تكبير الأذان يرتفع من منارة جامع سبتة بصوت عبد خاشع.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1761428,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إقامة الصلاة بين الصفوف في البلاط الواسع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "الله أكبر",
+     "justification": "تكبير الصلاة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "للصلاة أقيمها",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "صفوف المصلين في بلاط الجامع"
+    }
+   ],
+   "meaning": "يقول الشاعر: الله أكبر، أقيم الصلاة بين صفوف المصلين في بلاط المسجد الواسع.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1501445,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مدح قوم عُبّاد في الليل أبطال في النهار"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "رهبان محراب",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "محراب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قومًا هم عباد في المحاريب إذا أظلم الليل، وأسود في القتال إذا طلع النهار.",
+   "text_note": "كلمة «الظلام» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 528261,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "جامع خال لا تقام فيه الصلاة ولا الأذان"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خلاء الجامع من جماعته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "جامع عقبة خرب لا تغشاه جماعة"
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "لأذان",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "مسجد قديم صار قفرًا"
+    }
+   ],
+   "meaning": "يرثي الشاعر جامع عقبة وقد صار قفرًا، لا تغشاه جماعة لصلاة الخمس ولا يرتفع فيه أذان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 693070,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "هول زلزلة تميل لها المآذن والمساجد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "خشعت",
+     "justification": "خشوع المساجد أمام قدرة الله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "المساجد سجدا",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المآذن",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر هول يوم تصدعت فيه مصر، حتى خشعت المساجد ساجدة ومالت المآذن كأنها تركع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 770955,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء من كان يحيي المحراب بالصلاة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "لمحراب",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "لمحراب",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر حزينًا: من للمحراب المجيد الذي طالما قام فيه الفقيد بالصلاة والابتهال.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 930010,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء الأندلس ومساجدها التي صارت كنائس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المساجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر ديار الإسلام في الأندلس حيث صارت المساجد كنائس ليس فيها إلا نواقيس وصلبان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 947070,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء فقيد لم يصل عليه في المصلى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "يسوء المصلى",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فقيدًا ويقول إن المصلى يحزنه أنه هلك ولم تقم عليه صلاة فيه يشهدها الناس.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1794090,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "غريب بلا حاجة يأوي إلى المسجد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "المسجد ملاذ الغريب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "المسجد الجامع",
+     "justification": null
+    },
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "المسجد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر غربته في بلد بعيد: يروح ويغدو بلا حاجة، ويأوي إلى المسجد الجامع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 33271,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دير خلا من أهله كمحاريب أمة بادت"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تذكر أماكن عامرة صارت قفرًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.worship",
+     "relation": "relation.literal",
+     "evidence": "فالدير أقوى",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "أماكن وبيوت عبادة خربة دارسة"
+    }
+   ],
+   "meaning": "يذكر الشاعر أن الدير حتى البليخ قد خلا من أهله، كما خلت محاريب أمة درست.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

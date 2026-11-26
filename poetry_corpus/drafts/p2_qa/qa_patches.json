@@ -1,0 +1,291 @@
+{
+ "source": "independent AI QA audit of 144 sampled P2 records (poetry_corpus/drafts/p2_qa/findings.part*.json); AI second opinion, not human review",
+ "rules": [
+  "pre-modern city named literally -> scene_group.heritage (taxonomy: city = modern streets; old cities -> heritage)",
+  "scene named only inside a ليت wish -> relation.hypothetical; verse dropped if no literal/scene_association scene remains"
+ ],
+ "rejects": {
+  "376418": "QA: love dominant",
+  "1250184": "QA: patron praise dominant",
+  "886459": "QA: sectarian praise narrative, needs neighbouring verses",
+  "487649": "QA: flowers are metaphors for the dead man's face; no literal scene",
+  "1431489": "QA: places only inside a wish (hypothetical)",
+  "209157": "QA: comic hyperbole; no listed emotion fits",
+  "803411": "QA: sea and evening are an address to poetry (symbolic)",
+  "113741": "QA: mountains only inside a wish",
+  "223744": "QA: valley only inside a wish",
+  "598842": "QA: mountains figurative (glory)",
+  "56830": "QA: pride in the patron's people (praise)",
+  "137007": "QA: enjambed, serves praise of the caliph; unclear text",
+  "394165": "QA: المصلى is a toponym in a Sufi love poem",
+  "1461151": "QA: garden is a lovers' tryst (desire dominant)"
+ },
+ "patches": {
+  "745884": {
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وقوف على ديار مقفرة تذكرًا لأهلها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "لا أنيس في الديار"
+    }
+   ]
+  },
+  "198296": {
+   "visual_add": [
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر صولة",
+     "justification": null
+    }
+   ]
+  },
+  "33271": {
+   "visual_add": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "البليخ",
+     "justification": null
+    }
+   ]
+  },
+  "1234905": {
+   "visual_set": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.symbolic",
+     "evidence": null,
+     "justification": "الفجر والغياهب مشبه بهما لخضرة الدوح ولمعان النهر"
+    }
+   ]
+  },
+  "203017": {
+   "meaning": "يصف الشاعر نهر بردى وقد صفا ماؤه للريح، فأسرعت الريح إليه بين ستور من الشجر أطرافها أغصان."
+  },
+  "687042": {
+   "visual_add": [
+    {
+     "target": "tag.mosque",
+     "relation": "relation.literal",
+     "evidence": "جامع",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والنيرات",
+     "justification": null
+    }
+   ]
+  },
+  "813592": {
+   "meaning": "يدعو الشاعر دير مزمار أن يجيب غريبًا بعيد الدار، فقد ذكّره بأوطانه كما يذكر السياق.",
+   "text_note": "في APCD «أَحِبْ»، والأرجح «أَجِبْ»؛ النص منقول كما هو."
+  },
+  "1252020": {
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف ربيعي بهيج للزهر والسحاب"
+   }
+  },
+  "1233960": {
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شكوى ليل طويل لا ينقضي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انفراد الشاكي بليله"
+    }
+   ]
+  },
+  "1794947": {
+   "visual_set": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "«حطت ركائبه» كناية عن النزول في أي أرض"
+    }
+   ]
+  },
+  "350052": {
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تأمل حزين في حتمية الموت"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رهبة موت لا ينجو منه أحد"
+    }
+   ]
+  },
+  "335433": {
+   "meaning": "يسبّح الشاعر الخالقَ الذي له الطير، تغدو وتروح طالبةً رزقها ثم تأوي إلى أوكارها في الجبال الآمنة."
+  },
+  "869172": {
+   "meaning": "يصف طيب رائحة الفلاة وتفتح الرياض كأنها تضحك، بفضل سحب الصباح الممطرة التي تهطل بلا برق."
+  },
+  "725454": {
+   "meaning": "يتساءل الشاعر تعظيمًا لله: من الذي فلق البحر لموسى الكليم، ومن الذي ألهم نوحًا صنع السفن؟"
+  },
+  "328279": {
+   "meaning": "صار إيوان كسرى بعد ما كان فيه من ملك مرتعًا لجماعة، وصارت دياره منزلًا لغير أهلها (معنى «عرائس» غير مؤكد)."
+  },
+  "1269868": {
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الحمراء تتجرع الأسى على مجد غرناطة الزائل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الحمراء وحيدة بعد أهلها"
+    }
+   ]
+  },
+  "685950": {
+   "meaning": "يهنئ الشاعر المخاطَب بالعيد المبارك وبأجره، صباح نأتي المصلى ساجدين."
+  },
+  "486031": {
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء يستعيد شكوى الفقيد في مرضه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "شوق الفقيد الذي يذكره البيت"
+    }
+   ]
+  },
+  "1307901": {
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر ليالي المبيت في مسجد طيبة شوقًا إليها"
+   }
+  },
+  "474630": {
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يسهر يرعى النجوم مهمومًا في منفاه"
+    }
+   ]
+  },
+  "587057": {
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روضة ممطورة كالوشي المطرز"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إعجاب بصنع الطبيعة"
+    }
+   ]
+  },
+  "1700059": {
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يسري ليلًا في مهامه يفزع منها الجبان"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "هول الطريق الذي يفزع الجبان"
+    }
+   ]
+  },
+  "711211": {
+   "visual_set": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "ملاح وسفينة تضطرب في بحر هائج يدل عليه السياق"
+    }
+   ]
+  },
+  "361917": {
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعدد قصور اليمن التي شادها أسلافه"
+   }
+  },
+  "1004965": {
+   "meaning": "يتعجب الشاعر ممن رأى القصر بعينه وحوله منازل عامرة بالنصر العزيز.",
+   "text_note": "عجز البيت مطابق لعجز بيت مجاور في APCD (الصف 1004967)؛ النص منقول كما هو."
+  },
+  "72858": {
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور فرار الأعداء وتحصنهم خائفين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خوف الأعداء الفارين"
+    }
+   ]
+  },
+  "114199": {
+   "meaning": "يصف بلادًا متى أشرفت جبالها الطويلة على ترف (موضع أو مرتفع غير واضح) هاجت في النفس الشوق."
+  },
+  "453827": {
+   "text_note": "كلمة «تطمير» غير واضحة في APCD (لعلها تصحيف)؛ النص منقول كما هو."
+  },
+  "1505787": {
+   "secondary": []
+  },
+  "987035": {
+   "text_note": "«واروعن» في APCD كلمتان ملتصقتان؛ النص منقول كما هو."
+  }
+ }
+}

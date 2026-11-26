@@ -1,0 +1,133 @@
+{
+  "package": "p1_b03",
+  "batches": [
+    "p1_b03"
+  ],
+  "files": {
+    "full_xlsx": "Poetry_Review_P1-B03_41.xlsx",
+    "full_csv": "review_sheet_p1_b03_full.csv",
+    "priority_xlsx": "Poetry_Review_P1-B03_Priority_1.xlsx",
+    "priority_csv": "review_sheet_p1_b03_priority.csv",
+    "full_return": "review_p1_b03_full_v1.xlsx",
+    "priority_return": "review_p1_b03_priority_v1.xlsx"
+  },
+  "full_verse_ids": [
+    "pv:verse:000150",
+    "pv:verse:000151",
+    "pv:verse:000152",
+    "pv:verse:000153",
+    "pv:verse:000154",
+    "pv:verse:000155",
+    "pv:verse:000156",
+    "pv:verse:000157",
+    "pv:verse:000158",
+    "pv:verse:000159",
+    "pv:verse:000160",
+    "pv:verse:000161",
+    "pv:verse:000162",
+    "pv:verse:000163",
+    "pv:verse:000164",
+    "pv:verse:000165",
+    "pv:verse:000166",
+    "pv:verse:000167",
+    "pv:verse:000168",
+    "pv:verse:000169",
+    "pv:verse:000170",
+    "pv:verse:000171",
+    "pv:verse:000172",
+    "pv:verse:000173",
+    "pv:verse:000174",
+    "pv:verse:000175",
+    "pv:verse:000176",
+    "pv:verse:000177",
+    "pv:verse:000178",
+    "pv:verse:000179",
+    "pv:verse:000180",
+    "pv:verse:000181",
+    "pv:verse:000182",
+    "pv:verse:000183",
+    "pv:verse:000184",
+    "pv:verse:000185",
+    "pv:verse:000186",
+    "pv:verse:000187",
+    "pv:verse:000188",
+    "pv:verse:000189",
+    "pv:verse:000190"
+  ],
+  "priority_verse_ids": [
+    "pv:verse:000157"
+  ],
+  "priority_levels": {
+    "pv:verse:000157": "C"
+  },
+  "level_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1
+  },
+  "pilot_poems_if_all_levels_accepted": {
+    "scene_group.desert|lit_emotion.sadness": 3,
+    "scene_group.desert|lit_emotion.longing": 3,
+    "scene_group.desert|lit_emotion.awe": 3,
+    "scene_group.desert|lit_emotion.serenity": 3,
+    "scene_group.desert|lit_emotion.joy": 4,
+    "scene_group.sea|lit_emotion.sadness": 3,
+    "scene_group.sea|lit_emotion.longing": 3,
+    "scene_group.sea|lit_emotion.awe": 3,
+    "scene_group.sea|lit_emotion.serenity": 3,
+    "scene_group.sea|lit_emotion.joy": 3,
+    "scene_group.greenery|lit_emotion.sadness": 3,
+    "scene_group.greenery|lit_emotion.longing": 3,
+    "scene_group.greenery|lit_emotion.awe": 3,
+    "scene_group.greenery|lit_emotion.serenity": 3,
+    "scene_group.greenery|lit_emotion.joy": 3,
+    "scene_group.heritage|lit_emotion.sadness": 3,
+    "scene_group.heritage|lit_emotion.longing": 3,
+    "scene_group.heritage|lit_emotion.awe": 3,
+    "scene_group.heritage|lit_emotion.serenity": 3,
+    "scene_group.heritage|lit_emotion.joy": 3,
+    "scene_group.sky_night|lit_emotion.sadness": 3,
+    "scene_group.sky_night|lit_emotion.longing": 3,
+    "scene_group.sky_night|lit_emotion.awe": 3,
+    "scene_group.sky_night|lit_emotion.serenity": 3,
+    "scene_group.sky_night|lit_emotion.joy": 3
+  },
+  "prior_packages": [
+    "p1_b01",
+    "p1_b02"
+  ],
+  "compact_levels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "cells": "pilot",
+  "review_columns": "emotion (P0 method) + visual_decision",
+  "verification": {
+    "full_xlsx": {
+      "rows": 41,
+      "text_matches_records": 41,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "full_csv": {
+      "rows": 41,
+      "text_matches_records": 41,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "priority_xlsx": {
+      "rows": 1,
+      "text_matches_records": 1,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "priority_csv": {
+      "rows": 1,
+      "text_matches_records": 1,
+      "reviewer_cells_filled": 0,
+      "ids_in_order": true
+    },
+    "text_matches_apcd": true
+  }
+}

@@ -1,0 +1,1479 @@
+{
+ "worker": "water_A",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 205926,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ثكل",
+    "justification": "رثاء يجعل ربى الوادي والغدير مفجوعين بفقد الراحل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "ربى الوادي",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أيكها",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء يصور الشاعر ربى الوادي وقد فجعت بفقد أعظم أشجارها، والغدير الصافي يتجرع ألم الثكل، كناية عن فقد الراحل الذي كان زينة المكان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 492276,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بكى الوحيد",
+    "justification": "القصور والنهر تبكي ذليلة بعد زوال ملك ابن عباد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقبته",
+     "justification": null
+    }
+   ],
+   "meaning": "تبكي قصور ابن عباد بعد زوال ملكه: قصر الوحيد وقصر الزاهي وقبته، ومعها النهر وقصر التاج، فكلها يظهر عليها الذل بعد رحيله.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 456197,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الأسى",
+    "justification": "ناعورة دائمة الأنين يرى فيها الشاعر صورة حزنه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ناعورة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ناعورة نشأت مثله في زمن الحزن، فهي لا تكف عن الأنين والتوجع، ويرى في صوتها صورة لحاله.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1074097,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزنا",
+    "justification": "رثاء فتية صرعى يبكيهم العراق ونهراه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ودجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء فتية صرعى يقول الشاعر إن العراق بكاهم حزنا، وبكاهم أبناؤه، وبكاهم نهرا دجلة والفرات.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1633670,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ألم الفراق",
+    "justification": "الغروب مصور وداعا موجعا للبحيرة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "البحيرة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والشمس",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر الشمس عند الغروب كأنها مريضة من ألم الفراق، تمد شعاعها كيد تودع بها البحيرة، في قصيدة تدعو إلى التمتع بالحديقة قبل حلول الظلام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 222360,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "تبكي انتحابا",
+    "justification": "النيل يذهل أمام جموع تبكي في جنازة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر النيل وقد ذهل عن جريانه حين رأى الجموع تبكي وتنتحب في جنازة سعد، كما يظهر من سياق القصيدة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1062724,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "نكبتها",
+    "justification": "حسرة على تبدل حال دجلة وواديها بعد النكبة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "لا دجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى الشاعر أن دجلة لم تعد كما كانت بعد النكبة التي حلت بها، ولا الزمان في واديها كما عرفه الناس، بعدما زال الأمن وفسدت الأيام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1201757,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء رجل عظيم صار رهين القبر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "مجامع الأنهار",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر المهلب، فيقول إن من كان يرتجى لكل أمر عظيم أصبح في قبره عند ملتقى الأنهار.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 133306,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بالسقيا لقبر الراحل في قصيدة رثاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ودجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء من غادر قصر الخلافة يدعو الشاعر للقبر الواقع بين الصراة ودجلة ونهر عيسى أن يجود عليه الغيث صباحا ومساء.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 627783,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "نحيب",
+    "justification": "النيل دموع والريح نحيب حول الهرمين كأنهما راحلان"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الضمير يعود إلى الهرمين المذكورين في البيت السابق"
+    }
+   ],
+   "meaning": "في وصف الهرمين كأنهما هودجان لحبيبين راحلين، يجعل الشاعر ماء النيل تحتهما دموعا، وصوت الريح عندهما نحيبا على الفراق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1259787,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أسى",
+    "justification": "هديل الحمامة فوق النيل يذكي الحزن"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر الحمامة بنت الخمائل أن تسجع فوق النيل، ويقرر أن صوت الهديل كثيرا ما يذكي الحزن في القلب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 106911,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذكر قبور الشهداء على شط الفرات في قصيدة رثاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بجنب النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر في رثاء آل البيت قبورا إلى جانب النهر في أرض كربلاء، حيث نزل أصحابها على شط الفرات وماتوا عطاشا كما يذكر السياق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 114297,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ضجات النواح",
+    "justification": "نواح على قتيل من القوم يهيج الدمع عند الفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الإشراق",
+     "justification": null
+    }
+   ],
+   "meaning": "مر الشاعر بالفرات عند شروق الشمس، فهيج دمعه صوت النائحات يندبن قتيلا عزيزا على قومه، كما يظهر من السياق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 196068,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بالسقيا لقتلى مقيمين عند الفرات"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "القصيدة تفخر بفتوح العراق وانتصاراتها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر الله أن يسقي القتلى المقيمين في قبورهم عند الفرات، وآخرين في مرتفعات النجف، في قصيدة يذكر فيها فتوح العراق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 371565,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ما بي من عزاء",
+    "justification": "فقد الصبر والعزاء بعد مصرع الأصحاب عند النهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالنهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر لصاحبيه إنه لم يبق له عزاء ولا صبر ولا رغبة في شيء بعد أصحابه الذين أصيبوا عند النهر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 384549,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أشكو فقد",
+    "justification": "شكوى فقد فتيان شجعان قتلوا يوم النهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو الشاعر إلى الله فقد فتيان شجعان شهد معهم يوم النخيلة ويوم النهر، ويتلهف عليهم بعد هلاكهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 803430,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تساؤل حزين عن تكدر الجدول المرح بالعبوس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "يا جدول",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "الوادي الطروب",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل الشاعر جدول الوادي المرح: ألم يكدر صفوك العبوس؟ في قصيدة يتساءل فيها عن أثر الأحزان في كل جميل من الطبيعة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 804571,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "موت يسكت الحفيف عند غدير صامت"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر كائنا رقيقا، يبدو من السياق أنه زهرة، مات فظهر بجوار الغدير الصامت وقد أسكت الموت حفيفه.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 880952,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بكينا",
+    "justification": "بكاء الفراق عند النهر حتى صار ماؤه ملحا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يذكر النوى والشوق إلى الأحبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر الشروب",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أنهم بكوا عند النهر العذب عشية الفراق، فصار ماؤه بعدهم ملحا من كثرة دموعهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1505957,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حبيب طواه الموت وترك وحيدا بشط النيل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "فردا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بشط النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه ترك على شاطئ النيل حبيبا وحيدا، ويفهم من السياق أنه في قبره، وقد حبس دمعه عليه فلم يدعه يسيل على خده.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1511732,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "باكيا",
+    "justification": "القصر الأموي يبكي بدموع النهر الجاري حوله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قصر بني أمية",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قصر بني أمية في قرطبة كأنه يبكي بدموع النهر الجاري حوله متلهفا على أهله الذين مضوا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1269859,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نهر غرناطة دموع على زوال دولتها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهرك الجاري",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الخطاب لغرناطة ومجدها الزائل كما في السياق"
+    }
+   ],
+   "meaning": "يخاطب الشاعر غرناطة: ما نهرك الجاري إلا دموع تسيل على ما زال من دولتك ومجدك.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1753258,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بنواحها",
+    "justification": "ناعورة يضاعف أنينها نواح الشاعر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وناعورة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ناعورة ضاعفت بأنينها نواحه، فكأن عينيه هما اللتان تجريان دموعها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 390764,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "عويل",
+    "justification": "منازل الخليفة تعول على شاطئ الفرات بعد موته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "شاطي الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "منازل هارون",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء هارون الرشيد يصور الشاعر منازل الخليفة على شاطئ الفرات وقد صار لها عويل بعد موته وزوال بهجة الملك عنها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 488834,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شكوى الحرمان والماء والظل قريبان منه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يذكر الأسر والبعد عن الأحبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "دوحات",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو الشاعر أنه يظمأ والأنهار تجري حوله، ويقف في حر الشمس والأشجار قريبة منه، تعبيرا عن حرمانه وهو أسير كما يظهر من السياق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 678805,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "مآتم",
+    "justification": "أنهار الديار صارت مآتم بعد أفراحها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والأنهار",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر ديار الحمى: بينما كانت لياليك ولائم وأفراحا إذا بأنهارك قد صارت مآتم بعد أن طرقتك المصائب فجأة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 218394,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "أشواق ولهان",
+    "justification": "النيل مشتاق إلى بردى رمزا لتآلف الأوطان"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر النيل مشتاقا إلى الأردن، يرسل إلى نهر بردى أشواق محب ولهان، في قصيدة تدعو إلى التآلف بين الأوطان.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 896058,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوق",
+    "justification": "النيل يهيج في الشاعر الشوق إلى بردى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالنيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر وهو في مصر إن النيل يهيج فيه الشوق إلى نهر بردى في دمشق، ويتساءل أين الظمآن المتلهف من برد مائه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 852693,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "حر الفراق",
+    "justification": "بكاء الفراق عند نهري دمشق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "والأسى",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "باناس",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه يبكي عند نهر باناس من الفراق والأسى، وإن حرقة الفراق تسكنه عند بردى، في قصيدة يشتاق فيها إلى أحبته في دمشق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1457264,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "أحن من شوق",
+    "justification": "حنين الشاعر يفوق أنين نواعير الفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نواعير الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "نزل الشاعر بالفرات فسمع أنين نواعيره، فظل يحن شوقا إلى محبوبته، ويرى أن النواعير لا تحن حنينه الصادق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 122413,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمن لمعرفة وجهة الأحبة الذين رحلت بهم السفن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يفضل الموت على العيش بعد رحيلهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ماء الفرات",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "السفن",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى الشاعر لو أن ماء الفرات يخبره إلى أين مضت السفن بأحبته الراحلين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 181929,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعاء بالسقيا لدجلة بعد الرحيل عنها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "لدجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر بالسقيا لدجلة بعد أن رحل عنها، ويرى أن الدنيا تفرق كل مجتمع حتى تتشتت النجوم المجتمعة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 203357,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تذكر الوطن والأحبة ومجالس النيل في الغربة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر الشاعر في غربته مصر ومن يحب، ومجلسهم على الجزيرة بين الجسر والنهر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 332192,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "أحن",
+    "justification": "حنين إلى دار بعيدة خلف النهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يشكو أرضا غريبة لا يألف أهلها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وراء النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه يحن إلى داره التي تقع خلف النهر، كحنين الجمل المسن المقيد، وهو غريب في أرض لا يألف أهلها كما يظهر من السياق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 980366,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذكر معاهد الأنس في دمشق بعد تفرق الأحبة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "يتباكيان",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدران",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر موضعي النيربين في دمشق يتباكيان بدموع الغدران على معاهد أنسهم التي خلت بعد أن فرقت ريح النوى الأحبة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1655866,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمني المبيت ليلة على نهر في الوطن البعيد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر الثلج",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى الشاعر وهو بعيد عن أهله الساكنين في أقصى المغرب أن يبيت ليلة على ضفاف نهر الثلج حين يجري ماؤه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 2659,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دموع غزيرة في الفرات بعد فراق من يحب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يذكر الأسف على التوديع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "في الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل الشاعر من فارقهم: ألم تجدوا ملوحة في نهر الصراة من كثرة الدموع التي أذرفها في الفرات شوقا إليكم؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 192960,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "تحن",
+    "justification": "ناقة تحن إلى موطنها حين يلوح سهيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "شط الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سهيل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "سهيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ناقته تحن إلى موطنها وهي على شط الفرات حين لاح لها نجم سهيل، ودونه مرتفعات حمير.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 492337,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تمني ليلة بين الرياض والغدران كما كان في ملكه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بعيد عن قصوره وأرضه بعد زوال ملكه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وغدير",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روضة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى الشاعر بعد زوال ملكه أن يبيت ليلة تحيط به الرياض والغدران كما كان يعيش من قبل.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1125355,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "تحن إلى أوطانها",
+    "justification": "إبل القوم تحن إلى أوطانها والفرات دونها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "بزل مالك",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر إبل قومه تحن إلى أوطانها، وقد حال بينها وبين ما تهوى نهر الفرات.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1235186,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "النخلة الغريبة تبكي موطنها بين الفرات والنخيل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يصف النخلة غريبة مثل الشاعر في الغرب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ماء الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "النخل",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر نخلة غريبة مثله في الأندلس، ويقول إنها لو كانت تبكي لبكت ماء الفرات وأرض النخيل التي جاءت منها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1633397,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذكرى نواعير الوطن لا يمحوها البعد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنواعير",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر الشاعر نواعير بلده التي لا ينتزع البعد ذكرها من قلبه، في قصيدة يحن فيها إلى أيام عيشه الطيب هناك.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 188727,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تحية رسم دار قديمة عند الفرات"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الرياح محت آثار الديار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "رسما محيلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر صاحبيه إلى تحية رسم دار قديمة عند الفرات، عفته الرياح فلم يبق منه إلا القليل.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 338843,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "يا وحشة",
+    "justification": "وحشة تصيب المدينة في غياب صاحبها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يصف المدينة لابسة ثوب الحداد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر زياد",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "المنشئات",
+     "justification": null
+    }
+   ],
+   "meaning": "يتوجع الشاعر للوحشة التي أصابت البصرة في غياب ممدوحه، إذ لم تعبر به السفن نهر زياد، حتى لبست المدينة ثوب الحداد كما في السياق.",
+   "text_note": "كلمة «جازت» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 486980,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة",
+    "justification": "الأنهار والرياض موحشة بعد غياب العزيز"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق رثاء لعزيز يرجو لقاءه في الحشر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلتي",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر لعزيزه الراحل إن نهاره بين الأنهار والرياض صار وحشة لغيابه، وإن ليله صار أطول الليالي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 624072,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غريبا",
+    "justification": "الشاعر نازل غريبا بعيدا عن دياره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يذكر البرق يهيج الشجون ويذكر الديار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "دجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب الشاعر من «سيف دجلة»، ولعله شاطئها أو البرق اللامع فوقها، حين رآه غريبا نازلا بالأبيرق، وقد هيج البرق شجونه.",
+   "text_note": null,
+   "uncertainty": "high"
+  },
+  {
+   "apcd_row": 580025,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غربتي",
+    "justification": "استعطاف غريب خلف وراءه الحدائق والأنهار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر حدائق وطنه وأنهاره التي تركها مكرها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "حدائق غلب",
+     "justification": null
+    }
+   ],
+   "meaning": "يستعطف الشاعر قوما نزل بهم غريبا لا دار له، ويذكر أنه خلف وراءه حدائق كثيفة وأنهارا تركها مكرها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 231798,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قبر غريب بعيد عن قومه في العراق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "البيت من قصيدة رثاء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "أنهار واسط",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والجنان",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر رجلا من آل الزبير دفن في العراق غريبا، فهو بعيد عن قومه، مقيم في قبره بين أنهار واسط وبساتينها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1069905,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "رعبا",
+    "justification": "فيضان الفرات يملأ النفوس الجريئة رعبا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "عظمة الفيضان الذي غطى الأرض"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر فيضان الفرات وقد طغى وامتلأ حتى ملأ الرعب نفوس الجريئين، ثم غطى الأرض ماء كما يذكر السياق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1062204,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حرب ضارية تشتعل على ضفتي الفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حربا ضارية متكررة اشتعلت على ضفتي الفرات الشرقية والغربية، ثم يذكر في السياق أن الفتنة قربت بين أهل العراق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1494114,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خوفا",
+    "justification": "الغدران ترتعد كأنها خائفة من زمجرة الرعود"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "هيبة العاصفة والرعد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدران",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "زمجرة الرعود تضع السماء العاصفة أمام القارئ"
+    }
+   ],
+   "meaning": "يقسم الشاعر بمشاهد المطر، ومنها ارتعاد الغدران كأنها خائفة عند زمجرة الرعود.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 886459,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "لخوف الهلك",
+    "justification": "فيضان الفرات يدفع الناس إلى الاستجارة خوف الهلاك"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وفي الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر خبرا عن فيضان الفرات حين طغى، فجاء الناس جميعا إلى الإمام علي خوفا من الهلاك يستجيرون به، كما يذكر السياق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1406576,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "توقع موت مهين غرقا في النهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حسرة على ميتة بلا مجد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بذا النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "في ترجمة الإلياذة يشكو البطل أنه سيموت اليوم في هذا النهر ميتة مهينة، وكان يتمنى لو قتله بطل مثل هكطور فيموت ميتة كريمة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 108978,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وعيد بحرب تحرق ما بين عانة والفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يتوعد الشاعر خصومه بحرب تجعل ما بين عانة والفرات كأن المفسدين أشعلوا فيه حريقا متقدا، فتخرب البيوت كما يذكر السياق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1324161,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "النهر ملاذ يأوي إليه القلب من الهموم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بنهر معقل",
+     "justification": null
+    }
+   ],
+   "meaning": "يعبر الشاعر عن حبه لنهر معقل الذي يجد فيه قلبه ملاذا من همومه، ثم يصف عذوبة مائه وصفاءه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 104587,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بكثرة من قتلهم حتى اختلط الدم بماء الغدير"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "غدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر عنترة بأنه كثيرا ما خلط ماء الغدير بدماء أعدائه عند الصباح، فجاءت الوحوش تطلب تلك الدماء.",
+   "text_note": null,
+   "uncertainty": "low"
+  }
+ ]
+}

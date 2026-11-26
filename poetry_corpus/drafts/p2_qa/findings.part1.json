@@ -1,0 +1,339 @@
+{
+ "auditor": "qa1",
+ "model_id": "claude-opus-5-5",
+ "records": [
+  {
+   "verse_id": "pv:verse:000221",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "Love poem (context: hope of the master's favour, hiding tears, 'I meet you in thought'); the risk is taken for a beloved, so love/desire dominates and fear is incidental.",
+     "suggestion": "reject: love dominant"
+    },
+    {
+     "field": "meaning",
+     "problem": "Attributes the fear to Baghdad itself; the verse says she would not have crossed Baghdad out of fear and peril were it not for hope of seeing the one she longs for.",
+     "suggestion": "تقول إنها لولا رجاؤها رؤية من تحب ما جازت بغداد، لما تخشاه في ذلك من خوف ومخاطرة."
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000196",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000205",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000247",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000251",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000237",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "Classic atlal opening (asking about the deserted abode with hearth traces); the guide assigns standing at abodes to remember their people to longing. 'لا أنيس بها' describes the abode's emptiness, not the poet's solitude.",
+     "suggestion": "primary lit_emotion.longing (evoked); secondary lit_emotion.loneliness (evidence 'لا أنيس بها')"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000314",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000301",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000357",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000341",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000351",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000388",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000391",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000376",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000430",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "Sea is named literally but tag.sea is missing.",
+     "suggestion": "add tag.sea relation.literal, evidence 'والبحر صولة' (البحر occurs twice)"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000425",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000484",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000480",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000483",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000529",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000502",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000540",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000557",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000600",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000630",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000641",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000634",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000671",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000697",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000669",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000723",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "Praise of a dignitary's pilgrimage (context: the Black Stone was blessed by him, he rose high at the Maqam); the verse's point is the honoree receiving God's greater approval, i.e. patron praise dominates.",
+     "suggestion": "reject: patron praise dominant"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000755",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "The verse names the Balikh river literally but no water relation is given.",
+     "suggestion": "add scene_group.water relation.literal, evidence 'البليخ'"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000801",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "Dawn and darkness are only the vehicle of the simile (the dark green trees are likened to night split by dawn); they are not in the scene.",
+     "suggestion": "scene_group.sky_night -> relation.symbolic with justification 'الفجر والغياهب مشبه بهما لخضرة الدوح ولمعان النهر'"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000769",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000791",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "meaning",
+     "problem": "Wrong subject: 'ابتدرت' is the wind (الريح, feminine), which rushed to the river past curtains fringed with branches (context: it turned back still wet); the branches did not rush to the river.",
+     "suggestion": "يصف الشاعر نهر بردى وقد صفا ماؤه للريح، فأسرعت الريح إليه بين ستور من الشجر أطرافها أغصان."
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000826",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "Mosque and stars are named literally but their exposed tags are missing.",
+     "suggestion": "add tag.mosque relation.literal evidence 'جامع'; add tag.stars relation.literal evidence 'والنيرات'"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000814",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000865",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "meaning",
+     "problem": "'أَحِبْ' is not a valid imperative of أحبّ (أَحْبِبْ/أَحِبَّ); the reading is almost certainly 'أَجِبْ' (answer). The paraphrase 'that it love a stranger' rests on the likely dotting error.",
+     "suggestion": "يدعو الشاعر دير مزمار أن يجيب غريبًا بعيد الدار، فقد ذكّره بأوطانه كما يذكر السياق."
+    },
+    {
+     "field": "other",
+     "problem": "Probable APCD dotting quirk not noted.",
+     "suggestion": "text_note: 'أَحِبْ' في APCD والأرجح 'أَجِبْ'"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000922",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "other",
+     "problem": "Doctrinal Shia praise poem (context: 'هذا الوصي', 'المرتضى') narrating a miracle of Ali; the verse is one step of the story whose referent ('إليه') and outcome come from other verses. Fear is incidental; sectarian praise dominates and the verse does not stand alone.",
+     "suggestion": "reject: sectarian/religious praise narrative, depends on neighbouring verses"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000911",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000973",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000952",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000929",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:000982",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "A decorative spring description (flowers woven by spring, clouds studding them with pearls); the guide puts spring description under joy, not majesty/awe.",
+     "suggestion": "primary lit_emotion.joy (evoked); keep secondary lit_emotion.longing"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:001018",
+   "verdict": "reject",
+   "issues": [
+    {
+     "field": "visual",
+     "problem": "In this elegy the flowers are metaphors for the dead person's face (roses = cheeks, narcissus 'الساجي الحدق' = eyes; context: 'امّحت منه محاسن الخلق', 'لا الجفون انطبقت'). The greenery is purely figurative, so no literal/scene_association relation remains.",
+     "suggestion": "reject; if kept, scene_group.greenery and tag.flower -> relation.symbolic (no coverage)"
+    },
+    {
+     "field": "meaning",
+     "problem": "Presents the wilting as a real garden scene.",
+     "suggestion": "يصور الشاعر وجه الفقيد بعد الموت روضةً ذبل نسرينها ووردها الندي وتغير نرجسها، أي ذهبت نضارة خديه وعينيه."
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:000988",
+   "verdict": "ok",
+   "issues": []
+  },
+  {
+   "verse_id": "pv:verse:001035",
+   "verdict": "fix",
+   "issues": [
+    {
+     "field": "primary",
+     "problem": "'الخائف العاني' is only the simile's comparison (his night is like a frightened captive's); the verse is a complaint about an endless sleepless night in Tinnis (context: 'بين أشجان وأحزان'), i.e. present sorrow.",
+     "suggestion": "primary lit_emotion.sadness (evoked, endless night of complaint); secondary lit_emotion.loneliness"
+    }
+   ]
+  },
+  {
+   "verse_id": "pv:verse:001044",
+   "verdict": "ok",
+   "issues": []
+  }
+ ]
+}

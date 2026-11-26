@@ -1,0 +1,1019 @@
+{
+ "corpus": {
+  "records": 1053,
+  "uncertainty": {
+   "low": 566,
+   "medium": 485,
+   "high": 2
+  },
+  "primary_emotions": {
+   "lit_emotion.sadness": 209,
+   "lit_emotion.longing": 202,
+   "lit_emotion.loneliness": 82,
+   "lit_emotion.awe": 142,
+   "lit_emotion.serenity": 102,
+   "lit_emotion.joy": 124,
+   "lit_emotion.pride": 87,
+   "lit_emotion.fear": 105
+  },
+  "with_secondary": 467,
+  "basis": {
+   "evoked": 918,
+   "expressed": 603
+  },
+  "relations": {
+   "relation.literal": 1499,
+   "relation.symbolic": 11,
+   "relation.scene_association": 84,
+   "relation.hypothetical": 2
+  },
+  "scene_groups": {
+   "scene_group.sky_night": 196,
+   "scene_group.desert": 177,
+   "scene_group.sea": 117,
+   "scene_group.mountains": 112,
+   "scene_group.heritage": 223,
+   "scene_group.greenery": 188,
+   "scene_group.water": 149,
+   "scene_group.worship": 107,
+   "scene_group.city": 6
+  },
+  "tags": {
+   "tag.moon": 20,
+   "tag.bird": 63,
+   "tag.boat_ship": 24,
+   "tag.horse": 7,
+   "tag.stars": 44,
+   "tag.sea": 80,
+   "tag.flower": 40,
+   "tag.falcon": 1,
+   "tag.mosque": 42
+  },
+  "evidence_spans": 2183,
+  "text_notes": 53,
+  "meaning_words_avg": 15.2,
+  "without_tier1_scene": 25,
+  "models": {
+   "claude-opus-5-5": 1053
+  }
+ },
+ "per_batch": {
+  "p0": {
+   "records": 40,
+   "uncertainty": {
+    "low": 33,
+    "medium": 7
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 5,
+    "lit_emotion.longing": 5,
+    "lit_emotion.loneliness": 5,
+    "lit_emotion.awe": 5,
+    "lit_emotion.serenity": 5,
+    "lit_emotion.joy": 5,
+    "lit_emotion.pride": 5,
+    "lit_emotion.fear": 5
+   },
+   "with_secondary": 22,
+   "basis": {
+    "evoked": 54,
+    "expressed": 8
+   },
+   "relations": {
+    "relation.literal": 20,
+    "relation.symbolic": 5,
+    "relation.scene_association": 6
+   },
+   "scene_groups": {
+    "scene_group.sky_night": 8,
+    "scene_group.desert": 2,
+    "scene_group.sea": 1,
+    "scene_group.mountains": 1,
+    "scene_group.heritage": 2,
+    "scene_group.greenery": 6,
+    "scene_group.water": 3
+   },
+   "tags": {
+    "tag.moon": 3,
+    "tag.bird": 2,
+    "tag.boat_ship": 1,
+    "tag.horse": 1,
+    "tag.stars": 1
+   },
+   "evidence_spans": 61,
+   "text_notes": 2,
+   "meaning_words_avg": 16.9,
+   "without_tier1_scene": 25,
+   "models": {
+    "claude-opus-5-5": 40
+   }
+  },
+  "p1_b01": {
+   "records": 59,
+   "uncertainty": {
+    "low": 33,
+    "medium": 26
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 14,
+    "lit_emotion.longing": 13,
+    "lit_emotion.awe": 13,
+    "lit_emotion.serenity": 8,
+    "lit_emotion.joy": 11
+   },
+   "with_secondary": 26,
+   "basis": {
+    "expressed": 42,
+    "evoked": 43
+   },
+   "relations": {
+    "relation.literal": 102,
+    "relation.scene_association": 4,
+    "relation.symbolic": 1
+   },
+   "scene_groups": {
+    "scene_group.sea": 18,
+    "scene_group.heritage": 14,
+    "scene_group.sky_night": 15,
+    "scene_group.greenery": 12,
+    "scene_group.desert": 15
+   },
+   "tags": {
+    "tag.sea": 16,
+    "tag.moon": 5,
+    "tag.boat_ship": 2,
+    "tag.bird": 3,
+    "tag.flower": 3,
+    "tag.stars": 4
+   },
+   "evidence_spans": 161,
+   "text_notes": 4,
+   "meaning_words_avg": 14.5,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 59
+   }
+  },
+  "p1_b02": {
+   "records": 50,
+   "uncertainty": {
+    "medium": 20,
+    "low": 30
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 10,
+    "lit_emotion.longing": 16,
+    "lit_emotion.serenity": 3,
+    "lit_emotion.joy": 11,
+    "lit_emotion.fear": 1,
+    "lit_emotion.awe": 9
+   },
+   "with_secondary": 14,
+   "basis": {
+    "expressed": 33,
+    "evoked": 31
+   },
+   "relations": {
+    "relation.literal": 75,
+    "relation.scene_association": 4
+   },
+   "scene_groups": {
+    "scene_group.desert": 12,
+    "scene_group.greenery": 15,
+    "scene_group.worship": 1,
+    "scene_group.sea": 7,
+    "scene_group.heritage": 10,
+    "scene_group.water": 1,
+    "scene_group.sky_night": 11
+   },
+   "tags": {
+    "tag.sea": 7,
+    "tag.boat_ship": 2,
+    "tag.bird": 5,
+    "tag.flower": 3,
+    "tag.stars": 3,
+    "tag.moon": 2
+   },
+   "evidence_spans": 120,
+   "text_notes": 3,
+   "meaning_words_avg": 12.6,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 50
+   }
+  },
+  "p1_b03": {
+   "records": 41,
+   "uncertainty": {
+    "low": 27,
+    "medium": 14
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 7,
+    "lit_emotion.serenity": 4,
+    "lit_emotion.joy": 6,
+    "lit_emotion.awe": 4,
+    "lit_emotion.longing": 15,
+    "lit_emotion.pride": 2,
+    "lit_emotion.fear": 3
+   },
+   "with_secondary": 11,
+   "basis": {
+    "evoked": 31,
+    "expressed": 21
+   },
+   "relations": {
+    "relation.literal": 61,
+    "relation.scene_association": 3,
+    "relation.symbolic": 1
+   },
+   "scene_groups": {
+    "scene_group.sea": 9,
+    "scene_group.sky_night": 5,
+    "scene_group.heritage": 5,
+    "scene_group.water": 16,
+    "scene_group.greenery": 4,
+    "scene_group.desert": 4,
+    "scene_group.mountains": 6
+   },
+   "tags": {
+    "tag.sea": 8,
+    "tag.moon": 2,
+    "tag.bird": 6
+   },
+   "evidence_spans": 99,
+   "text_notes": 2,
+   "meaning_words_avg": 11.6,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 41
+   }
+  },
+  "p2_b01": {
+   "records": 34,
+   "uncertainty": {
+    "low": 23,
+    "medium": 11
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 11,
+    "lit_emotion.longing": 10,
+    "lit_emotion.loneliness": 7,
+    "lit_emotion.fear": 4,
+    "lit_emotion.serenity": 1,
+    "lit_emotion.awe": 1
+   },
+   "with_secondary": 10,
+   "basis": {
+    "expressed": 25,
+    "evoked": 19
+   },
+   "relations": {
+    "relation.literal": 40
+   },
+   "scene_groups": {
+    "scene_group.heritage": 31,
+    "scene_group.city": 3,
+    "scene_group.mountains": 1,
+    "scene_group.desert": 1,
+    "scene_group.sky_night": 1,
+    "scene_group.water": 1
+   },
+   "tags": {
+    "tag.falcon": 1,
+    "tag.bird": 1
+   },
+   "evidence_spans": 65,
+   "text_notes": 0,
+   "meaning_words_avg": 15.4,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 34
+   }
+  },
+  "p2_b02": {
+   "records": 49,
+   "uncertainty": {
+    "medium": 22,
+    "low": 27
+   },
+   "primary_emotions": {
+    "lit_emotion.loneliness": 15,
+    "lit_emotion.longing": 11,
+    "lit_emotion.fear": 14,
+    "lit_emotion.pride": 4,
+    "lit_emotion.sadness": 5
+   },
+   "with_secondary": 33,
+   "basis": {
+    "expressed": 49,
+    "evoked": 33
+   },
+   "relations": {
+    "relation.literal": 50,
+    "relation.scene_association": 1
+   },
+   "scene_groups": {
+    "scene_group.desert": 49,
+    "scene_group.sky_night": 1
+   },
+   "tags": {
+    "tag.horse": 1
+   },
+   "evidence_spans": 99,
+   "text_notes": 1,
+   "meaning_words_avg": 15.5,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 49
+   }
+  },
+  "p2_b03": {
+   "records": 47,
+   "uncertainty": {
+    "medium": 31,
+    "low": 16
+   },
+   "primary_emotions": {
+    "lit_emotion.longing": 7,
+    "lit_emotion.pride": 5,
+    "lit_emotion.loneliness": 3,
+    "lit_emotion.joy": 10,
+    "lit_emotion.awe": 14,
+    "lit_emotion.sadness": 3,
+    "lit_emotion.serenity": 4,
+    "lit_emotion.fear": 1
+   },
+   "with_secondary": 20,
+   "basis": {
+    "evoked": 49,
+    "expressed": 18
+   },
+   "relations": {
+    "relation.literal": 69
+   },
+   "scene_groups": {
+    "scene_group.mountains": 47,
+    "scene_group.sky_night": 3,
+    "scene_group.water": 4,
+    "scene_group.sea": 1,
+    "scene_group.greenery": 7,
+    "scene_group.heritage": 1,
+    "scene_group.desert": 1
+   },
+   "tags": {
+    "tag.horse": 1,
+    "tag.boat_ship": 1,
+    "tag.flower": 1,
+    "tag.bird": 2
+   },
+   "evidence_spans": 87,
+   "text_notes": 1,
+   "meaning_words_avg": 15.6,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 47
+   }
+  },
+  "p2_b04": {
+   "records": 39,
+   "uncertainty": {
+    "low": 23,
+    "medium": 16
+   },
+   "primary_emotions": {
+    "lit_emotion.awe": 9,
+    "lit_emotion.serenity": 8,
+    "lit_emotion.joy": 8,
+    "lit_emotion.pride": 6,
+    "lit_emotion.longing": 4,
+    "lit_emotion.sadness": 1,
+    "lit_emotion.loneliness": 2,
+    "lit_emotion.fear": 1
+   },
+   "with_secondary": 17,
+   "basis": {
+    "expressed": 11,
+    "evoked": 45
+   },
+   "relations": {
+    "relation.literal": 50,
+    "relation.symbolic": 1,
+    "relation.scene_association": 1
+   },
+   "scene_groups": {
+    "scene_group.heritage": 36,
+    "scene_group.sky_night": 2,
+    "scene_group.water": 5,
+    "scene_group.greenery": 4,
+    "scene_group.city": 3,
+    "scene_group.mountains": 2
+   },
+   "tags": {},
+   "evidence_spans": 61,
+   "text_notes": 3,
+   "meaning_words_avg": 14.0,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 39
+   }
+  },
+  "p2_b05": {
+   "records": 54,
+   "uncertainty": {
+    "medium": 30,
+    "low": 24
+   },
+   "primary_emotions": {
+    "lit_emotion.loneliness": 4,
+    "lit_emotion.joy": 9,
+    "lit_emotion.awe": 13,
+    "lit_emotion.pride": 16,
+    "lit_emotion.fear": 1,
+    "lit_emotion.serenity": 6,
+    "lit_emotion.longing": 5
+   },
+   "with_secondary": 40,
+   "basis": {
+    "expressed": 18,
+    "evoked": 76
+   },
+   "relations": {
+    "relation.literal": 68,
+    "relation.scene_association": 1
+   },
+   "scene_groups": {
+    "scene_group.desert": 54,
+    "scene_group.greenery": 6,
+    "scene_group.sky_night": 3,
+    "scene_group.water": 1
+   },
+   "tags": {
+    "tag.horse": 2,
+    "tag.bird": 2,
+    "tag.flower": 1
+   },
+   "evidence_spans": 86,
+   "text_notes": 4,
+   "meaning_words_avg": 18.4,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 54
+   }
+  },
+  "p2_b06": {
+   "records": 34,
+   "uncertainty": {
+    "low": 12,
+    "medium": 22
+   },
+   "primary_emotions": {
+    "lit_emotion.awe": 10,
+    "lit_emotion.pride": 11,
+    "lit_emotion.joy": 6,
+    "lit_emotion.serenity": 2,
+    "lit_emotion.longing": 2,
+    "lit_emotion.fear": 3
+   },
+   "with_secondary": 15,
+   "basis": {
+    "expressed": 21,
+    "evoked": 28
+   },
+   "relations": {
+    "relation.literal": 68,
+    "relation.scene_association": 2
+   },
+   "scene_groups": {
+    "scene_group.sea": 34,
+    "scene_group.sky_night": 2,
+    "scene_group.desert": 1,
+    "scene_group.heritage": 1
+   },
+   "tags": {
+    "tag.sea": 25,
+    "tag.stars": 1,
+    "tag.boat_ship": 6
+   },
+   "evidence_spans": 89,
+   "text_notes": 4,
+   "meaning_words_avg": 14.4,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 34
+   }
+  },
+  "p2_b07": {
+   "records": 46,
+   "uncertainty": {
+    "medium": 22,
+    "low": 24
+   },
+   "primary_emotions": {
+    "lit_emotion.longing": 10,
+    "lit_emotion.loneliness": 4,
+    "lit_emotion.sadness": 11,
+    "lit_emotion.fear": 16,
+    "lit_emotion.pride": 2,
+    "lit_emotion.awe": 3
+   },
+   "with_secondary": 27,
+   "basis": {
+    "expressed": 39,
+    "evoked": 34
+   },
+   "relations": {
+    "relation.literal": 87,
+    "relation.scene_association": 3
+   },
+   "scene_groups": {
+    "scene_group.sea": 46,
+    "scene_group.desert": 5,
+    "scene_group.sky_night": 5
+   },
+   "tags": {
+    "tag.sea": 23,
+    "tag.boat_ship": 8,
+    "tag.moon": 1,
+    "tag.stars": 1,
+    "tag.bird": 1
+   },
+   "evidence_spans": 126,
+   "text_notes": 2,
+   "meaning_words_avg": 15.3,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 46
+   }
+  },
+  "p2_b08": {
+   "records": 52,
+   "uncertainty": {
+    "low": 28,
+    "medium": 24
+   },
+   "primary_emotions": {
+    "lit_emotion.awe": 10,
+    "lit_emotion.serenity": 12,
+    "lit_emotion.joy": 10,
+    "lit_emotion.pride": 10,
+    "lit_emotion.fear": 2,
+    "lit_emotion.sadness": 5,
+    "lit_emotion.longing": 3
+   },
+   "with_secondary": 23,
+   "basis": {
+    "expressed": 17,
+    "evoked": 58
+   },
+   "relations": {
+    "relation.literal": 64,
+    "relation.scene_association": 2
+   },
+   "scene_groups": {
+    "scene_group.heritage": 52,
+    "scene_group.sea": 1,
+    "scene_group.water": 2,
+    "scene_group.greenery": 5,
+    "scene_group.sky_night": 2
+   },
+   "tags": {
+    "tag.sea": 1,
+    "tag.bird": 2,
+    "tag.flower": 1
+   },
+   "evidence_spans": 81,
+   "text_notes": 5,
+   "meaning_words_avg": 13.8,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 52
+   }
+  },
+  "p2_b09": {
+   "records": 49,
+   "uncertainty": {
+    "medium": 34,
+    "low": 15
+   },
+   "primary_emotions": {
+    "lit_emotion.fear": 14,
+    "lit_emotion.pride": 1,
+    "lit_emotion.loneliness": 6,
+    "lit_emotion.sadness": 18,
+    "lit_emotion.longing": 9,
+    "lit_emotion.awe": 1
+   },
+   "with_secondary": 28,
+   "basis": {
+    "expressed": 23,
+    "evoked": 54
+   },
+   "relations": {
+    "relation.literal": 52
+   },
+   "scene_groups": {
+    "scene_group.heritage": 49,
+    "scene_group.greenery": 1,
+    "scene_group.desert": 1
+   },
+   "tags": {
+    "tag.bird": 1
+   },
+   "evidence_spans": 75,
+   "text_notes": 2,
+   "meaning_words_avg": 16.1,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 49
+   }
+  },
+  "p2_b10": {
+   "records": 45,
+   "uncertainty": {
+    "low": 25,
+    "medium": 20
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 25,
+    "lit_emotion.longing": 15,
+    "lit_emotion.loneliness": 2,
+    "lit_emotion.fear": 2,
+    "lit_emotion.awe": 1
+   },
+   "with_secondary": 23,
+   "basis": {
+    "evoked": 33,
+    "expressed": 35
+   },
+   "relations": {
+    "relation.literal": 78
+   },
+   "scene_groups": {
+    "scene_group.greenery": 45,
+    "scene_group.sky_night": 2,
+    "scene_group.mountains": 1,
+    "scene_group.water": 2,
+    "scene_group.heritage": 1
+   },
+   "tags": {
+    "tag.bird": 19,
+    "tag.flower": 7,
+    "tag.stars": 1
+   },
+   "evidence_spans": 113,
+   "text_notes": 2,
+   "meaning_words_avg": 16.4,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 45
+   }
+  },
+  "p2_b11": {
+   "records": 46,
+   "uncertainty": {
+    "low": 22,
+    "medium": 24
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 17,
+    "lit_emotion.loneliness": 4,
+    "lit_emotion.fear": 3,
+    "lit_emotion.awe": 1,
+    "lit_emotion.longing": 20,
+    "lit_emotion.joy": 1
+   },
+   "with_secondary": 17,
+   "basis": {
+    "expressed": 29,
+    "evoked": 34
+   },
+   "relations": {
+    "relation.literal": 64
+   },
+   "scene_groups": {
+    "scene_group.mountains": 46,
+    "scene_group.desert": 3,
+    "scene_group.sky_night": 4,
+    "scene_group.greenery": 4
+   },
+   "tags": {
+    "tag.bird": 5,
+    "tag.boat_ship": 2
+   },
+   "evidence_spans": 93,
+   "text_notes": 0,
+   "meaning_words_avg": 16.3,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 46
+   }
+  },
+  "p2_b12": {
+   "records": 53,
+   "uncertainty": {
+    "medium": 30,
+    "low": 23
+   },
+   "primary_emotions": {
+    "lit_emotion.serenity": 12,
+    "lit_emotion.pride": 4,
+    "lit_emotion.joy": 12,
+    "lit_emotion.awe": 12,
+    "lit_emotion.sadness": 7,
+    "lit_emotion.longing": 4,
+    "lit_emotion.fear": 1,
+    "lit_emotion.loneliness": 1
+   },
+   "with_secondary": 24,
+   "basis": {
+    "expressed": 35,
+    "evoked": 42
+   },
+   "relations": {
+    "relation.literal": 81,
+    "relation.scene_association": 8,
+    "relation.symbolic": 2
+   },
+   "scene_groups": {
+    "scene_group.worship": 53,
+    "scene_group.heritage": 7,
+    "scene_group.sky_night": 6,
+    "scene_group.water": 1
+   },
+   "tags": {
+    "tag.mosque": 24
+   },
+   "evidence_spans": 116,
+   "text_notes": 5,
+   "meaning_words_avg": 14.1,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 53
+   }
+  },
+  "p2_b13": {
+   "records": 57,
+   "uncertainty": {
+    "low": 34,
+    "medium": 23
+   },
+   "primary_emotions": {
+    "lit_emotion.pride": 11,
+    "lit_emotion.awe": 12,
+    "lit_emotion.serenity": 13,
+    "lit_emotion.joy": 13,
+    "lit_emotion.longing": 4,
+    "lit_emotion.sadness": 3,
+    "lit_emotion.fear": 1
+   },
+   "with_secondary": 6,
+   "basis": {
+    "evoked": 53,
+    "expressed": 10
+   },
+   "relations": {
+    "relation.literal": 87,
+    "relation.scene_association": 11,
+    "relation.symbolic": 1
+   },
+   "scene_groups": {
+    "scene_group.water": 57,
+    "scene_group.heritage": 5,
+    "scene_group.desert": 3,
+    "scene_group.mountains": 3,
+    "scene_group.greenery": 17,
+    "scene_group.sky_night": 6
+   },
+   "tags": {
+    "tag.horse": 2,
+    "tag.stars": 1,
+    "tag.bird": 4,
+    "tag.boat_ship": 1
+   },
+   "evidence_spans": 97,
+   "text_notes": 0,
+   "meaning_words_avg": 14.1,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 57
+   }
+  },
+  "p2_b14": {
+   "records": 53,
+   "uncertainty": {
+    "low": 32,
+    "medium": 21
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 21,
+    "lit_emotion.longing": 15,
+    "lit_emotion.fear": 9,
+    "lit_emotion.loneliness": 5,
+    "lit_emotion.joy": 2,
+    "lit_emotion.awe": 1
+   },
+   "with_secondary": 12,
+   "basis": {
+    "expressed": 33,
+    "evoked": 32
+   },
+   "relations": {
+    "relation.literal": 74,
+    "relation.scene_association": 12
+   },
+   "scene_groups": {
+    "scene_group.worship": 53,
+    "scene_group.heritage": 3,
+    "scene_group.greenery": 2,
+    "scene_group.sky_night": 5,
+    "scene_group.desert": 3,
+    "scene_group.mountains": 1
+   },
+   "tags": {
+    "tag.mosque": 18,
+    "tag.stars": 1
+   },
+   "evidence_spans": 107,
+   "text_notes": 2,
+   "meaning_words_avg": 14.4,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 53
+   }
+  },
+  "p2_b15": {
+   "records": 52,
+   "uncertainty": {
+    "low": 25,
+    "medium": 26,
+    "high": 1
+   },
+   "primary_emotions": {
+    "lit_emotion.sadness": 26,
+    "lit_emotion.longing": 14,
+    "lit_emotion.loneliness": 5,
+    "lit_emotion.fear": 5,
+    "lit_emotion.serenity": 1,
+    "lit_emotion.pride": 1
+   },
+   "with_secondary": 18,
+   "basis": {
+    "expressed": 33,
+    "evoked": 37
+   },
+   "relations": {
+    "relation.literal": 71,
+    "relation.scene_association": 3
+   },
+   "scene_groups": {
+    "scene_group.water": 52,
+    "scene_group.mountains": 2,
+    "scene_group.greenery": 6,
+    "scene_group.heritage": 5,
+    "scene_group.sky_night": 5,
+    "scene_group.desert": 2
+   },
+   "tags": {
+    "tag.stars": 1,
+    "tag.boat_ship": 1
+   },
+   "evidence_spans": 104,
+   "text_notes": 1,
+   "meaning_words_avg": 19.5,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 52
+   }
+  },
+  "p2_b16": {
+   "records": 46,
+   "uncertainty": {
+    "low": 20,
+    "medium": 25,
+    "high": 1
+   },
+   "primary_emotions": {
+    "lit_emotion.pride": 6,
+    "lit_emotion.loneliness": 4,
+    "lit_emotion.serenity": 5,
+    "lit_emotion.joy": 8,
+    "lit_emotion.awe": 13,
+    "lit_emotion.sadness": 4,
+    "lit_emotion.longing": 3,
+    "lit_emotion.fear": 3
+   },
+   "with_secondary": 23,
+   "basis": {
+    "evoked": 42,
+    "expressed": 27
+   },
+   "relations": {
+    "relation.literal": 65,
+    "relation.scene_association": 8,
+    "relation.hypothetical": 2
+   },
+   "scene_groups": {
+    "scene_group.sky_night": 46,
+    "scene_group.greenery": 3,
+    "scene_group.desert": 6,
+    "scene_group.mountains": 2
+   },
+   "tags": {
+    "tag.stars": 13,
+    "tag.moon": 5
+   },
+   "evidence_spans": 94,
+   "text_notes": 3,
+   "meaning_words_avg": 16.6,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 46
+   }
+  },
+  "p2_b17": {
+   "records": 51,
+   "uncertainty": {
+    "low": 38,
+    "medium": 13
+   },
+   "primary_emotions": {
+    "lit_emotion.awe": 10,
+    "lit_emotion.joy": 12,
+    "lit_emotion.serenity": 18,
+    "lit_emotion.sadness": 4,
+    "lit_emotion.longing": 6,
+    "lit_emotion.loneliness": 1
+   },
+   "with_secondary": 28,
+   "basis": {
+    "evoked": 63,
+    "expressed": 16
+   },
+   "relations": {
+    "relation.literal": 94
+   },
+   "scene_groups": {
+    "scene_group.greenery": 51,
+    "scene_group.sky_night": 8,
+    "scene_group.water": 4
+   },
+   "tags": {
+    "tag.flower": 24,
+    "tag.bird": 7
+   },
+   "evidence_spans": 110,
+   "text_notes": 2,
+   "meaning_words_avg": 15.0,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 51
+   }
+  },
+  "p2_b18": {
+   "records": 56,
+   "uncertainty": {
+    "low": 32,
+    "medium": 24
+   },
+   "primary_emotions": {
+    "lit_emotion.fear": 16,
+    "lit_emotion.sadness": 12,
+    "lit_emotion.loneliness": 14,
+    "lit_emotion.longing": 11,
+    "lit_emotion.pride": 3
+   },
+   "with_secondary": 30,
+   "basis": {
+    "expressed": 60,
+    "evoked": 27
+   },
+   "relations": {
+    "relation.literal": 79,
+    "relation.scene_association": 15
+   },
+   "scene_groups": {
+    "scene_group.sky_night": 56,
+    "scene_group.desert": 15,
+    "scene_group.heritage": 1
+   },
+   "tags": {
+    "tag.stars": 17,
+    "tag.moon": 2,
+    "tag.bird": 3
+   },
+   "evidence_spans": 139,
+   "text_notes": 5,
+   "meaning_words_avg": 13.6,
+   "without_tier1_scene": 0,
+   "models": {
+    "claude-opus-5-5": 56
+   }
+  }
+ },
+ "validator": {
+  "mode": "development",
+  "apcd_verified": true,
+  "issues": []
+ }
+}

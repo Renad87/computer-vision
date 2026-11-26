@@ -1,0 +1,246 @@
+{
+ "model_id": "poetry-vision-net",
+ "model_version": "1.0.0",
+ "status": "released",
+ "artifacts": [
+  {
+   "what": "CLIP ViT-B/32 weights (read in place, never copied)",
+   "path": "external/poetry_vision_old/product/models/hf/models--timm--vit_base_patch32_clip_224.openai/snapshots/a6f597a30f7b82c51704746581f9a4e41421e878/open_clip_model.safetensors",
+   "bytes": 605143284,
+   "sha256": "e6d1bd7789aa45192b3bf90570a789b478bae1b74ebcce7eddd908e83a2b7c31"
+  },
+  {
+   "what": "scene head W,b (reused)",
+   "path": "external/poetry_vision_old/product/vendor/visual_module/ml/visual/weights/scene_head_clip.npz",
+   "bytes": 36776,
+   "sha256": "f39e083cfa639616563a0cd53f62fa9139558c991b9a0f44b6f0cef1c45cd376"
+  },
+  {
+   "what": "tag head W,b (reused)",
+   "path": "external/poetry_vision_old/product/vendor/visual_module/ml/visual/weights/tag_heads.npz",
+   "bytes": 72128,
+   "sha256": "a94f7d145af7f4789383c9ba5583d382842ec53142fdbf457573118a9be5384a"
+  },
+  {
+   "what": "tag thresholds, previous scene threshold (reused)",
+   "path": "external/poetry_vision_old/product/vendor/visual_module/ml/visual/weights/calibration.json",
+   "bytes": 11730,
+   "sha256": "873497a35cbae6486988c7781e7ca6a4350dd239948d4c4cdbc01a521978d1df"
+  },
+  {
+   "what": "emotion head W,b,T (trained here)",
+   "path": "artifacts/heads/emotion_head_v1.npz",
+   "bytes": 19490,
+   "sha256": "328ec7416afc3bf11045db4291b2cc6680e5c4549a4de062575862f66e9a1c95"
+  },
+  {
+   "what": "scene temperature + rejection threshold (fitted here)",
+   "path": "artifacts/heads/scene_calibration_v1.json",
+   "bytes": 319,
+   "sha256": "e875a3596ec1e59cc2729936504d421547bc055dec5182892c487b020e33df89"
+  },
+  {
+   "what": "model card v1.0.0 (released)",
+   "path": "artifacts/model_card_v1.json",
+   "bytes": 8442,
+   "sha256": "8d4f8622be4548e6707b9baf3fa4a4167583df2216ae2f52bc6fe446b256552d"
+  },
+  {
+   "what": "EmoSet embedding cache",
+   "path": "artifacts/features/emoset_clip_vitb32.npz",
+   "bytes": 24657508,
+   "sha256": "12598f71f459708282c16e1517770085d811ad5414695327234cd96db216e755"
+  },
+  {
+   "what": "Places365 embedding cache",
+   "path": "artifacts/features/places_clip_vitb32.npz",
+   "bytes": 14998840,
+   "sha256": "60fd5fe7552eaa386ccc4d478c7c1fe0abe51f9cd48c0466b3de713da933d146"
+  },
+  {
+   "what": "emotion run report",
+   "path": "evaluation/vision/emotion-s1-20261125T220720Z-efd7de.json",
+   "bytes": 7110,
+   "sha256": "1b56a8a9d7eb1e29975bccffc590bf0983ea66401c3e50f25c15c49a0e46fe1e"
+  },
+  {
+   "what": "scene run report",
+   "path": "evaluation/vision/scene-s1-20261125T220832Z-f1bbea.json",
+   "bytes": 6742,
+   "sha256": "26fbfd36e76da55a21d15ace246bfd068291f83e2c566fa109bd204301ba579c"
+  },
+  {
+   "what": "compatibility report",
+   "path": "evaluation/vision/compat_report.json",
+   "bytes": 2657,
+   "sha256": "8bb8fa92a1c20d57682640c279296aa3ceaf8fd893eb85cd41bac18ac91089d2"
+  },
+  {
+   "what": "benchmark report",
+   "path": "evaluation/vision/benchmark_arm64.json",
+   "bytes": 975,
+   "sha256": "91e6f12a31d3a23af2e4a6645b2396fba32c7845419090f814347a7b505493db"
+  },
+  {
+   "what": "emotion manifest v0.9 (Shaden)",
+   "path": "datasets/manifests/manifest_v0.9_emotion.jsonl",
+   "bytes": 12463985,
+   "sha256": "7df0416fbeb6e9810cc2b3fff4b6cad09600552661bd8beb7a7b5bd4428c0892"
+  },
+  {
+   "what": "unified manifest v1 (Shaden)",
+   "path": "datasets/manifests/manifest_v1.jsonl",
+   "bytes": 19583297,
+   "sha256": "efdf33b153a900ecf3524569907b316b349e4860bab249d10b6efd630310b501"
+  }
+ ],
+ "scene_temperature": 0.889981155923609,
+ "emotion_temperature": 0.7756230700570512,
+ "scene_supported_threshold": 0.3846588730812073,
+ "emotion_ambiguity_margin": 0.15,
+ "scene_uncertain_margin": 0.1,
+ "class_order": {
+  "scene": [
+   "scene.desert",
+   "scene.sea_coast",
+   "scene.mountains_valleys",
+   "scene.rivers_lakes",
+   "scene.forest",
+   "scene.garden",
+   "scene.farmland_rural",
+   "scene.sky",
+   "scene.snow_ice",
+   "scene.modern_city",
+   "scene.old_city_market",
+   "scene.historic_monument",
+   "scene.place_of_worship",
+   "scene.home_interior",
+   "scene.camp_tents",
+   "scene.library_books",
+   "scene.other"
+  ],
+  "img_emotion": [
+   "img_emotion.amusement",
+   "img_emotion.awe",
+   "img_emotion.contentment",
+   "img_emotion.excitement",
+   "img_emotion.anger",
+   "img_emotion.disgust",
+   "img_emotion.fear",
+   "img_emotion.sadness"
+  ],
+  "tag": [
+   "tag.camel",
+   "tag.horse",
+   "tag.falcon",
+   "tag.bird",
+   "tag.palm_tree",
+   "tag.tree",
+   "tag.flower",
+   "tag.rose",
+   "tag.tent",
+   "tag.sword_dagger",
+   "tag.moon",
+   "tag.stars",
+   "tag.sun",
+   "tag.candle",
+   "tag.lantern",
+   "tag.fire",
+   "tag.book",
+   "tag.teapot",
+   "tag.boat_ship",
+   "tag.sea",
+   "tag.sand",
+   "tag.mountain",
+   "tag.river",
+   "tag.waterfall",
+   "tag.snow",
+   "tag.rain",
+   "tag.clouds",
+   "tag.fog",
+   "tag.mosque",
+   "tag.castle",
+   "tag.arch",
+   "tag.tower",
+   "tag.road",
+   "tag.child"
+  ]
+ },
+ "exposed_tags": [
+  "tag.horse",
+  "tag.falcon",
+  "tag.bird",
+  "tag.flower",
+  "tag.moon",
+  "tag.stars",
+  "tag.teapot",
+  "tag.boat_ship",
+  "tag.sea",
+  "tag.fog",
+  "tag.mosque",
+  "tag.road",
+  "tag.child"
+ ],
+ "runs": {
+  "emotion": "emotion-s1-20261125T220720Z-efd7de",
+  "scene": "scene-s1-20261125T220832Z-f1bbea"
+ },
+ "emotion_test": {
+  "n": 3200,
+  "accuracy": 0.7834375,
+  "accuracy_ci95": [
+   0.7696875,
+   0.798125
+  ],
+  "macro_f1": 0.7841317855501246,
+  "macro_f1_ci95": [
+   0.7701117297097475,
+   0.798308782669675
+  ],
+  "top2_accuracy": 0.92125
+ },
+ "scene_test_17way": {
+  "n": 1076,
+  "accuracy": 0.8020446096654275,
+  "accuracy_ci95": [
+   0.7778810408921933,
+   0.8262314126394051
+  ],
+  "macro_f1": 0.788268417828907,
+  "macro_f1_ci95": [
+   0.7599591099027104,
+   0.8136906809483302
+  ],
+  "top2_accuracy": 0.9228624535315985
+ },
+ "scene_rejection": {
+  "auroc_in_taxonomy_test_vs_ood_test": 0.9406162790697674,
+  "ood_test_rejected": 0.7966666666666666,
+  "ood_n": 600,
+  "background_test_rejected": 0.8055555555555556,
+  "background_test_n": 216
+ },
+ "benchmark": [
+  {
+   "device": "cpu",
+   "load_seconds": 3.323,
+   "decode_preprocess_ms_per_image": 0.807,
+   "forward_batch1_ms_median": 17.667,
+   "forward_batch1_ms_p95": 18.219,
+   "forward_batch64_images_per_second": 136.5,
+   "runs": 50,
+   "warmup": 10
+  },
+  {
+   "device": "mps",
+   "load_seconds": 0.998,
+   "decode_preprocess_ms_per_image": 0.709,
+   "forward_batch1_ms_median": 9.1,
+   "forward_batch1_ms_p95": 9.999,
+   "forward_batch64_images_per_second": 227.4,
+   "runs": 50,
+   "warmup": 10,
+   "mps_driver_allocated_mb": 1538.7
+  }
+ ]
+}

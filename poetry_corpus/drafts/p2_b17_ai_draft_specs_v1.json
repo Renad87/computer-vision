@@ -1,0 +1,1593 @@
+{
+ "batch": "p2_b17",
+ "description": "P2 parallel worker greenery_B (): AI draft annotations by claude-opus-5-5 on a disjoint candidate pool from poetry_corpus/tools/build_candidate_index.py, pre-checked with check_worker_spec and merged by poetry_corpus/tools/merge_worker.py. Verse text is not stored here; build_batch copies it from APCD. Labels are drafts pending human review.",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "worker": "greenery_B",
+ "work_log": {
+  "started": "2026-11-26T00:20:26",
+  "finished": "2026-11-26T00:28:48",
+  "minutes": 8,
+  "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+  "candidates_listed": null,
+  "read_in_context": null
+ },
+ "verses": [
+  {
+   "apcd_row": 217894,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "هيبة رجل جليل نائم على التراب تحت الشجر ببردة بالية"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نوم هادئ مطمئن في ظل الشجر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الدوح",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر رجلًا جليلًا رآه زائر اعتاد حراسة ملوك الفرس نائمًا على التراب في ظل شجرة كبيرة، ملتفًا ببردة كاد يبليها طول العهد، فرأى فيه الجلال.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 947
+  },
+  {
+   "apcd_row": 682274,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "واعجبا",
+    "justification": "يتعجب من غمام يبكي وروض يضحك من بكائه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ضحك الروض صورة لبهجته بالمطر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الغمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب الشاعر من الغمام الذي يبكي مطرًا، بينما الروض يضحك بأزهاره من ذلك البكاء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 948
+  },
+  {
+   "apcd_row": 1464797,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "واعجب",
+    "justification": "يدعو إلى التعجب من الروضة والمطر يسيل فيها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "منظر الروضة الكثيفة يبعث البهجة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروضة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الغيم",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى النظر إلى الروضة الكثيفة النبات حين تبدو، وإلى التعجب منها حين يرسل الغيم مطره عليها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 949
+  },
+  {
+   "apcd_row": 1464119,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجب",
+    "justification": "يتعجب من منظر روضة متزينة بالزهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يستحسن جمالها مسرورًا به"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روضة",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "بالنور",
+     "justification": null
+    }
+   ],
+   "meaning": "يستحسن الشاعر روضة متزينة بالأزهار، يظهر منها لعين الناظر منظر عجيب يدهشه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 950
+  },
+  {
+   "apcd_row": 1469989,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "عجيبا",
+    "justification": "لم تر عينه أعجب من شجر اللوز حين أزهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "كاللوز",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "نواره",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن عينه لم تر شيئًا عجيبًا مثل شجر اللوز حين ظهرت أزهاره.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 951
+  },
+  {
+   "apcd_row": 1299227,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "اعجب",
+    "justification": "يدعو إلى التعجب من شجر الرمان حين ظهر زهره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "بأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "نواره",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى التعجب من شجر الرمان الملتف حين ظهرت أزهاره، كأنها سبقت غيرها إلى الظهور.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 952
+  },
+  {
+   "apcd_row": 1295125,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يخاطب زهر اللوز معجبًا بحسنه الفائق البديع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "احتفاء بزهر يبشر بالربيع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "اللوز",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر زهر اللوز قائلًا إنه فاق غيره في الإحسان والجمال، فهو البديع بين الأزهار.",
+   "text_note": "كلمة «الإحسان» مقسومة بين الشطرين في APCD (ال / إحسان).",
+   "uncertainty": "low",
+   "n": 953
+  },
+  {
+   "apcd_row": 749116,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبهره شجر بديع الزهر تتراص أقاحيه كالثغور"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد ليلي هادئ بين الشجر والنسيم في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "دوح",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "أقاحيه",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر شجرًا كثيفًا بديع الأزهار واجهه، تتراص أقاحيه البيض كأنها أسنان منضودة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 954
+  },
+  {
+   "apcd_row": 1252020,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف ربيعي بهيج للزهر والسحاب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "القصيدة حنين إلى حمص وربوعها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الربيع",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "ازهارها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "السحب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر أزهار تلك الربوع كأن أيدي الربيع نسجتها، ثم رصعتها السحب بقطرات المطر كالدر البديع، في قصيدة يحن فيها إلى حمص.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 955
+  },
+  {
+   "apcd_row": 587057,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روضة ممطورة كالوشي المطرز"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إعجاب بصنع الطبيعة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "وروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر روضًا إذا رواه المطر أخرجت حدائقه ألوانًا من الزهر كأنها نقوش الثياب الحريرية.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 956
+  },
+  {
+   "apcd_row": 978811,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "البرق يضيء أزهار الرياض فتلمع فضة وذهبًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتبعه شوق إلى دار بعيدة دونها نجد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "أزهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "البرق",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر البرق كأنه يضاحك أزهار الرياض فيكسوها لمعانًا فضيًا وذهبيًا من النور، قبل أن يهزه الشوق إلى دياره.",
+   "text_note": "رسم «فضى» كما في APCD، والمعنى المرجح «الفضي».",
+   "uncertainty": "medium",
+   "n": 957
+  },
+  {
+   "apcd_row": 1446908,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روضة مشرقة كالسماء تبهر الناظر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ضحك الزهر بعد بكاء الغيوم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روضة",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الغيوم",
+     "justification": null
+    }
+   ],
+   "meaning": "يشبه الشاعر الروضة بالسماء، أشرقت فيها الأزهار ضاحكة حين بكتها الغيوم بالمطر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 958
+  },
+  {
+   "apcd_row": 154846,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ظل يتسلل بهدوء بين الخمائل وغصن يتمايل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد ربيعي نشوان بالحياة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الخمائل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الظل يتسلل بخطى خفية بين الشجر الملتف، والغصن يتمايل في مشيته كالنشوان.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 959
+  },
+  {
+   "apcd_row": 747260,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شجر مبلل بالندى في روضة عطرة هادئة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر منازل وأيامًا مضت في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والدوح",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الشجر الكبير مبتلًا بقطر الندى في روضة كثيفة النبات طيبة الرائحة، ضمن ذكرى منازل عاش فيها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 960
+  },
+  {
+   "apcd_row": 1011926,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روض مبلل بالطل وأغصان لينة تتمايل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الروض باسم في حلة الربيع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الروض وقد بلل الطل أشجاره الملتفة فبدا باسمًا، والأغصان اللينة تتمايل بأعطافها الناعمة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 961
+  },
+  {
+   "apcd_row": 1536598,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "أمنا",
+    "justification": "يصرح بالأمن من تقلب الأحوال في روض الأنس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الزهر مبتسم في مجلس أنس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر جلوسهم في روض أنيس تبتسم أزهاره، وقد اطمأنوا فيه وأمنوا من تقلبات الزمان.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 962
+  },
+  {
+   "apcd_row": 95087,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حديقة كثيفة يلفها الورق الندي والزهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الورق",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "النوار",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حديقة كثيفة النبات، غطى الورق الندي جوانبها، والتفت الأزهار في أرجائها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 963
+  },
+  {
+   "apcd_row": 11063,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صفاء الماء واعتدال الهواء وتنوع الزهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إعجاب مبتهج بمحاسن بلد جميل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "حدائق",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "ماء",
+     "justification": null
+    }
+   ],
+   "meaning": "يعدد الشاعر محاسن الشام: أنواع من الزهر، وحدائق ملتفة الأشجار، وماء صاف، وهواء معتدل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 964
+  },
+  {
+   "apcd_row": 97813,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ظلال أغصان متدلية بعناقيد سود في خضرة كثيفة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "بأغصان",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر كرمًا ترتق أغصانه المتدلية الظلال، تحمل عناقيد العنب السود في خضرة ملتفة كثيفة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 965
+  },
+  {
+   "apcd_row": 346073,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روض مطلول تتمايل أزهاره تحت قطر الندى"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر عهد اللوى وأهله في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهره",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الروض مبللًا بالطل، تتمايل أزهاره تحت قطرات الندى كأنها حصى المرجان، في ذكرى عهد مضى.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 966
+  },
+  {
+   "apcd_row": 516832,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مجلس عند غدير في ظل شجر متمايل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر عهد نجد الماضي بحنين"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "دوحه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بغديره",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر مجلسهم في روض ذلك المكان عند غديره، تحت ظل شجره المتمايل الرطب، ضمن حنينه إلى نجد وعهده.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 967
+  },
+  {
+   "apcd_row": 742572,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "استراحة وقيلولة في ظل الشجر بين غصون رطبة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر أيام الشباب في الرياض"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر منزلًا للراحة في ظل جانب شجرة كبيرة، وقيلولة بين الأغصان الرطبة، ضمن ذكرياته في الرياض أيام الشباب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 968
+  },
+  {
+   "apcd_row": 900743,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حمام يسجع في الأيك حين يبلل الندى أغصانه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "ورق",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر حمامًا في فروع الشجر الملتف يغرد كلما بلل الندى أغصانها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 969
+  },
+  {
+   "apcd_row": 1300309,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روض ألف الندى فبدا ساكنًا كعين حبست دمعها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الروض وقد اعتاد الندى، فكأنه عين توقف دمعها خشية رقيب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 970
+  },
+  {
+   "apcd_row": 930165,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم يجري وعرار يفوح في حدائق بالغة الحسن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "متنزه مبهج للنفس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "حديقة",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "عرار",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر متنزهًا بلغت فيه كل حديقة غاية الحسن، وجرى النسيم فيه، وفاحت رائحة العرار.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 971
+  },
+  {
+   "apcd_row": 1269708,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "زنبقة هادئة في الروض بين ورق الربيع والزهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصف المشهد في السياق بأنه ما أجمله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زنبقة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر زنبقة في الروض يحيط بها ورق الربيع والأزهار الباسمة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 972
+  },
+  {
+   "apcd_row": 1324368,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روض بديع يرضى عنه الناظر كلما تأمله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "حسن بديع يقيد اللحظ"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "روض",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر روضًا بديعًا، كلما أجال الناظر فيه بصره رضي عنه وأعجبه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 973
+  },
+  {
+   "apcd_row": 1445125,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم الغوطتين معطر بأزهار الرياض"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر دمشق حيث نسيم الغوطتين معطر بأنفاس الأزهار المنتشرة في الرياض.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 974
+  },
+  {
+   "apcd_row": 1464441,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يميل إلى الرياض والإقامة تحت ظل وارف"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "وزهرها",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر كيف لا يهيم بالرياض وأزهارها، ولا يقيم فيها تحت ظل وارف.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 975
+  },
+  {
+   "apcd_row": 813274,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "زهر يبتسم بقطر المطر وظل يدب عليه بهدوء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ابتسام الزهر صورة للبهجة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "ثغر الزهر",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "وجنة الزهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الزهر مبتسمًا عن قطرات المطر اللامعة كالأسنان، والظل يزحف رويدًا على خد الزهر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 976
+  },
+  {
+   "apcd_row": 472193,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يتمايل الغصن طربًا لغناء الطير"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصن",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الطير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الغصن يتمايل طربًا وشوقًا حين رأى الطيور تغرد في أعشاشها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 977
+  },
+  {
+   "apcd_row": 438143,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "يدعو إلى التبكير إلى الروض في رياض السرور"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "والمنثور",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى الخروج باكرًا إلى الروض بين رياض السرور، حيث نظم الربيع وزهر المنثور.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 978
+  },
+  {
+   "apcd_row": 1633260,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طرب",
+    "justification": "بلابل تطرب فوق الغصون بين الحدائق والجداول"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "فحدائق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "جداول",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "وبلابل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر عشية في حدائق تجري بينها الجداول، والبلابل فوق الأغصان تغرد طربًا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 979
+  },
+  {
+   "apcd_row": 121234,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو إلى تأمل رقص الغصون على غناء البلبل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "البلبل",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر صاحبته إلى أن تستمع وتتأمل الغصون وهي تتمايل كأنها ترقص على غناء البلبل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 980
+  },
+  {
+   "apcd_row": 65229,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "فرحا",
+    "justification": "الأزهار باسمة فرحًا والغصون العارية اكتست"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الأزاهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يلفت الشاعر صاحبه إلى الأزهار المبتسمة فرحًا، وإلى الأغصان التي كانت عارية فاكتست بالورق.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 981
+  },
+  {
+   "apcd_row": 435780,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرحب بأيام الربيع وطيبها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الربيع",
+     "justification": null
+    }
+   ],
+   "meaning": "يرحب الشاعر بأيام الربيع وطيبها، فهي أنس للماجن اللاهي ومتنزه للمتعبد الزاهد.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 982
+  },
+  {
+   "apcd_row": 737979,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "طائر يغني للغصون فتتمايل طربًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "للغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر طائرًا مغردًا يغني للأغصان فتتمايل طربًا، حتى كأن جيوب الظل تتشقق من حركتها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 983
+  },
+  {
+   "apcd_row": 1227128,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "فرحا",
+    "justification": "الروض يبتسم بالأقاحي والغمام يبكي فرحًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "أقاحه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "غمامها",
+     "justification": null
+    }
+   ],
+   "meaning": "تصف الشاعرة الروض مبتسمًا بأزهار الأقحوان حين بكى عليه الغمام فرحًا بالمطر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 984
+  },
+  {
+   "apcd_row": 1380982,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الغصون تصفق وترقص لغناء الحمام"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "والحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الأغصان كأنها تصفق بأوراقها وتميل راقصة على صوت الحمام المغرد.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 985
+  },
+  {
+   "apcd_row": 12596,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو إلى التمتع بزهر الربيع وماء البرك"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الربيع",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والماء",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى النظر إلى زهر الربيع، وإلى الماء في برك البديع.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 986
+  },
+  {
+   "apcd_row": 805229,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الحزين",
+    "justification": "مساء حزين تنام له الزهور على العشب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رهبة المساء وجلاله في سياق الغروب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "العشب",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الزهور",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "المساء",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الزهور وقد نامت على العشب حين رأت المساء الحزين المهيب بعد الغروب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 987
+  },
+  {
+   "apcd_row": 84971,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رثاء يدعو للقبر بسحائب تبكي عليه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الزهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سحائب",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر في رثائه أن تتعهد السحائب ذلك القبر، فإذا بكت بالمطر على ترابه ابتسم الزهر فوقه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 988
+  },
+  {
+   "apcd_row": 1063090,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "المفجوع",
+    "justification": "يشاركه الروض والنسيم البكاء على من ماتت"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الروض والنسيم يبكيان معه على التي ماتت، فليس هو وحده المفجوع بها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 989
+  },
+  {
+   "apcd_row": 1334985,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "آها",
+    "justification": "يتأوه على روض كان مجلس أنس ثم ذبل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر أيام الغناء تحت ظل الغصون"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "لروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يتأوه الشاعر حسرة على روض طالما غنت فيه المغنيات تحت ظل أغصانه، ثم صار يابسًا ذابلًا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 990
+  },
+  {
+   "apcd_row": 191434,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يودع خليلًا بين النخل ويبعث إليه السلام"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وداع في سياق تمني الشهادة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "النخل",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر بالسلام لرجل ودعه بين النخل، ويصفه بأنه خير مشيع وخير خليل.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 991
+  },
+  {
+   "apcd_row": 332038,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يسأل عن بهجة غصون الغوطتين في قصيدة شوق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تمايل الغصون مرحًا وطرب الطيور"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "غصونها",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "طيورها",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر عن غصون الغوطتين: أتمايلت مرحًا ببهجتها أم أطربتها طيورها، في قصيدة يشتاق فيها إلى دمشق.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 992
+  },
+  {
+   "apcd_row": 23611,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "فهاجني",
+    "justification": "طرب الحمام في الأراك هيج شوقه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "وأيك",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن الحمام طرب وغرد في موضع الأراك فهيج شوقه، ويدعو له أن يبقى بين الماء والشجر الناضر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 993
+  },
+  {
+   "apcd_row": 495317,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبكي على منزل قديم حتى ابتسم زهره"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "زهره",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "زهره",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر منزلًا قديمًا أسرعت إليه دموعه، حتى كأن زهره ابتسم لبكائه فارتوى.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 994
+  },
+  {
+   "apcd_row": 1547509,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يؤكد أنه لا ينسى ربيع ذلك البلد وأزهاره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بهجة الربيع وأنواره"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الربيع",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "نواره",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه إن نسي شيئًا فلن ينسى الربيع في تلك البلاد وما يظهره من أزهار وضياء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 995
+  },
+  {
+   "apcd_row": 1431484,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يسأل بشوق عن معالم دمشق الخضراء بعد غيابه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "المرجة الخضراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر بشوق: هل ما زال الشرف الأعلى مطلًا على المرجة الخضراء، وفيها الكرام من أهلها؟",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 996
+  },
+  {
+   "apcd_row": 438834,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يسهر مع طائر نائح وكل منهما يبكي همًّا لا يعرفه الآخر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بكاء وشجو في الليل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأيك",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر طائرًا نائحًا في أغصان الأيك أسهره بنواحه، مع أنه لا يعنيه ما يشغل ذلك الطائر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 997
+  }
+ ]
+}

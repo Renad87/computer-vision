@@ -1,0 +1,3177 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "title_ar": "التصنيف المشترك لـPoetry Vision، الإصدار الأول",
+  "build_notes": "Generated once on 2026-11-25 from the visual module taxonomy.json (scene/tag ids, Places365 lists, Arabic names), results/tag_metrics.json (validated tags) and Renad's model_config.json (emotion order and names), plus the agreed content. This JSON is now the source of truth; changes follow semver in contracts/CHANGELOG.md.",
+  "layers": [
+    "scene",
+    "scene_group",
+    "tag",
+    "img_emotion",
+    "lit_emotion",
+    "relation",
+    "concept",
+    "genre"
+  ],
+  "labels": [
+    {
+      "id": "scene.desert",
+      "layer": "scene",
+      "name_ar": "صحراء",
+      "name_en": "desert",
+      "definition_ar": "مشهد صحراوي مفتوح: رمال أو كثبان أو أرض جافة قليلة النبات أو طريق يعبر الصحراء.",
+      "include_ar": [
+        "فئات Places365: desert/sand، desert/vegetation، desert_road"
+      ],
+      "exclude_ar": [
+        "الشاطئ الرملي يتبع sea_coast",
+        "الخيام والمخيمات تتبع camp_tents"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "كثبان رملية ممتدة تحت سماء صافية"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.sea_coast",
+      "layer": "scene",
+      "name_ar": "بحر وشاطئ",
+      "name_en": "sea and coast",
+      "definition_ar": "بحر مفتوح أو ساحل أو شاطئ أو أمواج.",
+      "include_ar": [
+        "فئات Places365: beach، coast، ocean، wave"
+      ],
+      "exclude_ar": [
+        "الأنهار والبحيرات تتبع rivers_lakes"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أمواج تتكسر على شاطئ"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.mountains_valleys",
+      "layer": "scene",
+      "name_ar": "جبال ووديان",
+      "name_en": "mountains and valleys",
+      "definition_ar": "جبال أو ممرات جبلية أو أودية أو أخاديد أو منحدرات صخرية.",
+      "include_ar": [
+        "فئات Places365: mountain، mountain_path، valley، canyon، cliff"
+      ],
+      "exclude_ar": [
+        "الجبال المكسوة بالثلج تتبع snow_ice"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "واد بين جبلين صخريين"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.rivers_lakes",
+      "layer": "scene",
+      "name_ar": "أنهار وبحيرات وشلالات",
+      "name_en": "rivers, lakes, waterfalls",
+      "definition_ar": "ماء عذب ظاهر: نهر أو بحيرة طبيعية أو شلال أو جدول.",
+      "include_ar": [
+        "فئات Places365: river، lake/natural، waterfall، creek"
+      ],
+      "exclude_ar": [
+        "البحر والساحل يتبعان sea_coast"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "نهر يجري بين ضفتين"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.forest",
+      "layer": "scene",
+      "name_ar": "غابة",
+      "name_en": "forest",
+      "definition_ar": "غابة كثيفة الأشجار أو ممر بين الأشجار.",
+      "include_ar": [
+        "فئات Places365: forest/broadleaf، forest_path، rainforest، bamboo_forest"
+      ],
+      "exclude_ar": [
+        "الحدائق المنسقة تتبع garden",
+        "البساتين والمزارع تتبع farmland_rural"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "ممر ترابي بين أشجار كثيفة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.garden",
+      "layer": "scene",
+      "name_ar": "حديقة وبستان",
+      "name_en": "garden",
+      "definition_ar": "حديقة منسقة أو نباتية أو يابانية أو حديقة أشكال مقصوصة.",
+      "include_ar": [
+        "فئات Places365: formal_garden، botanical_garden، topiary_garden، japanese_garden"
+      ],
+      "exclude_ar": [
+        "الغابة الكثيفة تتبع forest"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "حديقة منسقة فيها نافورة وأحواض زهر"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.farmland_rural",
+      "layer": "scene",
+      "name_ar": "حقول وريف",
+      "name_en": "farmland and countryside",
+      "definition_ar": "حقول مزروعة أو حقل قمح أو بستان أو مرعى أو مزرعة.",
+      "include_ar": [
+        "فئات Places365: field/cultivated، wheat_field، orchard، pasture، farm"
+      ],
+      "exclude_ar": [
+        "الحدائق المنسقة تتبع garden"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "حقل قمح ناضج"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.sky",
+      "layer": "scene",
+      "name_ar": "سماء",
+      "name_en": "sky",
+      "definition_ar": "سماء تشغل معظم الصورة.",
+      "include_ar": [
+        "فئات Places365: sky"
+      ],
+      "exclude_ar": [
+        "الصورة التي يغلب فيها البحر أو الجبل أو المدينة تتبع ذلك المشهد"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "غيوم متفرقة في سماء زرقاء"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.snow_ice",
+      "layer": "scene",
+      "name_ar": "ثلج وجليد",
+      "name_en": "snow and ice",
+      "definition_ar": "جبال مكسوة بالثلج أو حقول ثلج أو نهر جليدي.",
+      "include_ar": [
+        "فئات Places365: mountain_snowy، snowfield، glacier"
+      ],
+      "exclude_ar": [
+        "الجبال دون ثلج تتبع mountains_valleys"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "قمة جبل مكسوة بالثلج"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.modern_city",
+      "layer": "scene",
+      "name_ar": "مدينة حديثة",
+      "name_en": "modern city",
+      "definition_ar": "شارع أو وسط مدينة حديثة أو ناطحات سحاب أو ساحة عامة.",
+      "include_ar": [
+        "فئات Places365: street، downtown، skyscraper، plaza"
+      ],
+      "exclude_ar": [
+        "الأسواق والأزقة القديمة تتبع old_city_market"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شارع مزدحم بين أبراج زجاجية"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.old_city_market",
+      "layer": "scene",
+      "name_ar": "مدينة قديمة وسوق",
+      "name_en": "old city and market",
+      "definition_ar": "مدينة قديمة أو سوق تقليدي مكشوف أو زقاق ضيق.",
+      "include_ar": [
+        "فئات Places365: medina، bazaar/outdoor، market/outdoor، alley"
+      ],
+      "exclude_ar": [
+        "الشوارع والأبراج الحديثة تتبع modern_city"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "سوق تقليدي في مدينة قديمة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.historic_monument",
+      "layer": "scene",
+      "name_ar": "قلاع وقصور وآثار",
+      "name_en": "castles, palaces, ruins",
+      "definition_ar": "أطلال أو قلعة أو قصر أو قصبة أو موقع أثري.",
+      "include_ar": [
+        "فئات Places365: ruin، castle، palace، kasbah، archaelogical_excavation"
+      ],
+      "exclude_ar": [
+        "دور العبادة القائمة تتبع place_of_worship"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أعمدة أثرية قائمة في موقع قديم"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.place_of_worship",
+      "layer": "scene",
+      "name_ar": "دور عبادة",
+      "name_en": "place of worship",
+      "definition_ar": "مسجد أو كنيسة أو كنيس من الخارج.",
+      "include_ar": [
+        "فئات Places365: mosque/outdoor، church/outdoor، synagogue/outdoor"
+      ],
+      "exclude_ar": [
+        "الأطلال والقلاع تتبع historic_monument",
+        "داخل المسجد ليس ضمن الفئات المدرَّبة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مسجد بمئذنة وقبة من الخارج"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.home_interior",
+      "layer": "scene",
+      "name_ar": "داخل المنزل",
+      "name_en": "home interior",
+      "definition_ar": "داخل منزل: غرفة معيشة أو نوم أو طعام أو مطبخ.",
+      "include_ar": [
+        "فئات Places365: living_room، bedroom، dining_room، kitchen"
+      ],
+      "exclude_ar": [
+        "المكتبات ومتاجر الكتب تتبع library_books"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "غرفة معيشة فيها أريكة ونافذة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=indoor"
+      }
+    },
+    {
+      "id": "scene.camp_tents",
+      "layer": "scene",
+      "name_ar": "مخيم وخيام",
+      "name_en": "camp and tents",
+      "definition_ar": "مخيم أو خيام منصوبة.",
+      "include_ar": [
+        "فئات Places365: campsite"
+      ],
+      "exclude_ar": [
+        "الصحراء دون خيام تتبع desert"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "خيام منصوبة في مخيم"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=outdoor"
+      }
+    },
+    {
+      "id": "scene.library_books",
+      "layer": "scene",
+      "name_ar": "مكتبة وكتب",
+      "name_en": "library and books",
+      "definition_ar": "مكتبة أو متجر كتب من الداخل.",
+      "include_ar": [
+        "فئات Places365: library/indoor، bookstore"
+      ],
+      "exclude_ar": [
+        "غرف المنزل تتبع home_interior"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "رفوف كتب في مكتبة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "المعرّف وقائمة Places365 والاسم العربي منقولة كما هي؛ io=indoor"
+      }
+    },
+    {
+      "id": "scene.other",
+      "layer": "scene",
+      "name_ar": "مشهد آخر (خلفية)",
+      "name_en": "other",
+      "definition_ar": "فئة تدريبية للخلفية تضم مشاهد من فئات Places365 خارج المشاهد الستة عشر.",
+      "include_ar": [
+        "فئات places365_mapping.background_for_scene_other (36 فئة)"
+      ],
+      "exclude_ar": [
+        "فئات ood_excluded العشرون لا تُستعمل للتدريب، وتُحفظ لاختبار الرفض"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "قاعة اجتماعات أو مطعم وجبات سريعة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "تقابل الفئة __other__ في scene_head_clip.npz؛ لا مقابل شعريًا لها"
+      }
+    },
+    {
+      "id": "scene_group.desert",
+      "layer": "scene_group",
+      "name_ar": "الصحراء والبادية",
+      "name_en": "desert",
+      "definition_ar": "مشاهد الصحراء والبادية ومخيماتها.",
+      "include_ar": [
+        "المشهدان desert وcamp_tents"
+      ],
+      "exclude_ar": [
+        "الشاطئ الرملي يتبع مجموعة sea"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "كثبان رملية وقافلة إبل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "صحراء",
+        "بيداء",
+        "فلاة",
+        "قفر",
+        "مفازة",
+        "بادية",
+        "رمل",
+        "رمال",
+        "كثيب",
+        "كثبان",
+        "سراب",
+        "هجير",
+        "ظعائن",
+        "ظعن",
+        "نوق",
+        "ناقة",
+        "عيس",
+        "إبل",
+        "ركب",
+        "خيمة",
+        "خيام",
+        "طلل",
+        "أطلال",
+        "دمن"
+      ]
+    },
+    {
+      "id": "scene_group.sea",
+      "layer": "scene_group",
+      "name_ar": "البحر والساحل",
+      "name_en": "sea",
+      "definition_ar": "البحر المفتوح والساحل والأمواج.",
+      "include_ar": [
+        "المشهد sea_coast"
+      ],
+      "exclude_ar": [
+        "الأنهار والبحيرات تتبع مجموعة water"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شاطئ تتكسر عليه الأمواج"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "بحر",
+        "بحار",
+        "موج",
+        "أمواج",
+        "ساحل",
+        "شاطئ",
+        "شط",
+        "لجة",
+        "يم",
+        "زبد",
+        "سفينة",
+        "سفن",
+        "فلك",
+        "شراع",
+        "مركب",
+        "ملاح"
+      ]
+    },
+    {
+      "id": "scene_group.mountains",
+      "layer": "scene_group",
+      "name_ar": "الجبال والثلوج",
+      "name_en": "mountains",
+      "definition_ar": "الجبال والأودية والقمم والثلوج.",
+      "include_ar": [
+        "المشهدان mountains_valleys وsnow_ice"
+      ],
+      "exclude_ar": [
+        "التلال الرملية تتبع مجموعة desert"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "قمة جبلية مكسوة بالثلج"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "جبل",
+        "جبال",
+        "قمة",
+        "ذرى",
+        "ذروة",
+        "شاهق",
+        "هضبة",
+        "وعر",
+        "صخر",
+        "صخور",
+        "واد",
+        "وادي",
+        "أودية",
+        "شعب",
+        "ثلج",
+        "ثلوج",
+        "جليد"
+      ]
+    },
+    {
+      "id": "scene_group.water",
+      "layer": "scene_group",
+      "name_ar": "الأنهار والبحيرات",
+      "name_en": "water",
+      "definition_ar": "الماء العذب الجاري أو الساكن: أنهار وبحيرات وشلالات وجداول.",
+      "include_ar": [
+        "المشهد rivers_lakes"
+      ],
+      "exclude_ar": [
+        "البحر يتبع مجموعة sea"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "نهر يجري بين ضفتين خضراوين"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "نهر",
+        "أنهار",
+        "غدير",
+        "جدول",
+        "نبع",
+        "ينبوع",
+        "ماء",
+        "بحيرة",
+        "شلال",
+        "ساقية",
+        "فرات",
+        "دجلة",
+        "نيل",
+        "عذب"
+      ]
+    },
+    {
+      "id": "scene_group.greenery",
+      "layer": "scene_group",
+      "name_ar": "الخضرة والحدائق",
+      "name_en": "greenery",
+      "definition_ar": "الحدائق والغابات والحقول والبساتين.",
+      "include_ar": [
+        "المشاهد garden وforest وfarmland_rural"
+      ],
+      "exclude_ar": [
+        "الصحراء ذات الشجيرات المتفرقة تتبع مجموعة desert"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "روض فيه أشجار وأزهار وماء"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "روض",
+        "روضة",
+        "رياض",
+        "حديقة",
+        "بستان",
+        "جنة",
+        "جنان",
+        "زهر",
+        "أزهار",
+        "ورد",
+        "نرجس",
+        "شجر",
+        "أشجار",
+        "غصن",
+        "أغصان",
+        "دوح",
+        "أيك",
+        "خضرة",
+        "ربيع",
+        "زرع",
+        "حقل",
+        "سنابل",
+        "مرج",
+        "عشب",
+        "نخل",
+        "نخيل"
+      ]
+    },
+    {
+      "id": "scene_group.sky_night",
+      "layer": "scene_group",
+      "name_ar": "السماء والليل",
+      "name_en": "sky and night",
+      "definition_ar": "السماء نهارًا أو ليلًا، والقمر والنجوم.",
+      "include_ar": [
+        "المشهد sky والوسمان tag.moon وtag.stars"
+      ],
+      "exclude_ar": [
+        "صورة يغلب فيها البحر أو الجبل تتبع مجموعتها"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "سماء ليلية فيها قمر ونجوم"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "سماء",
+        "أفق",
+        "ليل",
+        "ليلة",
+        "ليالي",
+        "نجم",
+        "نجوم",
+        "كوكب",
+        "كواكب",
+        "قمر",
+        "بدر",
+        "هلال",
+        "ثريا",
+        "فجر",
+        "شفق",
+        "سحاب",
+        "غيم",
+        "دجى",
+        "ظلام"
+      ]
+    },
+    {
+      "id": "scene_group.heritage",
+      "layer": "scene_group",
+      "name_ar": "الآثار والمدن القديمة",
+      "name_en": "heritage",
+      "definition_ar": "الأطلال والقصور والقلاع والمدن والأسواق القديمة.",
+      "include_ar": [
+        "المشهدان historic_monument وold_city_market"
+      ],
+      "exclude_ar": [
+        "دور العبادة القائمة تتبع مجموعة worship"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أطلال قصر قديم"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "قصر",
+        "قصور",
+        "إيوان",
+        "أطلال",
+        "آثار",
+        "خرائب",
+        "حصن",
+        "قلعة",
+        "أسوار",
+        "مدائن",
+        "سوق",
+        "أسواق",
+        "دار",
+        "ديار",
+        "منازل",
+        "رسوم"
+      ]
+    },
+    {
+      "id": "scene_group.city",
+      "layer": "scene_group",
+      "name_ar": "المدينة الحديثة",
+      "name_en": "modern city",
+      "definition_ar": "شوارع المدن الحديثة وأبنيتها.",
+      "include_ar": [
+        "المشهد modern_city"
+      ],
+      "exclude_ar": [
+        "الأسواق والأزقة القديمة تتبع مجموعة heritage"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شارع مزدحم بين أبنية عالية"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "مدينة",
+        "مدن",
+        "حاضرة",
+        "عمران",
+        "بنيان",
+        "شارع",
+        "شوارع",
+        "ميدان",
+        "صرح"
+      ]
+    },
+    {
+      "id": "scene_group.worship",
+      "layer": "scene_group",
+      "name_ar": "دور العبادة",
+      "name_en": "places of worship",
+      "definition_ar": "المساجد ودور العبادة من الخارج.",
+      "include_ar": [
+        "المشهد place_of_worship"
+      ],
+      "exclude_ar": [
+        "الأطلال والقلاع تتبع مجموعة heritage"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مسجد بمئذنة وقبة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مجموعة استرجاع؛ احتمالها في المخرج = مجموع احتمالات مشاهدها"
+      },
+      "query_terms_ar": [
+        "مسجد",
+        "مساجد",
+        "محراب",
+        "مئذنة",
+        "منارة",
+        "قبة",
+        "أذان",
+        "صلاة",
+        "كعبة",
+        "حرم",
+        "دير",
+        "كنيسة",
+        "معبد"
+      ]
+    },
+    {
+      "id": "tag.camel",
+      "layer": "tag",
+      "name_ar": "جمل",
+      "name_en": "camel",
+      "definition_ar": "جمل ظاهر في الصورة.",
+      "include_ar": [
+        "جمل حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها جمل"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.horse",
+      "layer": "tag",
+      "name_ar": "حصان",
+      "name_en": "horse",
+      "definition_ar": "خيل أو حصان ظاهر في الصورة.",
+      "include_ar": [
+        "خيل حقيقية، مركوبة أو طليقة"
+      ],
+      "exclude_ar": [
+        "التماثيل والرسوم والدمى"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "فارس على حصان في البادية"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "خيل",
+        "خيول",
+        "فرس",
+        "أفراس",
+        "جواد",
+        "جياد",
+        "صهوة",
+        "أدهم",
+        "سابح",
+        "مهر"
+      ]
+    },
+    {
+      "id": "tag.falcon",
+      "layer": "tag",
+      "name_ar": "صقر",
+      "name_en": "falcon / hawk",
+      "definition_ar": "صقر أو طائر جارح من فصيلة الصقور.",
+      "include_ar": [
+        "صقر على يد صقار أو في الجو"
+      ],
+      "exclude_ar": [
+        "الطيور الأخرى تتبع tag.bird"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صقر على قفاز صقار"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "صقر",
+        "صقور",
+        "باز",
+        "بازي",
+        "شاهين"
+      ]
+    },
+    {
+      "id": "tag.bird",
+      "layer": "tag",
+      "name_ar": "طائر",
+      "name_en": "bird",
+      "definition_ar": "طائر ظاهر في الصورة.",
+      "include_ar": [
+        "حمام أو عصافير أو طيور مهاجرة"
+      ],
+      "exclude_ar": [
+        "الصقور تتبع tag.falcon"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "حمامة على غصن"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "طير",
+        "طيور",
+        "طائر",
+        "حمام",
+        "حمامة",
+        "ورقاء",
+        "بلبل",
+        "هزار",
+        "قطا",
+        "غراب",
+        "عندليب"
+      ]
+    },
+    {
+      "id": "tag.palm_tree",
+      "layer": "tag",
+      "name_ar": "نخلة",
+      "name_en": "palm tree",
+      "definition_ar": "نخلة ظاهر في الصورة.",
+      "include_ar": [
+        "نخلة حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها نخلة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.tree",
+      "layer": "tag",
+      "name_ar": "شجرة",
+      "name_en": "tree",
+      "definition_ar": "شجرة ظاهر في الصورة.",
+      "include_ar": [
+        "شجرة حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها شجرة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: يظهر في أكثر من 40% من المشاهد العامة فلا يفيد"
+      }
+    },
+    {
+      "id": "tag.flower",
+      "layer": "tag",
+      "name_ar": "زهرة",
+      "name_en": "flower",
+      "definition_ar": "زهرة أو أزهار ظاهرة.",
+      "include_ar": [
+        "أزهار في حديقة أو باقة"
+      ],
+      "exclude_ar": [
+        "الأشجار دون أزهار"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أحواض ورد في حديقة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "زهر",
+        "زهرة",
+        "أزهار",
+        "زهور",
+        "ورد",
+        "وردة",
+        "نرجس",
+        "أقحوان",
+        "بنفسج",
+        "ياسمين",
+        "شقائق"
+      ]
+    },
+    {
+      "id": "tag.rose",
+      "layer": "tag",
+      "name_ar": "وردة",
+      "name_en": "rose",
+      "definition_ar": "وردة ظاهر في الصورة.",
+      "include_ar": [
+        "وردة حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها وردة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.tent",
+      "layer": "tag",
+      "name_ar": "خيمة",
+      "name_en": "tent",
+      "definition_ar": "خيمة ظاهر في الصورة.",
+      "include_ar": [
+        "خيمة حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها خيمة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.sword_dagger",
+      "layer": "tag",
+      "name_ar": "سيف / خنجر",
+      "name_en": "sword / dagger",
+      "definition_ar": "سيف / خنجر ظاهر في الصورة.",
+      "include_ar": [
+        "سيف / خنجر حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها سيف / خنجر"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.moon",
+      "layer": "tag",
+      "name_ar": "قمر",
+      "name_en": "moon",
+      "definition_ar": "القمر ظاهر في السماء.",
+      "include_ar": [
+        "بدر أو هلال أو قمر في أي طور"
+      ],
+      "exclude_ar": [
+        "مصابيح الشوارع والأضواء المستديرة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "بدر فوق مدينة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "قمر",
+        "بدر",
+        "هلال",
+        "أقمار"
+      ]
+    },
+    {
+      "id": "tag.stars",
+      "layer": "tag",
+      "name_ar": "نجوم",
+      "name_en": "stars",
+      "definition_ar": "نجوم ظاهرة في السماء.",
+      "include_ar": [
+        "سماء ليلية مرصعة بالنجوم"
+      ],
+      "exclude_ar": [
+        "أضواء المدينة البعيدة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "سماء ليلية مليئة بالنجوم"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "نجم",
+        "نجوم",
+        "كوكب",
+        "كواكب",
+        "ثريا",
+        "جوزاء",
+        "سهيل",
+        "شهب"
+      ]
+    },
+    {
+      "id": "tag.sun",
+      "layer": "tag",
+      "name_ar": "شمس",
+      "name_en": "sun",
+      "definition_ar": "شمس ظاهر في الصورة.",
+      "include_ar": [
+        "شمس حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها شمس"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.candle",
+      "layer": "tag",
+      "name_ar": "شمعة",
+      "name_en": "candle",
+      "definition_ar": "شمعة ظاهر في الصورة.",
+      "include_ar": [
+        "شمعة حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها شمعة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.lantern",
+      "layer": "tag",
+      "name_ar": "فانوس",
+      "name_en": "lantern",
+      "definition_ar": "فانوس ظاهر في الصورة.",
+      "include_ar": [
+        "فانوس حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها فانوس"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.fire",
+      "layer": "tag",
+      "name_ar": "نار",
+      "name_en": "fire",
+      "definition_ar": "نار ظاهر في الصورة.",
+      "include_ar": [
+        "نار حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها نار"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.book",
+      "layer": "tag",
+      "name_ar": "كتاب",
+      "name_en": "book",
+      "definition_ar": "كتاب ظاهر في الصورة.",
+      "include_ar": [
+        "كتاب حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها كتاب"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.teapot",
+      "layer": "tag",
+      "name_ar": "إبريق / دلّة",
+      "name_en": "teapot / coffee pot",
+      "definition_ar": "إبريق شاي أو قهوة ظاهر.",
+      "include_ar": [
+        "إبريق على مائدة أو جمر"
+      ],
+      "exclude_ar": [
+        "الأكواب دون إبريق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "إبريق شاي على صينية"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "إبريق",
+        "أباريق",
+        "دلة"
+      ]
+    },
+    {
+      "id": "tag.boat_ship",
+      "layer": "tag",
+      "name_ar": "قارب / سفينة",
+      "name_en": "boat / ship",
+      "definition_ar": "قارب أو سفينة على الماء.",
+      "include_ar": [
+        "سفينة أو زورق أو قارب شراعي"
+      ],
+      "exclude_ar": [
+        "البحر دون مراكب يتبع tag.sea"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "قارب شراعي في البحر"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "سفينة",
+        "سفن",
+        "فلك",
+        "مركب",
+        "زورق",
+        "قارب",
+        "شراع"
+      ]
+    },
+    {
+      "id": "tag.sea",
+      "layer": "tag",
+      "name_ar": "بحر",
+      "name_en": "sea",
+      "definition_ar": "مساحة بحرية ظاهرة.",
+      "include_ar": [
+        "بحر أو محيط أو أمواج"
+      ],
+      "exclude_ar": [
+        "الأنهار والبحيرات"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أفق بحري واسع"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "بحر",
+        "بحار",
+        "موج",
+        "أمواج",
+        "يم",
+        "لجة",
+        "محيط"
+      ]
+    },
+    {
+      "id": "tag.sand",
+      "layer": "tag",
+      "name_ar": "رمال",
+      "name_en": "sand / dunes",
+      "definition_ar": "رمال ظاهر في الصورة.",
+      "include_ar": [
+        "رمال حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها رمال"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.mountain",
+      "layer": "tag",
+      "name_ar": "جبل",
+      "name_en": "mountain",
+      "definition_ar": "جبل ظاهر في الصورة.",
+      "include_ar": [
+        "جبل حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها جبل"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.river",
+      "layer": "tag",
+      "name_ar": "نهر",
+      "name_en": "river",
+      "definition_ar": "نهر ظاهر في الصورة.",
+      "include_ar": [
+        "نهر حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها نهر"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.waterfall",
+      "layer": "tag",
+      "name_ar": "شلال",
+      "name_en": "waterfall",
+      "definition_ar": "شلال ظاهر في الصورة.",
+      "include_ar": [
+        "شلال حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها شلال"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.snow",
+      "layer": "tag",
+      "name_ar": "ثلج",
+      "name_en": "snow",
+      "definition_ar": "ثلج ظاهر في الصورة.",
+      "include_ar": [
+        "ثلج حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها ثلج"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.rain",
+      "layer": "tag",
+      "name_ar": "مطر",
+      "name_en": "rain",
+      "definition_ar": "مطر ظاهر في الصورة.",
+      "include_ar": [
+        "مطر حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها مطر"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.clouds",
+      "layer": "tag",
+      "name_ar": "غيوم",
+      "name_en": "clouds",
+      "definition_ar": "غيوم ظاهر في الصورة.",
+      "include_ar": [
+        "غيوم حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها غيوم"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: يظهر في أكثر من 40% من المشاهد العامة فلا يفيد"
+      }
+    },
+    {
+      "id": "tag.fog",
+      "layer": "tag",
+      "name_ar": "ضباب",
+      "name_en": "fog / mist",
+      "definition_ar": "ضباب أو شبورة تحجب الرؤية.",
+      "include_ar": [
+        "ضباب فوق واد أو مدينة"
+      ],
+      "exclude_ar": [
+        "الدخان والغيوم العالية"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "ضباب يغطي واديًا"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "ضباب",
+        "سديم"
+      ]
+    },
+    {
+      "id": "tag.mosque",
+      "layer": "tag",
+      "name_ar": "مسجد",
+      "name_en": "mosque",
+      "definition_ar": "مسجد أو مئذنة ظاهرة.",
+      "include_ar": [
+        "مئذنة أو قبة مسجد من الخارج"
+      ],
+      "exclude_ar": [
+        "المباني الأثرية غير المسجدية"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مئذنة مسجد عند الغروب"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "مسجد",
+        "مساجد",
+        "مئذنة",
+        "مآذن",
+        "محراب",
+        "منارة"
+      ]
+    },
+    {
+      "id": "tag.castle",
+      "layer": "tag",
+      "name_ar": "قلعة / حصن",
+      "name_en": "castle / fortress",
+      "definition_ar": "قلعة / حصن ظاهر في الصورة.",
+      "include_ar": [
+        "قلعة / حصن حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها قلعة / حصن"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.arch",
+      "layer": "tag",
+      "name_ar": "قوس / عقد",
+      "name_en": "arch",
+      "definition_ar": "قوس / عقد ظاهر في الصورة.",
+      "include_ar": [
+        "قوس / عقد حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها قوس / عقد"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.tower",
+      "layer": "tag",
+      "name_ar": "برج",
+      "name_en": "tower",
+      "definition_ar": "برج ظاهر في الصورة.",
+      "include_ar": [
+        "برج حقيقي ظاهر بوضوح"
+      ],
+      "exclude_ar": [
+        "لا يُعرض للمستخدم في v1 لأنه لم يجتز معيار التحقق"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "صورة فيها برج"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم غير مكشوف: الدقة أو الاستدعاء دون الحد المقبول"
+      }
+    },
+    {
+      "id": "tag.road",
+      "layer": "tag",
+      "name_ar": "طريق",
+      "name_en": "road",
+      "definition_ar": "طريق أو درب ظاهر.",
+      "include_ar": [
+        "طريق معبد أو درب ترابي"
+      ],
+      "exclude_ar": [
+        "الأزقة داخل الأسواق القديمة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "طريق يمتد في الصحراء"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "طريق",
+        "طرق",
+        "درب",
+        "دروب",
+        "سبيل",
+        "فج",
+        "مسالك",
+        "مسير"
+      ]
+    },
+    {
+      "id": "tag.child",
+      "layer": "tag",
+      "name_ar": "طفل",
+      "name_en": "child",
+      "definition_ar": "طفل أو أطفال ظاهرون.",
+      "include_ar": [
+        "طفل أو مجموعة أطفال"
+      ],
+      "exclude_ar": [
+        "البالغون"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "طفل يلعب في حديقة"
+        }
+      ],
+      "provenance": {
+        "source": "visual_module/ml/visual/taxonomy.json (Shaden), version 1.0",
+        "note": "وسم مكشوف: validated=true في results/tag_metrics.json"
+      },
+      "query_terms_ar": [
+        "طفل",
+        "أطفال",
+        "صبي",
+        "صبية",
+        "غلام",
+        "وليد",
+        "صغار"
+      ]
+    },
+    {
+      "id": "img_emotion.amusement",
+      "layer": "img_emotion",
+      "name_ar": "المرح",
+      "name_en": "amusement",
+      "definition_ar": "مرح وتسلية تثيرها الصورة لدى المشاهد.",
+      "include_ar": [
+        "مواقف طريفة أو ألعاب أو تسلية خفيفة"
+      ],
+      "exclude_ar": [
+        "الحماس الشديد والإثارة (excitement)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أطفال يضحكون في لعبة"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.awe",
+      "layer": "img_emotion",
+      "name_ar": "الرهبة",
+      "name_en": "awe",
+      "definition_ar": "رهبة وإعجاب أمام مشهد عظيم أو مهيب.",
+      "include_ar": [
+        "مناظر طبيعية شاسعة أو معالم ضخمة"
+      ],
+      "exclude_ar": [
+        "الخوف من خطر (fear)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "سلسلة جبال شاهقة عند الغروب"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.contentment",
+      "layer": "img_emotion",
+      "name_ar": "السكينة",
+      "name_en": "contentment",
+      "definition_ar": "رضا وطمأنينة وارتياح تثيره الصورة.",
+      "include_ar": [
+        "مشاهد هادئة مريحة"
+      ],
+      "exclude_ar": [
+        "المرح الصاخب (amusement)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "فنجان قرب نافذة في صباح هادئ"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.excitement",
+      "layer": "img_emotion",
+      "name_ar": "الحماس",
+      "name_en": "excitement",
+      "definition_ar": "حماس وإثارة وطاقة.",
+      "include_ar": [
+        "رياضة أو مغامرة أو حركة سريعة"
+      ],
+      "exclude_ar": [
+        "الرهبة الساكنة (awe)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "متزلج يقفز في الهواء"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.anger",
+      "layer": "img_emotion",
+      "name_ar": "الغضب",
+      "name_en": "anger",
+      "definition_ar": "غضب أو استفزاز تثيره الصورة.",
+      "include_ar": [
+        "مشاهد عنف أو ظلم أو احتجاج غاضب"
+      ],
+      "exclude_ar": [
+        "الخوف (fear)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مشاجرة في الشارع"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.disgust",
+      "layer": "img_emotion",
+      "name_ar": "الاشمئزاز",
+      "name_en": "disgust",
+      "definition_ar": "اشمئزاز أو نفور.",
+      "include_ar": [
+        "قذارة أو تعفن أو مشاهد منفرة"
+      ],
+      "exclude_ar": [
+        "الخوف (fear)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "طعام متعفن"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.fear",
+      "layer": "img_emotion",
+      "name_ar": "الخوف",
+      "name_en": "fear",
+      "definition_ar": "خوف أو تهديد أو خطر.",
+      "include_ar": [
+        "خطر داهم أو ظلام مخيف أو كارثة"
+      ],
+      "exclude_ar": [
+        "الرهبة أمام العظمة دون تهديد (awe)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "عاصفة رعدية تقترب"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "img_emotion.sadness",
+      "layer": "img_emotion",
+      "name_ar": "الحزن",
+      "name_en": "sadness",
+      "definition_ar": "حزن أو أسى أو فقد.",
+      "include_ar": [
+        "وحدة أو فقد أو خراب"
+      ],
+      "exclude_ar": [
+        "السكينة الهادئة (contentment)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مقعد فارغ تحت المطر"
+        }
+      ],
+      "provenance": {
+        "source": "EmoSet-118K (Yang et al., ICCV 2023), 8 Mikels categories; Arabic names from Renad's model_config.json",
+        "note": "تعريف تشغيلي قصير للتوثيق؛ التسمية نفسها من إجماع معلّقي EmoSet"
+      }
+    },
+    {
+      "id": "lit_emotion.sadness",
+      "layer": "lit_emotion",
+      "name_ar": "الحزن والأسى",
+      "name_en": "sadness",
+      "definition_ar": "ألم النفس لفقد أو مصيبة أو خيبة.",
+      "include_ar": [
+        "رثاء ميت أو بكاء على فائت أو شكوى هم حاضر"
+      ],
+      "exclude_ar": [
+        "الشوق إلى غائب يرجى لقاؤه يوسم حنينًا",
+        "إحساس لا يغلب على البيت كله لا يوسم أساسيًا"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "رثاء أخ فقيد"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.longing",
+      "layer": "lit_emotion",
+      "name_ar": "الحنين والشوق",
+      "name_en": "longing",
+      "definition_ar": "تعلق النفس بغائب من حبيب أو ديار أو زمن مع رغبة في القرب.",
+      "include_ar": [
+        "ذكر البعد مع رغبة في اللقاء أو العودة",
+        "الوقوف على الديار تذكرًا لأهلها"
+      ],
+      "exclude_ar": [
+        "وصف الرحيل دون أثر عاطفي",
+        "الرثاء الصريح يوسم حزنًا"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تذكر الأحبة عند المرور بديارهم"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.loneliness",
+      "layer": "lit_emotion",
+      "name_ar": "الوحدة والغربة",
+      "name_en": "loneliness",
+      "definition_ar": "شعور بالانفراد أو بالغربة عن الأهل والوطن.",
+      "include_ar": [
+        "شكوى الغربة أو فقد الأنيس"
+      ],
+      "exclude_ar": [
+        "الشوق إلى شخص بعينه يوسم حنينًا"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شكوى غريب بعيد عن وطنه"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.awe",
+      "layer": "lit_emotion",
+      "name_ar": "الجلال والدهشة",
+      "name_en": "awe",
+      "definition_ar": "إكبار وانبهار أمام عظمة مشهد أو خلق أو قدرة.",
+      "include_ar": [
+        "وصف عظمة الطبيعة أو الكون"
+      ],
+      "exclude_ar": [
+        "الخوف من خطر يوسم خوفًا",
+        "الطمأنينة الهادئة توسم سكينة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف الليل والنجوم وصف إكبار"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.serenity",
+      "layer": "lit_emotion",
+      "name_ar": "السكينة والطمأنينة",
+      "name_en": "serenity",
+      "definition_ar": "هدوء النفس ورضاها وأمنها.",
+      "include_ar": [
+        "وصف هادئ لطبيعة وادعة أو رضا بالحال"
+      ],
+      "exclude_ar": [
+        "الفرح الظاهر يوسم بهجة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف روض هادئ عند الأصيل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.joy",
+      "layer": "lit_emotion",
+      "name_ar": "البهجة والسرور",
+      "name_en": "joy",
+      "definition_ar": "فرح وانشراح وسرور ظاهر.",
+      "include_ar": [
+        "وصف الربيع والاحتفال واللقاء السعيد"
+      ],
+      "exclude_ar": [
+        "الرضا الهادئ يوسم سكينة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف يوم عيد ولقاء"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.pride",
+      "layer": "lit_emotion",
+      "name_ar": "الفخر والحماسة",
+      "name_en": "pride",
+      "definition_ar": "اعتزاز بالنفس أو القوم أو البطولة.",
+      "include_ar": [
+        "الفخر بالشجاعة والكرم والنسب"
+      ],
+      "exclude_ar": [
+        "مدح الآخرين يوسم بحسب الإحساس الغالب فيه"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "فخر بالبطولة في الحرب"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "lit_emotion.fear",
+      "layer": "lit_emotion",
+      "name_ar": "الخوف والرهبة",
+      "name_en": "fear",
+      "definition_ar": "توجس من خطر أو هول أو مجهول.",
+      "include_ar": [
+        "وصف الحرب أو الموت أو الليل المخيف بقلق"
+      ],
+      "exclude_ar": [
+        "الإعجاب بالعظمة دون خوف يوسم جلالًا"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف ليل موحش في فلاة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "إحساس أدبي يختاره المستخدم؛ ليس فئة مدرَّبة في النموذج"
+      }
+    },
+    {
+      "id": "relation.literal",
+      "layer": "relation",
+      "name_ar": "حرفي",
+      "name_en": "literal",
+      "definition_ar": "البيت يذكر العنصر البصري نفسه في المشهد الذي يصفه.",
+      "include_ar": [
+        "ذكر البحر وصفًا لبحر حاضر في المشهد"
+      ],
+      "exclude_ar": [
+        "التشبيه والاستعارة (symbolic)",
+        "النفي (negated)",
+        "التمني والشرط (hypothetical)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "بيت يصف البيداء التي تفصل الشاعر عن أحبته"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "relation.scene_association",
+      "layer": "relation",
+      "name_ar": "ارتباط مشهدي",
+      "name_en": "scene association",
+      "definition_ar": "البيت لا يسمي العنصر، لكن موقفه يقع فيه عادة.",
+      "include_ar": [
+        "رحيل الظعائن مرتبط بالصحراء"
+      ],
+      "exclude_ar": [
+        "الارتباط الرمزي (symbolic)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "الوقوف على الديار في البادية"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "relation.symbolic",
+      "layer": "relation",
+      "name_ar": "رمزي",
+      "name_en": "symbolic",
+      "definition_ar": "العنصر يرد تشبيهًا أو استعارة أو رمزًا لا وصفًا لمشهد حاضر.",
+      "include_ar": [
+        "تشبيه الليل بموج البحر",
+        "البحر رمزًا للكرم"
+      ],
+      "exclude_ar": [
+        "الوصف المباشر (literal)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "ليل يشبه موج البحر"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "relation.negated",
+      "layer": "relation",
+      "name_ar": "منفي",
+      "name_en": "negated",
+      "definition_ar": "البيت ينفي وجود العنصر.",
+      "include_ar": [
+        "لا ماء ولا شجر"
+      ],
+      "exclude_ar": [
+        "الإثبات (literal)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "أرض لا ماء فيها"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "relation.hypothetical",
+      "layer": "relation",
+      "name_ar": "افتراضي",
+      "name_en": "hypothetical",
+      "definition_ar": "العنصر في سياق تمنٍّ أو شرط لا يثبت وجوده.",
+      "include_ar": [
+        "ليت ولو وإن الشرطية"
+      ],
+      "exclude_ar": [
+        "الوصف المثبت (literal)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تمني مبيت ليلة في أرض بعيدة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "relation.ambiguous",
+      "layer": "relation",
+      "name_ar": "ملتبس",
+      "name_en": "ambiguous",
+      "definition_ar": "لا يمكن الحكم بثقة على علاقة البيت بالعنصر.",
+      "include_ar": [
+        "لفظ يحتمل معنيين متباعدين"
+      ],
+      "exclude_ar": [
+        "الحالات التي يرجح فيها معنى واحد"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "الدار بمعنى المنزل أو الأثر"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "علاقة البيت بعنصر بصري"
+      }
+    },
+    {
+      "id": "concept.travel_journey",
+      "layer": "concept",
+      "name_ar": "الرحلة والسفر",
+      "name_en": "travel and journey",
+      "definition_ar": "الارتحال وقطع المسافات.",
+      "include_ar": [
+        "وصف الرحلة أو الراحلة"
+      ],
+      "exclude_ar": [
+        "مجرد ذكر مكان"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "الارتحال وقطع المسافات"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "رحلة",
+        "سفر",
+        "رحيل",
+        "ارتحال",
+        "ركب",
+        "مسير",
+        "راحلة"
+      ]
+    },
+    {
+      "id": "concept.atlal",
+      "layer": "concept",
+      "name_ar": "الأطلال",
+      "name_en": "abandoned encampments",
+      "definition_ar": "الوقوف على آثار الديار الدارسة.",
+      "include_ar": [
+        "ذكر الطلل والرسم والدمن"
+      ],
+      "exclude_ar": [
+        "وصف مدينة عامرة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "الوقوف على آثار الديار الدارسة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "طلل",
+        "أطلال",
+        "رسم",
+        "رسوم",
+        "دمن",
+        "ديار",
+        "منازل"
+      ]
+    },
+    {
+      "id": "concept.separation",
+      "layer": "concept",
+      "name_ar": "الفراق",
+      "name_en": "separation",
+      "definition_ar": "البين والبعد عن الأحبة.",
+      "include_ar": [
+        "ذكر البين والنوى والوداع"
+      ],
+      "exclude_ar": [
+        "الغربة عن الوطن (exile)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "البين والبعد عن الأحبة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "فراق",
+        "بين",
+        "نوى",
+        "وداع",
+        "بعد",
+        "هجر",
+        "تنائي"
+      ]
+    },
+    {
+      "id": "concept.exile",
+      "layer": "concept",
+      "name_ar": "الغربة",
+      "name_en": "exile",
+      "definition_ar": "البعد عن الوطن والأهل.",
+      "include_ar": [
+        "ذكر الغربة والمنفى والأسر"
+      ],
+      "exclude_ar": [
+        "فراق محبوب بعينه (separation)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "البعد عن الوطن والأهل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "غربة",
+        "غريب",
+        "منفى",
+        "اغتراب",
+        "أسر",
+        "أوطان"
+      ]
+    },
+    {
+      "id": "concept.passing_time",
+      "layer": "concept",
+      "name_ar": "تقلب الدهر",
+      "name_en": "passing of time",
+      "definition_ar": "تبدل الأحوال وفناء الأشياء.",
+      "include_ar": [
+        "ذكر الدهر والزمان والشيب"
+      ],
+      "exclude_ar": [
+        "وصف لحظة حاضرة دون تأمل في الزمن"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تبدل الأحوال وفناء الأشياء"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "دهر",
+        "زمان",
+        "أيام",
+        "ليالي",
+        "شيب",
+        "شباب",
+        "فناء"
+      ]
+    },
+    {
+      "id": "concept.generosity",
+      "layer": "concept",
+      "name_ar": "الكرم",
+      "name_en": "generosity",
+      "definition_ar": "الجود والعطاء.",
+      "include_ar": [
+        "مدح الجود والضيافة"
+      ],
+      "exclude_ar": [
+        "الفخر بالشجاعة (valor)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "الجود والعطاء"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "كرم",
+        "جود",
+        "سخاء",
+        "عطاء"
+      ]
+    },
+    {
+      "id": "concept.valor",
+      "layer": "concept",
+      "name_ar": "الشجاعة",
+      "name_en": "valor",
+      "definition_ar": "البأس والإقدام في الحرب.",
+      "include_ar": [
+        "وصف القتال والفرسان"
+      ],
+      "exclude_ar": [
+        "الكرم (generosity)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "البأس والإقدام في الحرب"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "شجاعة",
+        "بأس",
+        "فارس",
+        "فرسان",
+        "حرب",
+        "سيف",
+        "طعان",
+        "وغى"
+      ]
+    },
+    {
+      "id": "concept.spiritual_contemplation",
+      "layer": "concept",
+      "name_ar": "التأمل الروحي",
+      "name_en": "spiritual contemplation",
+      "definition_ar": "التأمل في الخلق والتذكر والخشوع.",
+      "include_ar": [
+        "ذكر الله والتسبيح والتوبة"
+      ],
+      "exclude_ar": [
+        "وصف الطبيعة دون معنى روحي"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "التأمل في الخلق والتذكر والخشوع"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "تأمل",
+        "خشوع",
+        "تسبيح",
+        "توبة",
+        "دعاء"
+      ]
+    },
+    {
+      "id": "concept.spring_nature",
+      "layer": "concept",
+      "name_ar": "الربيع والطبيعة",
+      "name_en": "spring and nature",
+      "definition_ar": "تجدد الطبيعة وزهرها ونسيمها.",
+      "include_ar": [
+        "وصف الرياض والأزهار والنسيم"
+      ],
+      "exclude_ar": [
+        "وصف الصحراء القاحلة"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تجدد الطبيعة وزهرها ونسيمها"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "ربيع",
+        "زهر",
+        "نسيم",
+        "روض",
+        "غيث"
+      ]
+    },
+    {
+      "id": "concept.beauty",
+      "layer": "concept",
+      "name_ar": "الجمال",
+      "name_en": "beauty",
+      "definition_ar": "وصف الحسن والجمال.",
+      "include_ar": [
+        "وصف حسن المحبوب أو المكان"
+      ],
+      "exclude_ar": [
+        "مجرد ذكر محبوب دون وصف"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف الحسن والجمال"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "جمال",
+        "حسن",
+        "بهاء",
+        "فتنة",
+        "رونق"
+      ]
+    },
+    {
+      "id": "concept.memory",
+      "layer": "concept",
+      "name_ar": "الذكرى",
+      "name_en": "memory",
+      "definition_ar": "استحضار الماضي وأيامه.",
+      "include_ar": [
+        "ذكر التذكر وأيام مضت"
+      ],
+      "exclude_ar": [
+        "التمني للمستقبل"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "استحضار الماضي وأيامه"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "مفهوم اختياري في P0"
+      },
+      "query_terms_ar": [
+        "ذكرى",
+        "ذكريات",
+        "تذكر",
+        "عهد",
+        "ماضي"
+      ]
+    },
+    {
+      "id": "genre.description",
+      "layer": "genre",
+      "name_ar": "وصف",
+      "name_en": "description",
+      "definition_ar": "غرض يصف مشهدًا أو شيئًا.",
+      "include_ar": [
+        "وصف الطبيعة أو المكان أو الحيوان"
+      ],
+      "exclude_ar": [
+        "الوصف العارض داخل غرض آخر غالب"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "وصف روض أو ليل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.love_poetry",
+      "layer": "genre",
+      "name_ar": "غزل",
+      "name_en": "love poetry",
+      "definition_ar": "غرض الحب والتغزل.",
+      "include_ar": [
+        "التغزل بالمحبوب وشكوى الهوى"
+      ],
+      "exclude_ar": [
+        "الحنين إلى الوطن دون محبوب"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شكوى البعد عن المحبوبة"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.elegy",
+      "layer": "genre",
+      "name_ar": "رثاء",
+      "name_en": "elegy",
+      "definition_ar": "غرض بكاء الميت وذكر مناقبه.",
+      "include_ar": [
+        "بكاء فقيد وتعداد خصاله"
+      ],
+      "exclude_ar": [
+        "البكاء على الديار دون ميت"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "رثاء أخ"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.praise",
+      "layer": "genre",
+      "name_ar": "مدح",
+      "name_en": "praise",
+      "definition_ar": "غرض الثناء على ممدوح.",
+      "include_ar": [
+        "الثناء على خصال الممدوح"
+      ],
+      "exclude_ar": [
+        "فخر الشاعر بنفسه (boasting)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مدح أمير بالكرم"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.boasting",
+      "layer": "genre",
+      "name_ar": "فخر",
+      "name_en": "boasting",
+      "definition_ar": "غرض الاعتزاز بالنفس أو القوم.",
+      "include_ar": [
+        "الفخر بالشجاعة والنسب"
+      ],
+      "exclude_ar": [
+        "مدح الآخرين (praise)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "فخر بالقوم في الحرب"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.wisdom",
+      "layer": "genre",
+      "name_ar": "حكمة",
+      "name_en": "wisdom",
+      "definition_ar": "غرض الحكمة والتأمل في الحياة.",
+      "include_ar": [
+        "أحكام عامة في الدهر والناس"
+      ],
+      "exclude_ar": [
+        "الشكوى الشخصية (complaint)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تأمل في زوال كل تمام"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.complaint",
+      "layer": "genre",
+      "name_ar": "شكوى",
+      "name_en": "complaint",
+      "definition_ar": "غرض الشكوى من الدهر أو الناس أو الحال.",
+      "include_ar": [
+        "شكوى الحال أو الأسر أو الغربة"
+      ],
+      "exclude_ar": [
+        "الحكمة العامة (wisdom)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "شكوى أسير من حاله"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.supplication",
+      "layer": "genre",
+      "name_ar": "ابتهال",
+      "name_en": "supplication",
+      "definition_ar": "غرض الدعاء والمناجاة.",
+      "include_ar": [
+        "دعاء ومناجاة وتوبة"
+      ],
+      "exclude_ar": [
+        "الحكمة دون دعاء"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "مناجاة في الليل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    },
+    {
+      "id": "genre.satire",
+      "layer": "genre",
+      "name_ar": "هجاء",
+      "name_en": "satire",
+      "definition_ar": "غرض الذم والتعريض.",
+      "include_ar": [
+        "ذم شخص أو قوم"
+      ],
+      "exclude_ar": [
+        "الشكوى (complaint)"
+      ],
+      "examples": [
+        {
+          "type": "description",
+          "text_ar": "تعريض بالبخل"
+        }
+      ],
+      "provenance": {
+        "source": "Poetry-Vision final architecture agreement (Claude/ChatGPT), approved by the owner 2026-11-25",
+        "note": "غرض شعري اختياري في P0"
+      }
+    }
+  ],
+  "model_outputs": {
+    "scene": {
+      "class_order": [
+        "scene.desert",
+        "scene.sea_coast",
+        "scene.mountains_valleys",
+        "scene.rivers_lakes",
+        "scene.forest",
+        "scene.garden",
+        "scene.farmland_rural",
+        "scene.sky",
+        "scene.snow_ice",
+        "scene.modern_city",
+        "scene.old_city_market",
+        "scene.historic_monument",
+        "scene.place_of_worship",
+        "scene.home_interior",
+        "scene.camp_tents",
+        "scene.library_books",
+        "scene.other"
+      ],
+      "external_names": [
+        "desert",
+        "sea_coast",
+        "mountains_valleys",
+        "rivers_lakes",
+        "forest",
+        "garden",
+        "farmland_rural",
+        "sky",
+        "snow_ice",
+        "modern_city",
+        "old_city_market",
+        "historic_monument",
+        "place_of_worship",
+        "home_interior",
+        "camp_tents",
+        "library_books",
+        "__other__"
+      ],
+      "source": "scene_head_clip.npz classes"
+    },
+    "img_emotion": {
+      "class_order": [
+        "img_emotion.amusement",
+        "img_emotion.awe",
+        "img_emotion.contentment",
+        "img_emotion.excitement",
+        "img_emotion.anger",
+        "img_emotion.disgust",
+        "img_emotion.fear",
+        "img_emotion.sadness"
+      ],
+      "external_names": [
+        "amusement",
+        "awe",
+        "contentment",
+        "excitement",
+        "anger",
+        "disgust",
+        "fear",
+        "sadness"
+      ],
+      "source": "EmoSet-8 order used by Renad's model_config.json"
+    },
+    "tag": {
+      "class_order": [
+        "tag.camel",
+        "tag.horse",
+        "tag.falcon",
+        "tag.bird",
+        "tag.palm_tree",
+        "tag.tree",
+        "tag.flower",
+        "tag.rose",
+        "tag.tent",
+        "tag.sword_dagger",
+        "tag.moon",
+        "tag.stars",
+        "tag.sun",
+        "tag.candle",
+        "tag.lantern",
+        "tag.fire",
+        "tag.book",
+        "tag.teapot",
+        "tag.boat_ship",
+        "tag.sea",
+        "tag.sand",
+        "tag.mountain",
+        "tag.river",
+        "tag.waterfall",
+        "tag.snow",
+        "tag.rain",
+        "tag.clouds",
+        "tag.fog",
+        "tag.mosque",
+        "tag.castle",
+        "tag.arch",
+        "tag.tower",
+        "tag.road",
+        "tag.child"
+      ],
+      "external_names": [
+        "camel",
+        "horse",
+        "falcon",
+        "bird",
+        "palm_tree",
+        "tree",
+        "flower",
+        "rose",
+        "tent",
+        "sword_dagger",
+        "moon",
+        "stars",
+        "sun",
+        "candle",
+        "lantern",
+        "fire",
+        "book",
+        "teapot",
+        "boat_ship",
+        "sea",
+        "sand",
+        "mountain",
+        "river",
+        "waterfall",
+        "snow",
+        "rain",
+        "clouds",
+        "fog",
+        "mosque",
+        "castle",
+        "arch",
+        "tower",
+        "road",
+        "child"
+      ],
+      "exposed": [
+        "tag.horse",
+        "tag.falcon",
+        "tag.bird",
+        "tag.flower",
+        "tag.moon",
+        "tag.stars",
+        "tag.teapot",
+        "tag.boat_ship",
+        "tag.sea",
+        "tag.fog",
+        "tag.mosque",
+        "tag.road",
+        "tag.child"
+      ],
+      "source": "tag_heads.npz ids; exposed = validated=true in results/tag_metrics.json"
+    }
+  },
+  "scene_groups": {
+    "scene_group.desert": {
+      "scenes": [
+        "scene.desert",
+        "scene.camp_tents"
+      ],
+      "tags": []
+    },
+    "scene_group.sea": {
+      "scenes": [
+        "scene.sea_coast"
+      ],
+      "tags": []
+    },
+    "scene_group.mountains": {
+      "scenes": [
+        "scene.mountains_valleys",
+        "scene.snow_ice"
+      ],
+      "tags": []
+    },
+    "scene_group.water": {
+      "scenes": [
+        "scene.rivers_lakes"
+      ],
+      "tags": []
+    },
+    "scene_group.greenery": {
+      "scenes": [
+        "scene.garden",
+        "scene.forest",
+        "scene.farmland_rural"
+      ],
+      "tags": []
+    },
+    "scene_group.sky_night": {
+      "scenes": [
+        "scene.sky"
+      ],
+      "tags": [
+        "tag.moon",
+        "tag.stars"
+      ]
+    },
+    "scene_group.heritage": {
+      "scenes": [
+        "scene.historic_monument",
+        "scene.old_city_market"
+      ],
+      "tags": []
+    },
+    "scene_group.city": {
+      "scenes": [
+        "scene.modern_city"
+      ],
+      "tags": []
+    },
+    "scene_group.worship": {
+      "scenes": [
+        "scene.place_of_worship"
+      ],
+      "tags": []
+    }
+  },
+  "pilot": {
+    "scene_groups": [
+      "scene_group.desert",
+      "scene_group.sea",
+      "scene_group.greenery",
+      "scene_group.heritage",
+      "scene_group.sky_night"
+    ],
+    "lit_emotions": [
+      "lit_emotion.sadness",
+      "lit_emotion.longing",
+      "lit_emotion.awe",
+      "lit_emotion.serenity",
+      "lit_emotion.joy"
+    ]
+  },
+  "suggestion_basis": "mapping_v1",
+  "suggestion_map": [
+    {
+      "from": "img_emotion.sadness",
+      "to": "lit_emotion.sadness"
+    },
+    {
+      "from": "img_emotion.awe",
+      "to": "lit_emotion.awe"
+    },
+    {
+      "from": "img_emotion.contentment",
+      "to": "lit_emotion.serenity"
+    },
+    {
+      "from": "img_emotion.amusement",
+      "to": "lit_emotion.joy"
+    },
+    {
+      "from": "img_emotion.excitement",
+      "to": "lit_emotion.joy"
+    },
+    {
+      "from": "img_emotion.fear",
+      "to": "lit_emotion.fear"
+    }
+  ],
+  "user_only_lit_emotions": [
+    "lit_emotion.longing",
+    "lit_emotion.loneliness",
+    "lit_emotion.pride"
+  ],
+  "relation_weights": {
+    "relation.literal": 1.0,
+    "relation.scene_association": 0.7,
+    "relation.symbolic": 0.4,
+    "relation.negated": 0.0,
+    "relation.hypothetical": 0.0,
+    "relation.ambiguous": 0.0
+  },
+  "symbolic_requires_permission": true,
+  "places365_name_normalization": "lower-case; strip a leading '/x/' prefix; '-' -> '/'; ' ' -> '_'",
+  "places365_mapping": {
+    "scene.desert": [
+      "desert/sand",
+      "desert/vegetation",
+      "desert_road"
+    ],
+    "scene.sea_coast": [
+      "beach",
+      "coast",
+      "ocean",
+      "wave"
+    ],
+    "scene.mountains_valleys": [
+      "mountain",
+      "mountain_path",
+      "valley",
+      "canyon",
+      "cliff"
+    ],
+    "scene.rivers_lakes": [
+      "river",
+      "lake/natural",
+      "waterfall",
+      "creek"
+    ],
+    "scene.forest": [
+      "forest/broadleaf",
+      "forest_path",
+      "rainforest",
+      "bamboo_forest"
+    ],
+    "scene.garden": [
+      "formal_garden",
+      "botanical_garden",
+      "topiary_garden",
+      "japanese_garden"
+    ],
+    "scene.farmland_rural": [
+      "field/cultivated",
+      "wheat_field",
+      "orchard",
+      "pasture",
+      "farm"
+    ],
+    "scene.sky": [
+      "sky"
+    ],
+    "scene.snow_ice": [
+      "mountain_snowy",
+      "snowfield",
+      "glacier"
+    ],
+    "scene.modern_city": [
+      "street",
+      "downtown",
+      "skyscraper",
+      "plaza"
+    ],
+    "scene.old_city_market": [
+      "medina",
+      "bazaar/outdoor",
+      "market/outdoor",
+      "alley"
+    ],
+    "scene.historic_monument": [
+      "ruin",
+      "castle",
+      "palace",
+      "kasbah",
+      "archaelogical_excavation"
+    ],
+    "scene.place_of_worship": [
+      "mosque/outdoor",
+      "church/outdoor",
+      "synagogue/outdoor"
+    ],
+    "scene.home_interior": [
+      "living_room",
+      "bedroom",
+      "dining_room",
+      "kitchen"
+    ],
+    "scene.camp_tents": [
+      "campsite"
+    ],
+    "scene.library_books": [
+      "library/indoor",
+      "bookstore"
+    ],
+    "background_for_scene_other": [
+      "conference_room",
+      "bar",
+      "fastfood_restaurant",
+      "sushi_bar",
+      "cockpit",
+      "garage/indoor",
+      "boxing_ring",
+      "ice_skating_rink/indoor",
+      "baseball_field",
+      "golf_course",
+      "racecourse",
+      "runway",
+      "railroad_track",
+      "industrial_area",
+      "landfill",
+      "junkyard",
+      "engine_room",
+      "television_studio",
+      "music_studio",
+      "elevator_lobby",
+      "escalator/indoor",
+      "waiting_room",
+      "art_gallery",
+      "aquarium",
+      "amusement_park",
+      "beauty_salon",
+      "fire_station",
+      "loading_dock",
+      "veterinarians_office",
+      "physics_laboratory",
+      "discotheque",
+      "locker_room",
+      "heliport",
+      "oilrig",
+      "arcade",
+      "amusement_arcade"
+    ],
+    "ood_excluded": [
+      "airport_terminal",
+      "bowling_alley",
+      "server_room",
+      "operating_room",
+      "gas_station",
+      "parking_lot",
+      "supermarket",
+      "gymnasium/indoor",
+      "swimming_pool/indoor",
+      "subway_station/platform",
+      "laundromat",
+      "auto_factory",
+      "office_cubicles",
+      "stadium/soccer",
+      "classroom",
+      "hospital_room",
+      "car_interior",
+      "airplane_cabin",
+      "construction_site",
+      "playground"
+    ]
+  }
+}

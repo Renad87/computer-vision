@@ -1,0 +1,1565 @@
+{
+ "batch": "p2_b13",
+ "description": "P2 parallel worker water_B (): AI draft annotations by claude-opus-5-5 on a disjoint candidate pool from poetry_corpus/tools/build_candidate_index.py, pre-checked with check_worker_spec and merged by poetry_corpus/tools/merge_worker.py. Verse text is not stored here; build_batch copies it from APCD. Labels are drafts pending human review.",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "worker": "water_B",
+ "work_log": {
+  "started": "2026-11-26T00:20:26",
+  "finished": "2026-11-26T00:28:03",
+  "minutes": 8,
+  "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+  "candidates_listed": null,
+  "read_in_context": null
+ },
+ "verses": [
+  {
+   "apcd_row": 193767,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بغلبة قومه على الفرات وأرضه بالسيوف"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن قومه غلبوا الأكاسرة على ماء الفرات وأرضه عشية عبروا إليهم بالسيوف.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 739
+  },
+  {
+   "apcd_row": 197071,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بمباغتة قومه أهل دجلة بجيش عظيم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "دجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن قومه باغتوا أهل دجلة صباحا بجيش عظيم من السيوف والرماح.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 740
+  },
+  {
+   "apcd_row": 225547,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بمنع قومه أعداءهم من ورود النهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأن قومه منعوا أعداءهم من ورود ماء النهر بالسيوف المرهفة والرماح السمر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 741
+  },
+  {
+   "apcd_row": 11959,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بعبور فرسان قومه عرض الفرات في غزوهم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر عبور فرسان قومه عرض نهر الفرات في غزوة للروم، حتى كأن خيلهم تحتهم جزر تسير في الماء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 742
+  },
+  {
+   "apcd_row": 326572,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بصبر قومه وجلادهم على نهر صرصر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر صرصرا",
+     "justification": null
+    },
+    {
+     "target": "tag.horse",
+     "relation": "relation.literal",
+     "evidence": "وخيله",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بصبر قومه وقتالهم يوم لقوا الخثعمي وفرسانه على ضفة نهر صرصر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 743
+  },
+  {
+   "apcd_row": 1053399,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بقوة قومه ويرجو أن تجول خيلهم على الفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بشاطي الفرات",
+     "justification": null
+    },
+    {
+     "target": "tag.horse",
+     "relation": "relation.literal",
+     "evidence": "خيولنا",
+     "justification": null
+    }
+   ],
+   "meaning": "يعبر الشاعر عن رجاء قومه أن تجول خيلهم بالسيوف اللامعة على شاطئ الفرات فاتحين.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 744
+  },
+  {
+   "apcd_row": 768835,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل حول الغدير ميادين للفرسان بدل الرياض"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر غديرا تحيط به، بدل الرياض، ميادين يلعب فيها الفرسان ويتبارون، تعبيرا عن العز والقوة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 745
+  },
+  {
+   "apcd_row": 680186,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يستشهد النيل والهرمين على مكانته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يذكر مغاني صباه التي بكى عليها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الهرمان",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر النيل أن يخبر الناس عنه، ويستشهد الهرمين معه، في قصيدة يذكر فيها مغاني صباه بمصر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 746
+  },
+  {
+   "apcd_row": 5132,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطعه الصحراء حتى بلغ النيل والمقطم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيداء",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "المقطم",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأنه قطع بركابه الصحراء الواسعة حتى بلغ مياه النيل واستظل بجبل المقطم في مصر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 747
+  },
+  {
+   "apcd_row": 1257950,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يمجد أبناء مصر المنشغلين بمجد النيل ووطنهم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر أبناء مصر بأن كل واحد منهم مشغول بمجد النيل، يعطف على وطنه ويحميه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 748
+  },
+  {
+   "apcd_row": 72561,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بأرض قومه وسقيهم نخلها بالجداول"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "إذا جدول",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأرض قومه، فإذا نضب ماء جدول فيها أوصلوا إليه بالإبل السواني جدولا آخر يسقي نخلها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 749
+  },
+  {
+   "apcd_row": 418991,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور نهرا عظيما تمتد يده إلى القرى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر العظيم",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر نهرا عظيما امتدت مياهه إلى القرى فشق فيها جداول كأنها سيوف مسلولة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 750
+  },
+  {
+   "apcd_row": 1764642,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف أنهارا عظيمة قوية تجري بين الجبال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر عظيم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "اجبالها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر بلادا كثيرة الجبال، يجري بين كل جبلين منها نهر عظيم قوي التيار.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 751
+  },
+  {
+   "apcd_row": 1671029,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعظم كثرة الأنهار في الغوطة وسعتها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف رياض غوطة دمشق"
+    }
+   ],
+   "meaning": "يصف الشاعر غوطة دمشق تشقها الأنهار والخلجان، وكل نهر منها عظيم كنهر سيحان.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 752
+  },
+  {
+   "apcd_row": 876417,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "سبحان",
+    "justification": "يسبح الله الذي أجرى الأنهار تحت الروضة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وصف هادئ لروضة يجري تحتها ماء عذب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "أنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف روضة نخيل وأشجار مثمرة"
+    }
+   ],
+   "meaning": "يصف الشاعر روضة تجري من تحتها أنهار من ماء عذب، فيسبح الله الذي أجراها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 753
+  },
+  {
+   "apcd_row": 473860,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعجب من إبداع النيل في كسوة الأرض"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "وصف مبتهج لأرض موشاة بالنبات"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الأرض مكسوة بالنبات والزهر الموشى"
+    }
+   ],
+   "meaning": "يصف الشاعر أرضا على النيل كساها النهر من إبداعه حللا موشاة من النبات والزهر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 754
+  },
+  {
+   "apcd_row": 1464812,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يشبه النهر بملك يمشي مزهوا براياته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة زهو ومرح للنهر بين الغصون"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر النهر يجري في ظل الأغصان كأنه ملك يمشي مزهوا بين راياته الخضر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 755
+  },
+  {
+   "apcd_row": 1511418,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور غرناطة تمد نهرها كمعصم مزين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "غرناطة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر غرناطة وقد مدت للقادم نهرها كمعصم مزين بنقوش يرسمها النسيم على الماء.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 756
+  },
+  {
+   "apcd_row": 804718,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعد رقص أمواج البحيرة من مظاهر جمال الكون"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد ليلي هادئ تحت ضوء النجوم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "البحيرة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "النجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر من مظاهر جمال الكون رقص أمواج البحيرة تحت أضواء النجوم.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 757
+  },
+  {
+   "apcd_row": 1606740,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف دارا عديمة النظير يجري في صحنها نهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف دارا مزخرفة بالذهب والرخام"
+    }
+   ],
+   "meaning": "يصف الشاعر دارا فخمة يجري في وسط صحنها نهر لطيف، رصفت ضفتاه بالحجارة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 758
+  },
+  {
+   "apcd_row": 154083,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعظم قصرا يفيض نهره ويفوق الكواكب فخرا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهره",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وقصر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قصرا على نهر الشقراء فاض ماؤه، وفاق فخره فخر الكواكب علوا وشهرة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 759
+  },
+  {
+   "apcd_row": 125376,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "انبلاج الصبح يكشف جداول لامعة كالسيوف"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "جداول",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصبح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف حمر الوحش تعدو في الفلاة"
+    }
+   ],
+   "meaning": "يصف الشاعر حمر الوحش في الفلاة، فلما انشق ضوء الصبح ظهرت لها جداول الماء لامعة كالسيوف القاطعة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 760
+  },
+  {
+   "apcd_row": 354922,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعجب من ماء ينصب كسيوف ذائبة فيصير غديرا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "غديرا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف تماثيل أسود تصب الماء في بركة"
+    }
+   ],
+   "meaning": "يصف الشاعر ماء ينصب من أفواه تماثيل أسود، كأنه سيوف ذابت بلا نار ثم اجتمعت غديرا.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 761
+  },
+  {
+   "apcd_row": 396008,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف هادئ لنهر ينساب بين الربى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف روضا تفتحت أنواره بعد المطر"
+    }
+   ],
+   "meaning": "يصف الشاعر النهر ينساب بهدوء بين الربى كأنه حية تتسلل هاربة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 762
+  },
+  {
+   "apcd_row": 633029,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف جداول صافية في مكان وادع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الجداول",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف دوحا وأغصان بان وطيورا"
+    }
+   ],
+   "meaning": "يصف الشاعر مكانا تجري فيه الجداول لامعة كالسيوف، موصوفة دائما بحسن الصفاء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 763
+  },
+  {
+   "apcd_row": 385764,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف جدولا صافيا يسيل كالفضة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وجدول",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جدولا يسيل كالفضة، صافي الماء، أزرق اللون كأنه يرتدي غلالة زرقاء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 764
+  },
+  {
+   "apcd_row": 745019,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف هادئ للنهر في ضوء الأصيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الأصيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر النهر وقد رقت صبغة مائه، ورسمت عليه شمس الأصيل طرازا ملونا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 765
+  },
+  {
+   "apcd_row": 813147,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف ظل الأشجار يسبح في ماء الغدير"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ظل الأشجار يتحرك في ماء الغدير كأنه صدأ يلوح على صفحة سيف مصقول.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 766
+  },
+  {
+   "apcd_row": 879466,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف النهر ينساب بين الظلال كسيف في غمده"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يصف حديقة بورد وأغصان"
+    }
+   ],
+   "meaning": "يصف الشاعر النهر ينساب بين ظلال الحديقة كأنه سيف مصقول، والظلال حوله كالغمد.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 767
+  },
+  {
+   "apcd_row": 895300,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف ماء صافيا متلألئا فوق شجرة عظيمة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "غدير",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الدوحة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ماء نافورة يعلو فوق الشجرة الكبيرة غديرا متلألئا صافي القرار، ثم ينصب في البحيرة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 768
+  },
+  {
+   "apcd_row": 1431089,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف جدولا ينساب وتجعده نسمات الهواء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "جدول",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جدولا ينساب ماؤه كالفضة، تجعد سطحه نسمات الهواء إذا هبت عليه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 769
+  },
+  {
+   "apcd_row": 1606696,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف ماء صافيا يجري في الأنهار كاللؤلؤ"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الأنهار",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ماء مدينة هراة يجري في الأنهار صافيا كأنه لآلئ في أصدافها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 770
+  },
+  {
+   "apcd_row": 313731,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرضى بقليل من ماء النهر عن متع الناس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه يكفيه، عن كل ما يعجب به الناس من متع، قليل من الماء يستقى له من النهر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 771
+  },
+  {
+   "apcd_row": 492714,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وصف هادئ لغدير يجعده النسيم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "غدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر غديرا تجعد مياهه هبوب الرياح ومرور نسيم الصبا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 772
+  },
+  {
+   "apcd_row": 930094,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف جدولا يلبسه النسيم درعا من الفقاقيع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وجدول",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر جدولا كلما مر به النسيم ألبسه درعا حلقاتها فقاقيع الماء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 773
+  },
+  {
+   "apcd_row": 203017,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصف صفاء بردى وأغصانا تتدلى عليه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بردى",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أفنان",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر نهر بردى وقد صفا ماؤه للريح، فأسرعت الريح إليه بين ستور من الشجر أطرافها أغصان.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 774
+  },
+  {
+   "apcd_row": 780026,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربت",
+    "justification": "يطرب إلى شاطئ الفرات عشية مع رفاقه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "شاطي الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "عشية",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر أنه طرب عشية إلى شاطئ الفرات مع رفاق شجعان كالسيوف.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 775
+  },
+  {
+   "apcd_row": 694071,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طرب",
+    "justification": "يصور الغدير طربا تمزق الريح ثوبه الأخضر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر الغدير كأنه طرب، فمزقت الريح الشديدة عن صدره ثوبا أخضر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 776
+  },
+  {
+   "apcd_row": 723168,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "طيور تغني ونهر يصفق وغصون ترقص"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهرها",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "فأطيارها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر روضة غنت طيورها وصفق نهرها بمائه، وأعجبها تمايل الغصون كأنها ترقص.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 777
+  },
+  {
+   "apcd_row": 1129698,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طرب",
+    "justification": "يصور السحب تنقش النهر من الطرب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "السحب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر النهر وقد نقشت عليه السحب قطراتها من الطرب، فبدا كمعصم منقوش باللؤلؤ.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 778
+  },
+  {
+   "apcd_row": 1700131,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حمام يغني للربيع وغدير يجري بين يديه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدير",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الربيع وقد قام الحمام يغني له كالخطيب، وجرى الغدير فخر ساجدا بين يديه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 779
+  },
+  {
+   "apcd_row": 1700700,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "المسرات",
+    "justification": "ركبوا النيل في مركب ليجنوا المسرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "مركب",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنهم ركبوا مركبا في النيل ليقطفوا المسرات ويتنزهوا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 780
+  },
+  {
+   "apcd_row": 1764866,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تدفق الأنهار وتفتح الأزهار في الربيع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "أنهارها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "أزهارها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر أرضا أحياها المطر فتدفقت أنهارها وتفتحت أزهارها وأتت بكل بديع.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 781
+  },
+  {
+   "apcd_row": 1430443,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طرب",
+    "justification": "الغدران تصفق طربا والأغصان تميس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدران",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأغصان",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الغدران وقد صفقت طربا وتمايلت الأغصان في روض مبتهج.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 782
+  },
+  {
+   "apcd_row": 611379,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "مسرة",
+    "justification": "يذكر يوم سرور قضوه على النيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالنيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر يوما قضوه على النيل مر سريعا، لأن أيام السرور قصيرة دائما.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 783
+  },
+  {
+   "apcd_row": 1234905,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "النهر ضاحك بين الأشجار وقت الفجر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الدوح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.symbolic",
+     "evidence": null,
+     "justification": "الفجر والغياهب مشبه بهما لخضرة الدوح ولمعان النهر"
+    }
+   ],
+   "meaning": "يصف الشاعر خضرة الأشجار الداكنة والنهر يلمع ضاحكا بينها، كأنها ظلمة شق الفجر سترها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 784
+  },
+  {
+   "apcd_row": 1527674,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفرح بوفاء النيل وزوال الكدر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن وفاء النيل بفيضانه جبر الناس، فزال كدره وصفا عيشه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 785
+  },
+  {
+   "apcd_row": 1510885,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتعجب من حسن بحيرة تنحني عليها الأغصان"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة طهر وسكون للأغصان فوق الماء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بحيرة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأغصان",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر من حسن بحيرة تنحني عليها الأغصان كأنها ركع يصلون على طهارة.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 786
+  },
+  {
+   "apcd_row": 475949,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "روض عطر النسيم يغني طائره ويبرد جدوله"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "وجدوله",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "وطائر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر روضا نسيمه عطر، وطائره يغني، وجدوله بارد الماء كأنه ثغر بارد.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 787
+  },
+  {
+   "apcd_row": 1431483,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتساءل حنينا عن ربوة دمشق وأنهارها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الأنهار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "السياق يذكر روض دمشق والمرجة الخضراء"
+    }
+   ],
+   "meaning": "يتساءل الشاعر في حنينه إلى دمشق هل ما زالت ربوتها التي شاع ذكرها تجول فيها الأنهار وافرة الماء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 788
+  },
+  {
+   "apcd_row": 700465,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "وشوقتني",
+    "justification": "يشتاق إلى الفرات وتزيده الحمائم شوقا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمائم",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه اشتاق إلى الفرات، وزادته شوقا حمائم لا تكف عن الهديل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 789
+  },
+  {
+   "apcd_row": 737393,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العودة إلى ظل الأراكة والنهر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الأراكة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى الشاعر أن يجلس ساعة تحت شجرة الأراك حيث يمتد الظل والنهر ممتلئ بالماء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 790
+  },
+  {
+   "apcd_row": 1457346,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "أنين نواعير الفرات يكاد يصدع قلبه شوقا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بالفرات",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن نواعير الفرات لما أنت عشية كاد قلبه يتصدع شوقا إلى من يحب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 791
+  },
+  {
+   "apcd_row": 225170,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يذكر قوما بادوا بعد نعيم على الفرات"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "أطواد",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر الشاعر قوما بادوا كانوا نزلوا بأنقرة يسيل عليهم ماء الفرات القادم من الجبال، في سياق تأمله زوال النعيم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 792
+  },
+  {
+   "apcd_row": 1464201,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرى الدولاب والنهر يبكيان بعد فراق مسرته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "والنهر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى تأمل الدولاب والنهر يجريان بين الرياض ودمعهما غزير، في سياق شكواه من فراق من كان يسره.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 793
+  },
+  {
+   "apcd_row": 1070713,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ابكي",
+    "justification": "يبكي على دجلة مجدا عريقا هوى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "بدجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه وقف على نهر دجلة يبكي مع الباكين مجدا عريقا قد هوى.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 794
+  },
+  {
+   "apcd_row": 763370,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "الذعر",
+    "justification": "إبله مذعورة بين الفرات وجازر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الفرات",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "الإبل في مراعيها بين الفرات وجازر"
+    }
+   ],
+   "meaning": "يصف الشاعر إبله بين الفرات وجازر وقد أصابها الذعر كأن الرماح تخزها، خوفا من الغاصبين.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 795
+  }
+ ]
+}

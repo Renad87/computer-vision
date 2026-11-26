@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [],
+  "selected_lit_emotion": "lit_emotion.longing",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": true
+}

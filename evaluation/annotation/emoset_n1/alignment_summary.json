@@ -1,0 +1,213 @@
+{
+ "recovered_images": 9200,
+ "unmatched_ids": [],
+ "emotion_mismatches": [],
+ "renad_split_vs_official_split": {
+  "test->test": 3200,
+  "train->train": 4800,
+  "val->val": 1200
+ },
+ "scene_status": {
+  "missing": 7095,
+  "labeled": 1028,
+  "unmapped": 1061,
+  "excluded_ood": 16
+ },
+ "scene_status_per_split": {
+  "test": {
+   "missing": 2492,
+   "labeled": 340,
+   "unmapped": 361,
+   "excluded_ood": 7
+  },
+  "train": {
+   "missing": 3673,
+   "unmapped": 557,
+   "labeled": 564,
+   "excluded_ood": 6
+  },
+  "val": {
+   "unmapped": 143,
+   "missing": 930,
+   "labeled": 124,
+   "excluded_ood": 3
+  }
+ },
+ "scene_status_per_emotion": {
+  "amusement": {
+   "missing": 930,
+   "labeled": 128,
+   "unmapped": 89,
+   "excluded_ood": 3
+  },
+  "anger": {
+   "labeled": 80,
+   "missing": 1031,
+   "unmapped": 39
+  },
+  "awe": {
+   "unmapped": 191,
+   "missing": 586,
+   "labeled": 373
+  },
+  "contentment": {
+   "missing": 975,
+   "labeled": 69,
+   "unmapped": 103,
+   "excluded_ood": 3
+  },
+  "disgust": {
+   "missing": 1019,
+   "labeled": 67,
+   "unmapped": 63,
+   "excluded_ood": 1
+  },
+  "excitement": {
+   "unmapped": 242,
+   "missing": 646,
+   "labeled": 259,
+   "excluded_ood": 3
+  },
+  "fear": {
+   "missing": 1082,
+   "labeled": 16,
+   "unmapped": 52
+  },
+  "sadness": {
+   "missing": 826,
+   "excluded_ood": 6,
+   "unmapped": 282,
+   "labeled": 36
+  }
+ },
+ "labeled_per_class_and_split": {
+  "scene.camp_tents|test": 1,
+  "scene.camp_tents|train": 2,
+  "scene.camp_tents|val": 1,
+  "scene.farmland_rural|test": 3,
+  "scene.farmland_rural|train": 5,
+  "scene.farmland_rural|val": 2,
+  "scene.forest|test": 8,
+  "scene.forest|train": 14,
+  "scene.forest|val": 3,
+  "scene.garden|train": 1,
+  "scene.historic_monument|test": 10,
+  "scene.historic_monument|train": 17,
+  "scene.historic_monument|val": 2,
+  "scene.home_interior|test": 2,
+  "scene.home_interior|train": 4,
+  "scene.modern_city|test": 69,
+  "scene.modern_city|train": 137,
+  "scene.modern_city|val": 26,
+  "scene.mountains_valleys|test": 26,
+  "scene.mountains_valleys|train": 54,
+  "scene.mountains_valleys|val": 11,
+  "scene.old_city_market|test": 2,
+  "scene.old_city_market|train": 1,
+  "scene.old_city_market|val": 1,
+  "scene.other|test": 77,
+  "scene.other|train": 111,
+  "scene.other|val": 32,
+  "scene.rivers_lakes|test": 14,
+  "scene.rivers_lakes|train": 20,
+  "scene.rivers_lakes|val": 3,
+  "scene.sea_coast|test": 66,
+  "scene.sea_coast|train": 102,
+  "scene.sea_coast|val": 21,
+  "scene.sky|test": 39,
+  "scene.sky|train": 66,
+  "scene.sky|val": 11,
+  "scene.snow_ice|test": 23,
+  "scene.snow_ice|train": 30,
+  "scene.snow_ice|val": 11
+ },
+ "distinct_raw_scenes": 170,
+ "raw_outside_official_vocabulary": [],
+ "ambiguous_truncated_names": {
+  "lake": {
+   "count": 43,
+   "candidates": [
+    "lake/natural -> scene.rivers_lakes"
+   ]
+  },
+  "field": {
+   "count": 39,
+   "candidates": [
+    "field/cultivated -> scene.farmland_rural"
+   ]
+  },
+  "forest": {
+   "count": 25,
+   "candidates": [
+    "forest/broadleaf -> scene.forest"
+   ]
+  },
+  "stadium": {
+   "count": 17,
+   "candidates": [
+    "stadium/soccer -> ood_excluded"
+   ]
+  },
+  "church": {
+   "count": 16,
+   "candidates": [
+    "church/outdoor -> scene.place_of_worship"
+   ]
+  },
+  "desert": {
+   "count": 9,
+   "candidates": [
+    "desert/sand -> scene.desert",
+    "desert/vegetation -> scene.desert"
+   ]
+  },
+  "swimming_pool": {
+   "count": 5,
+   "candidates": [
+    "swimming_pool/indoor -> ood_excluded"
+   ]
+  },
+  "market": {
+   "count": 2,
+   "candidates": [
+    "market/outdoor -> scene.old_city_market"
+   ]
+  },
+  "subway_station": {
+   "count": 2,
+   "candidates": [
+    "subway_station/platform -> ood_excluded"
+   ]
+  },
+  "library": {
+   "count": 2,
+   "candidates": [
+    "library/indoor -> scene.library_books"
+   ]
+  },
+  "bazaar": {
+   "count": 2,
+   "candidates": [
+    "bazaar/outdoor -> scene.old_city_market"
+   ]
+  },
+  "mosque": {
+   "count": 1,
+   "candidates": [
+    "mosque/outdoor -> scene.place_of_worship"
+   ]
+  },
+  "ice_skating_rink": {
+   "count": 1,
+   "candidates": [
+    "ice_skating_rink/indoor -> background_for_scene_other"
+   ]
+  },
+  "garage": {
+   "count": 1,
+   "candidates": [
+    "garage/indoor -> background_for_scene_other"
+   ]
+  }
+ }
+}

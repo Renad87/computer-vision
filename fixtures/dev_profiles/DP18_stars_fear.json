@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "tag.stars",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.fear",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

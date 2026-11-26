@@ -1,0 +1,1567 @@
+{
+  "seed": 20261126,
+  "corpus_version": "corpus_all_v1",
+  "date": "2026-11-26",
+  "queries": {
+    "Q01": {
+      "scenario": "DP01_desert_longing",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7"
+    },
+    "Q02": {
+      "scenario": "DP02_desert_pride",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e"
+    },
+    "Q03": {
+      "scenario": "DP03_sea_loneliness",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359"
+    },
+    "Q04": {
+      "scenario": "DP04_sea_joy",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176"
+    },
+    "Q05": {
+      "scenario": "DP05_greenery_serenity",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c"
+    },
+    "Q06": {
+      "scenario": "DP06_greenery_joy",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989"
+    },
+    "Q07": {
+      "scenario": "DP07_heritage_awe",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08"
+    },
+    "Q08": {
+      "scenario": "DP08_heritage_longing",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb"
+    },
+    "Q09": {
+      "scenario": "DP09_focus_sky_serenity",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a"
+    },
+    "Q10": {
+      "scenario": "DP10_focus_greenery_serenity",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353"
+    },
+    "Q11": {
+      "scenario": "DP11_sky_fear_symbolic",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589"
+    },
+    "Q12": {
+      "scenario": "DP12_sky_fear_no_symbolic",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5"
+    },
+    "Q13": {
+      "scenario": "DP13_moon_pride_symbolic",
+      "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7"
+    },
+    "Q14": {
+      "scenario": "DP14_emotion_only_longing",
+      "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373"
+    },
+    "Q15": {
+      "scenario": "DP15_unsupported_scene_sadness",
+      "profile_id": "05177fef-24a0-4d00-bb8b-74bbeb5573fe"
+    },
+    "Q16": {
+      "scenario": "DP16_missing_falcon_pride",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3"
+    },
+    "Q17": {
+      "scenario": "DP17_missing_worship_awe",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc"
+    },
+    "Q18": {
+      "scenario": "DP18_stars_fear",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979"
+    },
+    "Q19": {
+      "scenario": "DP19_bird_loneliness",
+      "profile_id": "7880ff6a-007a-4812-a409-64de2439e1d0"
+    },
+    "Q20": {
+      "scenario": "DP20_bird_serenity",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d"
+    },
+    "Q21": {
+      "scenario": "DP21_water_serenity",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9"
+    },
+    "Q22": {
+      "scenario": "DP22_mountains_awe",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870"
+    },
+    "Q23": {
+      "scenario": "DP23_desert_longing_emotion_only",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104"
+    },
+    "Q24": {
+      "scenario": "DP24_greenery_serenity_secondary_concept",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed"
+    }
+  },
+  "items": {
+    "Rb44f7dc665f5": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000260",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "R1a436afea531": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000670",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rd704d746fe19": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000236",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "Rde3e80d10ebe": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000010",
+      "methods": {
+        "labels_exact": 1
+      }
+    },
+    "Rf78248a28448": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000061",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 1
+      }
+    },
+    "R723c38223256": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000062",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 2
+      }
+    },
+    "R4a5b2173c48a": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000063",
+      "methods": {
+        "labels_weighted": 3
+      }
+    },
+    "R77ce07417ffb": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000268",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rf63839a6e666": {
+      "query_ref": "Q01",
+      "profile_id": "9fbefcd2-7262-4cba-b878-3d8b76a5bef7",
+      "verse_id": "pv:verse:000264",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Rb30980c6bcf4": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000382",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Raa17aab69581": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000373",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Ra0cb5bd2e3c5": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000407",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R9d7d155f626d": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000031",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "R4f8c1f38f964": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000187",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "Rb1537a3a2f15": {
+      "query_ref": "Q02",
+      "profile_id": "83d5e5eb-8a45-439e-a5b4-63571c352a5e",
+      "verse_id": "pv:verse:000251",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "Rf5505ebcc866": {
+      "query_ref": "Q03",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359",
+      "verse_id": "pv:verse:000468",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Ra1cf01983dfa": {
+      "query_ref": "Q03",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359",
+      "verse_id": "pv:verse:000458",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rc4a7b29e209d": {
+      "query_ref": "Q03",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359",
+      "verse_id": "pv:verse:000464",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R3e17f350339a": {
+      "query_ref": "Q03",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359",
+      "verse_id": "pv:verse:000015",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R1568915f1f8a": {
+      "query_ref": "Q03",
+      "profile_id": "97175c4d-0b0c-41c5-b8e8-29f5270c7359",
+      "verse_id": "pv:verse:000460",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Rec816283ebda": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000492",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Rdf33a01101f1": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000438",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R5e76960efeda": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000780",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R0f9c23f14f38": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000055",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "R17160d4cca16": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000056",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R9e6000789af2": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000057",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R1d053439921e": {
+      "query_ref": "Q04",
+      "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+      "verse_id": "pv:verse:000436",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R03826513928b": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000972",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R1c394e96964f": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000960",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R1db231139321": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000974",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R7de9c1a6e831": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000021",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "Rc8819bde4f0b": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000024",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "R56b277899955": {
+      "query_ref": "Q05",
+      "profile_id": "78950e40-c07f-45b0-b53e-87ef0aaec34c",
+      "verse_id": "pv:verse:000087",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R730422ef1cd1": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000978",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R9b9cf1196569": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000986",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R7d54b75d5007": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000129",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R4a2103c401f2": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000026",
+      "methods": {
+        "labels_exact": 1
+      }
+    },
+    "Rd08b8e5fe34b": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000027",
+      "methods": {
+        "labels_exact": 2
+      }
+    },
+    "Re232f81ce9e6": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000029",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 1
+      }
+    },
+    "R4814a703730e": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000092",
+      "methods": {
+        "labels_weighted": 2
+      }
+    },
+    "Rc4af12868d66": {
+      "query_ref": "Q06",
+      "profile_id": "78b8029c-7ee9-491b-a0ce-a39ca4d5e989",
+      "verse_id": "pv:verse:000108",
+      "methods": {
+        "labels_weighted": 3
+      }
+    },
+    "R27afdfeb9af3": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000501",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Raa02750896ca": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000135",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "labels_weighted": 3,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R34b910532452": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000116",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R2831c8551b2f": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000017",
+      "methods": {
+        "labels_exact": 1
+      }
+    },
+    "R70c0cdd85405": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000019",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 1
+      }
+    },
+    "Rbe68c669ae41": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000085",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 2
+      }
+    },
+    "Raedebe5b170e": {
+      "query_ref": "Q07",
+      "profile_id": "9a5bdf03-2073-43a2-9b2c-4d3fe55bfe08",
+      "verse_id": "pv:verse:000498",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R5966415feec0": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000827",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Ra5a83fb371fd": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000010",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2
+      }
+    },
+    "R7f5ca434638e": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000566",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R0879ee771bd1": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000082",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "R5da8249607ac": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000083",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R4d0a6500f35f": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000084",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R49099f2389db": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000587",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rfca7e5a97faf": {
+      "query_ref": "Q08",
+      "profile_id": "331f6a52-8595-4f57-a4ae-9745c7d19bbb",
+      "verse_id": "pv:verse:000589",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Rb94a51acadd8": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000915",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R17a20ce29ac2": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000912",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R5cb34849c3fa": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000972",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R784bc8e948a7": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000021",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rbc602fd23b71": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000023",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "R77a833e9c9b2": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000024",
+      "methods": {
+        "labels_exact": 3
+      }
+    },
+    "R53659e76b673": {
+      "query_ref": "Q09",
+      "profile_id": "7f5ed0f3-5894-4751-a87e-a60d9be4d00a",
+      "verse_id": "pv:verse:000025",
+      "methods": {
+        "labels_weighted": 3
+      }
+    },
+    "R73c15e67491f": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000972",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R5485bddaea03": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000960",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R831719627022": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000974",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "Rf560e00a1e92": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000021",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R9bd9df3c67c1": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000023",
+      "methods": {
+        "labels_exact": 2
+      }
+    },
+    "R784f408e7a71": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000024",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 2
+      }
+    },
+    "Rf6b9f954ae3c": {
+      "query_ref": "Q10",
+      "profile_id": "126095fa-38f2-4fed-988c-00621da79353",
+      "verse_id": "pv:verse:000087",
+      "methods": {
+        "labels_weighted": 3
+      }
+    },
+    "Re159efcec676": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000945",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R581a857882f2": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000419",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2
+      }
+    },
+    "R5cccca5d759a": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000298",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "Rb05347a7791e": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000219",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "R45bef5e718a2": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000663",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R66e24e341e4f": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:000836",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R50a3248efef4": {
+      "query_ref": "Q11",
+      "profile_id": "7cb7c3f2-11da-4884-a8c2-928630e42589",
+      "verse_id": "pv:verse:001004",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R3a86af97e2a3": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000945",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R89e76bb3cf1d": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000419",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2
+      }
+    },
+    "Rf63eb5d7a6cf": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000298",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R754d5b9f1cda": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000219",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "Rb5d8be1363d1": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000663",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R4d99c321e9cf": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:000836",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R1645920be119": {
+      "query_ref": "Q12",
+      "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+      "verse_id": "pv:verse:001004",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R3140d9446911": {
+      "query_ref": "Q13",
+      "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7",
+      "verse_id": "pv:verse:000032",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "labels_weighted": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rdf871c37ea23": {
+      "query_ref": "Q13",
+      "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7",
+      "verse_id": "pv:verse:000460",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rec2a7f4dccc0": {
+      "query_ref": "Q13",
+      "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7",
+      "verse_id": "pv:verse:000018",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R38d39062879b": {
+      "query_ref": "Q13",
+      "profile_id": "fd87e148-2a30-428e-9baf-b19eb910e4a7",
+      "verse_id": "pv:verse:000031",
+      "methods": {
+        "hybrid_no_tier": 3
+      }
+    },
+    "R29b2e7387bd9": {
+      "query_ref": "Q14",
+      "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373",
+      "verse_id": "pv:verse:000001",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Ra0086aba1d43": {
+      "query_ref": "Q14",
+      "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373",
+      "verse_id": "pv:verse:000006",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R9f0494c80292": {
+      "query_ref": "Q14",
+      "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373",
+      "verse_id": "pv:verse:000007",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rcf0279e7b02b": {
+      "query_ref": "Q14",
+      "profile_id": "f69e75b8-e508-42cb-bb9c-71aeea1ab373",
+      "verse_id": "pv:verse:000008",
+      "methods": {
+        "hybrid_no_tier": 3
+      }
+    },
+    "R607b36288d6d": {
+      "query_ref": "Q15",
+      "profile_id": "05177fef-24a0-4d00-bb8b-74bbeb5573fe",
+      "verse_id": "pv:verse:000001",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R214ad920043d": {
+      "query_ref": "Q15",
+      "profile_id": "05177fef-24a0-4d00-bb8b-74bbeb5573fe",
+      "verse_id": "pv:verse:000002",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R3124d0a3194b": {
+      "query_ref": "Q15",
+      "profile_id": "05177fef-24a0-4d00-bb8b-74bbeb5573fe",
+      "verse_id": "pv:verse:000003",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R7227b68850ea": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000018",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Rc5827ea34fe9": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000019",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2
+      }
+    },
+    "R7022d7cabfef": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000020",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R16962985eb2e": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000031",
+      "methods": {
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rd0ec0204abf8": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000032",
+      "methods": {
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rf34fe7a0c8d7": {
+      "query_ref": "Q16",
+      "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+      "verse_id": "pv:verse:000033",
+      "methods": {
+        "hybrid_no_tier": 3
+      }
+    },
+    "R4ea14587949c": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000697",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "R325921782ceb": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000690",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 3,
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R93b2a724bccb": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000730",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 2
+      }
+    },
+    "Rfd4788d0ba6a": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000693",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "Rf224a10974a2": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000695",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R9e51b9cbd415": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000706",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rbd2d91c12441": {
+      "query_ref": "Q17",
+      "profile_id": "20feba31-5e2a-4b3e-b45a-d8dc14eb61cc",
+      "verse_id": "pv:verse:000729",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R9a2460400f91": {
+      "query_ref": "Q18",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+      "verse_id": "pv:verse:000944",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 2
+      }
+    },
+    "Rf304687f08e4": {
+      "query_ref": "Q18",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+      "verse_id": "pv:verse:000998",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 1,
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rdb1f1d1a755b": {
+      "query_ref": "Q18",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+      "verse_id": "pv:verse:001052",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R9f86f01d4d90": {
+      "query_ref": "Q18",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+      "verse_id": "pv:verse:000040",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R5c8fbb7ddfa5": {
+      "query_ref": "Q18",
+      "profile_id": "deb7c864-eaa4-4d9b-ba43-03a5a2b37979",
+      "verse_id": "pv:verse:001013",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R8b1b9cc8a617": {
+      "query_ref": "Q19",
+      "profile_id": "7880ff6a-007a-4812-a409-64de2439e1d0",
+      "verse_id": "pv:verse:000081",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "R0260ad2789aa": {
+      "query_ref": "Q19",
+      "profile_id": "7880ff6a-007a-4812-a409-64de2439e1d0",
+      "verse_id": "pv:verse:000636",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "labels_exact": 2,
+        "labels_weighted": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "Rd78a850dab3a": {
+      "query_ref": "Q19",
+      "profile_id": "7880ff6a-007a-4812-a409-64de2439e1d0",
+      "verse_id": "pv:verse:001021",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "labels_exact": 3,
+        "labels_weighted": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Re7e8bd2573d9": {
+      "query_ref": "Q19",
+      "profile_id": "7880ff6a-007a-4812-a409-64de2439e1d0",
+      "verse_id": "pv:verse:000012",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Ra37e37b294fc": {
+      "query_ref": "Q20",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+      "verse_id": "pv:verse:000165",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 2,
+        "labels_exact": 2,
+        "labels_weighted": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R4911749d5139": {
+      "query_ref": "Q20",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+      "verse_id": "pv:verse:000316",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 1
+      }
+    },
+    "R5175e0fc4ce5": {
+      "query_ref": "Q20",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+      "verse_id": "pv:verse:000022",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "labels_exact": 1,
+        "labels_weighted": 1,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R28cb0e3317c5": {
+      "query_ref": "Q20",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+      "verse_id": "pv:verse:000309",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R64f86e627a32": {
+      "query_ref": "Q20",
+      "profile_id": "28792b80-fc6c-4f67-b854-fe39bd74c17d",
+      "verse_id": "pv:verse:000508",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R862f0b9125df": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000757",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 2
+      }
+    },
+    "R32b9062ef52b": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000769",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 3,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R40c9d0157935": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000753",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 1
+      }
+    },
+    "R88c41be657a4": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000021",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "Rde33e7709b6e": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000024",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "R012295c9b220": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000157",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    },
+    "R88f56779c799": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000771",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R335c1823b297": {
+      "query_ref": "Q21",
+      "profile_id": "7e6226a8-b607-4a18-996f-54d1d7aa8de9",
+      "verse_id": "pv:verse:000770",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R7cba72f3f63d": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000320",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R9ebd5e715262": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000298",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Rfb912b9acac0": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000351",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "Rb85a952d0ba5": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000016",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "Rbf01df07468d": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000280",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "Rb973043cbece": {
+      "query_ref": "Q22",
+      "profile_id": "2f1abc97-ec64-4fd2-b6c7-78f022a9d870",
+      "verse_id": "pv:verse:000283",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "R2f3b35ddc1fe": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000260",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1
+      }
+    },
+    "Reb2462dfd0fc": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000670",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R2ea5e519032c": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000236",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3
+      }
+    },
+    "R5b3a5159aadb": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000010",
+      "methods": {
+        "labels_exact": 1
+      }
+    },
+    "R06bfb0126f5f": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000061",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 1
+      }
+    },
+    "Ra8283d34baea": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000062",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 2
+      }
+    },
+    "Rc02c6cbd8a8e": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000063",
+      "methods": {
+        "labels_weighted": 3
+      }
+    },
+    "Rd2f12c4f9ac9": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000268",
+      "methods": {
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "Re3d4811cce79": {
+      "query_ref": "Q23",
+      "profile_id": "45107481-0b14-4ca9-acc6-a9093d149104",
+      "verse_id": "pv:verse:000264",
+      "methods": {
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Rcf4b047d4fa0": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000972",
+      "methods": {
+        "tfidf_lecture": 1,
+        "tfidf": 1,
+        "hybrid": 1,
+        "hybrid_no_tier": 1
+      }
+    },
+    "R21b55efba274": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000974",
+      "methods": {
+        "tfidf_lecture": 2,
+        "tfidf": 2,
+        "hybrid": 2,
+        "hybrid_no_tier": 2
+      }
+    },
+    "R16a89a953d6f": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000976",
+      "methods": {
+        "tfidf_lecture": 3,
+        "tfidf": 3,
+        "hybrid": 3,
+        "hybrid_no_tier": 3
+      }
+    },
+    "Rb6fd4b22900e": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000021",
+      "methods": {
+        "labels_exact": 1,
+        "labels_weighted": 1
+      }
+    },
+    "Rc7cd6e638660": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000024",
+      "methods": {
+        "labels_exact": 2,
+        "labels_weighted": 2
+      }
+    },
+    "Rb2255131e4b5": {
+      "query_ref": "Q24",
+      "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+      "verse_id": "pv:verse:000165",
+      "methods": {
+        "labels_exact": 3,
+        "labels_weighted": 3
+      }
+    }
+  }
+}

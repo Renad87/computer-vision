@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "36d1df8b-ba6a-4f83-96f9-6acc72f79bd3",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "tag.falcon",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.pride",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

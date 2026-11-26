@@ -1,0 +1,1482 @@
+{
+ "batch": "p2_b07",
+ "description": "P2 parallel worker sea_A (): AI draft annotations by claude-opus-5-5 on a disjoint candidate pool from poetry_corpus/tools/build_candidate_index.py, pre-checked with check_worker_spec and merged by poetry_corpus/tools/merge_worker.py. Verse text is not stored here; build_batch copies it from APCD. Labels are drafts pending human review.",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "worker": "sea_A",
+ "work_log": {
+  "started": "2026-11-26T00:20:26",
+  "finished": "2026-11-26T00:26:55",
+  "minutes": 6,
+  "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+  "candidates_listed": null,
+  "read_in_context": null
+ },
+ "verses": [
+  {
+   "apcd_row": 527710,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "ذكرتك",
+    "justification": "يتذكر من يخاطبها وهو في سفينة يتهددها الموج"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الموت متوقع من تلاطم الأمواج حول السفينة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بتلاطم الأمواج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "الأمواج",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "السفينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه ذكر من يخاطبها وهو على متن سفينة تتلاطم حولها الأمواج والموت متوقع في كل لحظة، فلم يشغله الخطر عن ذكرها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 448
+  },
+  {
+   "apcd_row": 446393,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "ذكرتك",
+    "justification": "يتذكر المخاطب، وهو أبوه في السياق، والسفينة في عاصفة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رياح عاصفة وسفن تعلو بها الأمواج وتهبط"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر يعلو",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "بالسفين",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر أباه بأنه تذكره وهو في البحر، والرياح عاصفة، والبحر يرفع السفن ثم يهبط بها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 449
+  },
+  {
+   "apcd_row": 1444985,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يودع الراحلين في السفن واقفا على الشاطئ"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "والدمع",
+     "justification": "دموعه تجري على خده ساعة الرحيل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بشاطيه",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "والسفن",
+     "justification": null
+    }
+   ],
+   "meaning": "وقف الشاعر يرى السفن تمضي بأحبته في رحيلهم، ودموعه تجري على خده كما تجري السفن على الشاطئ.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 450
+  },
+  {
+   "apcd_row": 1287077,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "ذكرتهم",
+    "justification": "يتذكر أحبته بعد فراقهم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "بالهم",
+     "justification": "قلبه ممتلئ همّا لبينهم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر كالليل",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    }
+   ],
+   "meaning": "تذكر الشاعر أحبته الراحلين وقلبه ممتلئ همّا لفراقهم، والبحر أمامه قاتم السواد كالليل.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 451
+  },
+  {
+   "apcd_row": 473452,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "طيف غائب يزوره ودونه محيط زاخر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بعيد عمن يحب يفصله عنهم بحر واسع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر الجنوبي",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "محيط",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب الشاعر من طيف ألمّ به ليلًا مع أن بينه وبين صاحبته محيطًا زاخرًا من البحر الجنوبي.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 452
+  },
+  {
+   "apcd_row": 516290,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يذكر الديار التي أقفرت بعد رحيل صاحبته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خلو المنازل من أهلها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فالساحل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "وقوف على ديار أقفرت ورسوم عفت كما في السياق"
+    }
+   ],
+   "meaning": "يذكر الشاعر أن ريطة رحلت فأقفرت منها المنازل من جانبي منى إلى منعطف الوادي بمكة إلى الساحل.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 453
+  },
+  {
+   "apcd_row": 628036,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يخاطب الساحل متذكرا ما عاشه فيه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "ومن سرور",
+     "justification": "يذكر ما كان له فيه من سرور وطرب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "يا ساحل الثغر",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر ساحل الثغر متذكرًا ما كان له فيه من حاجات ومسرات وعهود وطرب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 454
+  },
+  {
+   "apcd_row": 883562,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوقي",
+    "justification": "يشكو شوقه إلى سكان المرفأ لبعدهم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "مرفأ الشواني",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "الشواني",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر سكان مرفأ السفن بأن شوقه إليهم لبعدهم عنه قد أحرقه وأضناه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 455
+  },
+  {
+   "apcd_row": 332620,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم بلاده يبلغه في الهند رغم البحر والبيد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر دونك",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "وبيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر نسيم بلاده الذي بلغه في الهند، متعجبًا كيف وصل إليه والبحر يعترض دونه والصحارى التي تتحاماها الظباء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 456
+  },
+  {
+   "apcd_row": 973968,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "بعد الحبيب والبر والبحر يحولان دون اللقاء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "غربة",
+     "justification": "يشكو غربة النوى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "والبحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر كيف يصبر وقد أبعدته غربة الفراق، وصار البر والبحر حائلين دون لقاء من يحب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 457
+  },
+  {
+   "apcd_row": 338993,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "فردا",
+    "justification": "تلومه لأنه يركب الأهوال وحده"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "الأهوال",
+     "justification": "أهوال البيد ولجج البحار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لجج البحار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    }
+   ],
+   "meaning": "تسأل اللائمة الشاعر لماذا يتكلف الأهوال وحده في الصحارى المغبرة أو في لجج البحار.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 458
+  },
+  {
+   "apcd_row": 337474,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وتغربي",
+    "justification": "يشكو انفراده عن قومه وغربته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يحب قومه الذين ابتعد عنهم كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "الأمواج",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "والسهب",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن انفراده عن قومه وغربته جعلا الأمواج والأرض الوعرة والسهول الواسعة تتقاذفه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 459
+  },
+  {
+   "apcd_row": 1296015,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "إن أمس منفردا",
+    "justification": "يواجه وحدته معترفا بها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يجعل انفراده كانفراد البحر والبدر والسيف عزة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "فالبحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "فالبحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والبدر",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "والبدر",
+     "justification": null
+    }
+   ],
+   "meaning": "يرد الشاعر على من تلومه: إن صار وحيدًا فالبحر وحيد، والبدر وحيد، والسيف وحيد، فالتفرد شأن العظيم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 460
+  },
+  {
+   "apcd_row": 1412316,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "بغربة",
+    "justification": "ينادي التائه في غربته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "وبحرا",
+     "justification": null
+    }
+   ],
+   "meaning": "ينادي الشاعر الهائم في غربته برًّا وبحرًا، المطروح المضطرب الفكر كالموج، ليدعوه إلى الالتجاء إلى مريم كما في السياق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 461
+  },
+  {
+   "apcd_row": 1071854,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "غريق صار البحر قبره والموج أكفانه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والموج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "واللج",
+     "justification": null
+    }
+   ],
+   "meaning": "يجيب المجيب بأن الغائب قد غرق واستقر في عمق البحر، فصار العمق قبره والأمواج أكفانه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 462
+  },
+  {
+   "apcd_row": 327,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "للهموم",
+    "justification": "يتمنى انفراج همومه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يخشى ألا ينجو من ركوب البحر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ركوب البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر هل تنفرج همومه، وهل من منقذ ينجيه من ركوب البحر وأهواله.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 463
+  },
+  {
+   "apcd_row": 1065526,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أحزانا",
+    "justification": "يسافر حاملا أحزانه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يفارق أهله في شيخوخته مسافرا كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحار",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحار",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "بواخر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن البواخر ستحمله فوق البحار مسافرًا، وسيحمل هو فوقها أحزانه لفراق أهله.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 464
+  },
+  {
+   "apcd_row": 1504413,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "كفى حزنا",
+    "justification": "يحزن لأن البحار تفصله عن أهله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يودع أهل الحدباء ويتمنى لقاءهم كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "السباسب",
+     "justification": null
+    }
+   ],
+   "meaning": "يكفي الشاعر حزنًا أن تحول البحار بينه وبين أهله، وأن تقف الصحارى الواسعة دون لقائهم.",
+   "text_note": "في APCD «للنلاق»، ويبدو أن في الكلمة تصحيفًا.",
+   "uncertainty": "low",
+   "n": 465
+  },
+  {
+   "apcd_row": 1259605,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "تبكي",
+    "justification": "السواحل والجزر تبكي المنفيين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "على البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر فوجًا من المنفيين يشق أمواج البحر إلى جزر سيشل، فتبكيهم السواحل والجزر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 466
+  },
+  {
+   "apcd_row": 1212870,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزينا",
+    "justification": "يحزن على فقيد قتله الموج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "الموج",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه صار حزينًا على الفقيد حزن أبيه عليه، بعدما مات قتيلًا بين الموج وصاري السفينة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 467
+  },
+  {
+   "apcd_row": 804425,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ونوح",
+    "justification": "نواح المساء على شاطئ البحر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تضيع تنهداته وحده في ضجيج الشاطئ كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ساحل البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ساحل البحر حيث يضج صراخ الصباح ونواح المساء، في مقطع يتنهد فيه من شقائه وأساه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 468
+  },
+  {
+   "apcd_row": 190898,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "وأبكي",
+    "justification": "يبكي الليل كله في رثاء كما في السياق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحار",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والنجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والنجوم",
+     "justification": null
+    }
+   ],
+   "meaning": "يبكي الشاعر طوال الليل والنجوم طالعة كأن البحار لم تبتلعها عند مغيبها، في رثائه لكليب كما في السياق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 469
+  },
+  {
+   "apcd_row": 1269934,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "من الكمد",
+    "justification": "يرى في صفرة الغروب أثر الكمد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "اليم",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "اليم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "غروب الشمس في البحر كما في السياق"
+    }
+   ],
+   "meaning": "تغرب الشمس في البحر تاركة وراءها صفرة كأنها صفرة الحزن والكمد.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 470
+  },
+  {
+   "apcd_row": 1269887,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ويبكي",
+    "justification": "الموج يبكي للراحلين الباكين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يودعون غرناطة ويحنون إليها كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "الموج",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر الموج يزفر ويبكي لأجل الراحلين حين يرى دموعهم، في مشهد وداع غرناطة كما في السياق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 471
+  },
+  {
+   "apcd_row": 1508255,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الموج يلطم والطير تبكي في رثاء غريق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والموج",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "والاطيار",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر من ضمه البحر، فيصور الماء كأنه خر على رأسه لفراقه، والموج يلطم، والطيور تبكيه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 472
+  },
+  {
+   "apcd_row": 536859,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "فزعا",
+    "justification": "قوم فروا فزعين عبر بحر هائج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ذي غوارب مزبد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر قومًا فروا فزعين إلى الممدوح الكريم، فاحتملوا أهوال بحر عالي الموج مزبد في طريقهم إليه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 473
+  },
+  {
+   "apcd_row": 1093807,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "وكرب",
+    "justification": "مضيق بحري يبعث الضيق والكرب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "expressed",
+     "evidence": "عجب",
+     "justification": "موجه ومده عجيبان"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والموج",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر الملاح موضعًا بحريًا ضيقًا يبعث الكرب، كثير الشعاب، وموجه ومده عجيبان.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 474
+  },
+  {
+   "apcd_row": 521541,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "ذعرا",
+    "justification": "يصعق خوفا إذا رأى البحر هائجا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "يرى البحر هائجا",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر المذنب الذي يخوض بحار الذنوب بلا خوف، ثم يصعق ذعرًا إذا رأى البحر الحقيقي هائجًا.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 475
+  },
+  {
+   "apcd_row": 49635,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "غريق يدعو والموج غامر والموت قريب"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "والموج غامر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر رجلًا يغرق، فدعا باسم الممدوح والموج يغمره والموت قريب منه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 476
+  },
+  {
+   "apcd_row": 241090,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "رائعا",
+    "justification": "أهوال البحر تكفيه رعبا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "أهوال بحر تذهل العقل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "أهوال بحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن أهوال البحر وحدها تكفيه رعبًا، فهي تُذهب العقل من شدتها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 477
+  },
+  {
+   "apcd_row": 251666,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "هول",
+    "justification": "هول وموت وسيف وبحر يحيط به"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مقيم في دار غربة بعيدا عن أهله كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر مشتاقًا يقاتل في دار غربة: أمامه هول، ومن تحته موت، وفوقه سيف، وتحته بحر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 478
+  },
+  {
+   "apcd_row": 348866,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "الأهوال",
+    "justification": "ركوب بحر عظيم لا يؤمن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "عظمة البحر وخطوبه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحرا",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "بحرا",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب الشاعر صاحبه: أراك ركبت في الأهوال بحرًا عظيمًا لا تُؤمن مصائبه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 479
+  },
+  {
+   "apcd_row": 219249,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ركاب سفينة يرون أكفانهم بين الأمواج"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "الأمواج",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "الأمواج",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر ركاب سفينة في عاصفة رأوا أكفانهم وقبورهم تلوح بين الأمواج والزبد المتطاير.",
+   "text_note": "كلمة «المندوف» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "low",
+   "n": 480
+  },
+  {
+   "apcd_row": 1071839,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "بحر تمزقه عاصفة هوجاء في الليل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد عاصفة بحرية ليلية مهيب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر البحر وقد مزقته عاصفة هوجاء، فصار كقلب أم ثكلى تئن في الليل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 481
+  },
+  {
+   "apcd_row": 1400126,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "ذعر",
+    "justification": "فزع الشيخ من التهديد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "واجما",
+     "justification": "انصرف صامتا مكتئبا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "جرف بحر",
+     "justification": null
+    }
+   ],
+   "meaning": "فزع الشيخ من تهديد الملك فانصرف صامتًا مكتئبًا على شاطئ بحر يهدر صوته في الآفاق.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 482
+  },
+  {
+   "apcd_row": 711211,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "من الخوف",
+    "justification": "الملاح يندب نفسه خوفا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر أهله وقد حال دونهم البحر كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "والبوصي",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "ملاح وسفينة تضطرب في بحر هائج يدل عليه السياق"
+    }
+   ],
+   "meaning": "يصف الشاعر بحرًا هائجًا يظل فيه الملاح يندب نفسه من الخوف، والسفينة تضطرب جوانبها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 483
+  },
+  {
+   "apcd_row": 1230380,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "راكب في لجة البحر يائس من النجاة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "في البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "مركبه",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل الشاعر أين المفر لمن كان مركبه في لجة البحر وقد يئس من ملجأ ينجيه، تمثيلًا لقدر لا مرد له.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 484
+  },
+  {
+   "apcd_row": 802492,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "الأخطار والأهوال",
+    "justification": "كاد لا ينجو في بحر صور"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بحر صور",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكّر الشاعر صاحبه بأنه في بحر صور كاد لا ينجو من الأخطار والأهوال.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 485
+  },
+  {
+   "apcd_row": 1670827,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "الأهوال",
+    "justification": "تقاذفتهم الأهوال في كل لجة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لجة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر رحلته في السفن إذ تقاذفتهم الأهوال في كل لجة، حتى خيل إليه البحر سماء مغطاة بالغيم.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 486
+  },
+  {
+   "apcd_row": 1803499,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "هول",
+    "justification": "يطلب النجاة من هول البحار"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحار الطوامس",
+     "justification": null
+    }
+   ],
+   "meaning": "قال الشاعر لصاحبه المتعجب من صنم قادس: دع السؤال واطلب نجاتك من هول البحار المظلمة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 487
+  },
+  {
+   "apcd_row": 1753411,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "يخشى",
+    "justification": "بحر زاخر يخشى الموت صولاته"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "لجة زاخر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إنه عبر لجة بحر زاخر عظيم السطوة، يخشى الموت نفسه صولاته، قاصدًا الممدوح.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 488
+  },
+  {
+   "apcd_row": 56198,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بركوبه البحر وأهوال الليل في أسفاره"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "هول",
+     "justification": "هول الليل والأمواج"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ركبت البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأسفاره، فقد ركب البحر وسط أمواجه، وخاض هول الليل في بياس.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 489
+  },
+  {
+   "apcd_row": 213390,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بصبره على الشدائد وتعوده إياها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "ركبت البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "في حوار مع محاورة، قالت إنه ركب البحر وهو شدائد، فأجاب بأن الشدائد مركب قد اعتاده.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 490
+  },
+  {
+   "apcd_row": 1464772,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "مهابته",
+    "justification": "البحر لا تخفى مهابته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "للخوف",
+     "justification": "البحر يرتعد خوفا من الريح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر والبحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر والبحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول الشاعر إن البحر على مهابته الظاهرة يرتعد خوفًا من عصف الرياح.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 491
+  },
+  {
+   "apcd_row": 1408124,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يدعو إلى تأمل البحر وأمواجه المتوجة بالزبد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يشبه الأمواج بعد ذلك بخيل تتسابق كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "إلى البحر",
+     "justification": null
+    },
+    {
+     "target": "tag.sea",
+     "relation": "relation.literal",
+     "evidence": "البحر",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الشاعر إلى النظر إلى البحر وأمواجه وقد علاها زبد منتظم، ثم يشبهها بخيل تتسابق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 492
+  },
+  {
+   "apcd_row": 113920,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سفينة نوح تقتحم الموج بأمر الله"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "طوفان صرع الأمم كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sea",
+     "relation": "relation.literal",
+     "evidence": "بكل موج",
+     "justification": null
+    },
+    {
+     "target": "tag.boat_ship",
+     "relation": "relation.literal",
+     "evidence": "سفينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الشاعر سفينة نوح تجري في جوانب الطوفان، تقتحم كل موج مع الرياح.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 493
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "query_id": "348d0f98-3e04-4b54-bbb3-2f0edc0811d8",
+  "profile_id": "ec85c842-1d97-4fa0-9712-6eb8e8de73fc",
+  "engine_version": "0.0.0-fixture",
+  "corpus_version": "fixtures_v1",
+  "corpus_mode": "fixture",
+  "k": 3,
+  "weights": {
+    "emotion": 0.45,
+    "visual": 0.35,
+    "text": 0.2,
+    "semantic": 0.0
+  },
+  "status": "abstained",
+  "items": [],
+  "abstention": {
+    "reason_code": "no_visual_match_emotion_only_off",
+    "message_ar": "لا يوجد في المدونة بيت حزين يثبت النجوم، ووضع «الإحساس فقط» غير مفعّل.",
+    "coverage_gap": {
+      "visual_targets": [
+        "tag.stars"
+      ],
+      "lit_emotion": "lit_emotion.sadness"
+    }
+  },
+  "timings_ms": null
+}

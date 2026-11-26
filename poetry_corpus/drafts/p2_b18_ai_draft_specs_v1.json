@@ -1,0 +1,1693 @@
+{
+ "batch": "p2_b18",
+ "description": "P2 parallel worker sky_night_A (): AI draft annotations by claude-opus-5-5 on a disjoint candidate pool from poetry_corpus/tools/build_candidate_index.py, pre-checked with check_worker_spec and merged by poetry_corpus/tools/merge_worker.py. Verse text is not stored here; build_batch copies it from APCD. Labels are drafts pending human review.",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "worker": "sky_night_A",
+ "work_log": {
+  "started": "2026-11-26T00:20:26",
+  "finished": "2026-11-26T00:30:07",
+  "minutes": 10,
+  "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+  "candidates_listed": null,
+  "read_in_context": null
+ },
+ "verses": [
+  {
+   "apcd_row": 99949,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خوفا",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "واحزانا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "النجم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجم",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول للخليفة إنه لم ينم، بل بات يرقب النجم خائفًا عليه، يقاسي الأحزان والأفكار، في قصيدة يهنئه فيها بالسلامة من خطر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 998
+  },
+  {
+   "apcd_row": 687739,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خوف الاله",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "ندما",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بجنح ليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف التائب يبكي دمًا ندمًا على ذنب مضى، خوفًا من الله، في جوف الليل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 999
+  },
+  {
+   "apcd_row": 737960,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خشية الله",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سجود حتى انبلاج الصبح تعظيمًا لله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليله",
+     "justification": null
+    }
+   ],
+   "meaning": "ينقضي الليل ويُسفر الصبح عن العابد وهو ساجد، ودموعه تنهمر من خشية الله.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1000
+  },
+  {
+   "apcd_row": 746106,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خائف",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "وحدي",
+     "justification": null
+    },
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يثق بسيفه وحده ضجيعًا في الليلة المخيفة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "وليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "رب ليلة مخيفة باتها الشاعر وحده، ليس معه إلا سيف أبيض وثق به فجعله ضجيعه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1001
+  },
+  {
+   "apcd_row": 1229614,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "جزع وخوف",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ويأتي الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو زمانه: إذا أقبل الليل أقبل معه الجزع والخوف من السيوف والنهب المهلك.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1002
+  },
+  {
+   "apcd_row": 1443984,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "وخوف المنايا",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "كئيب",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف ساريًا يتناوبه خوف الأعداء في نهاره وخوف الموت في ليله، فهو كئيب حزين.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1003
+  },
+  {
+   "apcd_row": 9039,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "على وجل",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصبح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "ناقة تقطع الفلاة وتنزل فيها ليلًا"
+    }
+   ],
+   "meaning": "يصف ناقته في الفلاة: لا تنزل للراحة ليلة إلا وهي خائفة، حتى تظهر بشائر الصبح.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1004
+  },
+  {
+   "apcd_row": 189351,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خشية الشر",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ظلامها",
+     "justification": null
+    }
+   ],
+   "meaning": "رب ليلة تشاور ثقيلة الظلام، تسير أعباؤها متثاقلة من خشية الشر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1005
+  },
+  {
+   "apcd_row": 1233960,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شكوى ليل طويل لا ينقضي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انفراد الشاكي بليله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليلي بتنيس",
+     "justification": null
+    }
+   ],
+   "meaning": "ليله في تنيس كليل الأسير الخائف، تنقضي الليالي كلها وليله وحده لا ينقضي.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1006
+  },
+  {
+   "apcd_row": 1348704,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "عزيف الجن في فلاة مظلمة يبعث الرهبة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والليل داج",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يصف فلاة قطعها إلى محبوبته"
+    }
+   ],
+   "meaning": "يصف فلاة قطعها: لجنّها إذا أظلم الليل دويّ يشبه أنين القصب المثقوب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1007
+  },
+  {
+   "apcd_row": 1773076,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "وخوف",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "بالهموم الطوارق",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "تطاول ليلي",
+     "justification": null
+    }
+   ],
+   "meaning": "طال ليله بالهموم التي تطرقه، وبالخوف من عاقبة أمر خطير يتردد في الإقدام عليه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1008
+  },
+  {
+   "apcd_row": 679132,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "واهوال",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليل مظلم",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب أخاه البعيد: أعيذك من وجد يحل بك، ومن أهوال ليل مظلم تسهره.",
+   "text_note": "في APCD «م وجد»، والأرجح أنها «من وجد» بسقوط النون.",
+   "uncertainty": "low",
+   "n": 1009
+  },
+  {
+   "apcd_row": 7953,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "وقلب خائف",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليل طويل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "ثور وحشي يبيت في الفلاة ليلة مطيرة"
+    }
+   ],
+   "meaning": "يصف ثورًا وحشيًا بات إلى جانب ملجأ في الفلاة، يقلّبه ليل طويل وقلب خائف لا ينام.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1010
+  },
+  {
+   "apcd_row": 27285,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "من خشية مقشعر",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "اكابد ليل",
+     "justification": null
+    }
+   ],
+   "meaning": "بات يقاسي أطول ليالي السنة وقلبه يقشعر خوفًا، في سياق مغامرة ليلية لزيارة محبوبته.",
+   "text_note": "كلمة «التمام» مقسومة بين الشطرين في APCD («التما / م»).",
+   "uncertainty": "medium",
+   "n": 1011
+  },
+  {
+   "apcd_row": 109280,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "يخاف الاسارا",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "الغريب",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "فيا ليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر ليلة قضاها في لعلع قلقًا لا يستقر، كطواف الغريب الذي يخاف الأسر.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1012
+  },
+  {
+   "apcd_row": 114166,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "ذات اهوال",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "كواكبها تضيء كالقناديل في ليلة مهيبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "كواكبها",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "كواكبها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "قطع الليلة على ناقته في البيد"
+    }
+   ],
+   "meaning": "رب ليلة كثيرة الأهوال، كواكبها كالقناديل فيها الزيت والفتائل، قطعها الشاعر على ناقته.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1013
+  },
+  {
+   "apcd_row": 190524,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "فزعا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "حاذروا الصباح",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "حي من البادية يحذر غارة الصباح"
+    }
+   ],
+   "meaning": "يذكر الحي حين حذروا غارة الصباح وخافوا جيشًا يغشاهم، فأعلموا خيلهم واستعدوا من الفزع.",
+   "text_note": "كلمة «وخافوا» مقسومة بين الشطرين في APCD («وخا / فوا»).",
+   "uncertainty": "medium",
+   "n": 1014
+  },
+  {
+   "apcd_row": 1378849,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "فقيد الانس",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "في قصيدة رثاء يصف ليل الفاقد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليل",
+     "justification": null
+    }
+   ],
+   "meaning": "كأن ليل من فقد الأنس والصحبة ليل لا صبح له، ولا يُرجى له انقضاء.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1015
+  },
+  {
+   "apcd_row": 94694,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يقدح زناد الهم ليلًا كما في السياق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بياض الصبح",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى بياض الصبح يسودّ في عينه من الوحشة، فيظن نفسه في المساء وهو في الصباح.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1016
+  },
+  {
+   "apcd_row": 101414,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحدي",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سهر المحب وبكاؤه في سياق شكوى الهوى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بدر الدجى",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "بدر الدجى",
+     "justification": null
+    }
+   ],
+   "meaning": "يبيت ساهرًا يرقب بدر الليل حتى الصباح، وحيدًا ودمعه يسيل، شاكيًا طول ليل المحب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1017
+  },
+  {
+   "apcd_row": 119298,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "يرى الوحشة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يمدح صبر الصعلوك على القفر واهتداءه بالنجوم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ام النجوم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "ام النجوم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "صعلوك يجوب القفار ليلًا"
+    }
+   ],
+   "meaning": "يصف رجلًا يألف الوحشة والانفراد كأنها أنس، ويهتدي في القفار بما تهتدي به المجرة ونجومها المتشابكة.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1018
+  },
+  {
+   "apcd_row": 240916,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "ووحشة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "في خوف",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يحكي نزوله في خان متهدم في ليلة ماطرة: ظل في خوف وجوع ووحشة، وسهر دائم يستغرق الليل كله.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1019
+  },
+  {
+   "apcd_row": 304636,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تنفر القلوب رهبة من الديار الخالية ليلًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل البهيم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يصف ديارًا خالية مهجورة من أهلها"
+    }
+   ],
+   "meaning": "يصف ديارًا خلت من أهلها: إذا أقبل الليل الحالك تمكنت منها وحشة تنفر منها القلوب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1020
+  },
+  {
+   "apcd_row": 973245,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "الغريب",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "غناء الحمام يهيج الغريب حتى يكاد يهلك"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الفجر",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "حمائم",
+     "justification": null
+    }
+   ],
+   "meaning": "سقت حمائم الفجر بغنائها الغريبَ كأس الموت، إذ هيجت ذكرياته فكاد يهلك وجدًا.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1021
+  },
+  {
+   "apcd_row": 1283366,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة الغريب",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "كواكب",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "كواكب",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب كواكب الليل أن ترفق به وتؤنس وحشة الغريب.",
+   "text_note": "«الميل» كذا في APCD، والسياق يخاطب الليل وكوكبه.",
+   "uncertainty": "medium",
+   "n": 1022
+  },
+  {
+   "apcd_row": 1459099,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحشة ليلة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تركه الحبيب فبات يرقب الظلام"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "دجاها البهيم",
+     "justification": null
+    }
+   ],
+   "meaning": "لا ينسى وحشة ليلة تركه فيها الحبيب، فبات يرعى ظلامها الحالك.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1023
+  },
+  {
+   "apcd_row": 248160,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "ليل الغريب",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق شوق يمنع الصب من الرقاد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجما",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجما",
+     "justification": null
+    }
+   ],
+   "meaning": "ينفي أنه نام: فليل الغريب لا ينام، وليس من نام ولم يرقب النجوم كمن سهر يرعاها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1024
+  },
+  {
+   "apcd_row": 600648,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا سمير له في الليل إلا النجوم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "بكيت",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجومه",
+     "justification": null
+    }
+   ],
+   "meaning": "يقضي ليله سميرًا للنجوم وحدها، فتبكي لحاله إن بكى وتتألم لألمه.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1025
+  },
+  {
+   "apcd_row": 601079,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غريب",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو أنه غريب منهوب القلب، تتوالى عليه الليالي ليلًا بعد ليل.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1026
+  },
+  {
+   "apcd_row": 680941,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحدي",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "في قصيدة رثاء لقتيل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "اسهر ليلتي",
+     "justification": null
+    }
+   ],
+   "meaning": "يعجب من أن الناس ينامون ليلهم، وهو يبيت ساهرًا وحده، في قصيدة رثاء.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1027
+  },
+  {
+   "apcd_row": 103263,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا نديم له بعد الحبيب إلا الكوكب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "ولوعة",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الكوكب",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "الكوكب",
+     "justification": null
+    }
+   ],
+   "meaning": "بعد فراقك صار الكوكب نديم عيني الساهرة، ومعه لوعة تلتهب في إنسان العين.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1028
+  },
+  {
+   "apcd_row": 371788,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "من حزن",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "مع الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "كلما تذكّر محرزًا مع حلول الليل تأوّه حزنًا عليه حتى الفجر، في رثاء صاحبه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1029
+  },
+  {
+   "apcd_row": 29790,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ابكيك",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "مطوقة",
+     "justification": null
+    }
+   ],
+   "meaning": "تقسم أن تبكي أخاها ما ناحت حمامة مطوقة، وما أضاءت نجوم الليل للسائرين فيه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1030
+  },
+  {
+   "apcd_row": 23610,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "تبكي عليك",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "فالشمس كاسفة",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.moon",
+     "relation": "relation.literal",
+     "evidence": "والقمرا",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء أمير المؤمنين عمر: الشمس كاسفة لا تطلع، تبكي عليه مع نجوم الليل والقمر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1031
+  },
+  {
+   "apcd_row": 1640903,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "من ألم",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "اراعي النجم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجم",
+     "justification": null
+    }
+   ],
+   "meaning": "يبيت ليله يرقب النجم من الألم، يبكي وتبكي معه بناته حزنًا، في رثاء سادة من قومه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1032
+  },
+  {
+   "apcd_row": 110704,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الحزن",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "اراح الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو صدرًا ردّ إليه الليل همومه الغائبة، فتضاعف فيه الحزن من كل جانب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1033
+  },
+  {
+   "apcd_row": 190931,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يشكو طول ليله وبكاءه بعد أن كانت لياليه قصيرة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "طال ليلي",
+     "justification": null
+    }
+   ],
+   "meaning": "إن طال ليله اليوم بالذنائب همًّا وسهرًا، فقد كان من قبل يبكي من قِصَر الليالي.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1034
+  },
+  {
+   "apcd_row": 822213,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "همومها",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "احن",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "في ليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "في ليلة توافدت عليه همومها، فهو تارة يحنّ وتارة يتقلب قلقًا لا ينام.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1035
+  },
+  {
+   "apcd_row": 132956,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بالاحزان",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الصبح",
+     "justification": null
+    }
+   ],
+   "meaning": "كم يقطع الساهر ليله بالأحزان، فلا الصبح يطلع ولا الظلام ينكشف، في شكوى من الدهر والحظ.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1036
+  },
+  {
+   "apcd_row": 679564,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "حزنا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "افق",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الأفق أن يلتهب حزنًا، والمطر أن يجود بالدمع، أسىً على وطن يراه يحتضر.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1037
+  },
+  {
+   "apcd_row": 38851,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "الشجي",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق شكوى محب يؤرقه الهوى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والليل",
+     "justification": null
+    }
+   ],
+   "meaning": "الليل على عين الحزين إذا فارقه النوم أطول من يوم الحساب.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1038
+  },
+  {
+   "apcd_row": 437829,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ابكي عليك",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "وجه الصباح",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمامة",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي فقيدًا: يبكي عليه كلما غنّت الحمامة في وجه الصباح وغردت.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1039
+  },
+  {
+   "apcd_row": 8327,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "وقوف على الديار يسألها عن أهلها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "اين الانيس",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الى الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "وقوف على رسوم دار قديمة"
+    }
+   ],
+   "meaning": "وقف بديار محبوبته يبكي حتى الليل، يسألها أين أهلها المؤنسون، وهي لا تدري ولا تجيب.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1040
+  },
+  {
+   "apcd_row": 540675,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "مشتاق",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يصفه غريبًا فارق إلفه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "النجم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "النجم",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول لمن يخاطبها: إن شئتِ فالنجم يشهد لي بلوعة مشتاق وعين ساهرة لا تنام.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1041
+  },
+  {
+   "apcd_row": 1002477,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "تذكرت",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بجنح الدجى",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "برق يلمع فوق مواضع البادية فيذكر أهلها"
+    }
+   ],
+   "meaning": "أمِن برق لمع في جنح الليل تذكرتَ من نزل الأبارق والسقط من الأحبة؟",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1042
+  },
+  {
+   "apcd_row": 80890,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوقا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "بياض الصبح",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو ليلته التي لم ينم فيها شوقًا وسهرًا حتى رأى بياض الصبح يعود.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1043
+  },
+  {
+   "apcd_row": 764598,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "النجوم تتردد على آثار الأحبة الراحلين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجوم الليل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "آثار ديار رحل أهلها كما في السياق"
+    }
+   ],
+   "meaning": "كأن نجوم الليل بعد رحيل الأحبة أقامت على آثار ديارهم تتردد عليها.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1044
+  },
+  {
+   "apcd_row": 21096,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "احن",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "سهيل",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "سهيل",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "في سياق ديار عفت ورحل أهلها"
+    }
+   ],
+   "meaning": "يحنّ كلما نظر إلى نجم سهيل، ويعلم أن الرجاء ينقطع عند اليأس.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1045
+  },
+  {
+   "apcd_row": 187540,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "الشوق",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والشمس دون مغيبها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "وقوف على ديار دارسة"
+    }
+   ],
+   "meaning": "وقف بالديار والشمس قريبة من مغيبها، فهاج الشوق في نفس المشتاق.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1046
+  },
+  {
+   "apcd_row": 235733,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "تذكّر النبي في ظلمة الليل أثناء السفر"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الدجى",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يسري على النوق في الفلاة"
+    }
+   ],
+   "meaning": "تذكر رسول الله في شدة ظلمة الليل، وهم يسيرون بأعالي رحرحان وصلدد على نوقهم.",
+   "text_note": "«فحمت» كذا في APCD، والمعروف «فحمة الدجى».",
+   "uncertainty": "medium",
+   "n": 1047
+  },
+  {
+   "apcd_row": 973167,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "جيش الشوق",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "وحدي",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "كم ليلة",
+     "justification": null
+    }
+   ],
+   "meaning": "كم ليلة أفناها بالسهر، يلاقي فيها جيش الشوق وحده بلا معين.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1048
+  },
+  {
+   "apcd_row": 897829,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حزن على فراق أحبة رحلوا عن الوادي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "كمدا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجومه",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجومه",
+     "justification": null
+    }
+   ],
+   "meaning": "له بعد رحيل الأحبة كبد تذوب حزنًا عليهم، وليل طويل لا تتحرك نجومه.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1049
+  },
+  {
+   "apcd_row": 883085,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوق",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "جن الدجى",
+     "justification": null
+    }
+   ],
+   "meaning": "ذكروا العهود القديمة فهاج من أحزانه شوق يناجيه كلما أظلم الليل.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1050
+  },
+  {
+   "apcd_row": 104585,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بسراه وحده في البيداء ليلًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "منفردا",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "كواكبه",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "كواكبه",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيداء",
+     "justification": null
+    }
+   ],
+   "meaning": "كم ليلة سار وحده في الصحراء حتى مالت كواكب الليل نحو الغروب، مفتخرًا بشجاعته وصبره.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1051
+  },
+  {
+   "apcd_row": 172169,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بسراه وسهره والركب خائف"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "expressed",
+     "evidence": "خائف",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والنجوم شهود",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "والنجوم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "سرى في فلاة يصفها السياق بالسراب"
+    }
+   ],
+   "meaning": "يقسم أنه سرى ليلًا والركب خائف، وسهر ليله كله والنجوم شاهدة على صبره.",
+   "text_note": null,
+   "uncertainty": "low",
+   "n": 1052
+  },
+  {
+   "apcd_row": 82932,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يقطع الفلاة وحده غير هائب للموت"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "وحدي",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "نجم",
+     "justification": null
+    },
+    {
+     "target": "tag.stars",
+     "relation": "relation.literal",
+     "evidence": "نجم",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يصف فلاة مجهولة في السياق"
+    }
+   ],
+   "meaning": "قطع الفلاة المجهولة وحده غير هائب للموت، يهتدي بنجم أو بعلامة يسير عليها.",
+   "text_note": null,
+   "uncertainty": "medium",
+   "n": 1053
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+  "command": "python -m data_preparation.build v0.9 --emoset-zip external/renad/emoset.zip",
+  "counts_per_source_split_status": {
+    "emoset118k|test": {
+      "emotion:labeled": 3200,
+      "rows": 3200,
+      "scene:unavailable": 3200
+    },
+    "emoset118k|train": {
+      "emotion:labeled": 4800,
+      "rows": 4800,
+      "scene:unavailable": 4800
+    },
+    "emoset118k|val": {
+      "emotion:labeled": 1200,
+      "rows": 1200,
+      "scene:unavailable": 1200
+    }
+  },
+  "exact_duplicate_groups": 0,
+  "excluded_images": 0,
+  "inputs": [
+    {
+      "bytes": 160925142,
+      "path": "external/renad/emoset.zip",
+      "role": "R1 emoset.zip (Renad)",
+      "sha256": "df604d10fd825dd0d9761e8ccda26c3e7859a2c517f64eae06900f359eb13693"
+    }
+  ],
+  "manifest": "datasets/manifests/manifest_v0.9_emotion.jsonl",
+  "manifest_sha256": "7df0416fbeb6e9810cc2b3fff4b6cad09600552661bd8beb7a7b5bd4428c0892",
+  "near_duplicate_search": "not run in v0.9 (method 3.1)",
+  "quarantined_images": 0,
+  "records": 9200,
+  "scene_approach": "none in v0.9: scene unavailable, no metadata joined",
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "validator": {
+    "issues": 0,
+    "mode": "production"
+  }
+}

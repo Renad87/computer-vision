@@ -1,0 +1,445 @@
+{
+ "totals": {
+  "records": 1053,
+  "groups": 9,
+  "emotions": 8,
+  "cells_with_tier1": 69,
+  "cells_ge_3": 62,
+  "cells_ge_6": 57,
+  "cells_ge_8": 52
+ },
+ "cells": {
+  "scene_group.desert|lit_emotion.sadness": {
+   "tier1_poems": 14,
+   "tier1_records": 14,
+   "secondary_records": 16,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.longing": {
+   "tier1_poems": 40,
+   "tier1_records": 41,
+   "secondary_records": 27,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.loneliness": {
+   "tier1_poems": 23,
+   "tier1_records": 23,
+   "secondary_records": 17,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.awe": {
+   "tier1_poems": 17,
+   "tier1_records": 17,
+   "secondary_records": 13,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.serenity": {
+   "tier1_poems": 13,
+   "tier1_records": 13,
+   "secondary_records": 9,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.joy": {
+   "tier1_poems": 16,
+   "tier1_records": 16,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.pride": {
+   "tier1_poems": 29,
+   "tier1_records": 29,
+   "secondary_records": 7,
+   "symbolic_records": 0
+  },
+  "scene_group.desert|lit_emotion.fear": {
+   "tier1_poems": 24,
+   "tier1_records": 24,
+   "secondary_records": 13,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.sadness": {
+   "tier1_poems": 17,
+   "tier1_records": 18,
+   "secondary_records": 8,
+   "symbolic_records": 1
+  },
+  "scene_group.sea|lit_emotion.longing": {
+   "tier1_poems": 18,
+   "tier1_records": 18,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.loneliness": {
+   "tier1_poems": 5,
+   "tier1_records": 5,
+   "secondary_records": 7,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.awe": {
+   "tier1_poems": 22,
+   "tier1_records": 22,
+   "secondary_records": 11,
+   "symbolic_records": 1
+  },
+  "scene_group.sea|lit_emotion.serenity": {
+   "tier1_poems": 6,
+   "tier1_records": 6,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.joy": {
+   "tier1_poems": 11,
+   "tier1_records": 11,
+   "secondary_records": 2,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.pride": {
+   "tier1_poems": 13,
+   "tier1_records": 13,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.sea|lit_emotion.fear": {
+   "tier1_poems": 22,
+   "tier1_records": 22,
+   "secondary_records": 11,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.sadness": {
+   "tier1_poems": 23,
+   "tier1_records": 23,
+   "secondary_records": 10,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.longing": {
+   "tier1_poems": 37,
+   "tier1_records": 37,
+   "secondary_records": 8,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.loneliness": {
+   "tier1_poems": 9,
+   "tier1_records": 9,
+   "secondary_records": 5,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.awe": {
+   "tier1_poems": 17,
+   "tier1_records": 17,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.serenity": {
+   "tier1_poems": 4,
+   "tier1_records": 4,
+   "secondary_records": 3,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.joy": {
+   "tier1_poems": 11,
+   "tier1_records": 11,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.pride": {
+   "tier1_poems": 7,
+   "tier1_records": 7,
+   "secondary_records": 1,
+   "symbolic_records": 0
+  },
+  "scene_group.mountains|lit_emotion.fear": {
+   "tier1_poems": 4,
+   "tier1_records": 4,
+   "secondary_records": 5,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.sadness": {
+   "tier1_poems": 32,
+   "tier1_records": 32,
+   "secondary_records": 9,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.longing": {
+   "tier1_poems": 28,
+   "tier1_records": 29,
+   "secondary_records": 7,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.loneliness": {
+   "tier1_poems": 5,
+   "tier1_records": 5,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.awe": {
+   "tier1_poems": 19,
+   "tier1_records": 19,
+   "secondary_records": 5,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.serenity": {
+   "tier1_poems": 24,
+   "tier1_records": 24,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.joy": {
+   "tier1_poems": 22,
+   "tier1_records": 22,
+   "secondary_records": 11,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.pride": {
+   "tier1_poems": 12,
+   "tier1_records": 12,
+   "secondary_records": 2,
+   "symbolic_records": 0
+  },
+  "scene_group.water|lit_emotion.fear": {
+   "tier1_poems": 6,
+   "tier1_records": 6,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.sadness": {
+   "tier1_poems": 37,
+   "tier1_records": 39,
+   "secondary_records": 18,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.longing": {
+   "tier1_poems": 40,
+   "tier1_records": 41,
+   "secondary_records": 23,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.loneliness": {
+   "tier1_poems": 7,
+   "tier1_records": 7,
+   "secondary_records": 8,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.awe": {
+   "tier1_poems": 21,
+   "tier1_records": 21,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.serenity": {
+   "tier1_poems": 40,
+   "tier1_records": 40,
+   "secondary_records": 10,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.joy": {
+   "tier1_poems": 36,
+   "tier1_records": 37,
+   "secondary_records": 28,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.pride": {
+   "tier1_poems": 1,
+   "tier1_records": 1,
+   "secondary_records": 1,
+   "symbolic_records": 0
+  },
+  "scene_group.greenery|lit_emotion.fear": {
+   "tier1_poems": 2,
+   "tier1_records": 2,
+   "secondary_records": 1,
+   "symbolic_records": 0
+  },
+  "scene_group.sky_night|lit_emotion.sadness": {
+   "tier1_poems": 31,
+   "tier1_records": 33,
+   "secondary_records": 20,
+   "symbolic_records": 0
+  },
+  "scene_group.sky_night|lit_emotion.longing": {
+   "tier1_poems": 28,
+   "tier1_records": 28,
+   "secondary_records": 17,
+   "symbolic_records": 0
+  },
+  "scene_group.sky_night|lit_emotion.loneliness": {
+   "tier1_poems": 21,
+   "tier1_records": 21,
+   "secondary_records": 11,
+   "symbolic_records": 0
+  },
+  "scene_group.sky_night|lit_emotion.awe": {
+   "tier1_poems": 31,
+   "tier1_records": 32,
+   "secondary_records": 13,
+   "symbolic_records": 3
+  },
+  "scene_group.sky_night|lit_emotion.serenity": {
+   "tier1_poems": 16,
+   "tier1_records": 16,
+   "secondary_records": 9,
+   "symbolic_records": 0
+  },
+  "scene_group.sky_night|lit_emotion.joy": {
+   "tier1_poems": 20,
+   "tier1_records": 21,
+   "secondary_records": 7,
+   "symbolic_records": 1
+  },
+  "scene_group.sky_night|lit_emotion.pride": {
+   "tier1_poems": 14,
+   "tier1_records": 14,
+   "secondary_records": 5,
+   "symbolic_records": 1
+  },
+  "scene_group.sky_night|lit_emotion.fear": {
+   "tier1_poems": 23,
+   "tier1_records": 23,
+   "secondary_records": 10,
+   "symbolic_records": 1
+  },
+  "scene_group.heritage|lit_emotion.sadness": {
+   "tier1_poems": 47,
+   "tier1_records": 51,
+   "secondary_records": 26,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.longing": {
+   "tier1_poems": 35,
+   "tier1_records": 37,
+   "secondary_records": 16,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.loneliness": {
+   "tier1_poems": 15,
+   "tier1_records": 15,
+   "secondary_records": 12,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.awe": {
+   "tier1_poems": 32,
+   "tier1_records": 33,
+   "secondary_records": 14,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.serenity": {
+   "tier1_poems": 24,
+   "tier1_records": 24,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.joy": {
+   "tier1_poems": 24,
+   "tier1_records": 24,
+   "secondary_records": 14,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.pride": {
+   "tier1_poems": 19,
+   "tier1_records": 19,
+   "secondary_records": 5,
+   "symbolic_records": 0
+  },
+  "scene_group.heritage|lit_emotion.fear": {
+   "tier1_poems": 20,
+   "tier1_records": 20,
+   "secondary_records": 4,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.sadness": {
+   "tier1_poems": 2,
+   "tier1_records": 2,
+   "secondary_records": 1,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.longing": {
+   "tier1_poems": 0,
+   "tier1_records": 0,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.loneliness": {
+   "tier1_poems": 1,
+   "tier1_records": 1,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.awe": {
+   "tier1_poems": 0,
+   "tier1_records": 0,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.serenity": {
+   "tier1_poems": 0,
+   "tier1_records": 0,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.joy": {
+   "tier1_poems": 1,
+   "tier1_records": 1,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.pride": {
+   "tier1_poems": 1,
+   "tier1_records": 1,
+   "secondary_records": 1,
+   "symbolic_records": 0
+  },
+  "scene_group.city|lit_emotion.fear": {
+   "tier1_poems": 1,
+   "tier1_records": 1,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.sadness": {
+   "tier1_poems": 26,
+   "tier1_records": 28,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.longing": {
+   "tier1_poems": 19,
+   "tier1_records": 19,
+   "secondary_records": 7,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.loneliness": {
+   "tier1_poems": 6,
+   "tier1_records": 6,
+   "secondary_records": 2,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.awe": {
+   "tier1_poems": 13,
+   "tier1_records": 13,
+   "secondary_records": 9,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.serenity": {
+   "tier1_poems": 12,
+   "tier1_records": 12,
+   "secondary_records": 6,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.joy": {
+   "tier1_poems": 15,
+   "tier1_records": 15,
+   "secondary_records": 3,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.pride": {
+   "tier1_poems": 4,
+   "tier1_records": 4,
+   "secondary_records": 0,
+   "symbolic_records": 0
+  },
+  "scene_group.worship|lit_emotion.fear": {
+   "tier1_poems": 10,
+   "tier1_records": 10,
+   "secondary_records": 3,
+   "symbolic_records": 0
+  }
+ }
+}

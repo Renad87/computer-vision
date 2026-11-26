@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "image_sha256": "67e96894c38b786aa8a288fd364f4d8712c30297c8bb7bb7a98201e813a79964",
+  "model_id": "poetry-vision-net",
+  "model_version": "1.0.0-draft",
+  "status": "error",
+  "error": {
+    "code": "invalid_image",
+    "message_ar": "تعذّر فتح الصورة؛ ارفع ملف JPEG أو PNG أو WebP."
+  },
+  "scene": null,
+  "scene_groups": null,
+  "emotion": null,
+  "tags": null,
+  "suggested_lit_emotions": null
+}

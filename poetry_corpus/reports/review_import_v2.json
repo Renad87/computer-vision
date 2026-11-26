@@ -1,0 +1,223 @@
+{
+  "workbook": "poetry_corpus/review/renad/Renad_Poetry_Review_41..xlsx",
+  "workbook_sha256": "9a9a4e0f961f73c7df907e056226a516645255c6c348833609552a9fdb431226",
+  "sent_workbook": "handoff/renad_p0/Renad_Poetry_Review_40.xlsx",
+  "sent_workbook_sha256": "cf9dcc93ad4a3b76f9962f084a27a920816647c1454755961c9c9aadade74042",
+  "non_reviewer_cells_changed_vs_sent": [
+    {
+      "sheet": "التعليمات",
+      "row": 16,
+      "col": "C",
+      "sent": 0,
+      "returned": 40
+    },
+    {
+      "sheet": "التعليمات",
+      "row": 17,
+      "col": "C",
+      "sent": 40,
+      "returned": 0
+    }
+  ],
+  "reviewer_id": "human:renad",
+  "decision_date": "2026-11-25",
+  "decision_date_source": "workbook docProps/core.xml dcterms:modified",
+  "sheet_has_visual_decision_column": false,
+  "base_corpus": "poetry_corpus/exports/corpus_all_v1.jsonl",
+  "base_corpus_sha256": "c78b05a4be4b6a7df31f24b708ec59e50129e770635d0fd4bf00ca1ebb309e4c",
+  "corpus_v2": "poetry_corpus/exports/corpus_all_v2.jsonl",
+  "corpus_v2_sha256": "2623c640dec46ca38617d0c3be00fc6e66ee66f8720f738545c10339cd382ef7",
+  "production_eligible_v2": "poetry_corpus/exports/production_eligible_v2.jsonl",
+  "production_eligible_v2_sha256": "1431e250015be666a76614bd863c7fbf145b00d5f54efea449402021c2f27e11",
+  "counts": {
+    "sheet_rows": 40,
+    "verse_ids_found_in_base": 40,
+    "verse_text_equals_text_original": 40,
+    "emotion_decisions": {
+      "ACCEPT": 36,
+      "REJECT": 4
+    },
+    "imported": 35,
+    "pending": 5,
+    "records_changed": 35,
+    "base_lines_differing": 35
+  },
+  "imported_verse_ids": [
+    "pv:verse:000001",
+    "pv:verse:000002",
+    "pv:verse:000003",
+    "pv:verse:000004",
+    "pv:verse:000006",
+    "pv:verse:000008",
+    "pv:verse:000009",
+    "pv:verse:000010",
+    "pv:verse:000011",
+    "pv:verse:000012",
+    "pv:verse:000013",
+    "pv:verse:000014",
+    "pv:verse:000015",
+    "pv:verse:000016",
+    "pv:verse:000017",
+    "pv:verse:000019",
+    "pv:verse:000020",
+    "pv:verse:000021",
+    "pv:verse:000022",
+    "pv:verse:000023",
+    "pv:verse:000025",
+    "pv:verse:000026",
+    "pv:verse:000027",
+    "pv:verse:000028",
+    "pv:verse:000029",
+    "pv:verse:000030",
+    "pv:verse:000032",
+    "pv:verse:000033",
+    "pv:verse:000034",
+    "pv:verse:000035",
+    "pv:verse:000036",
+    "pv:verse:000037",
+    "pv:verse:000038",
+    "pv:verse:000039",
+    "pv:verse:000040"
+  ],
+  "pending": [
+    {
+      "verse_id": "pv:verse:000005",
+      "cells": {
+        "decision": "REJECT",
+        "corrected_primary": "الوحدة والغربة",
+        "corrected_secondary": "",
+        "note": ""
+      },
+      "reasons": [
+        "REJECT with a corrected emotion filled: REJECT (draft wrong) or CORRECT (to the filled emotion)?; note empty"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000007",
+      "cells": {
+        "decision": "REJECT",
+        "corrected_primary": "الوحدة والغربة",
+        "corrected_secondary": "",
+        "note": ""
+      },
+      "reasons": [
+        "REJECT with a corrected emotion filled: REJECT (draft wrong) or CORRECT (to the filled emotion)?; note empty"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000018",
+      "cells": {
+        "decision": "REJECT",
+        "corrected_primary": "الفخر والحماسة",
+        "corrected_secondary": "",
+        "note": ""
+      },
+      "reasons": [
+        "REJECT with a corrected emotion filled: REJECT (draft wrong) or CORRECT (to the filled emotion)?; note empty"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000024",
+      "cells": {
+        "decision": "REJECT",
+        "corrected_primary": "البهجة والسرور",
+        "corrected_secondary": "",
+        "note": ""
+      },
+      "reasons": [
+        "REJECT with a corrected emotion filled: REJECT (draft wrong) or CORRECT (to the filled emotion)?; note empty"
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000031",
+      "cells": {
+        "decision": "ACCEPT",
+        "corrected_primary": "",
+        "corrected_secondary": "الجلال والدهشة",
+        "note": ""
+      },
+      "reasons": [
+        "ACCEPT with a correction cell filled: contradictory (accept the draft, or correct it?)"
+      ]
+    }
+  ],
+  "validation": {
+    "corpus:production": {
+      "issues": 0,
+      "first": []
+    },
+    "corpus:development": {
+      "issues": 0,
+      "first": []
+    },
+    "corpus:production+apcd_zip": {
+      "issues": 0,
+      "first": []
+    },
+    "production_eligible:production": {
+      "issues": 0,
+      "first": []
+    },
+    "production_eligible:development": {
+      "issues": 0,
+      "first": []
+    },
+    "production_eligible:production+apcd_zip": {
+      "issues": 0,
+      "first": []
+    }
+  },
+  "apcd_zip": "external/poetry_vision_old/Arabic Poem Comprehensive Dataset (APCD).csv.zip",
+  "corpus_before": {
+    "total_verses": 1053,
+    "text_verification_apcd_row_exact": 1053,
+    "attribution_status": {
+      "apcd_only": 1037,
+      "source_verified": 16
+    },
+    "ai_draft_only_not_reviewed": 1053,
+    "human_reviewed_emotion": 0,
+    "human_reviewed_visual_association": 0,
+    "review_status": {
+      "not_reviewed": 1053
+    },
+    "annotation_method": {
+      "ai_draft": 1053
+    },
+    "display_allowed_production": 0,
+    "display_allowed_development": 1053,
+    "copyright_status_derived": {
+      "public_domain_all": 128,
+      "public_domain_classical": 914,
+      "unverified": 4,
+      "us_risk": 7
+    }
+  },
+  "corpus_after": {
+    "total_verses": 1053,
+    "text_verification_apcd_row_exact": 1053,
+    "attribution_status": {
+      "apcd_only": 1037,
+      "source_verified": 16
+    },
+    "ai_draft_only_not_reviewed": 1018,
+    "human_reviewed_emotion": 35,
+    "human_reviewed_visual_association": 0,
+    "review_status": {
+      "not_reviewed": 1018,
+      "reviewed": 35
+    },
+    "annotation_method": {
+      "ai_draft": 1018,
+      "ai_draft_human_reviewed": 35
+    },
+    "display_allowed_production": 35,
+    "display_allowed_development": 1053,
+    "copyright_status_derived": {
+      "public_domain_all": 128,
+      "public_domain_classical": 914,
+      "unverified": 4,
+      "us_risk": 7
+    }
+  }
+}

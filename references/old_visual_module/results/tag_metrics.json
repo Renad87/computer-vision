@@ -1,0 +1,650 @@
+{
+  "tags": {
+    "camel": {
+      "head": "trained",
+      "n_pos": 45,
+      "n_neg": 24,
+      "average_precision": 0.9354,
+      "precision": 0.7368,
+      "recall": 0.9333,
+      "f1": 0.8235,
+      "fire_rate_on_places_test": 0.0018,
+      "zero_shot": {
+        "average_precision": 0.9177,
+        "precision": 0.7755,
+        "recall": 0.8444,
+        "f1": 0.8085,
+        "fire_rate_on_places_test": 0.0036
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "horse": {
+      "head": "trained",
+      "n_pos": 95,
+      "n_neg": 76,
+      "average_precision": 0.9473,
+      "precision": 0.8901,
+      "recall": 0.8526,
+      "f1": 0.871,
+      "fire_rate_on_places_test": 0.006,
+      "zero_shot": {
+        "average_precision": 0.779,
+        "precision": 0.6719,
+        "recall": 0.9053,
+        "f1": 0.7713,
+        "fire_rate_on_places_test": 0.0131
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "falcon": {
+      "head": "trained",
+      "n_pos": 37,
+      "n_neg": 38,
+      "average_precision": 0.92,
+      "precision": 0.8049,
+      "recall": 0.8919,
+      "f1": 0.8462,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.884,
+        "precision": 0.8235,
+        "recall": 0.7568,
+        "f1": 0.7887,
+        "fire_rate_on_places_test": 0.0
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "bird": {
+      "head": "trained",
+      "n_pos": 115,
+      "n_neg": 56,
+      "average_precision": 0.9708,
+      "precision": 0.9798,
+      "recall": 0.8435,
+      "f1": 0.9065,
+      "fire_rate_on_places_test": 0.0012,
+      "zero_shot": {
+        "average_precision": 0.9356,
+        "precision": 0.8455,
+        "recall": 0.9043,
+        "f1": 0.8739,
+        "fire_rate_on_places_test": 0.006
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "palm_tree": {
+      "head": "trained",
+      "n_pos": 52,
+      "n_neg": 43,
+      "average_precision": 0.8534,
+      "precision": 0.6812,
+      "recall": 0.9038,
+      "f1": 0.7769,
+      "fire_rate_on_places_test": 0.028,
+      "zero_shot": {
+        "average_precision": 0.6357,
+        "precision": 0.5495,
+        "recall": 0.9615,
+        "f1": 0.6993,
+        "fire_rate_on_places_test": 0.1414
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "tree": {
+      "head": "trained",
+      "n_pos": 744,
+      "n_neg": 398,
+      "average_precision": 0.9346,
+      "precision": 0.8433,
+      "recall": 0.875,
+      "f1": 0.8588,
+      "fire_rate_on_places_test": 0.5173,
+      "zero_shot": {
+        "average_precision": 0.6967,
+        "precision": 0.6496,
+        "recall": 0.9919,
+        "f1": 0.7851,
+        "fire_rate_on_places_test": 0.9636
+      },
+      "validated": false,
+      "reason": "fires on >40% of generic scenes (uninformative)"
+    },
+    "flower": {
+      "head": "trained",
+      "n_pos": 155,
+      "n_neg": 146,
+      "average_precision": 0.9303,
+      "precision": 0.928,
+      "recall": 0.7484,
+      "f1": 0.8286,
+      "fire_rate_on_places_test": 0.006,
+      "zero_shot": {
+        "average_precision": 0.8978,
+        "precision": 0.9,
+        "recall": 0.6968,
+        "f1": 0.7855,
+        "fire_rate_on_places_test": 0.0042
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "rose": {
+      "head": "trained",
+      "n_pos": 38,
+      "n_neg": 48,
+      "average_precision": 0.7861,
+      "precision": 0.5952,
+      "recall": 0.6579,
+      "f1": 0.625,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.6777,
+        "precision": 0.4471,
+        "recall": 1.0,
+        "f1": 0.6179,
+        "fire_rate_on_places_test": 0.2995
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "tent": {
+      "head": "trained",
+      "n_pos": 40,
+      "n_neg": 39,
+      "average_precision": 0.7831,
+      "precision": 0.5493,
+      "recall": 0.975,
+      "f1": 0.7027,
+      "fire_rate_on_places_test": 0.3544,
+      "zero_shot": {
+        "average_precision": 0.4526,
+        "precision": 0.5063,
+        "recall": 1.0,
+        "f1": 0.6723,
+        "fire_rate_on_places_test": 0.9493
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "sword_dagger": {
+      "head": "trained",
+      "n_pos": 32,
+      "n_neg": 31,
+      "average_precision": 0.712,
+      "precision": 0.5769,
+      "recall": 0.4688,
+      "f1": 0.5172,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.6642,
+        "precision": 0.5079,
+        "recall": 1.0,
+        "f1": 0.6737,
+        "fire_rate_on_places_test": 0.4624
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "moon": {
+      "head": "trained",
+      "n_pos": 35,
+      "n_neg": 22,
+      "average_precision": 0.9338,
+      "precision": 0.8611,
+      "recall": 0.8857,
+      "f1": 0.8732,
+      "fire_rate_on_places_test": 0.0006,
+      "zero_shot": {
+        "average_precision": 0.9051,
+        "precision": 0.7949,
+        "recall": 0.8857,
+        "f1": 0.8378,
+        "fire_rate_on_places_test": 0.0006
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "stars": {
+      "head": "trained",
+      "n_pos": 35,
+      "n_neg": 20,
+      "average_precision": 0.8959,
+      "precision": 0.8519,
+      "recall": 0.6571,
+      "f1": 0.7419,
+      "fire_rate_on_places_test": 0.0006,
+      "zero_shot": {
+        "average_precision": 0.8534,
+        "precision": 0.8214,
+        "recall": 0.6571,
+        "f1": 0.7302,
+        "fire_rate_on_places_test": 0.0006
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "sun": {
+      "head": "trained",
+      "n_pos": 39,
+      "n_neg": 45,
+      "average_precision": 0.8198,
+      "precision": 0.6111,
+      "recall": 0.8462,
+      "f1": 0.7097,
+      "fire_rate_on_places_test": 0.0095,
+      "zero_shot": {
+        "average_precision": 0.6616,
+        "precision": 0.4578,
+        "recall": 0.9744,
+        "f1": 0.623,
+        "fire_rate_on_places_test": 0.2094
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "candle": {
+      "head": "trained",
+      "n_pos": 37,
+      "n_neg": 46,
+      "average_precision": 0.8642,
+      "precision": 0.7073,
+      "recall": 0.7838,
+      "f1": 0.7436,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.7236,
+        "precision": 0.5263,
+        "recall": 0.8108,
+        "f1": 0.6383,
+        "fire_rate_on_places_test": 0.003
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "lantern": {
+      "head": "trained",
+      "n_pos": 45,
+      "n_neg": 30,
+      "average_precision": 0.7106,
+      "precision": 0.589,
+      "recall": 0.9556,
+      "f1": 0.7288,
+      "fire_rate_on_places_test": 0.3711,
+      "zero_shot": {
+        "average_precision": 0.6727,
+        "precision": 0.589,
+        "recall": 0.9556,
+        "f1": 0.7288,
+        "fire_rate_on_places_test": 0.4266
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "fire": {
+      "head": "trained",
+      "n_pos": 43,
+      "n_neg": 35,
+      "average_precision": 0.8466,
+      "precision": 0.6875,
+      "recall": 0.7674,
+      "f1": 0.7253,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.7588,
+        "precision": 0.6957,
+        "recall": 0.7442,
+        "f1": 0.7191,
+        "fire_rate_on_places_test": 0.0
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "book": {
+      "head": "trained",
+      "n_pos": 70,
+      "n_neg": 72,
+      "average_precision": 0.8141,
+      "precision": 0.5323,
+      "recall": 0.9429,
+      "f1": 0.6804,
+      "fire_rate_on_places_test": 0.2482,
+      "zero_shot": {
+        "average_precision": 0.7047,
+        "precision": 0.4965,
+        "recall": 1.0,
+        "f1": 0.6635,
+        "fire_rate_on_places_test": 0.9714
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "teapot": {
+      "head": "trained",
+      "n_pos": 37,
+      "n_neg": 21,
+      "average_precision": 0.8257,
+      "precision": 0.8636,
+      "recall": 0.5135,
+      "f1": 0.6441,
+      "fire_rate_on_places_test": 0.0,
+      "zero_shot": {
+        "average_precision": 0.8109,
+        "precision": 0.6857,
+        "recall": 0.6486,
+        "f1": 0.6667,
+        "fire_rate_on_places_test": 0.0
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "boat_ship": {
+      "head": "trained",
+      "n_pos": 128,
+      "n_neg": 71,
+      "average_precision": 0.8882,
+      "precision": 0.8154,
+      "recall": 0.8281,
+      "f1": 0.8217,
+      "fire_rate_on_places_test": 0.0072,
+      "zero_shot": {
+        "average_precision": 0.8454,
+        "precision": 0.7397,
+        "recall": 0.8438,
+        "f1": 0.7883,
+        "fire_rate_on_places_test": 0.04
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "sea": {
+      "head": "trained",
+      "n_pos": 143,
+      "n_neg": 64,
+      "average_precision": 0.9677,
+      "precision": 0.9389,
+      "recall": 0.8601,
+      "f1": 0.8978,
+      "fire_rate_on_places_test": 0.0442,
+      "zero_shot": {
+        "average_precision": 0.8547,
+        "precision": 0.7595,
+        "recall": 0.8392,
+        "f1": 0.7973,
+        "fire_rate_on_places_test": 0.074
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "sand": {
+      "head": "trained",
+      "n_pos": 102,
+      "n_neg": 36,
+      "average_precision": 0.8684,
+      "precision": 0.7459,
+      "recall": 0.8922,
+      "f1": 0.8125,
+      "fire_rate_on_places_test": 0.1289,
+      "zero_shot": {
+        "average_precision": 0.7534,
+        "precision": 0.7273,
+        "recall": 0.9412,
+        "f1": 0.8205,
+        "fire_rate_on_places_test": 0.5746
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "mountain": {
+      "head": "trained",
+      "n_pos": 103,
+      "n_neg": 43,
+      "average_precision": 0.8348,
+      "precision": 0.7014,
+      "recall": 0.9806,
+      "f1": 0.8178,
+      "fire_rate_on_places_test": 0.3866,
+      "zero_shot": {
+        "average_precision": 0.7517,
+        "precision": 0.6917,
+        "recall": 0.8932,
+        "f1": 0.7797,
+        "fire_rate_on_places_test": 0.253
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "river": {
+      "head": "trained",
+      "n_pos": 93,
+      "n_neg": 52,
+      "average_precision": 0.7765,
+      "precision": 0.6727,
+      "recall": 0.7957,
+      "f1": 0.7291,
+      "fire_rate_on_places_test": 0.0263,
+      "zero_shot": {
+        "average_precision": 0.6368,
+        "precision": 0.6414,
+        "recall": 1.0,
+        "f1": 0.7815,
+        "fire_rate_on_places_test": 0.8222
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "waterfall": {
+      "head": "trained",
+      "n_pos": 45,
+      "n_neg": 39,
+      "average_precision": 0.8795,
+      "precision": 0.6379,
+      "recall": 0.8222,
+      "f1": 0.7184,
+      "fire_rate_on_places_test": 0.0125,
+      "zero_shot": {
+        "average_precision": 0.8338,
+        "precision": 0.7021,
+        "recall": 0.7333,
+        "f1": 0.7174,
+        "fire_rate_on_places_test": 0.0095
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "snow": {
+      "head": "trained",
+      "n_pos": 82,
+      "n_neg": 88,
+      "average_precision": 0.8032,
+      "precision": 0.625,
+      "recall": 0.9146,
+      "f1": 0.7426,
+      "fire_rate_on_places_test": 0.0692,
+      "zero_shot": {
+        "average_precision": 0.6017,
+        "precision": 0.5033,
+        "recall": 0.9268,
+        "f1": 0.6524,
+        "fire_rate_on_places_test": 0.1736
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "rain": {
+      "head": "trained",
+      "n_pos": 39,
+      "n_neg": 42,
+      "average_precision": 0.771,
+      "precision": 0.4933,
+      "recall": 0.9487,
+      "f1": 0.6491,
+      "fire_rate_on_places_test": 0.037,
+      "zero_shot": {
+        "average_precision": 0.6783,
+        "precision": 0.7143,
+        "recall": 0.641,
+        "f1": 0.6757,
+        "fire_rate_on_places_test": 0.0
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "clouds": {
+      "head": "trained",
+      "n_pos": 197,
+      "n_neg": 44,
+      "average_precision": 0.909,
+      "precision": 0.8213,
+      "recall": 0.9797,
+      "f1": 0.8935,
+      "fire_rate_on_places_test": 0.6271,
+      "zero_shot": {
+        "average_precision": 0.7865,
+        "precision": 0.8159,
+        "recall": 0.9898,
+        "f1": 0.8945,
+        "fire_rate_on_places_test": 0.7721
+      },
+      "validated": false,
+      "reason": "fires on >40% of generic scenes (uninformative)"
+    },
+    "fog": {
+      "head": "zero_shot",
+      "n_pos": 69,
+      "n_neg": 29,
+      "average_precision": 0.9382,
+      "precision": 0.7949,
+      "recall": 0.8986,
+      "f1": 0.8435,
+      "fire_rate_on_places_test": 0.0143,
+      "zero_shot": {
+        "average_precision": 0.9382,
+        "precision": 0.7949,
+        "recall": 0.8986,
+        "f1": 0.8435,
+        "fire_rate_on_places_test": 0.0143
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "mosque": {
+      "head": "trained",
+      "n_pos": 32,
+      "n_neg": 12,
+      "average_precision": 0.9352,
+      "precision": 0.9355,
+      "recall": 0.9062,
+      "f1": 0.9206,
+      "fire_rate_on_places_test": 0.0048,
+      "zero_shot": {
+        "average_precision": 0.9225,
+        "precision": 0.8667,
+        "recall": 0.8125,
+        "f1": 0.8387,
+        "fire_rate_on_places_test": 0.0048
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "castle": {
+      "head": "trained",
+      "n_pos": 35,
+      "n_neg": 19,
+      "average_precision": 0.8602,
+      "precision": 0.85,
+      "recall": 0.4857,
+      "f1": 0.6182,
+      "fire_rate_on_places_test": 0.0054,
+      "zero_shot": {
+        "average_precision": 0.7975,
+        "precision": 0.7667,
+        "recall": 0.6571,
+        "f1": 0.7077,
+        "fire_rate_on_places_test": 0.0125
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "arch": {
+      "head": "trained",
+      "n_pos": 59,
+      "n_neg": 39,
+      "average_precision": 0.8748,
+      "precision": 0.7231,
+      "recall": 0.7966,
+      "f1": 0.7581,
+      "fire_rate_on_places_test": 0.0203,
+      "zero_shot": {
+        "average_precision": 0.8446,
+        "precision": 0.5938,
+        "recall": 0.9661,
+        "f1": 0.7355,
+        "fire_rate_on_places_test": 0.3914
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "tower": {
+      "head": "trained",
+      "n_pos": 67,
+      "n_neg": 58,
+      "average_precision": 0.7314,
+      "precision": 0.6613,
+      "recall": 0.6119,
+      "f1": 0.6357,
+      "fire_rate_on_places_test": 0.0215,
+      "zero_shot": {
+        "average_precision": 0.6329,
+        "precision": 0.5333,
+        "recall": 0.9552,
+        "f1": 0.6845,
+        "fire_rate_on_places_test": 0.3252
+      },
+      "validated": false,
+      "reason": "precision/recall below bar"
+    },
+    "road": {
+      "head": "trained",
+      "n_pos": 137,
+      "n_neg": 47,
+      "average_precision": 0.9137,
+      "precision": 0.8618,
+      "recall": 0.7737,
+      "f1": 0.8154,
+      "fire_rate_on_places_test": 0.1354,
+      "zero_shot": {
+        "average_precision": 0.7164,
+        "precision": 0.7446,
+        "recall": 1.0,
+        "f1": 0.8536,
+        "fire_rate_on_places_test": 0.9057
+      },
+      "validated": true,
+      "reason": "ok"
+    },
+    "child": {
+      "head": "trained",
+      "n_pos": 51,
+      "n_neg": 31,
+      "average_precision": 0.913,
+      "precision": 0.8409,
+      "recall": 0.7255,
+      "f1": 0.7789,
+      "fire_rate_on_places_test": 0.0251,
+      "zero_shot": {
+        "average_precision": 0.8397,
+        "precision": 0.7736,
+        "recall": 0.8039,
+        "f1": 0.7885,
+        "fire_rate_on_places_test": 0.0507
+      },
+      "validated": true,
+      "reason": "ok"
+    }
+  }
+}

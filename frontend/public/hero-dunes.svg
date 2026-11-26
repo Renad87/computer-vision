@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <!-- Original artwork for Poetry Vision (no third-party image): desert dunes at dusk under a crescent moon. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d0a10"/>
+      <stop offset=".22" stop-color="#3e1220"/>
+      <stop offset=".44" stop-color="#7a2a33"/>
+      <stop offset=".60" stop-color="#b8583f"/>
+      <stop offset=".72" stop-color="#e09a5c"/>
+      <stop offset=".80" stop-color="#f2c98a"/>
+      <stop offset="1" stop-color="#f7e2b8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="1080" cy="610" r="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff3d6" stop-opacity=".95"/>
+      <stop offset=".08" stop-color="#ffe2a4" stop-opacity=".85"/>
+      <stop offset=".28" stop-color="#f3b46a" stop-opacity=".45"/>
+      <stop offset=".6" stop-color="#d77a4a" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#b8583f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="560" cy="170" r="150" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd99a" stop-opacity=".30"/>
+      <stop offset=".45" stop-color="#e8a86a" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#e8a86a" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="crescent">
+      <rect width="1600" height="900" fill="#000"/>
+      <circle cx="560" cy="170" r="40" fill="#fff"/>
+      <circle cx="578" cy="157" r="36" fill="#000"/>
+    </mask>
+    <linearGradient id="d1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7a874"/><stop offset="1" stop-color="#c47a55"/>
+    </linearGradient>
+    <linearGradient id="d2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d98c5c"/><stop offset="1" stop-color="#a24f3a"/>
+    </linearGradient>
+    <linearGradient id="d3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b96446"/><stop offset=".5" stop-color="#7c3030"/><stop offset="1" stop-color="#5a2026"/>
+    </linearGradient>
+    <linearGradient id="d4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7a2c2e"/><stop offset=".6" stop-color="#4a161d"/><stop offset="1" stop-color="#2c0c12"/>
+    </linearGradient>
+    <linearGradient id="d5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d1218"/><stop offset="1" stop-color="#16060a"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#ffd9a0" stop-opacity=".55"/>
+      <stop offset=".75" stop-color="#ffe7bd" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7dcae" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#f7dcae" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#f7dcae" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.4  0 0 0 0 0.35  0 0 0 .07 0"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sun)"/>
+
+  <!-- stars in the upper night -->
+  <g fill="#fff4dc">
+    <circle cx="120" cy="70" r="1.3" opacity=".8"/><circle cx="240" cy="120" r="1" opacity=".6"/>
+    <circle cx="520" cy="60" r="1.4" opacity=".75"/><circle cx="610" cy="140" r=".9" opacity=".5"/>
+    <circle cx="760" cy="48" r="1.2" opacity=".7"/><circle cx="900" cy="110" r="1" opacity=".55"/>
+    <circle cx="1020" cy="40" r="1.5" opacity=".8"/><circle cx="1180" cy="95" r="1" opacity=".5"/>
+    <circle cx="1300" cy="58" r="1.2" opacity=".7"/><circle cx="1450" cy="130" r="1.1" opacity=".55"/>
+    <circle cx="1540" cy="50" r="1.3" opacity=".7"/><circle cx="440" cy="250" r=".9" opacity=".4"/>
+    <circle cx="80" cy="210" r="1" opacity=".45"/><circle cx="1380" cy="210" r=".8" opacity=".35"/>
+    <circle cx="690" cy="230" r=".8" opacity=".35"/><circle cx="1250" cy="180" r=".9" opacity=".4"/>
+  </g>
+
+  <!-- crescent -->
+  <circle cx="560" cy="170" r="150" fill="url(#moonGlow)"/>
+  <rect width="1600" height="900" fill="#fff3d6" mask="url(#crescent)"/>
+
+  <!-- distant birds -->
+  <g fill="none" stroke="#3e1220" stroke-width="2" stroke-linecap="round" opacity=".55">
+    <path d="M1180 330q9-8 18 0q9-8 18 0"/>
+    <path d="M1222 312q7-6 14 0q7-6 14 0"/>
+    <path d="M1150 352q6-5 12 0q6-5 12 0"/>
+  </g>
+
+  <!-- dune layers, far to near -->
+  <path d="M0 610 C 180 585 320 600 470 590 C 640 578 760 560 920 575 C 1080 590 1220 568 1370 580 C 1470 588 1540 584 1600 578 L1600 900 L0 900Z" fill="url(#d1)" opacity=".9"/>
+  <rect y="540" width="1600" height="120" fill="url(#haze)"/>
+  <path d="M0 668 C 140 640 260 630 400 650 C 520 667 600 690 720 676 C 860 660 940 618 1090 622 C 1240 626 1330 660 1460 652 C 1530 648 1570 640 1600 636 L1600 900 L0 900Z" fill="url(#d2)"/>
+  <path d="M640 676 C 760 662 870 626 1010 620 C 1100 617 1150 626 1210 640" fill="none" stroke="url(#rim)" stroke-width="2.2" filter="url(#soft)"/>
+  <path d="M0 742 C 120 715 230 700 360 712 C 470 722 540 748 660 742 C 820 734 900 690 1060 694 C 1200 698 1300 742 1440 736 C 1520 733 1570 724 1600 718 L1600 900 L0 900Z" fill="url(#d3)"/>
+  <path d="M700 738 C 840 728 910 694 1050 694 C 1150 695 1230 716 1300 736" fill="none" stroke="url(#rim)" stroke-width="1.8" opacity=".8" filter="url(#soft)"/>
+  <path d="M0 812 C 160 776 300 770 460 790 C 600 808 700 830 860 818 C 1020 806 1100 772 1260 780 C 1400 787 1520 812 1600 806 L1600 900 L0 900Z" fill="url(#d4)"/>
+  <path d="M0 870 C 200 846 380 842 560 858 C 760 876 960 880 1160 864 C 1340 850 1480 856 1600 862 L1600 900 L0 900Z" fill="url(#d5)"/>
+
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "4101a604-eb59-40ac-9aa8-fb241f037eed",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "scene_group.greenery",
+      "user_selection": "primary",
+      "suggested_by_model": false
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.serenity",
+  "secondary_lit_emotion": "lit_emotion.joy",
+  "concept_id": "concept.spring_nature",
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

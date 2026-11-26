@@ -1,0 +1,1051 @@
+{
+ "worker": "city_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 745348,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "الله أكبر",
+    "justification": "يكبّر دهشة حين يبلغ قرطبة دار العلم والملك"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "فرحة الوصول إلى المدينة المقصودة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قرطبة",
+     "justification": null
+    }
+   ],
+   "meaning": "يكبّر الشاعر حين يصل إلى قرطبة، ويصفها بأنها دار العلوم ومقرّ عروش السلاطين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1633980,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرى دمشق فريدة لا يشبهها بلد في الأرض"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصفها بجنات عدن فيها كل ما يُشتهى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن دمشق لا يشبهها بلد في الأرض، فهي كجنات عدن تجمع كل ما يشتهيه الناس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1662152,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إعجاب بحسن الإسكندرية البديع الذي بلغ الغاية"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الإسكندرية",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى الشاعر الإسكندرية مدينة ذات جمال بديع بلغ الغاية فلا مزيد عليه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 380850,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "إعجابا",
+    "justification": "دمشق تحاكي جنة الخلد فتثير الإعجاب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "تشبيهها بالجنة يبعث البهجة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق الشام",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن دمشق الشام تحاكي جنة الخلد في حسنها حتى تثير إعجاب من يراها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 848618,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "ومن عجائب",
+    "justification": "يتعجب مما في بغداد من طيبات وعجائب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "طيب الأفانين المتنوعة يبعث السرور"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ببغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر مما في بغداد من طيبات متنوعة وعجائب تجمع متاع الدنيا وأمور الدين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1012467,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتحدى أن يُرى في الأرض بلد مثل بغداد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "كبغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل مستنكرًا: هل رأيت في الأرض كلها طولًا وعرضًا دارًا مثل بغداد؟ إنها جنة الأرض.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 121122,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل دمشق أجمل ما في الدنيا كإنسان العين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "جلق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن الشام شامة على خد الدنيا، ودمشق منها بمنزلة إنسان العين من المقلة، أي أجمل ما فيها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1823004,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "منظر المدينة يضاهي النجوم المتشابكة بهاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "المدينة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.symbolic",
+     "evidence": null,
+     "justification": "يشبّه منظر المدينة بالنجوم المتشابكة في السماء"
+    }
+   ],
+   "meaning": "يدعو صاحبه إلى أن ينظر في الجهة القبلية من المدينة إلى منظر بديع صار في حسنه نظيرًا للنجوم المتشابكة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1376964,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "حلب العالية بلغت نهاية الحسن والبهاء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "يا حبذا",
+     "justification": "يعبّر عن محبته وسروره بحلب"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حلب المنيفة",
+     "justification": null
+    }
+   ],
+   "meaning": "يمتدح حلب المرتفعة ويقول ما أحبها، فهي أرض بلغ حسنها وبهاؤها الغاية.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 102864,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يكبر مدينة منيعة حصينة لم يُر مثلها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "مدينه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف مدينة آمد المذكورة قبلها بأنها لم يُر مثلها في المنعة والتحصين وحسن الطالع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1700126,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم رقيق يمشي الهوينا في ظلال دمشق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو لدمشق بالمطر، ويصف نسيمها يسير متمهلًا رقيقًا في ظلال ربوعها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1753174,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "ذا قرار",
+    "justification": "مأوى مستقر للروح بماء جار وربوة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "معين",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن للروح في دمشق مأوى مستقرًّا ذا ماء جارٍ وربوة، مقتبسًا وصف القرآن للربوة ذات القرار والمعين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1012468,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "عيش صاف رغيد في بغداد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نضارة العيش كالعود الأخضر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن العيش في بغداد صافٍ نضر كالعود الأخضر، وعيش غيرها من البلاد لا صفاء فيه ولا نضارة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 743434,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رقة نسيم دمشق وأثرها اللطيف في الطباع"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يحيي دمشق ويتعجب من رقة نسيمها الذي يطبع النفوس على الكرم ويؤثر في الطباع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 514424,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رياض بكر ومطر خفيف يقطر على بغداد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نضارة الرياض وطيب الغيث"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياضها",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف بغداد بأنها دار رياضها بكر لم تُرعَ، والمطر يقطر عليها في أوج نضارتها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 579769,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "expressed",
+    "evidence": "في الرفاهة",
+    "justification": "يتنعم في رياض بغداد في رخاء وخصب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يرتع في رياضها مسرورًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في بغداد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياضها",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه صار في بغداد يتنقل في رياضها ويرتع فيها منعمًا في رفاهة وخصب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 930159,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مدينة مستوية يحتضنها النهر كالسوار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انبهار بهيئة المدينة والنهر حولها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "المدينة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "النهر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف مدينة رندة المذكورة قبله مستوية كالمعصم، وقد التف حولها النهر كأنه نصف سوار.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 973253,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رياح دمشق الفسيحة تفوح كالمسك"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكرها في سياق الدعاء لأيام مضت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ولجلق الفيحاء",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو بالسقيا لأيام مضت ولدمشق الفسيحة، البلد الذي تفوح رياحه وروائحه بالمسك.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 120983,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "وسرور",
+    "justification": "يرى في دمشق نضرة وسرورًا ظاهرين"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "أكناف جلق",
+     "justification": null
+    }
+   ],
+   "meaning": "يأبى أن يعيش إلا في نواحي دمشق، وقد ظهرت فيها النضرة والسرور.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 359335,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "السرور",
+    "justification": "دمشق وأهلها يكادون يطيرون فرحًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه لولا ما في دمشق وأهلها من وقار لطاروا من شدة السرور بقدوم الممدوح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 780810,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "در السرور",
+    "justification": "ينال في حلب سرورًا بين رياض مطربة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في حلب",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "رياض",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه نال في حلب سرورًا غزيرًا بين رياض تدعو إلى الطرب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1064341,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "سروري",
+    "justification": "يفيض سروره بمجد بغداد المرتقب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "اعتزاز بمجد بغداد المنتظر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن سروره يفيض كلما فكر في المجد الذي سيعود إلى بغداد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1625194,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "يصور دمشق تهتز طربًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "وجلق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "الغدر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور دمشق وقد اهتزت أعطافها طربًا، ومالت ضفائرها على الغدران، مازجًا بين الغدائر والغدر.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 448078,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ربيع دمشق الظاهر في كل حين يبهج"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يكبر صنع هذا الربيع"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "ربيعا",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن دمشق أظهرت ربيعًا عظيم الصنع يأتيك بجماله في كل وقت ظاهرًا غير مستتر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1195384,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دمشق تزهو بأهلها كجنات النعيم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن دمشق تروق الناظر بفتيانها وفتياتها الحسان، وتزهو كما تزهو جنات النعيم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1444907,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذكر نزهات مسائية مع الأصحاب في دمشق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر أيامًا مضت"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بدمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "والشمس",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر نزهات كثيرة خرج فيها مع أصحابه في دمشق عند المساء والشمس توشك أن تغيب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 202598,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل دمشق أول عز الشرق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "بني دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو الله أن يجزي أهل دمشق خيرًا، ويقرر أن عز الشرق يبدأ من دمشق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 187891,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقتاله بينما يعيّد إخوانه في بغداد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ببغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يهنئ إخوانه في بغداد بعيدهم، أما عيده هو فقتال الكتائب في حلوان.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 771401,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يربط العز والمجد ببغداد وقبتها البيضاء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "البلدة الزوراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن العز حيث بغداد الزوراء، والمجد حيث القبة البيضاء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 130219,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بنفسه فلا تضيق به الأرض"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الزوراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن ضاقت عليه بغداد منزلًا، فله في بلاد الله الواسعة مجال رحب ينطلق فيه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 758884,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفارق بغداد معتزًا بنفسه غير آسف"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغدادا",
+     "justification": null
+    }
+   ],
+   "meaning": "يفارق بغداد دون أسف، ويسألها متحديًا: بمن ستتشرفين من المقيمين بعد رحيلنا؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 854908,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفضل شعاب دمشق على شعب بوان المشهور"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إكبار لحسن شعاب دمشق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في دمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "أقل شعب",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن أصغر شعب في دمشق يضاهي شعب بوان المشهور بالحسن، ويوازيه فخرًا وتيهًا.",
+   "text_note": "كلمة «يوافي» مقسومة بين الشطرين في المصدر.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 332723,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صديقه ذكّره بوادي دمشق فحنّ إليه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "يصف ماء باردًا صافيًا يجري تحت الظل"
+    }
+   ],
+   "meaning": "يخاطب صديقه بأنه ذكّره بوادي دمشق وظله الوارف الممتد على الماء الصافي البارد العذب.",
+   "text_note": "كلمة «الضافي» مقسومة بين الشطرين في المصدر.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1795355,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفدي بغداد بعد رحيله عنها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "لم ير مثل دجلة واديًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "يا بغداد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "دجلة",
+     "justification": null
+    }
+   ],
+   "meaning": "يفدي بغداد بأهله ومنزله، ويقول إنه لم ير فيها واديًا مثل نهر دجلة.",
+   "text_note": "في المصدر «أهلاو» بالتصاق الواو بالكلمة.",
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1676793,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتحسر على فراق بغداد أطيب منزل"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يراها أبهى بلاد الله منظرًا"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "عن بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه رحل عن بغداد وهي أطيب منزل وأجمل بلاد الله مرأى ومنظرًا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1198710,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتساءل بشوق عن دور المدينة بعد غيابه"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالمدينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل وهو بعيد: هل ما زالت الدور حول البلاط في المدينة عامرة كما كانت، أم هل بقي فيها ساكن؟",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 930004,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يرثي مدن الأندلس التي سقطت"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بلنسية",
+     "justification": null
+    }
+   ],
+   "meaning": "يدعو إلى سؤال بلنسية عن حال مرسية، ويتساءل أين شاطبة وأين جيان بعد سقوطها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 49077,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ضيق العيش في بغداد بعيدًا عن الشام"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "شكوى من جفاف العيش"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "في بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو أنه صار في بغداد لا ظل يتسع له ولا عيش نضر رغيد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 804307,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نفور من مدينة قاسية لا ترحم المفجوع"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "أسى لقسوة المدينة على المظلوم"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "من المدينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل ماذا يرجو من المدينة وهي لا ترق لصرخة المفجوع المظلوم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 528418,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "في رهب",
+    "justification": "مدن في رهبة وأهلها هاربون"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "فالمدن",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف بلادًا خافت وفرّ ملوكها أمام جيش الممدوح، فصارت مدنها في رهبة وأهلها في هرب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

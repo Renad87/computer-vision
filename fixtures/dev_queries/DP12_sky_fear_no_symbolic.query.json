@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "query_id": "a078ccfd-d044-407e-811b-a70af1de04ab",
+  "profile_id": "09025e5f-74c6-49b1-9d7f-735744a8d9d5",
+  "corpus_version": "p0_ai_drafts_v1",
+  "corpus_mode": "development",
+  "method": "hybrid",
+  "preprocessing_variant": "N1",
+  "weights": {
+    "emotion": 0.45,
+    "visual": 0.35,
+    "text": 0.2,
+    "semantic": 0.0
+  },
+  "k": 3,
+  "min_score": 0.0,
+  "tiers_enabled": [
+    1,
+    2,
+    3
+  ],
+  "diversity": {
+    "max_per_poem": 1,
+    "max_per_poet": 1,
+    "near_dup_cosine": 0.8
+  }
+}

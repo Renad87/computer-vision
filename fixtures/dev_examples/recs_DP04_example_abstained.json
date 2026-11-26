@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "query_id": "32abc1a6-8517-41c2-893e-f2559833a673",
+  "profile_id": "a3a8125b-7898-4382-a2cd-e46f9c22a176",
+  "engine_version": "0.0.0-example",
+  "corpus_version": "p0_ai_drafts_v1",
+  "corpus_mode": "development",
+  "k": 3,
+  "weights": {
+    "emotion": 0.45,
+    "visual": 0.35,
+    "text": 0.2,
+    "semantic": 0.0
+  },
+  "status": "abstained",
+  "items": [],
+  "abstention": {
+    "reason_code": "no_visual_match_emotion_only_off",
+    "message_ar": "لا يوجد في المدونة الحالية بيت بهيج يرتبط بالبحر، ووضع «الإحساس فقط» غير مفعّل.",
+    "coverage_gap": {
+      "visual_targets": [
+        "scene_group.sea"
+      ],
+      "lit_emotion": "lit_emotion.joy"
+    }
+  },
+  "timings_ms": null
+}

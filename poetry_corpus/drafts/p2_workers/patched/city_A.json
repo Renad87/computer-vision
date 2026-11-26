@@ -1,0 +1,848 @@
+{
+ "worker": "city_A",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 337548,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "كفى حزنا",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "expressed",
+     "evidence": "مفرد",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ببغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يكفيه حزنًا أنه مقيم في بغداد وحيدًا بعيدًا عن أهله، يلقى فيها كل يوم من الغرائب ما يستنكره.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1069225,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "تبكي",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصور الشاعر بغداد وقد أذلّتها المصائب فصارت تبكي عزّها الماضي وتنتحب عليه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 457359,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أسفا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء ممدوحه يصور دمشق وقد أحست بفقده فكادت نفسها تفيض أسفًا، وظهر أثر الجدب في ربوعها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 329854,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "فليبكها",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يعلن الشاعر أن ناعي بغداد قد قام بعد ما حلّ بها من الخراب، فليبكها كل باكٍ على ما صنع بها الدهر.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1505287,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى الموت بعد خراب بغداد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتمنى أن يمر نسيم صبا بغداد على قبره"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه بعد خراب بغداد صار يتمنى لو كان ميتًا يمر نسيم صباها على قبره، فالموت عنده أهون من عيش الكرب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 355307,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "بكاء",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "قرطبة",
+     "justification": null
+    }
+   ],
+   "meaning": "يبكي الشاعر قرطبة بعد ما حلّ بها، ويرى أن كل بكاء بعين متفجرة الدمع قليل في حق مدينة مثلها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 534930,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "ثاكلة",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حلب",
+     "justification": null
+    }
+   ],
+   "meaning": "في الرثاء يصور حلب وقد صرخت على الفقيد صراخ أم ثكلى، حتى بلغ صوتها أرض بغداد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 73624,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "لهف نفسي",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يستوحش البقاء في المدينة بين الناس بعد النبي"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالمدينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي حسان النبي متسائلًا كيف يبقى في المدينة بين الناس بعده، ويتحسر متمنيًا لو أنه لم يولد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 527963,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "expressed",
+    "evidence": "أذقت ثكلك",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "القيروان",
+     "justification": null
+    }
+   ],
+   "meaning": "يرثي الشاعر فقيدًا فيقول إن القيروان لم تنفرد بفجيعة فقده، بل ذاقت مرارتها الآفاق كلها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 218391,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتحسر على زوال عهد قرطبة بين السيوف والنيران"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "قرطبة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: لا تسل بعد ذلك عن عهد قرطبة وكيف زال مجدها ومحي بين السيوف والنيران.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 383992,
+   "primary": {
+    "id": "lit_emotion.sadness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور بؤس بغداد في الفتنة وخلوها إلا من فقير معيل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف بغداد في أيام الفتنة والقتال وقد خلت إلا من فقير مثقل بالعيال لا يجد ما يعولهم به.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 450248,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قلبه في مصر حيث دفن الفقيد وجسمه في دمشق"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "ودمع العين",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "في رثاء يعجب الشاعر من حاله: قلبه في مصر حيث دُفن الفقيد، وجسمه في دمشق، ودمعه يسيل في حلب، فقد توزع بين المدن.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1796083,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "وجدا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن برد النسيم وطيبه يذكّرانه بمنازل في بغداد هام بها شوقًا.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 332586,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "فبي شوق",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يعلن ابن عنين شوقه المبرّح إلى دمشق، وأنه باقٍ عليه مهما ألحّ الواشي أو العاذل في لومه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 391045,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ذكر بغداد يوجع قلبه كحد السنان حنينًا إليها"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن ذكر بغداد يثير في قلبه ألمًا كأن حدّ رمح يتحرك فيه، من شدة الحنين إليها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 642552,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "شوقا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يرى دمشق جنة الخلد على الأرض، ويجد في قلبه نارًا مستعرة من الشوق إليها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 630581,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "أشواقي",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "الإسكندرية",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل متمنيًا: هل من عودة إلى الإسكندرية تطفئ حرّ شوقه وعطشه إليها؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 313703,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قلبه في قرطبة وجسمه في بلد بعيد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نأى عن أهل وده ومعشره"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بقرطبة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن قلبه في قرطبة بينما جسمه في بلد بعيد ابتعد فيه عن أحبته وقومه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1227123,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "فراق وادي دمشق يقطع قلبها كل يوم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    },
+    {
+     "target": "scene_group.mountains",
+     "relation": "relation.literal",
+     "evidence": "وادي",
+     "justification": null
+    }
+   ],
+   "meaning": "تقول الشاعرة إنها منذ غابت عن وادي دمشق تشعر كأن قلبها يُقرض كل يوم بمقراض من ألم الفراق.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 55642,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتذكر أيام لهوه في حلب ولم يبق منها إلا الذكرى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "حلب",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر البحتري أيام لهو قضاها في جانبي حلب، ولم يبق له منها إلا ذكراها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 92632,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "expressed",
+    "evidence": "تحن",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "المدينة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ناقتي",
+     "justification": null
+    }
+   ],
+   "meaning": "تحنّ ناقته وهو بزوراء المدينة حنين الناقة الفاقدة إلى ولدها، فيعبّر بحنينها عن شوقه إلى دياره.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 332744,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نازح فرّقته النوى بعيدًا عن أحبابه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يدعو أحبابه في دمشق من بعيد"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بدمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "ينادي أحبابه في دمشق نداء غريب نازح عبثت به أيدي البعد فشتتته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 38584,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غربة",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "كربة",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالبصرة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه أصبح في البصرة غريبًا، ينتقل فيها من همّ إلى كرب.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 362290,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "لغريب",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالمدينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: من كان رحله مستقرًا بالمدينة فهو بين أهله، أما هو ورفيقه قيّار فغريبان فيها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 367968,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "وحيد",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه يعيش بين أهل دمشق وهم كثيرون كعدد الرمل، لكنه وحيد منفرد لا أليف له بينهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 854254,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غريبا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو أنه غريب في دمشق، فأهلها يعرفونه لكنهم يعمون عن فضله ومحاسنه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 290200,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "غريب",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ترف المدن",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف نفسه غريبًا مقيمًا بين جدران أهله، يعيشون في ترف المدن وطباعهم خشنة كخشونة أهل البادية.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1791856,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "شقي في مدينته كالغريب بين أهلها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "expressed",
+     "evidence": "الشقي",
+     "justification": null
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "مدينتي",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن هذه مدينته لكنه شقي فيها، فالكرام قد يشقون في مدنهم.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1748597,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "مقيم في بغداد بلا وطن ولا أهل ولا مال"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بالزوراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل: فيم الإقامة في الزوراء (بغداد) وليست وطنه، ولا له فيها ناقة ولا جمل؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1064008,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "فقد الأمن ليلًا يمنع السير بلا حارس"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.city",
+     "relation": "relation.literal",
+     "evidence": "بغداد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "ليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف ليل بغداد وقد فُقد فيه الأمن حتى لا يستطيع أحد أن يمشي فيه دون حارس يحميه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1517002,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "خائفا",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بمدينة",
+     "justification": null
+    }
+   ],
+   "meaning": "يسأل صاحبه وهبًا كيف يقيم في مدينة أمسى فيها خائفًا يترقب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 898827,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "أخاف",
+    "justification": null
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.sadness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يبكي حال بلنسية بعد فقد حاميها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بلنسية",
+     "justification": null
+    },
+    {
+     "target": "tag.falcon",
+     "relation": "relation.literal",
+     "evidence": "البزاة",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الحمام",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاف الشاعر على حمى بلنسية بعد فقد حاميها، وقد كانت في عهده منيعة تطير فيها البزاة فوق الحمام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1670885,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "expressed",
+    "evidence": "هولها",
+    "justification": null
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "دمشق",
+     "justification": null
+    }
+   ],
+   "meaning": "يذكر حادثة نزلت بهم في دمشق الشام شكوا من هولها وخطرها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1486089,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "زال الخوف فطاب النوم في بغداد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "ببغداد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه بعد الخوف حلّ الأمان، فطاب لهم النوم في بغداد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 385456,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يبهره جمال بلنسية كالزبرجدة تجري عليها الأنهار"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "فرح ظاهر بحسن المدينة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.heritage",
+     "relation": "relation.literal",
+     "evidence": "بلنسية",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "نهرا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف بلنسية بأنها زبرجدة خضراء تسيل عليها الأنهار كأنها لآلئ ذائبة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  }
+ ]
+}

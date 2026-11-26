@@ -1,0 +1,197 @@
+{
+  "batch": "p2_b10",
+  "records_file": "poetry_corpus/records/p2_b10_ai_drafts_v1.jsonl",
+  "verse_ids": [
+    "pv:verse:000595",
+    "pv:verse:000639"
+  ],
+  "records": 45,
+  "validator": {
+    "mode": "development",
+    "apcd_verified": true,
+    "issues": 0
+  },
+  "displayable_in_production": 0,
+  "annotation": {
+    "method": "ai_draft",
+    "model_id": "claude-opus-5-5",
+    "review_status": "not_reviewed"
+  },
+  "attribution": {
+    "apcd_only": 45
+  },
+  "poets": 39,
+  "eras": {
+    "قبل الإسلام": 2,
+    "المخضرمين": 3,
+    "الأموي": 1,
+    "العباسي": 1,
+    "الفاطمي": 6,
+    "الأيوبي": 6,
+    "المملوكي": 5,
+    "العثماني": 3,
+    "المغرب والأندلس": 6,
+    "الحديث": 11,
+    "بين الدولتين": 1
+  },
+  "text_notes": 2,
+  "uncertainty": {
+    "low": 25,
+    "medium": 20
+  },
+  "primary_emotions": {
+    "lit_emotion.awe": 1,
+    "lit_emotion.fear": 2,
+    "lit_emotion.loneliness": 2,
+    "lit_emotion.longing": 15,
+    "lit_emotion.sadness": 25
+  },
+  "batch_tier1_records_per_pilot_cell": {
+    "scene_group.desert|lit_emotion.sadness": 0,
+    "scene_group.desert|lit_emotion.longing": 0,
+    "scene_group.desert|lit_emotion.awe": 0,
+    "scene_group.desert|lit_emotion.serenity": 0,
+    "scene_group.desert|lit_emotion.joy": 0,
+    "scene_group.sea|lit_emotion.sadness": 0,
+    "scene_group.sea|lit_emotion.longing": 0,
+    "scene_group.sea|lit_emotion.awe": 0,
+    "scene_group.sea|lit_emotion.serenity": 0,
+    "scene_group.sea|lit_emotion.joy": 0,
+    "scene_group.greenery|lit_emotion.sadness": 25,
+    "scene_group.greenery|lit_emotion.longing": 15,
+    "scene_group.greenery|lit_emotion.awe": 1,
+    "scene_group.greenery|lit_emotion.serenity": 0,
+    "scene_group.greenery|lit_emotion.joy": 0,
+    "scene_group.heritage|lit_emotion.sadness": 1,
+    "scene_group.heritage|lit_emotion.longing": 0,
+    "scene_group.heritage|lit_emotion.awe": 0,
+    "scene_group.heritage|lit_emotion.serenity": 0,
+    "scene_group.heritage|lit_emotion.joy": 0,
+    "scene_group.sky_night|lit_emotion.sadness": 1,
+    "scene_group.sky_night|lit_emotion.longing": 0,
+    "scene_group.sky_night|lit_emotion.awe": 0,
+    "scene_group.sky_night|lit_emotion.serenity": 0,
+    "scene_group.sky_night|lit_emotion.joy": 0
+  },
+  "corpus": {
+    "records": 639,
+    "displayable_records": 639,
+    "target_tier1_poems_per_cell": 8,
+    "pilot_cells_at_target": 23,
+    "pilot_cells_empty": 0,
+    "pilot_gap_total": 3
+  },
+  "corpus_tier1_poems_per_pilot_cell": {
+    "scene_group.desert|lit_emotion.sadness": 13,
+    "scene_group.desert|lit_emotion.longing": 28,
+    "scene_group.desert|lit_emotion.awe": 16,
+    "scene_group.desert|lit_emotion.serenity": 11,
+    "scene_group.desert|lit_emotion.joy": 16,
+    "scene_group.sea|lit_emotion.sadness": 17,
+    "scene_group.sea|lit_emotion.longing": 18,
+    "scene_group.sea|lit_emotion.awe": 22,
+    "scene_group.sea|lit_emotion.serenity": 6,
+    "scene_group.sea|lit_emotion.joy": 11,
+    "scene_group.greenery|lit_emotion.sadness": 31,
+    "scene_group.greenery|lit_emotion.longing": 27,
+    "scene_group.greenery|lit_emotion.awe": 7,
+    "scene_group.greenery|lit_emotion.serenity": 17,
+    "scene_group.greenery|lit_emotion.joy": 18,
+    "scene_group.heritage|lit_emotion.sadness": 39,
+    "scene_group.heritage|lit_emotion.longing": 33,
+    "scene_group.heritage|lit_emotion.awe": 27,
+    "scene_group.heritage|lit_emotion.serenity": 24,
+    "scene_group.heritage|lit_emotion.joy": 24,
+    "scene_group.sky_night|lit_emotion.sadness": 10,
+    "scene_group.sky_night|lit_emotion.longing": 10,
+    "scene_group.sky_night|lit_emotion.awe": 11,
+    "scene_group.sky_night|lit_emotion.serenity": 8,
+    "scene_group.sky_night|lit_emotion.joy": 9
+  },
+  "corpus_cells_below_3_poems": [],
+  "gaps_to_target": {
+    "scene_group.sea|lit_emotion.serenity": 2,
+    "scene_group.greenery|lit_emotion.awe": 1
+  },
+  "outside_pilot_tier1_cells": {
+    "scene_group.city|lit_emotion.fear": 1,
+    "scene_group.city|lit_emotion.joy": 1,
+    "scene_group.city|lit_emotion.loneliness": 1,
+    "scene_group.city|lit_emotion.pride": 1,
+    "scene_group.city|lit_emotion.sadness": 2,
+    "scene_group.desert|lit_emotion.fear": 16,
+    "scene_group.desert|lit_emotion.loneliness": 21,
+    "scene_group.desert|lit_emotion.pride": 24,
+    "scene_group.greenery|lit_emotion.fear": 2,
+    "scene_group.greenery|lit_emotion.loneliness": 2,
+    "scene_group.heritage|lit_emotion.fear": 20,
+    "scene_group.heritage|lit_emotion.loneliness": 14,
+    "scene_group.heritage|lit_emotion.pride": 16,
+    "scene_group.mountains|lit_emotion.awe": 15,
+    "scene_group.mountains|lit_emotion.fear": 1,
+    "scene_group.mountains|lit_emotion.joy": 10,
+    "scene_group.mountains|lit_emotion.loneliness": 3,
+    "scene_group.mountains|lit_emotion.longing": 16,
+    "scene_group.mountains|lit_emotion.pride": 6,
+    "scene_group.mountains|lit_emotion.sadness": 3,
+    "scene_group.mountains|lit_emotion.serenity": 4,
+    "scene_group.sea|lit_emotion.fear": 22,
+    "scene_group.sea|lit_emotion.loneliness": 5,
+    "scene_group.sea|lit_emotion.pride": 13,
+    "scene_group.sky_night|lit_emotion.fear": 2,
+    "scene_group.sky_night|lit_emotion.loneliness": 2,
+    "scene_group.sky_night|lit_emotion.pride": 5,
+    "scene_group.water|lit_emotion.awe": 7,
+    "scene_group.water|lit_emotion.joy": 7,
+    "scene_group.water|lit_emotion.longing": 11,
+    "scene_group.water|lit_emotion.sadness": 2,
+    "scene_group.water|lit_emotion.serenity": 8,
+    "scene_group.worship|lit_emotion.joy": 1
+  },
+  "status_batch": {
+    "records": 45,
+    "source_verified": 0,
+    "apcd_only": 45,
+    "disputed": 0,
+    "ai_draft": 45,
+    "human_reviewed": 0,
+    "production_eligible": 0,
+    "development_eligible": 45
+  },
+  "status_cumulative": {
+    "records": 639,
+    "source_verified": 15,
+    "apcd_only": 624,
+    "disputed": 0,
+    "ai_draft": 639,
+    "human_reviewed": 0,
+    "production_eligible": 0,
+    "development_eligible": 639
+  },
+  "duplicate_checks": {
+    "apcd_rows_unique_in_corpus": true,
+    "text_sha256_unique_in_corpus": true,
+    "folded_text_unique_in_corpus": true,
+    "shared_hemistichs": [
+      [
+        "pv:verse:000621",
+        "pv:verse:000622"
+      ],
+      [
+        "pv:verse:000622",
+        "pv:verse:000621"
+      ]
+    ],
+    "batch_poems": 45,
+    "batch_poems_already_in_corpus": 4
+  },
+  "throughput": {
+    "started": "2026-11-26T00:20:26",
+    "finished": "2026-11-26T00:27:23",
+    "basis": "worker launch time to the worker file time; 18 workers ran in parallel, so this is wall time per worker, not total effort",
+    "minutes": 7,
+    "verses_per_hour": 385.7,
+    "candidates_listed": null,
+    "read_in_context": null
+  }
+}

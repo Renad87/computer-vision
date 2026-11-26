@@ -1,0 +1,392 @@
+{
+  "auditor": "qa2",
+  "model_id": "claude-opus-5-5",
+  "records": [
+    {
+      "verse_id": "pv:verse:000219",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "pre-modern city ('مدينتي') tagged scene_group.city; taxonomy city = modern city streets, old cities go to heritage",
+          "suggestion": "scene_group.heritage, relation.literal, evidence 'مدينتي'"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000209",
+      "verdict": "reject",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "both places sit inside a wish ('ألا ليت شعري هل أعود'); taxonomy marks wished-for places (ليت) as hypothetical, exactly its own example",
+          "suggestion": "scene_group.city and scene_group.mountains -> relation.hypothetical (city target should be heritage anyway: pre-modern Damascus)"
+        },
+        {
+          "field": "other",
+          "problem": "with hypothetical relations the verse has no literal or scene_association scene, so it cannot count for coverage",
+          "suggestion": "reject"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000223",
+      "verdict": "reject",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "fear rests on the single word 'ذعر'; the verse is comic hyperbole in a humorous/satirical poem about a car, no real dread",
+          "suggestion": "reject (satire/humour dominant); no listed emotion fits the whole verse"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000235",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000244",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "gnomic maxim; 'حطت ركائبه' is a stock idiom for 'wherever he settles', no desert scene is described, so literal overstates it",
+          "suggestion": "scene_group.desert -> relation.scene_association (or reject if a depicted scene is required)"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000312",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000303",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "gnomic reflection on the inevitability of death (rithā' topos: ibex, snake, lion cannot escape); not dread of a danger",
+          "suggestion": "primary lit_emotion.sadness (fear at most secondary), or mark UNSURE"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000320",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "meaning",
+          "problem": "'وله الطير' means the birds belong/submit to God, not that they take refuge in Him; 'تستريد' (go about seeking) omitted",
+          "suggestion": "يسبّح الشاعر الخالقَ الذي له الطير، تغدو وتروح طالبةً رزقها ثم تأوي إلى أوكارها في الجبال الآمنة."
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000330",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "pre-modern city ('كبغداد') tagged scene_group.city; taxonomy city = modern city streets, old cities go to heritage",
+          "suggestion": "scene_group.heritage, relation.literal, evidence 'كبغداد'"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000332",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "pre-modern city ('المدينة') tagged scene_group.city; taxonomy city = modern city streets, old cities go to heritage",
+          "suggestion": "scene_group.heritage, relation.literal, evidence 'المدينة'"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000342",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "pre-modern city ('وَلجلق الفَيحاءِ') tagged scene_group.city; taxonomy city = modern city streets, old cities go to heritage",
+          "suggestion": "scene_group.heritage, relation.literal, evidence 'وَلجلق الفَيحاءِ'"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000381",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000383",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "meaning",
+          "problem": "'ويجعل ذلك دواء للنفس' is taken from a neighbouring line of a different poem (rhyme -اقِ, 'هذا دواؤك يا مسعود'); not in this verse",
+          "suggestion": "يصف طيب رائحة الفلاة وتفتح الرياض كأنها تضحك، بفضل سحب الصباح الممطرة التي تهطل بلا برق."
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000448",
+      "verdict": "reject",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "the verse apostrophises poetry ('يا شعر أنت...' in context) as the whisper of evening waves; sea and evening are purely metaphorical",
+          "suggestion": "scene_group.sea and scene_group.sky_night -> relation.symbolic"
+        },
+        {
+          "field": "other",
+          "problem": "no literal or scene_association scene remains",
+          "suggestion": "reject"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000427",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "meaning",
+          "problem": "'في دعائه' is unsupported: the preceding context lines belong to a different poem; the verse is a rhetorical question about God's power",
+          "suggestion": "يتساءل الشاعر تعظيمًا لله: من الذي فلق البحر لموسى الكليم، ومن الذي ألهم نوحًا صنع السفن؟"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000438",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000494",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000493",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000482",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000547",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000533",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000596",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000589",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "meaning",
+          "problem": "'مبركًا للإبل' is invented: 'عرائس' does not mean camels, and 'ثُلّة' (as vocalised) can mean a crowd, not only a flock; meaning stated with false certainty",
+          "suggestion": "صار إيوان كسرى بعد ما كان فيه من ملك مرتعًا لجماعة، وصارت دياره منزلًا لغير أهلها (معنى «عرائس» غير مؤكد)."
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000590",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000645",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "the Alhambra 'sipping grief' in a lament for Granada's lost glory: grief over what is gone dominates; 'وحيدة' is supporting",
+          "suggestion": "primary lit_emotion.sadness (expressed, 'الأسى'); secondary lit_emotion.loneliness (expressed, 'وحيدةً')"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000635",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000631",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000676",
+      "verdict": "reject",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "mountains appear only inside a wish ('ليتني كنت ... في رؤوس الجبال'); taxonomy: ليت -> hypothetical",
+          "suggestion": "scene_group.mountains -> relation.hypothetical"
+        },
+        {
+          "field": "other",
+          "problem": "no literal or scene_association scene remains",
+          "suggestion": "reject"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000657",
+      "verdict": "reject",
+      "issues": [
+        {
+          "field": "visual",
+          "problem": "'يا ليتني حجر بواد' is a wish; the valley is hypothetical, not a present scene",
+          "suggestion": "scene_group.mountains -> relation.hypothetical"
+        },
+        {
+          "field": "other",
+          "problem": "no literal or scene_association scene remains",
+          "suggestion": "reject"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000718",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000752",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000734",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "meaning",
+          "problem": "'هُنِّيتَ' is second person (the poet congratulates the addressee, the elder named in context), and 'نأتيه' is 'we come'; draft says the poet himself was congratulated",
+          "suggestion": "يهنئ الشاعر المخاطَب بالعيد المبارك وبأجره، صباح نأتي المصلى ساجدين."
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000794",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000778",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000795",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000837",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "context is an elegy ('لولا المنايا لشفى منك ما أعل الطبيبا'); the verse recalls the deceased's plea in sickness, so grief dominates the whole verse",
+          "suggestion": "primary lit_emotion.sadness (evoked); keep lit_emotion.longing (expressed, 'اِشتَقتُ') as secondary"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000841",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "basis 'expressed' with evidence 'تذكرت', which is not an emotion word",
+          "suggestion": "lit_emotion.longing, basis evoked, justification: يتذكر ليالي المبيت في مسجد طيبة شوقًا إليها"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000893",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000919",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000925",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000933",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "secondary",
+          "problem": "pride is unsupported: a hard-to-climb peak is the exile's lookout, not a boast; context stresses care and lack of companions ('سوى همي')",
+          "suggestion": "replace lit_emotion.pride with lit_emotion.sadness (evoked: يسهر يرعى النجوم مهمومًا)"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:000965",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000960",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:001023",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:000983",
+      "verdict": "fix",
+      "issues": [
+        {
+          "field": "primary",
+          "problem": "a rain-fed garden whose flowers look like embroidered cloth is spring/garden delight; awe in the guide means grandeur/majesty",
+          "suggestion": "primary lit_emotion.joy (evoked); secondary lit_emotion.awe optional or none"
+        }
+      ]
+    },
+    {
+      "verse_id": "pv:verse:001032",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:001075",
+      "verdict": "ok",
+      "issues": []
+    },
+    {
+      "verse_id": "pv:verse:001064",
+      "verdict": "ok",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "emoset_scene_labels": {
+    "after_audit": 0,
+    "approach": "B",
+    "before_audit": 0
+  },
+  "emotion_counts": {
+    "emoset118k|test": {
+      "img_emotion.amusement": 400,
+      "img_emotion.anger": 400,
+      "img_emotion.awe": 400,
+      "img_emotion.contentment": 400,
+      "img_emotion.disgust": 400,
+      "img_emotion.excitement": 400,
+      "img_emotion.fear": 400,
+      "img_emotion.sadness": 400
+    },
+    "emoset118k|train": {
+      "img_emotion.amusement": 600,
+      "img_emotion.anger": 600,
+      "img_emotion.awe": 600,
+      "img_emotion.contentment": 600,
+      "img_emotion.disgust": 600,
+      "img_emotion.excitement": 600,
+      "img_emotion.fear": 600,
+      "img_emotion.sadness": 600
+    },
+    "emoset118k|val": {
+      "img_emotion.amusement": 150,
+      "img_emotion.anger": 150,
+      "img_emotion.awe": 150,
+      "img_emotion.contentment": 150,
+      "img_emotion.disgust": 150,
+      "img_emotion.excitement": 150,
+      "img_emotion.fear": 150,
+      "img_emotion.sadness": 150
+    }
+  },
+  "imbalance_ratio": {
+    "emotion|test": {
+      "classes_with_zero_rows": 0,
+      "ratio": 1.0
+    },
+    "emotion|train": {
+      "classes_with_zero_rows": 0,
+      "ratio": 1.0
+    },
+    "emotion|val": {
+      "classes_with_zero_rows": 0,
+      "ratio": 1.0
+    },
+    "scene|test": {
+      "classes_with_zero_rows": 0,
+      "ratio": 10.8
+    },
+    "scene|train": {
+      "classes_with_zero_rows": 0,
+      "ratio": 10.8
+    },
+    "scene|val": {
+      "classes_with_zero_rows": 0,
+      "ratio": 10.8
+    }
+  },
+  "inverse_frequency_weights_train": {
+    "emotion": {
+      "img_emotion.amusement": 1.0,
+      "img_emotion.anger": 1.0,
+      "img_emotion.awe": 1.0,
+      "img_emotion.contentment": 1.0,
+      "img_emotion.disgust": 1.0,
+      "img_emotion.excitement": 1.0,
+      "img_emotion.fear": 1.0,
+      "img_emotion.sadness": 1.0
+    },
+    "scene": {
+      "scene.camp_tents": 3.1647,
+      "scene.desert": 1.0549,
+      "scene.farmland_rural": 1.0549,
+      "scene.forest": 1.0549,
+      "scene.garden": 1.0549,
+      "scene.historic_monument": 1.0549,
+      "scene.home_interior": 1.0549,
+      "scene.library_books": 1.5824,
+      "scene.modern_city": 1.0549,
+      "scene.mountains_valleys": 1.0549,
+      "scene.old_city_market": 1.0549,
+      "scene.other": 0.293,
+      "scene.place_of_worship": 1.0549,
+      "scene.rivers_lakes": 1.0549,
+      "scene.sea_coast": 1.0549,
+      "scene.sky": 3.1647,
+      "scene.snow_ice": 1.0549
+    }
+  },
+  "joint_scene_emotion": {
+    "rows_with_both_labels": 0
+  },
+  "pv_test": "pending: no photos or annotations yet",
+  "scene_counts": {
+    "places365_sample|test": {
+      "scene.camp_tents": 20,
+      "scene.desert": 60,
+      "scene.farmland_rural": 60,
+      "scene.forest": 60,
+      "scene.garden": 60,
+      "scene.historic_monument": 60,
+      "scene.home_interior": 60,
+      "scene.library_books": 40,
+      "scene.modern_city": 60,
+      "scene.mountains_valleys": 60,
+      "scene.old_city_market": 60,
+      "scene.other": 216,
+      "scene.place_of_worship": 60,
+      "scene.rivers_lakes": 60,
+      "scene.sea_coast": 60,
+      "scene.sky": 20,
+      "scene.snow_ice": 60
+    },
+    "places365_sample|train": {
+      "scene.camp_tents": 60,
+      "scene.desert": 180,
+      "scene.farmland_rural": 180,
+      "scene.forest": 180,
+      "scene.garden": 180,
+      "scene.historic_monument": 180,
+      "scene.home_interior": 180,
+      "scene.library_books": 120,
+      "scene.modern_city": 180,
+      "scene.mountains_valleys": 180,
+      "scene.old_city_market": 180,
+      "scene.other": 648,
+      "scene.place_of_worship": 180,
+      "scene.rivers_lakes": 180,
+      "scene.sea_coast": 180,
+      "scene.sky": 60,
+      "scene.snow_ice": 180
+    },
+    "places365_sample|val": {
+      "scene.camp_tents": 20,
+      "scene.desert": 60,
+      "scene.farmland_rural": 60,
+      "scene.forest": 60,
+      "scene.garden": 60,
+      "scene.historic_monument": 60,
+      "scene.home_interior": 60,
+      "scene.library_books": 40,
+      "scene.modern_city": 60,
+      "scene.mountains_valleys": 60,
+      "scene.old_city_market": 60,
+      "scene.other": 216,
+      "scene.place_of_worship": 60,
+      "scene.rivers_lakes": 60,
+      "scene.sea_coast": 60,
+      "scene.sky": 20,
+      "scene.snow_ice": 60
+    }
+  },
+  "status_counts": {
+    "emoset118k|test": {
+      "emotion": {
+        "labeled": 3200
+      },
+      "rows": 3200,
+      "scene": {
+        "unavailable": 3200
+      }
+    },
+    "emoset118k|train": {
+      "emotion": {
+        "labeled": 4800
+      },
+      "rows": 4800,
+      "scene": {
+        "unavailable": 4800
+      }
+    },
+    "emoset118k|val": {
+      "emotion": {
+        "labeled": 1200
+      },
+      "rows": 1200,
+      "scene": {
+        "unavailable": 1200
+      }
+    },
+    "places365_sample|ood_test": {
+      "emotion": {
+        "unavailable": 600
+      },
+      "rows": 600,
+      "scene": {
+        "excluded_ood": 600
+      }
+    },
+    "places365_sample|test": {
+      "emotion": {
+        "unavailable": 1076
+      },
+      "rows": 1076,
+      "scene": {
+        "labeled": 1076
+      }
+    },
+    "places365_sample|train": {
+      "emotion": {
+        "unavailable": 3228
+      },
+      "rows": 3228,
+      "scene": {
+        "labeled": 3228
+      }
+    },
+    "places365_sample|val": {
+      "emotion": {
+        "unavailable": 1076
+      },
+      "rows": 1076,
+      "scene": {
+        "labeled": 1076
+      }
+    }
+  }
+}

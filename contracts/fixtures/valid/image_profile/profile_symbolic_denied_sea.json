@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "taxonomy_version": "1.0.0",
+  "fixture": true,
+  "profile_id": "7e78093d-10a9-48d8-8381-a0563349d2cf",
+  "origin": "synthetic_query",
+  "source_inference": null,
+  "confirmed_visual_items": [
+    {
+      "id": "scene_group.sea",
+      "user_selection": "primary",
+      "suggested_by_model": true
+    },
+    {
+      "id": "scene_group.sky_night",
+      "user_selection": "secondary",
+      "suggested_by_model": true
+    }
+  ],
+  "selected_lit_emotion": "lit_emotion.sadness",
+  "secondary_lit_emotion": null,
+  "concept_id": null,
+  "symbolic_allowed": false,
+  "emotion_only_allowed": false
+}

@@ -1,0 +1,145 @@
+{
+ "created": "2026-11-26",
+ "note": "    python3 -m evaluation.quality.run_benchmark run --label before # runs every image x emotion x mode, writes runs/<label>.json",
+ "images": [
+  {
+   "type": "mountains",
+   "image_id": "img:places365_sample:Places365_val_00000041",
+   "places_category": "mountain",
+   "scene_label": "scene.mountains_valleys",
+   "path": "external/shaden_visual/data/places365/mountain/Places365_val_00000041.jpg",
+   "sha256": "a79e14a60c8db847164b5aeb1f82b0f921e374d500b0afe36013697871b640e8"
+  },
+  {
+   "type": "mountains",
+   "image_id": "img:places365_sample:Places365_val_00001780",
+   "places_category": "mountain",
+   "scene_label": "scene.mountains_valleys",
+   "path": "external/shaden_visual/data/places365/mountain/Places365_val_00001780.jpg",
+   "sha256": "2e000c7d01ad254b063e99f8ad252e2da3df0f2e63d67715b3ebd133dfa29d2f"
+  },
+  {
+   "type": "sea",
+   "image_id": "img:places365_sample:Places365_val_00001214",
+   "places_category": "coast",
+   "scene_label": "scene.sea_coast",
+   "path": "external/shaden_visual/data/places365/coast/Places365_val_00001214.jpg",
+   "sha256": "52c4d72200df2463de86a1bfc24c5d293e36108136c9b38d78f8376ab0e9caa0"
+  },
+  {
+   "type": "sea",
+   "image_id": "img:places365_sample:Places365_val_00004355",
+   "places_category": "ocean",
+   "scene_label": "scene.sea_coast",
+   "path": "external/shaden_visual/data/places365/ocean/Places365_val_00004355.jpg",
+   "sha256": "770b6662ae8982267d44cb33dddca914d2b557ea20ffd8917c2c3ce5528b0541"
+  },
+  {
+   "type": "desert",
+   "image_id": "img:places365_sample:Places365_val_00000907",
+   "places_category": "desert/sand",
+   "scene_label": "scene.desert",
+   "path": "external/shaden_visual/data/places365/desert-sand/Places365_val_00000907.jpg",
+   "sha256": "9ec4e343f075d105463d7076614fee31a7762067794ebaf4d287e6462cbe9f3e"
+  },
+  {
+   "type": "desert",
+   "image_id": "img:places365_sample:Places365_val_00001064",
+   "places_category": "desert/sand",
+   "scene_label": "scene.desert",
+   "path": "external/shaden_visual/data/places365/desert-sand/Places365_val_00001064.jpg",
+   "sha256": "6fe37999e9406454ceb8b47f5fe0a2b91d70c1ff57e00393ba631066c399b0d1"
+  },
+  {
+   "type": "sky_sunset_stars",
+   "image_id": "img:places365_sample:Places365_val_00000942",
+   "places_category": "sky",
+   "scene_label": "scene.sky",
+   "path": "external/shaden_visual/data/places365/sky/Places365_val_00000942.jpg",
+   "sha256": "79af337ad84940882243adf2e521989876e3fd3eba280f9396d4137200877ccf"
+  },
+  {
+   "type": "sky_sunset_stars",
+   "image_id": "img:places365_sample:Places365_val_00001270",
+   "places_category": "sky",
+   "scene_label": "scene.sky",
+   "path": "external/shaden_visual/data/places365/sky/Places365_val_00001270.jpg",
+   "sha256": "f04a39cd1b96973bc73eca3fef60caa86de10bff4468f0645e20c22601eb190a"
+  },
+  {
+   "type": "greenery",
+   "image_id": "img:places365_sample:Places365_val_00000549",
+   "places_category": "formal_garden",
+   "scene_label": "scene.garden",
+   "path": "external/shaden_visual/data/places365/formal_garden/Places365_val_00000549.jpg",
+   "sha256": "d2615c7726b48bd929a4b5478ac04ea4cf3b8501eef4e404eb262ccbb7017997"
+  },
+  {
+   "type": "greenery",
+   "image_id": "img:places365_sample:Places365_val_00000552",
+   "places_category": "formal_garden",
+   "scene_label": "scene.garden",
+   "path": "external/shaden_visual/data/places365/formal_garden/Places365_val_00000552.jpg",
+   "sha256": "bb874a2915e8502cbc83097a7fea2ab4344fe80e6ab5c53d0478a44266c25b4d"
+  },
+  {
+   "type": "heritage",
+   "image_id": "img:places365_sample:Places365_val_00000111",
+   "places_category": "palace",
+   "scene_label": "scene.historic_monument",
+   "path": "external/shaden_visual/data/places365/palace/Places365_val_00000111.jpg",
+   "sha256": "d9558caec8d4fdfec0539381a5af2f07d3a9245f2816e75994e8caab4a49d67c"
+  },
+  {
+   "type": "heritage",
+   "image_id": "img:places365_sample:Places365_val_00000495",
+   "places_category": "mosque/outdoor",
+   "scene_label": "scene.place_of_worship",
+   "path": "external/shaden_visual/data/places365/mosque-outdoor/Places365_val_00000495.jpg",
+   "sha256": "62e3f7a343327bbda2c9c1c30bd955a6bc625212ea6e9dd40d50e1a4c6460da6"
+  },
+  {
+   "type": "water_rain",
+   "image_id": "img:places365_sample:Places365_val_00002131",
+   "places_category": "river",
+   "scene_label": "scene.rivers_lakes",
+   "path": "external/shaden_visual/data/places365/river/Places365_val_00002131.jpg",
+   "sha256": "086339b39ad35dcd43d0a8fd0f3e7530002d0f934ca374fc067ab067a37dbfa8"
+  },
+  {
+   "type": "water_rain",
+   "image_id": "img:places365_sample:Places365_val_00002175",
+   "places_category": "lake/natural",
+   "scene_label": "scene.rivers_lakes",
+   "path": "external/shaden_visual/data/places365/lake-natural/Places365_val_00002175.jpg",
+   "sha256": "6a63e59df3e89d1bfd4c529f9f665ad66b312a63db4bf7890180c2d24bc48ab3"
+  },
+  {
+   "type": "city_night",
+   "image_id": "img:places365_sample:Places365_val_00000323",
+   "places_category": "street",
+   "scene_label": "scene.modern_city",
+   "path": "external/shaden_visual/data/places365/street/Places365_val_00000323.jpg",
+   "sha256": "a9f1bee3e299293c5b4a18f3408cd8ebcc92afc736ae006c4bd2e46f74b2e0e9"
+  },
+  {
+   "type": "city_night",
+   "image_id": "img:places365_sample:Places365_val_00000740",
+   "places_category": "skyscraper",
+   "scene_label": "scene.modern_city",
+   "path": "external/shaden_visual/data/places365/skyscraper/Places365_val_00000740.jpg",
+   "sha256": "d3ef0ba6334b081ee6babc310cb8537c8b152283a333db890e9062987490815f"
+  }
+ ],
+ "lit_emotions": [
+  "lit_emotion.longing",
+  "lit_emotion.sadness",
+  "lit_emotion.awe",
+  "lit_emotion.serenity",
+  "lit_emotion.joy"
+ ],
+ "modes": [
+  "production",
+  "development"
+ ]
+}

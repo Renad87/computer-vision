@@ -1,0 +1,93 @@
+{
+ "seed": 42,
+ "per_class_cap": 25,
+ "threshold": 0.8,
+ "decisions": "pending human review; none recorded",
+ "classes": {
+  "scene.desert": {
+   "available": 0,
+   "sampled": 0,
+   "max_precision_ci_width_if_all_yes": null
+  },
+  "scene.sea_coast": {
+   "available": 189,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.mountains_valleys": {
+   "available": 91,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.rivers_lakes": {
+   "available": 37,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.forest": {
+   "available": 25,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.garden": {
+   "available": 1,
+   "sampled": 1,
+   "max_precision_ci_width_if_all_yes": 0.7935
+  },
+  "scene.farmland_rural": {
+   "available": 10,
+   "sampled": 10,
+   "max_precision_ci_width_if_all_yes": 0.2775
+  },
+  "scene.sky": {
+   "available": 116,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.snow_ice": {
+   "available": 64,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.modern_city": {
+   "available": 232,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.old_city_market": {
+   "available": 4,
+   "sampled": 4,
+   "max_precision_ci_width_if_all_yes": 0.4899
+  },
+  "scene.historic_monument": {
+   "available": 29,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  },
+  "scene.place_of_worship": {
+   "available": 0,
+   "sampled": 0,
+   "max_precision_ci_width_if_all_yes": null
+  },
+  "scene.home_interior": {
+   "available": 6,
+   "sampled": 6,
+   "max_precision_ci_width_if_all_yes": 0.3903
+  },
+  "scene.camp_tents": {
+   "available": 4,
+   "sampled": 4,
+   "max_precision_ci_width_if_all_yes": 0.4899
+  },
+  "scene.library_books": {
+   "available": 0,
+   "sampled": 0,
+   "max_precision_ci_width_if_all_yes": null
+  },
+  "scene.other": {
+   "available": 220,
+   "sampled": 25,
+   "max_precision_ci_width_if_all_yes": 0.1332
+  }
+ }
+}

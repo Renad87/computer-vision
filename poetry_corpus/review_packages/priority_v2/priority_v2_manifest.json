@@ -1,0 +1,396 @@
+{
+ "package": "priority_v2",
+ "corpus": "poetry_corpus/exports/corpus_all_v2.jsonl",
+ "corpus_sha256": "2623c640dec46ca38617d0c3be00fc6e66ee66f8720f738545c10339cd382ef7",
+ "files": {
+  "csv": "review_sheet_priority_v2.csv",
+  "omar_order": "priority_v1_order.csv"
+ },
+ "xlsx": "not written: openpyxl is not installed in .venv (instruction: CSV only)",
+ "verse_ids": [
+  "pv:verse:000015",
+  "pv:verse:000112",
+  "pv:verse:000143",
+  "pv:verse:000340",
+  "pv:verse:000437",
+  "pv:verse:000466",
+  "pv:verse:000567",
+  "pv:verse:000569",
+  "pv:verse:000572",
+  "pv:verse:000101",
+  "pv:verse:000150",
+  "pv:verse:000321",
+  "pv:verse:000331",
+  "pv:verse:000367",
+  "pv:verse:000372",
+  "pv:verse:000436",
+  "pv:verse:000442",
+  "pv:verse:000718",
+  "pv:verse:000775",
+  "pv:verse:000917",
+  "pv:verse:000987",
+  "pv:verse:000152",
+  "pv:verse:000294",
+  "pv:verse:000912"
+ ],
+ "rows": [
+  {
+   "verse_id": "pv:verse:000015",
+   "group": "V2",
+   "scope": "visual_only",
+   "triage_score": 11
+  },
+  {
+   "verse_id": "pv:verse:000112",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000143",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000340",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000437",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000466",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000567",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000569",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000572",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 13
+  },
+  {
+   "verse_id": "pv:verse:000101",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000150",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000321",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000331",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000367",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000372",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000436",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000442",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000718",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000775",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000917",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000987",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 12
+  },
+  {
+   "verse_id": "pv:verse:000152",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 11
+  },
+  {
+   "verse_id": "pv:verse:000294",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 11
+  },
+  {
+   "verse_id": "pv:verse:000912",
+   "group": "G",
+   "scope": "emotion_and_visual",
+   "triage_score": 11
+  }
+ ],
+ "excluded": {
+  "priority_v1_rows": "not duplicated; ranked in priority_v1_order.csv",
+  "pending_renad": [
+   "pv:verse:000005",
+   "pv:verse:000007",
+   "pv:verse:000018",
+   "pv:verse:000024",
+   "pv:verse:000031"
+  ]
+ },
+ "cells": {
+  "scene_group.desert|lit_emotion.sadness": {
+   "dev_tier1_poems": 14,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.desert|lit_emotion.longing": {
+   "dev_tier1_poems": 40,
+   "omar_poems": 3,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 1
+  },
+  "scene_group.desert|lit_emotion.awe": {
+   "dev_tier1_poems": 17,
+   "omar_poems": 3,
+   "omar_strong_poems": 1,
+   "priority_v2_added": 2,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.desert|lit_emotion.serenity": {
+   "dev_tier1_poems": 13,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 0,
+   "strong_after": 2,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.desert|lit_emotion.joy": {
+   "dev_tier1_poems": 16,
+   "omar_poems": 3,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sea|lit_emotion.sadness": {
+   "dev_tier1_poems": 17,
+   "omar_poems": 3,
+   "omar_strong_poems": 0,
+   "priority_v2_added": 3,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sea|lit_emotion.longing": {
+   "dev_tier1_poems": 18,
+   "omar_poems": 3,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sea|lit_emotion.awe": {
+   "dev_tier1_poems": 22,
+   "omar_poems": 3,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sea|lit_emotion.serenity": {
+   "dev_tier1_poems": 6,
+   "omar_poems": 3,
+   "omar_strong_poems": 1,
+   "priority_v2_added": 2,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sea|lit_emotion.joy": {
+   "dev_tier1_poems": 11,
+   "omar_poems": 3,
+   "omar_strong_poems": 1,
+   "priority_v2_added": 2,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.greenery|lit_emotion.sadness": {
+   "dev_tier1_poems": 37,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.greenery|lit_emotion.longing": {
+   "dev_tier1_poems": 40,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.greenery|lit_emotion.awe": {
+   "dev_tier1_poems": 21,
+   "omar_poems": 3,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.greenery|lit_emotion.serenity": {
+   "dev_tier1_poems": 40,
+   "omar_poems": 4,
+   "omar_strong_poems": 4,
+   "priority_v2_added": 0,
+   "strong_after": 4,
+   "production_ai_visual_poems": 2
+  },
+  "scene_group.greenery|lit_emotion.joy": {
+   "dev_tier1_poems": 36,
+   "omar_poems": 4,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 3
+  },
+  "scene_group.heritage|lit_emotion.sadness": {
+   "dev_tier1_poems": 47,
+   "omar_poems": 3,
+   "omar_strong_poems": 0,
+   "priority_v2_added": 3,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.heritage|lit_emotion.longing": {
+   "dev_tier1_poems": 35,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.heritage|lit_emotion.awe": {
+   "dev_tier1_poems": 32,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 2
+  },
+  "scene_group.heritage|lit_emotion.serenity": {
+   "dev_tier1_poems": 24,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.heritage|lit_emotion.joy": {
+   "dev_tier1_poems": 24,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sky_night|lit_emotion.sadness": {
+   "dev_tier1_poems": 31,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 1
+  },
+  "scene_group.sky_night|lit_emotion.longing": {
+   "dev_tier1_poems": 28,
+   "omar_poems": 3,
+   "omar_strong_poems": 2,
+   "priority_v2_added": 1,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  },
+  "scene_group.sky_night|lit_emotion.awe": {
+   "dev_tier1_poems": 31,
+   "omar_poems": 4,
+   "omar_strong_poems": 3,
+   "priority_v2_added": 0,
+   "strong_after": 3,
+   "production_ai_visual_poems": 1
+  },
+  "scene_group.sky_night|lit_emotion.serenity": {
+   "dev_tier1_poems": 16,
+   "omar_poems": 5,
+   "omar_strong_poems": 1,
+   "priority_v2_added": 2,
+   "strong_after": 3,
+   "production_ai_visual_poems": 3
+  },
+  "scene_group.sky_night|lit_emotion.joy": {
+   "dev_tier1_poems": 20,
+   "omar_poems": 3,
+   "omar_strong_poems": 1,
+   "priority_v2_added": 2,
+   "strong_after": 3,
+   "production_ai_visual_poems": 0
+  }
+ },
+ "decision_cells_empty": true,
+ "text_verbatim_checked": 24
+}

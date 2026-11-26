@@ -1,0 +1,32 @@
+{
+ "device": "cpu",
+ "n": 20,
+ "sha256_match": 20,
+ "min_cosine": 0.99999988,
+ "mean_cosine": 1.0,
+ "max_abs_diff": 1.33e-06,
+ "emotion_prob_max_abs_diff": 2.12e-06,
+ "argmax_agree": 20,
+ "zip_paths": [
+  "emoset/test/amusement/amusement_00011.jpg",
+  "emoset/test/anger/anger_02671.jpg",
+  "emoset/test/awe/awe_06627.jpg",
+  "emoset/test/contentment/contentment_10009.jpg",
+  "emoset/test/disgust/disgust_09525.jpg",
+  "emoset/test/fear/fear_00537.jpg",
+  "emoset/test/sadness/sadness_04484.jpg",
+  "emoset/train/amusement/amusement_05236.jpg",
+  "emoset/train/anger/anger_01351.jpg",
+  "emoset/train/anger/anger_10944.jpg",
+  "emoset/train/awe/awe_11732.jpg",
+  "emoset/train/contentment/contentment_09477.jpg",
+  "emoset/train/disgust/disgust_03729.jpg",
+  "emoset/train/excitement/excitement_03490.jpg",
+  "emoset/train/excitement/excitement_18999.jpg",
+  "emoset/train/fear/fear_11745.jpg",
+  "emoset/train/sadness/sadness_07193.jpg",
+  "emoset/val/anger/anger_06898.jpg",
+  "emoset/val/disgust/disgust_08578.jpg",
+  "emoset/val/sadness/sadness_12959.jpg"
+ ]
+}

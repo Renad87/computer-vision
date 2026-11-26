@@ -1,0 +1,1433 @@
+{
+  "corpus_path": "poetry_corpus/records/p0_ai_drafts_v1.jsonl",
+  "corpus_sha256": "692bc0f8da490396a3f6c0d6d797f02986a0eaf991ddbecb5041cce281f43b68",
+  "corpus_version": "p0_ai_drafts_v1",
+  "records": 40,
+  "engine_version": "1.0.0",
+  "date": "2026-11-26",
+  "profiles": 24,
+  "index_build_ms": 1.464417000534013,
+  "note": "Engineering diagnostics from AI-draft labels and hand-derived expectations; not human relevance judgments.",
+  "expectations_apply": true,
+  "methods": {
+    "tfidf_lecture": {
+      "code": "B1-lecture",
+      "run_file": "tfidf_lecture__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "ok": 24
+      },
+      "abstention_reasons": {},
+      "items_returned": 72,
+      "coverage": 1.0,
+      "items_with_anchor_relation": 21,
+      "items_primary_emotion": 52,
+      "tier3_items": 0,
+      "latency_ms_p50": 0.06672900053672493,
+      "latency_ms_p95": 0.09967854493879713,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 5,
+      "items_in_expected_eligible_set": 30,
+      "mean_jaccard_with_hybrid": 0.26666666666666666
+    },
+    "tfidf": {
+      "code": "B1",
+      "run_file": "tfidf__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "ok": 24
+      },
+      "abstention_reasons": {},
+      "items_returned": 72,
+      "coverage": 1.0,
+      "items_with_anchor_relation": 21,
+      "items_primary_emotion": 52,
+      "tier3_items": 0,
+      "latency_ms_p50": 0.06431250221794471,
+      "latency_ms_p95": 0.09659433708293363,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 5,
+      "items_in_expected_eligible_set": 30,
+      "mean_jaccard_with_hybrid": 0.26666666666666666
+    },
+    "labels_exact": {
+      "code": "B3",
+      "run_file": "labels_exact__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "partial": 10,
+        "abstained": 9,
+        "ok": 5
+      },
+      "abstention_reasons": {
+        "no_visual_match_emotion_only_off": 5,
+        "cell_not_covered": 4
+      },
+      "items_returned": 27,
+      "coverage": 0.625,
+      "items_with_anchor_relation": 25,
+      "items_primary_emotion": 27,
+      "tier3_items": 0,
+      "latency_ms_p50": 0.02983299782499671,
+      "latency_ms_p95": 0.04312499368097633,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 20,
+      "items_in_expected_eligible_set": 25,
+      "mean_jaccard_with_hybrid": 0.7708333333333334
+    },
+    "labels_weighted": {
+      "code": "B4",
+      "run_file": "labels_weighted__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "partial": 14,
+        "abstained": 5,
+        "ok": 5
+      },
+      "abstention_reasons": {
+        "no_visual_match_emotion_only_off": 3,
+        "cell_not_covered": 2
+      },
+      "items_returned": 32,
+      "coverage": 0.7916666666666666,
+      "items_with_anchor_relation": 29,
+      "items_primary_emotion": 32,
+      "tier3_items": 3,
+      "latency_ms_p50": 0.030499999411404133,
+      "latency_ms_p95": 0.04520799848251045,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 24,
+      "items_in_expected_eligible_set": 32,
+      "mean_jaccard_with_hybrid": 1.0
+    },
+    "hybrid": {
+      "code": "B5",
+      "run_file": "hybrid__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "partial": 14,
+        "abstained": 5,
+        "ok": 5
+      },
+      "abstention_reasons": {
+        "no_visual_match_emotion_only_off": 3,
+        "cell_not_covered": 2
+      },
+      "items_returned": 32,
+      "coverage": 0.7916666666666666,
+      "items_with_anchor_relation": 29,
+      "items_primary_emotion": 32,
+      "tier3_items": 3,
+      "latency_ms_p50": 0.04904200613964349,
+      "latency_ms_p95": 0.09554199714330025,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 24,
+      "items_in_expected_eligible_set": 32,
+      "mean_jaccard_with_hybrid": 1.0
+    },
+    "hybrid_no_tier": {
+      "code": "B5-noTier",
+      "run_file": "hybrid_no_tier__p0_ai_drafts_v1__2026-11-26.jsonl",
+      "contract_issues": 0,
+      "status_counts": {
+        "ok": 24
+      },
+      "abstention_reasons": {},
+      "items_returned": 72,
+      "coverage": 1.0,
+      "items_with_anchor_relation": 26,
+      "items_primary_emotion": 72,
+      "tier3_items": 0,
+      "latency_ms_p50": 0.06877050327602774,
+      "latency_ms_p95": 0.10096010082634166,
+      "latency_samples": 480,
+      "status_and_reason_match_expected": 5,
+      "items_in_expected_eligible_set": 34,
+      "mean_jaccard_with_hybrid": 0.3819444444444444
+    }
+  },
+  "hybrid_pairs": [
+    {
+      "a": "DP01_desert_longing",
+      "b": "DP02_desert_pride",
+      "a_items": [
+        "pv:verse:000010"
+      ],
+      "b_items": [
+        "pv:verse:000031"
+      ],
+      "jaccard": 0.0
+    },
+    {
+      "a": "DP03_sea_loneliness",
+      "b": "DP04_sea_joy",
+      "a_items": [
+        "pv:verse:000015"
+      ],
+      "b_items": [],
+      "jaccard": 0.0
+    },
+    {
+      "a": "DP05_greenery_serenity",
+      "b": "DP06_greenery_joy",
+      "a_items": [
+        "pv:verse:000024",
+        "pv:verse:000022",
+        "pv:verse:000021"
+      ],
+      "b_items": [
+        "pv:verse:000029",
+        "pv:verse:000026",
+        "pv:verse:000027"
+      ],
+      "jaccard": 0.0
+    },
+    {
+      "a": "DP07_heritage_awe",
+      "b": "DP08_heritage_longing",
+      "a_items": [
+        "pv:verse:000019",
+        "pv:verse:000017"
+      ],
+      "b_items": [],
+      "jaccard": 0.0
+    },
+    {
+      "a": "DP09_focus_sky_serenity",
+      "b": "DP10_focus_greenery_serenity",
+      "a_items": [
+        "pv:verse:000021",
+        "pv:verse:000023",
+        "pv:verse:000025"
+      ],
+      "b_items": [
+        "pv:verse:000021",
+        "pv:verse:000024",
+        "pv:verse:000022"
+      ],
+      "jaccard": 0.2
+    },
+    {
+      "a": "DP11_sky_fear_symbolic",
+      "b": "DP12_sky_fear_no_symbolic",
+      "a_items": [
+        "pv:verse:000036"
+      ],
+      "b_items": [],
+      "jaccard": 0.0
+    },
+    {
+      "a": "DP19_bird_loneliness",
+      "b": "DP20_bird_serenity",
+      "a_items": [
+        "pv:verse:000012"
+      ],
+      "b_items": [
+        "pv:verse:000022"
+      ],
+      "jaccard": 0.0
+    }
+  ],
+  "latency_cold_recommend_ms": {
+    "p50": 1.3869585018255748,
+    "p95": 1.4598464462324046,
+    "note": "pure recommend(): index rebuilt on every call"
+  },
+  "lecture_nonpositive_idf_terms": {
+    "count": 0,
+    "terms": [],
+    "n_docs": 40
+  },
+  "preprocessing": {
+    "N0": {
+      "verse_vocabulary": 324,
+      "query_tokens": 427,
+      "query_tokens_in_vocabulary": 5,
+      "mean_records_with_verse_cosine_gt0": 0.20833333333333334,
+      "profiles_with_different_hybrid_result_than_N1": [
+        "DP05_greenery_serenity",
+        "DP10_focus_greenery_serenity",
+        "DP24_greenery_serenity_secondary_concept"
+      ]
+    },
+    "N1": {
+      "verse_vocabulary": 318,
+      "query_tokens": 427,
+      "query_tokens_in_vocabulary": 50,
+      "mean_records_with_verse_cosine_gt0": 2.125
+    },
+    "N2": {
+      "verse_vocabulary": 314,
+      "query_tokens": 427,
+      "query_tokens_in_vocabulary": 58,
+      "mean_records_with_verse_cosine_gt0": 2.4166666666666665,
+      "profiles_with_different_hybrid_result_than_N1": []
+    }
+  },
+  "per_profile": {
+    "tfidf_lecture": {
+      "DP01_desert_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000031",
+          "pv:verse:000019",
+          "pv:verse:000020"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000015",
+          "pv:verse:000005",
+          "pv:verse:000007"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024",
+          "pv:verse:000025"
+        ]
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000023"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000026",
+          "pv:verse:000024",
+          "pv:verse:000022"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000017",
+          "pv:verse:000016",
+          "pv:verse:000018"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006",
+          "pv:verse:000001"
+        ]
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000023",
+          "pv:verse:000024",
+          "pv:verse:000022"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000023"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000032",
+          "pv:verse:000018",
+          "pv:verse:000019"
+        ]
+      },
+      "DP14_emotion_only_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000002",
+          "pv:verse:000003"
+        ]
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000018",
+          "pv:verse:000019",
+          "pv:verse:000020"
+        ]
+      },
+      "DP17_missing_worship_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP18_stars_fear": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000012",
+          "pv:verse:000005",
+          "pv:verse:000007"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000022",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000025"
+        ]
+      }
+    },
+    "tfidf": {
+      "DP01_desert_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000031",
+          "pv:verse:000019",
+          "pv:verse:000020"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000015",
+          "pv:verse:000005",
+          "pv:verse:000007"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024",
+          "pv:verse:000025"
+        ]
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000023"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000026",
+          "pv:verse:000024",
+          "pv:verse:000022"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000017",
+          "pv:verse:000016",
+          "pv:verse:000018"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006",
+          "pv:verse:000001"
+        ]
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000023",
+          "pv:verse:000024",
+          "pv:verse:000022"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000023"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000032",
+          "pv:verse:000018",
+          "pv:verse:000019"
+        ]
+      },
+      "DP14_emotion_only_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000002",
+          "pv:verse:000003"
+        ]
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000018",
+          "pv:verse:000019",
+          "pv:verse:000020"
+        ]
+      },
+      "DP17_missing_worship_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP18_stars_fear": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000012",
+          "pv:verse:000005",
+          "pv:verse:000007"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000022",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000025"
+        ]
+      }
+    },
+    "labels_exact": {
+      "DP01_desert_longing": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000031"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000015"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000026",
+          "pv:verse:000027",
+          "pv:verse:000029"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000017",
+          "pv:verse:000019"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP14_emotion_only_longing": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP17_missing_worship_awe": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP18_stars_fear": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000040"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000012"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000022"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000016"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ]
+      }
+    },
+    "labels_weighted": {
+      "DP01_desert_longing": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000031"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000015"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000029",
+          "pv:verse:000026",
+          "pv:verse:000027"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000019",
+          "pv:verse:000017"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000025"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000036"
+        ]
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000032"
+        ]
+      },
+      "DP14_emotion_only_longing": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000006"
+        ]
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000001"
+        ]
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP17_missing_worship_awe": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP18_stars_fear": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000040"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000012"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000022"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000016"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ]
+      }
+    },
+    "hybrid": {
+      "DP01_desert_longing": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000031"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000015"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000021"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000029",
+          "pv:verse:000026",
+          "pv:verse:000027"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000019",
+          "pv:verse:000017"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000025"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024",
+          "pv:verse:000022"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000036"
+        ]
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "abstained",
+        "reason": "no_visual_match_emotion_only_off",
+        "items": []
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000032"
+        ]
+      },
+      "DP14_emotion_only_longing": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000006"
+        ]
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000001"
+        ]
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP17_missing_worship_awe": {
+        "status": "abstained",
+        "reason": "cell_not_covered",
+        "items": []
+      },
+      "DP18_stars_fear": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000040"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000012"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000022"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000016"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "partial",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000021"
+        ]
+      }
+    },
+    "hybrid_no_tier": {
+      "DP01_desert_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP02_desert_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000031",
+          "pv:verse:000032",
+          "pv:verse:000033"
+        ]
+      },
+      "DP03_sea_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000015",
+          "pv:verse:000011",
+          "pv:verse:000012"
+        ]
+      },
+      "DP04_sea_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000026",
+          "pv:verse:000027",
+          "pv:verse:000028"
+        ]
+      },
+      "DP05_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000023"
+        ]
+      },
+      "DP06_greenery_joy": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000029",
+          "pv:verse:000026",
+          "pv:verse:000027"
+        ]
+      },
+      "DP07_heritage_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000019",
+          "pv:verse:000017",
+          "pv:verse:000016"
+        ]
+      },
+      "DP08_heritage_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP09_focus_sky_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000025"
+        ]
+      },
+      "DP10_focus_greenery_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024",
+          "pv:verse:000023"
+        ]
+      },
+      "DP11_sky_fear_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP12_sky_fear_no_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000036",
+          "pv:verse:000038",
+          "pv:verse:000040"
+        ]
+      },
+      "DP13_moon_pride_symbolic": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000032",
+          "pv:verse:000031",
+          "pv:verse:000033"
+        ]
+      },
+      "DP14_emotion_only_longing": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000006",
+          "pv:verse:000007",
+          "pv:verse:000008"
+        ]
+      },
+      "DP15_unsupported_scene_sadness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000001",
+          "pv:verse:000002",
+          "pv:verse:000003"
+        ]
+      },
+      "DP16_missing_falcon_pride": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000031",
+          "pv:verse:000032",
+          "pv:verse:000033"
+        ]
+      },
+      "DP17_missing_worship_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP18_stars_fear": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000040",
+          "pv:verse:000036",
+          "pv:verse:000038"
+        ]
+      },
+      "DP19_bird_loneliness": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000012",
+          "pv:verse:000011",
+          "pv:verse:000013"
+        ]
+      },
+      "DP20_bird_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000022",
+          "pv:verse:000023",
+          "pv:verse:000024"
+        ]
+      },
+      "DP21_water_serenity": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000021",
+          "pv:verse:000024",
+          "pv:verse:000023"
+        ]
+      },
+      "DP22_mountains_awe": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000016",
+          "pv:verse:000017",
+          "pv:verse:000018"
+        ]
+      },
+      "DP23_desert_longing_emotion_only": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000010",
+          "pv:verse:000006",
+          "pv:verse:000007"
+        ]
+      },
+      "DP24_greenery_serenity_secondary_concept": {
+        "status": "ok",
+        "reason": null,
+        "items": [
+          "pv:verse:000024",
+          "pv:verse:000022",
+          "pv:verse:000025"
+        ]
+      }
+    }
+  }
+}

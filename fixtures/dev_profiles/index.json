@@ -1,0 +1,398 @@
+{
+  "description": "Synthetic development profiles and hand-derived expectations",
+  "corpus": "poetry_corpus/records/p0_ai_drafts_v1.jsonl",
+  "profiles": [
+    {
+      "profile": "dev_profiles/DP01_desert_longing.json",
+      "query": "dev_queries/DP01_desert_longing.query.json",
+      "purpose": "desert scene, longing; association match",
+      "pair": "DP02_desert_pride",
+      "expected": {
+        "tier1": [
+          "pv:verse:000010"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP02_desert_pride.json",
+      "query": "dev_queries/DP02_desert_pride.query.json",
+      "purpose": "same visual as DP01, different emotion; literal match",
+      "pair": "DP01_desert_longing",
+      "expected": {
+        "tier1": [
+          "pv:verse:000031"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP03_sea_loneliness.json",
+      "query": "dev_queries/DP03_sea_loneliness.query.json",
+      "purpose": "sea scene, loneliness; literal match",
+      "pair": "DP04_sea_joy",
+      "expected": {
+        "tier1": [
+          "pv:verse:000015"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP04_sea_joy.json",
+      "query": "dev_queries/DP04_sea_joy.query.json",
+      "purpose": "same visual as DP03, different emotion; no suitable poetry",
+      "pair": "DP03_sea_loneliness",
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [],
+        "status": "abstained",
+        "abstain": "no_visual_match_emotion_only_off"
+      }
+    },
+    {
+      "profile": "dev_profiles/DP05_greenery_serenity.json",
+      "query": "dev_queries/DP05_greenery_serenity.query.json",
+      "purpose": "greenery, serenity; three literal matches, two by one poet",
+      "pair": "DP06_greenery_joy",
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "ok",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP06_greenery_joy.json",
+      "query": "dev_queries/DP06_greenery_joy.query.json",
+      "purpose": "same visual as DP05, different emotion; primary vs secondary emotion ranking",
+      "pair": "DP05_greenery_serenity",
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024",
+          "pv:verse:000026",
+          "pv:verse:000027",
+          "pv:verse:000029"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "ok",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP07_heritage_awe.json",
+      "query": "dev_queries/DP07_heritage_awe.query.json",
+      "purpose": "heritage, awe; literal and association matches",
+      "pair": "DP08_heritage_longing",
+      "expected": {
+        "tier1": [
+          "pv:verse:000017",
+          "pv:verse:000019"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP08_heritage_longing.json",
+      "query": "dev_queries/DP08_heritage_longing.query.json",
+      "purpose": "same visual as DP07, different emotion; no suitable poetry",
+      "pair": "DP07_heritage_awe",
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [],
+        "status": "abstained",
+        "abstain": "no_visual_match_emotion_only_off"
+      }
+    },
+    {
+      "profile": "dev_profiles/DP09_focus_sky_serenity.json",
+      "query": "dev_queries/DP09_focus_sky_serenity.query.json",
+      "purpose": "focus on sky/night (greenery also confirmed); focus restricts tier 1",
+      "pair": "DP10_focus_greenery_serenity",
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000023",
+          "pv:verse:000025"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "ok",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP10_focus_greenery_serenity.json",
+      "query": "dev_queries/DP10_focus_greenery_serenity.query.json",
+      "purpose": "same items as DP09 with the focus on greenery",
+      "pair": "DP09_focus_sky_serenity",
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "ok",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP11_sky_fear_symbolic.json",
+      "query": "dev_queries/DP11_sky_fear_symbolic.query.json",
+      "purpose": "sky/night, fear, symbolic allowed; tier-2 symbolic match",
+      "pair": "DP12_sky_fear_no_symbolic",
+      "expected": {
+        "tier1": [],
+        "tier2": [
+          "pv:verse:000036"
+        ],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP12_sky_fear_no_symbolic.json",
+      "query": "dev_queries/DP12_sky_fear_no_symbolic.query.json",
+      "purpose": "same as DP11 with symbolic not allowed; no suitable poetry",
+      "pair": "DP11_sky_fear_symbolic",
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [],
+        "status": "abstained",
+        "abstain": "no_visual_match_emotion_only_off"
+      }
+    },
+    {
+      "profile": "dev_profiles/DP13_moon_pride_symbolic.json",
+      "query": "dev_queries/DP13_moon_pride_symbolic.query.json",
+      "purpose": "moon tag, pride, symbolic allowed; the literal moon verse has another emotion",
+      "pair": null,
+      "expected": {
+        "tier1": [],
+        "tier2": [
+          "pv:verse:000032"
+        ],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP14_emotion_only_longing.json",
+      "query": "dev_queries/DP14_emotion_only_longing.query.json",
+      "purpose": "no visual items, emotion-only longing; at most one tier-3 item",
+      "pair": null,
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007",
+          "pv:verse:000008",
+          "pv:verse:000009",
+          "pv:verse:000010",
+          "pv:verse:000030"
+        ],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP15_unsupported_scene_sadness.json",
+      "query": "dev_queries/DP15_unsupported_scene_sadness.query.json",
+      "purpose": "unsupported scene (see synthetic_inference/SI01): no confirmed items, emotion-only",
+      "pair": null,
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [
+          "pv:verse:000001",
+          "pv:verse:000002",
+          "pv:verse:000003",
+          "pv:verse:000004",
+          "pv:verse:000005",
+          "pv:verse:000008",
+          "pv:verse:000009",
+          "pv:verse:000010",
+          "pv:verse:000011",
+          "pv:verse:000012",
+          "pv:verse:000013",
+          "pv:verse:000014",
+          "pv:verse:000015",
+          "pv:verse:000023",
+          "pv:verse:000040"
+        ],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP16_missing_falcon_pride.json",
+      "query": "dev_queries/DP16_missing_falcon_pride.query.json",
+      "purpose": "falcon tag never annotated in the corpus; missing labels",
+      "pair": null,
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [],
+        "status": "abstained",
+        "abstain": "cell_not_covered"
+      }
+    },
+    {
+      "profile": "dev_profiles/DP17_missing_worship_awe.json",
+      "query": "dev_queries/DP17_missing_worship_awe.query.json",
+      "purpose": "worship scene group never annotated in the corpus; missing labels",
+      "pair": null,
+      "expected": {
+        "tier1": [],
+        "tier2": [],
+        "tier3": [],
+        "status": "abstained",
+        "abstain": "cell_not_covered"
+      }
+    },
+    {
+      "profile": "dev_profiles/DP18_stars_fear.json",
+      "query": "dev_queries/DP18_stars_fear.query.json",
+      "purpose": "stars tag, fear; literal tag match",
+      "pair": null,
+      "expected": {
+        "tier1": [
+          "pv:verse:000040"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP19_bird_loneliness.json",
+      "query": "dev_queries/DP19_bird_loneliness.query.json",
+      "purpose": "bird tag, loneliness; association match",
+      "pair": "DP20_bird_serenity",
+      "expected": {
+        "tier1": [
+          "pv:verse:000012"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP20_bird_serenity.json",
+      "query": "dev_queries/DP20_bird_serenity.query.json",
+      "purpose": "same visual as DP19, different emotion; literal match",
+      "pair": "DP19_bird_loneliness",
+      "expected": {
+        "tier1": [
+          "pv:verse:000022"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP21_water_serenity.json",
+      "query": "dev_queries/DP21_water_serenity.query.json",
+      "purpose": "water, serenity; two literal matches",
+      "pair": null,
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000024"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP22_mountains_awe.json",
+      "query": "dev_queries/DP22_mountains_awe.query.json",
+      "purpose": "mountains, awe; literal match",
+      "pair": null,
+      "expected": {
+        "tier1": [
+          "pv:verse:000016"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP23_desert_longing_emotion_only.json",
+      "query": "dev_queries/DP23_desert_longing_emotion_only.query.json",
+      "purpose": "DP01 with emotion-only enabled: tier 1 plus at most one tier-3 item",
+      "pair": "DP01_desert_longing",
+      "expected": {
+        "tier1": [
+          "pv:verse:000010"
+        ],
+        "tier2": [],
+        "tier3": [
+          "pv:verse:000001",
+          "pv:verse:000006",
+          "pv:verse:000007",
+          "pv:verse:000008",
+          "pv:verse:000009",
+          "pv:verse:000030"
+        ],
+        "status": "partial",
+        "abstain": null
+      }
+    },
+    {
+      "profile": "dev_profiles/DP24_greenery_serenity_secondary_concept.json",
+      "query": "dev_queries/DP24_greenery_serenity_secondary_concept.query.json",
+      "purpose": "DP05 plus a secondary emotion and a concept; eligibility unchanged",
+      "pair": "DP05_greenery_serenity",
+      "expected": {
+        "tier1": [
+          "pv:verse:000021",
+          "pv:verse:000022",
+          "pv:verse:000024"
+        ],
+        "tier2": [],
+        "tier3": [],
+        "status": "ok",
+        "abstain": null
+      }
+    }
+  ]
+}

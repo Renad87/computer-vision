@@ -1,0 +1,40 @@
+{
+  "before_training": {
+    "test_accuracy": 0.135625,
+    "test_macro_f1": 0.07751623664808684
+  },
+  "feature_extraction": {
+    "test_accuracy": 0.6340625,
+    "test_macro_f1": 0.6320723309674228
+  },
+  "fine_tuning": {
+    "test_accuracy": 0.651875,
+    "test_macro_f1": 0.6525694222717724
+  },
+  "ambiguity": {
+    "fraction_ambiguous": 0.140625,
+    "accuracy_clear": 0.6970909090909091,
+    "accuracy_ambiguous": 0.37555555555555553,
+    "top2_accuracy_all": 0.8359375
+  },
+  "mean_brightness": {
+    "amusement": 0.5387848019599915,
+    "awe": 0.526638388633728,
+    "contentment": 0.5445531010627747,
+    "excitement": 0.5141742825508118,
+    "anger": 0.4667455554008484,
+    "disgust": 0.4783895015716553,
+    "fear": 0.37097442150115967,
+    "sadness": 0.4562626779079437
+  },
+  "mean_saturation": {
+    "amusement": 0.41702279448509216,
+    "awe": 0.3564748466014862,
+    "contentment": 0.34848344326019287,
+    "excitement": 0.34667351841926575,
+    "anger": 0.3048885464668274,
+    "disgust": 0.3279522955417633,
+    "fear": 0.316773384809494,
+    "sadness": 0.2494095265865326
+  }
+}

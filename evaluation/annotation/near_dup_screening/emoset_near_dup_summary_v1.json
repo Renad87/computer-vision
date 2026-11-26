@@ -1,0 +1,20 @@
+{
+ "images_screened": 9200,
+ "thresholds": {
+  "phash_hamming_max": 6,
+  "clip_cosine_min": 0.95
+ },
+ "candidate_pairs": 149,
+ "images_in_candidates": 164,
+ "by_phash": 4,
+ "by_clip": 147,
+ "by_both": 2,
+ "cross_split_pairs": 84,
+ "cross_split_types": {
+  "test|train": 60,
+  "test|val": 10,
+  "train|val": 14
+ },
+ "label_conflict_pairs": 6,
+ "decisions": "pending human review; no record moved, deleted or quarantined"
+}

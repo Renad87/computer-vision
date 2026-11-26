@@ -1,0 +1,1511 @@
+{
+ "worker": "desert_B",
+ "model_id": "claude-opus-5-5",
+ "date": "2026-11-26",
+ "verses": [
+  {
+   "apcd_row": 1289970,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "بأعظم وحشة",
+    "justification": "يصرح باستبدال الأنس بوحشة عظيمة وانفراده في البيد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سياق القصيدة غزلي يذكر وجده بالأحبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "فالبيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه فقد أنسه وصار في وحشة شديدة، فالصحراء الواسعة فراشه والتلال وسادته، في قصيدة يشكو فيها وجده بأحبته.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1529451,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "تختال زهوا",
+    "justification": "الخيل والإبل تختال زهوًا وفرحًا في سياق الاحتفاء بالنبي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "السياق يصور الأرض والجو مبتهجين إجلالًا للحدث"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "والعيس",
+     "justification": null
+    },
+    {
+     "target": "tag.horse",
+     "relation": "relation.literal",
+     "evidence": "والخيل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الخيل تتبختر زهوًا في أعنتها والإبل تندفع مسرورة متحررة من الخوف، ضمن قصيدة في مدح النبي تصور الكون كله فرحًا.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 199391,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إجلال للنبي الذي أظهر الدين وبنى المجد في الصحراء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "اعتزاز بمجد شُيّد فوق أرض قاحلة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "فلاة",
+     "justification": null
+    }
+   ],
+   "meaning": "يمجد النبي محمدًا الذي أظهر دين الله في أرض صحراوية مقفرة وشيّد صروح المجد فوق الفلاة، والبيت متصل بما قبله في ذكر المهابة والنور.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 352011,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "expressed",
+    "evidence": "مستوحش",
+    "justification": "يصف من ينفر من كلام الناس ويأنس بذئاب الصحراء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "ذئاب جائعة في المفازة توحي بالخطر"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "المهمه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف حادي الإبل المذكور قبله بأنه يستوحش من حديث الناس، ولا يؤنسه إلا الذئاب الجائعة الغبر في الصحراء البعيدة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1205402,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطع مفازة عطشى مجهولة على ناقة قوية سريعة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صحراء عطشى مجهولة تبعث الرهبة والإكبار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ومفازة",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر الشاعر بأنه اجتاز صحراء قاحلة مجهولة الطرق لا ماء فيها، راكبًا ناقة ضخمة سريعة، في سياق قوله إن المرء يسمو بمفخر نفسه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 309038,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صحراء ممتدة خالية آسنة الموارد لا جن فيها ولا إنس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الخلاء التام في المفازة يوحي بالرهبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ومهمة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف صحراء مقفرة دائمة الامتداد، مياه مواردها آسنة متغيرة، خالية تمامًا لا يسكنها جن ولا إنس، ويمتد الوصف في الأبيات التالية.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 32785,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعدد ما تكلفه من قطع صحارٍ بعيدة مهلكة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "بعد المسافة واتساع القفر يبعثان الإكبار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "مهامه",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: كم تحملت المشقة في قطع صحارٍ مقفرة بعيدة، طرقها مهلكة ومسافاتها شاسعة، على ناقة قوية يصفها في الأبيات التالية.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 96352,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "ومن عجب",
+    "justification": "يتعجب من ناقته المنحنية كالقوس المنطلقة كالسهم في البيداء"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيداء",
+     "justification": null
+    }
+   ],
+   "meaning": "يتعجب الشاعر من ناقته الضامرة التي يراها في يد الصحراء قوسًا منحنيًا وسهمًا منطلقًا معًا، في وصف سُراه ليلًا عبر البيداء.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 104772,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "أُبعد عن حبيبه فصار في قفر نازح عن الناس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر حبيبًا أُبعد عنه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "في قفر",
+     "justification": null
+    }
+   ],
+   "meaning": "يشكو عنترة أن قومه أبعدوه عن حبيب يحبه، فأصبح وحيدًا في صحراء مقفرة نائية عن الناس.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 105297,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يطمئن عبلة لأن بأسه وقومه يحمونها من الأعداء"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "expressed",
+     "evidence": "آمنة",
+     "justification": "يدعو عبلة إلى السكون والأمن"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الرمل",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب عنترة عبلة: اسكني مطمئنة في وادي الرمل آمنة من الأعداء، ولا تخافي وإن خوّفوك، فدون بيتك أبطال يحمونه كما يقول بعده.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 125947,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "أصوات الرمال ليلًا كعزيف الجن تبعث الدهشة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.fear",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "نسبة الأصوات إلى الجن توحي بالرهبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ورمل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف رملًا متراكمًا تُسمع في كثبانه المتعقدة بعد هدأة الليل أصوات كعزيف الجن، تشبه ضرب المغنين على الطبول، وقد قطعه على ناقته.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 190835,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بسراه في الفلاة ليلًا حين ينام الناس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سرى في صحراء موحشة في هدأة الليل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "فلاة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه سرى ليلًا في صحراء موحشة بعد هدأة الناس، في الساعة التي يغلب فيها النعاس على العيون، والبيت متصل بوصف الموماة قبله.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 335434,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل وحش الفلاة بين الكثبان ملكًا لله في سياق تمجيد"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة الوحش آمنة في ظلال الرمال"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "بالفلاة",
+     "justification": null
+    }
+   ],
+   "meaning": "يمجد الشاعر الله، فله الوحوش التي تراها في الصحراء بين الكثبان المعوجة وفي ظلال الرمال، كما له الطير في أوكار الجبال.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 540664,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يصور رجالًا أشداء يواجهون شمس الصحراء وسرابها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صورة مهيبة لرجال يتعممون بشعاع الشمس"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف أنصار الممدوح بأنهم جعلوا ضوء الشمس عمائم لهم، والتحفوا بسراب الصحراء المتلألئ كالماء ولثموا به وجوههم، كناية عن صبرهم على هجير البيد.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 592861,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يجعل بلوغ المعالي في السيوف وقطع الصحارى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "السباسب",
+     "justification": null
+    }
+   ],
+   "meaning": "يقرر الشاعر أن تحقيق الأماني مضمون بالسيوف القاطعة، وأن نيل المعالي يكون بقطع الصحارى الواسعة وخوضها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 702045,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "الغصون تتمايل طربًا لغناء الطيور"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مشهد طبيعة وادعة بين الكثبان والروض"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "كثبانها",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الغصون",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "الأطيار",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف موضعًا تتمايل فيه أغصان الشجر فوق الكثبان كأنها طربت لسجع الطيور وألحانها، ضمن وصف روضة نديّة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 711212,
+   "primary": {
+    "id": "lit_emotion.fear",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قفر مغبر يعوي فيه الذئب ولا أنيس فيه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "خلو الصحراء من الناس إلا الوحوش"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "سباسبه",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف صحراء مغبرة يعوي فيها الذئب، خلت فلواتها من الناس فلا يسكنها إلا الوحوش، في سياق ذكر أهوال رحلته برًا وبحرًا.",
+   "text_note": "تبدو «إلاّم» في APCD ملتصقة، والمراد على الأرجح «إلا من».",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 867842,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "أن العز",
+    "justification": "يرى العز في الترحال لمن خبر الصحارى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه أيقن أن العزة تكون في كثرة الترحال لمن كان رجلًا خفيفًا ماضيًا في الأمور يعرف الصحارى ودروبها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 869172,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "ضحك الرياض وطيب رائحة الفلا بعد المطر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "مطر صباحي هادئ بلا برق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الفلا",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الرياض",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "غواد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف طيب رائحة الفلاة وتفتح الرياض كأنها تضحك، بفضل سحب الصباح الممطرة التي تهطل بلا برق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 978313,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "دعوة لترك الإبل ترعى مرعى خصيبًا عند الكثيب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سياق الحنين إلى أيام الحمى"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الكثيب",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الخصيب",
+     "justification": null
+    }
+   ],
+   "meaning": "ينادي حادي الإبل: هذا هو الكثيب وهذا المرعى الخصيب، فاترك المطايا ترعى ما طاب منه، في قصيدة يحن فيها إلى أيام الحمى.",
+   "text_note": "الكلمة «ال/مرغي» مقسومة بين الشطرين، والأرجح أن المراد «المرعى».",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1510426,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "الإبل الضامرة تشق الصحراء كأنها سيوف"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سياق شوق الركب إلى الديار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف طلوع الإبل الضامرة في الصحراء كأنها سيوف تشق البيد فرادى وأزواجًا، في سياق شوق الركب وبكائه على الديار.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1811752,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "جيش عظيم لا تسعه الصحراء لكثرته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "إذلال عز الناكثين بقوة الجيش"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    }
+   ],
+   "meaning": "يمدح قائدًا أذل الخارجين عليه بعسكر ضخم، لولا تزاحم جنوده لما اتسعت لهم الصحراء على رحابتها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 40975,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يذكر اقتحام صحراء السراب في الهاجرة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سراب يجري في مفازة واسعة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "وتنوفة",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف اقتحام صحراء واسعة يجري فيها السراب وقت الهاجرة حين يتقلص الظل، على بعير فتي جريء كما في البيت التالي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 326297,
+   "primary": {
+    "id": "lit_emotion.loneliness",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رجل الفلوات حالف الجن وانقطع عن الناس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتباهى بقدرته على العيش في القفار وحده"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "فلوات",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف نفسه بأنه أخو الصحارى، صاحَبَ الجن وانقطع عن الناس حتى انقطعت كل صلاته بهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 327010,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "expressed",
+    "evidence": "ذو عجب",
+    "justification": "يتعجب من مشهد الإبل تهتز بالظعائن"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سياق الوقوف على دار موحشة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "أجمال",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول: لم أرَ، والدهر كثير العجائب، مثل ما رأيت اليوم من اهتزاز الإبل وهي تحمل الظعائن، في قصيدة تبدأ بذكر الديار الموحشة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 902221,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "expressed",
+    "evidence": "العز",
+    "justification": "يرى العز لمن يقطع المفاوز واحدة بعد أخرى"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "المفاوز",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول بعد تجربته للزمان وأهله إنه أيقن أن العزة تنتشر عند من يقطع الصحارى، فلاة بعد فلاة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1127034,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العودة ليلصق أحشاءه برمل زبالة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "expressed",
+     "evidence": "وآنس",
+     "justification": "يأنس بالنعام والظباء في هدوء البادية"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "برمل",
+     "justification": null
+    }
+   ],
+   "meaning": "يتمنى أن يعود إلى البادية فيضم صدره إلى رمل زبالة، ويأنس بذكور النعام والظباء، والبيت متصل بأمنية العودة في البيتين قبله.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 7274,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صحراء تتحير فيها القطا ويصير الدليل تابعًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتبعه فخره بقطعها في البيت التالي"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "وفلاة",
+     "justification": null
+    },
+    {
+     "target": "tag.bird",
+     "relation": "relation.literal",
+     "evidence": "القطا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف صحراء يسكنها الظبي، تتحير فيها طيور القطا الهادية، ويبدو فيها الدليل كأنه مقود لا قائد، وقد قطعها كما يذكر بعدها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 27100,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطع قفر مضل على فرس كريم"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "صحراء خالية مضلة كجوف العير"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "قفر",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بأنه قطع أرضًا واسعة خالية كجوف الحمار الوحشي، مقفرة يضل فيها السالك، على فرس سامي الرأس ضامر الوجه حسن.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 27185,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "رضا ودعاء لناقته بعد عودتها سالمة"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ناقة",
+     "justification": null
+    }
+   ],
+   "meaning": "يخاطب ناقته داعيًا لها بأحسن ما تجزى به ناقة، فقد عادت سالمة الظهر بعد رحلتها.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 67049,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يحن إلى المحصب ويعدد محاسنه"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "حبذا أمواهه",
+     "justification": "يستحسن مياه الموضع ونسيمه ورماله"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ورماله",
+     "justification": null
+    },
+    {
+     "target": "scene_group.water",
+     "relation": "relation.literal",
+     "evidence": "أمواهه",
+     "justification": null
+    }
+   ],
+   "meaning": "يتغنى بمحاسن المحصب من منى، فيستحسن مياهه ونسيمه وحصباءه ورماله، في سياق حنينه إلى عهد عاشه هناك.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 111163,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قطعان الوحش على كثبان رمل هائلة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "الديار العامرة صارت مرتعًا للوحش"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "من الرمل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف الديار بعد رحيل أهلها: ترى فيها الوحش الطويل الذيل يعارض قطعان بقر الوحش فوق كثبان رمل ضخمة مضطربة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 187629,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "صحراء منخفضة بعيدة الماء مجهولة الطرق"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "العيس",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن دون بلوغها، لو طلبتها الإبل الكريمة، أرضًا منخفضة واسعة بعيدة الماء مجهولة الطرق.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 217536,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "المطر حيّا القفر العابس حتى تبسم"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "القفر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف مطرًا غزيرًا ألحّ على أرض القوم وعرها وسهلها، وأحيا الصحراء العابسة حتى بدت كأنها تبتسم، استجابة لدعائهم.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 298375,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يحن إلى الحمى وأهله ونخيله ورملته"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "طربي",
+     "justification": "يجعل ظل النخيل مصدر طربه"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "ورملة",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "نخيله",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر الحمى الذي كان وطنه: أهله غاية مراده، وظل نخيله مصدر طربه، ورملة واديه مكان راحته ومرحه.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 336531,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقطع الفلاة في الهاجرة حين تستظل الوحوش"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الفلاة",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه قطع الصحراء في وقت الحر حين لاذت الوحوش التي ترعى الفلاة بظلال شجر الأرطى.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 547474,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "إبل تنزع إلى الماء والظل الظليل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الركائب",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف موضعًا تهوي إليه الإبل مشتاقة إلى الماء والظل الوارف، والبيت متصل بما قبله في الحديث عن الطلل والممدوح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 628060,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يتمنى العودة إلى أصائل الحمى الباردة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.serenity",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "برد الأصيل وظل الأراك على الرمل"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "على الرمل",
+     "justification": null
+    }
+   ],
+   "meaning": "يتساءل متمنيًا: هل من عودة إلى برد العشيات في الحمى، والجلوس على الرمل في ظل شجر الأراك؟",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 630617,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "نسيم عليل وكثيب ندي وروض متزين"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يتذكر عهود كاظمة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "والكثيب",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "والروض",
+     "justification": null
+    }
+   ],
+   "meaning": "يتذكر موضع العهود بكاظمة حيث النسيم الرقيق، والكثيب المبلل بالندى، والروض المتزين، وقطرات الطل منتظمة كالعقد.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 685521,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "سحاب يخفض جناحيه رفيقًا فوق الكثيب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "سياق شوق إلى تلك البطاح"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الكثيب",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "المزن",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف السحاب وقد خفض جناحيه ودنا ممطرًا بين الكثيب والصفا والمراح، في سياق شوقه حين يلمع البرق نحو تلك البطاح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 867136,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "قفر واسع يتحير فيه الدليل الماهر"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.pride",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يذكر بعده قطعه على مطيته"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "وقفر",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف صحراء شاسعة يقف فيها الدليل الخبير متحيرًا متبلدًا لسعة أرضها، وقد قطعها على مطيته كما يذكر بعدُ.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 935997,
+   "primary": {
+    "id": "lit_emotion.serenity",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "بعير هادئ يجتر لا يؤذيه جوع ولا نفور"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "وبعيرهم",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف بعير القوم ساكنًا يجتر في هدوء، لم يمسه جوع ولا فزع.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 943438,
+   "primary": {
+    "id": "lit_emotion.longing",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يذكر بعد المسافات بين داي وسبتة"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يصف نفسه غريبًا في البيت السابق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "فلاة",
+     "justification": null
+    }
+   ],
+   "meaning": "يتحسر على كثرة الصحارى والمسافات البعيدة الخالية بين داي وسبتة، في قصيدة يشكو فيها غربته ويخاطب الحمام.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 588382,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "لا يخشى الموت في السفر وهو لم يأمنه مقيمًا"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "القلاص",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه لم يكن يأمن الموت وهو مقيم، فلا معنى لأن يخافه في سفره بين الإبل الضامرة.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 706008,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربا",
+    "justification": "المطايا تحن إلى الفلا طربًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "expressed",
+     "evidence": "وشوقا",
+     "justification": "شوق إلى المعالم والديار"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الفلا",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف المطايا تحن إلى الصحراء طربًا وشوقًا إلى تلك المعالم والديار، في رحلة تقصد ربع الحبيب.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 976918,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "طربت",
+    "justification": "الحداة يطربون وهم يسوقون الإبل نحو النبي"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "شوق الزائرين إلى النبي"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "حداة العيس",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن حداة الإبل طربوا وهم يسوقونها مسرعة إلى محمد حبيب الزائرين.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 29314,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعتز بمنزل عمره الآباء وورّثوا فيه المجد"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.scene_association",
+     "evidence": null,
+     "justification": "منزل قبلي في البادية تركت فيه آثار الآباء"
+    }
+   ],
+   "meaning": "يفخر بمنزل قومه الذي سكنه الآباء وتركوا فيه آثارهم، وهم الذين ورّثوهم المجد منذ أقدم الأزمان.",
+   "text_note": "كلمة «المورثونا» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 525001,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يفخر بقصائده التي تطرب الإبل حين يحدو بها الركب"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.joy",
+     "basis": "expressed",
+     "evidence": "طربا",
+     "justification": "الإبل تترنح طربًا لترجيعها"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الركاب",
+     "justification": null
+    }
+   ],
+   "meaning": "يفخر بقصائده النادرة، فما حدا بها ركب الإبل إلا تمايلت الإبل طربًا لترجيعها.",
+   "text_note": null,
+   "uncertainty": "low"
+  },
+  {
+   "apcd_row": 1287760,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يستزيدون الحادي من ذكر المحبوبة طربًا"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "شوق صوفي إلى المحبوبة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الحادي",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إن الحادي نادى باسمها وهم في أرض الغضا، فاستزادوه من ذكرها، في قصيدة صوفية يتجه فيها الركب إلى المحبوبة.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1439656,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "الهناء",
+    "justification": "الركب يغني بالهناء لهم وللحادي"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الحادي",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف ركب الحجيج وقد غنى لهم الحادي، فأنشد ركبهم يدعو بالهناء لهم وللحادي، في طريقهم إلى البيت الحرام.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 744796,
+   "primary": {
+    "id": "lit_emotion.joy",
+    "basis": "expressed",
+    "evidence": "أفراحها",
+    "justification": "تجدد الأفراح مع زهو الورد وإقبال الإبل"
+   },
+   "secondary": [],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "عيس",
+     "justification": null
+    },
+    {
+     "target": "scene_group.greenery",
+     "relation": "relation.literal",
+     "evidence": "الورد",
+     "justification": null
+    },
+    {
+     "target": "tag.flower",
+     "relation": "relation.literal",
+     "evidence": "الورد",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف أرضًا زها فيها الورد الطري، وأقبلت فيها الإبل في رخاء، وتجددت أفراحها بقدوم الممدوح.",
+   "text_note": "كلمة «العيس» مقسومة بين الشطرين في APCD.",
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1111198,
+   "primary": {
+    "id": "lit_emotion.awe",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يعظم أرض البقيع لمكانة من دفن فيها"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.longing",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "يبعث سلامه إلى القبور البعيدة"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "الصحراء",
+     "justification": null
+    }
+   ],
+   "meaning": "يوصي حامل سلامه أن يميل إلى صحراء البقيع، فهناك أرض الشرف الرفيع حيث قبور أئمة يذكرهم في البيت التالي.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1127551,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "خيل تهتدي في ظلام البيد بلمعان الرماح"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.awe",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "رماح مضيئة في ليل الصحراء"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "البيد",
+     "justification": null
+    },
+    {
+     "target": "scene_group.sky_night",
+     "relation": "relation.literal",
+     "evidence": "الليل",
+     "justification": null
+    }
+   ],
+   "meaning": "يصف خيلهم إذا انغمست في ظلمة الليل، أضاءت لها أطراف الرماح الصحراء فاهتدت بها في سيرها إلى الممدوح.",
+   "text_note": null,
+   "uncertainty": "medium"
+  },
+  {
+   "apcd_row": 1162315,
+   "primary": {
+    "id": "lit_emotion.pride",
+    "basis": "evoked",
+    "evidence": null,
+    "justification": "يقطع القفر وحده إلا من الله والسيف والفرس"
+   },
+   "secondary": [
+    {
+     "id": "lit_emotion.loneliness",
+     "basis": "evoked",
+     "evidence": null,
+     "justification": "انفراده في الصحراء بلا رفيق"
+    }
+   ],
+   "visual": [
+    {
+     "target": "scene_group.desert",
+     "relation": "relation.literal",
+     "evidence": "قفرا",
+     "justification": null
+    },
+    {
+     "target": "tag.horse",
+     "relation": "relation.literal",
+     "evidence": "والفرس",
+     "justification": null
+    }
+   ],
+   "meaning": "يقول إنه يجتاز صحراء بعيدة الغور ليس معه أحد إلا الله وسيفه وفرسه، يتحمل الهول في سيره إلى أحبته.",
+   "text_note": null,
+   "uncertainty": "low"
+  }
+ ]
+}
